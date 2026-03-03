@@ -1,0 +1,7 @@
+var artjson = {
+	"ART_lang": "TW",
+
+//Score board
+	"ART_win": "勝率 %",
+
+}

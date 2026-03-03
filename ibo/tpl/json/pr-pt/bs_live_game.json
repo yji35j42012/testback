@@ -1,0 +1,17 @@
+var artjson = {
+	"ART_lang": "EN",
+	"ART_game_nodata": "Não há eventos disponíveis.",
+	"ART_game_rm": "Linha de dinheiro",
+	"ART_game_re": "Deficiente",
+	"ART_game_rou": "Total de corridas",
+	"ART_game_rouh": "Equipe 1 corre",
+	"ART_game_rouc": "Equipe 2 corre",
+	"ART_game_over": "O",
+	"ART_game_under": "U",
+	"ART_game_draw": "Draw",
+	"ART_game_teamH": "1",
+	"ART_game_teamC": "2",
+	"ART_game_draw_X": "X",
+	"ART_game_none_X": "X",
+	"ART_game_out": "Fora:",
+}

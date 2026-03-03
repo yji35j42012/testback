@@ -1,0 +1,35 @@
+var artjson = {
+	"ART_lang": "TW",
+	"ART_pic_lang": "tw",
+	"ART_title_relate": "相關信息",
+
+//WEBP
+	"ART_img_2025cup": "srcset=\"../../images/img_2025cup_tw.webp?2025v1\" type=\"image/webp\"",
+	"ART_img_event_5": "srcset=\"../../images/img_sideshow_5_tw.webp?2024v0\" type=\"image/webp\"",
+	"ART_img_event_0": "srcset=\"../../images/img_sideshow_0_tw.webp?2025v5\" type=\"image/webp\"",
+	"ART_img_esport": "srcset=\"../../images/img_esport_tw.webp?2025v0\" type=\"image/webp\"",
+	"ART_img_hotgame": "srcset=\"../../images/img_hotgame_tw.webp?2024v0\" type=\"image/webp\"",
+	"ART_img_timeset": "srcset=\"../../images/img_timeset_tw.webp?2024v0\" type=\"image/webp\"",
+	"ART_img_newPD": "srcset=\"../../images/img_newPD_tw.webp?202406v2\" type=\"image/webp\"",
+	"ART_img_liveTV": "srcset=\"../../images/img_liveTV_tw.webp?2024v0\" type=\"image/webp\"",
+	"ART_img_forecast": "srcset=\"../../images/img_forecast_tw.webp?2024v0\" type=\"image/webp\"",
+	"ART_img_event_3": "srcset=\"../../images/img_sideshow_3_tw.webp?2024v0\" type=\"image/webp\"",
+	"ART_img_mygame": "srcset=\"../../images/img_mygame_tw.webp?2024v0\" type=\"image/webp\"",
+
+//JPEG
+	"ART_img_X2025cup": "srcset=\"../../images/img_2025cup_tw.jpg?2025v1\" type=\"image/jpeg\"",
+	"ART_img_Xevent_5": "srcset=\"../../images/img_sideshow_5_tw.jpg?2024v0\" type=\"image/jpeg\"",
+	"ART_img_Xevent_0": "srcset=\"../../images/img_sideshow_0_tw.jpeg?2025v5\" type=\"image/jpeg\"",
+	"ART_img_Xesport": "srcset=\"../../images/img_esport_tw.jpg?2025v0\" type=\"image/jpeg\"",
+	"ART_img_Xhotgame": "srcset=\"../../images/img_hotgame_tw.jpg?2024v0\" type=\"image/webp\"",
+	"ART_img_Xtimeset": "srcset=\"../../images/img_timeset_tw.jpg?2024v0\" type=\"image/jpeg\"",
+	"ART_img_XnewPD": "srcset=\"../../images/img_newPD_tw.jpg?202406v2\" type=\"image/jpeg\"",
+	"ART_img_XliveTV": "srcset=\"../../images/img_liveTV_tw.jpg?2024v0\" type=\"image/webp\"",
+	"ART_img_Xforecast": "srcset=\"../../images/img_forecast_tw.jpg?2024v0\" type=\"image/jpeg\"",
+	"ART_img_Xevent_3": "srcset=\"../../images/img_sideshow_3_tw.jpg?2024v0\" type=\"image/jpeg\"",
+	"ART_img_Xmygame": "srcset=\"../../images/img_mygame_tw.jpg?2024v0\" type=\"image/jpeg\"",
+
+//MT
+	"ART_game_nomtpop": "嗯。。。看起來目前是沒有任何資料。<br>這可能是因為目前尚未提供該賽事相關資訊，或許等一下才會更新。",
+
+}

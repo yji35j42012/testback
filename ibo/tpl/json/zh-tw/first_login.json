@@ -1,0 +1,20 @@
+var artjson = {
+	"ART_lang": "TW",
+	"ART_chgid_title": "創建帳號",
+
+	"ART_chgid_hello": "你好 ",
+	"ART_chgid_text1": "請輸入一個容易記住的帳號以便日後登入。",
+	"ART_chgid_text2": "規則：",
+	"ART_chgid_text3": "1. 您的登錄帳號必須介於6到12個字母數字字符之間，且至少包含2個大寫字母（A-Z）或小寫字母（a-z）以及至少1個數字字符（0-9）。",
+	"ART_chgid_text4": "2. 您的登錄帳號不得包含任何空格。",
+
+	"ART_chgid_inp_id": "登入帳號",
+	"ART_chgid_btn_check": "檢查",
+
+	"ART_chgid_text5": "提示：",
+	"ART_chgid_text6": "成功創建後將無法修改帳號。請在下次登錄時使用新創建的帳號。原本的登入帳號僅用於識別目的。",
+
+	"ART_chgid_btn_cancel": "取消",
+	"ART_chgid_btn_submit": "提交",
+
+}

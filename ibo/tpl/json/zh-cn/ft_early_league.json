@@ -1,0 +1,9 @@
+var artjson = {
+	"ART_game_datenodata": "您选择的日期没有任何赛事。",
+	"ART_date_alldate": "所有日期",
+	"ART_date_future": "未来",
+	"ART_coupon_popular": "热门",
+	"ART_coupon_AZ": "联盟（拼音排序）",
+	"ART_btn_submit": "提交",
+
+}

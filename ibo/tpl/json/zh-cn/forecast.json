@@ -1,0 +1,65 @@
+var artjson = {
+	"ART_lang": "CN",
+
+	"ART_fore_nodata": "赛事已结束",
+
+//時節頁籤
+	"ART_fore_fulltime": "全场",
+	"ART_fore_half1": "上半场",
+	"ART_fore_et": "加时",
+	"ART_fore_ethalf1": "加时<b></b>上半场",
+
+//輸贏預測表格
+	"ART_fore_teamH": "&nbsp[主]",
+	"ART_fore_teamC": "&nbsp[客]",
+	"ART_fore_title": "赢输预测",
+	"ART_fore_note": "注：赢输预测功能只能提供您当下所投注的部分玩法的总赢输额的预测而非包括全部的玩法且只能当做一个参考而已。 如欲查询确切的赢输额，请查看各玩法的单笔注单。那些之后被拒收或被取消的单子在10分钟后才会被排除在输赢预测的计算内。",
+
+//Score Board
+	"ART_game_et_ft": "全场:&nbsp;",
+
+//現有投注
+	"ART_fore_nowbet": "现有投注",
+	"ART_fore_bet": "投注金额: ",
+	"ART_fore_towin": "可赢金额: ",
+	"ART_fore_more": "显示更多",
+
+//其他按鈕畫面	
+	"ART_fore_allmarket": "所有盘口",
+	"ART_fore_mybets": "投注记录",
+	"ART_fore_landscape": "请把您的设备转为直立以便使用赢输预测",
+
+//瞭解更多
+	"ART_fore_learnMore": "了解更多",
+	"ART_fore_learnMore_a": "什么是赢输预测？",
+	"ART_fore_learnMore_a_1": "赢输预测是一个能够让您以不同的比分组合预测所有潜在和已确定的赢输额的功能。",
+	"ART_fore_learnMore_b": "玩法",
+	"ART_fore_learnMore_b_1": "赢输预测包含以下的玩法：",
+	"ART_fore_learnMore_b_FT": "全场",
+	"ART_fore_learnMore_b_FT_1": "让球",
+	"ART_fore_learnMore_b_FT_2": "大/小",
+	"ART_fore_learnMore_b_FT_3": "独赢",
+	"ART_fore_learnMore_b_FT_4": "波胆",
+	"ART_fore_learnMore_b_FT_5": "总进球数",
+	"ART_fore_learnMore_b_FT_6": "双方球队进球",
+	"ART_fore_learnMore_b_FT_7": "球队进球数: 'Team 1 Name' - 大/小",
+	"ART_fore_learnMore_b_FT_8": "球队进球数: 'Team 2 Name' - 大/小",
+	"ART_fore_learnMore_b_FT_9": "单/双",
+	"ART_fore_learnMore_b_FT_10": "净胜球数",
+	"ART_fore_learnMore_b_FT_11": "双重机会",
+	"ART_fore_learnMore_b_FT_12": "零失球",
+	"ART_fore_learnMore_b_FT_13": "零失球获胜",
+	"ART_fore_learnMore_b_FT_14": "三项让球投注",
+
+	"ART_fore_learnMore_b_1st": "上半场",
+	"ART_fore_learnMore_b_1st_1": "让球 - 上半场",
+	"ART_fore_learnMore_b_1st_2": "大/小 - 上半场",
+	"ART_fore_learnMore_b_1st_3": "独赢 - 上半场",
+	"ART_fore_learnMore_b_1st_4": "波胆 - 上半场",
+	"ART_fore_learnMore_b_1st_5": "总进球数 - 上半场",
+	"ART_fore_learnMore_b_1st_6": "双方球队进球 - 上半场",
+	"ART_fore_learnMore_b_1st_7": "球队进球数: 'Team 1 Name' - 大/小 - 上半场",
+	"ART_fore_learnMore_b_1st_8": "球队进球数: 'Team 2 Name' - 大/小 - 上半场",
+	"ART_fore_learnMore_b_1st_9": "单/双 - 上半场",
+	"ART_fore_learnMore_b_2": "其他玩法的投注将不包含在赢输预测功能的计算内。",
+}

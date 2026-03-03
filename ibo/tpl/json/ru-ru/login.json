@@ -1,0 +1,23 @@
+var artjson = {
+	"ART_lang": "EN",
+	"ART_login_cn": "简体版",
+	"ART_login_tw": "繁體版",
+	"ART_login_en": "ENGLISH",
+
+	"ART_login_id": "Login ID",
+	"ART_login_pwd": "Password",
+
+	"ART_login_btn_login": "LOG IN",
+	"ART_login_remeber": "Remember Me",
+	"ART_login_forgot": "Forgot Password?",
+	"ART_login_btn_passcode": "LOG IN USING PASSCODE",
+	"ART_login_btn_oldsite": "Return to Old Site",
+
+	"ART_login_brower_title": "We recommend one of the following browsers for the best experience:",
+	"ART_login_chrome": "Chrome",
+	"ART_login_safari": "Safari",
+	"ART_login_firefox": "Firefox",
+	"ART_login_brower_text_1": "If you experience issues using this website, please read our ",
+	"ART_login_brower_text_btn": "Минимальные требования",
+	"ART_login_brower_text_2": " to see if your browser and operating system are supported.",
+}

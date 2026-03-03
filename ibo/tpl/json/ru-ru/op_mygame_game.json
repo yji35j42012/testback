@@ -1,0 +1,26 @@
+var artjson = {
+	"ART_lang": "EN",
+	"ART_game_nodata": "В настоящее время нет событий.",
+	"ART_game_mygame1": "Selecting the above icon, for any event, will add it to the ",
+	"ART_game_mygame2": "MY EVENTS",
+	"ART_game_mygame3": " section. Here, you can group and easily access all the events you are interested in.",
+
+	"ART_time_live": "LIVE",
+
+	"ART_game_re": "Фора",
+	"ART_game_rm": "Исход 1X2",
+	"ART_game_rou": "Больше / Меньше",
+	"ART_game_reo": "Голы: Чет / Нечет",
+
+	"ART_game_r": "Фора",
+	"ART_game_m": "Исход 1X2",
+	"ART_game_ou": "Больше / Меньше",
+	"ART_game_eo": "Голы: Чет / Нечет",
+
+	"ART_game_over": "Больше",
+	"ART_game_under": "Меньше",
+	"ART_game_odd": "Голы: Чет",
+	"ART_game_even": "Нечет",
+	"ART_game_draw": "Draw",
+
+}

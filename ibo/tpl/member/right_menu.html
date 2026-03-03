@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>right menu</title>
+	<meta name='viewport' content='maximum-scale=1, width=device-width, user-scalable=no, minimum-scale=1.0, viewport-fit=cover'/>th=device-width, user-scalable=no, minimum-scale=1.0, viewport-fit=cover' />
+	<script id="homeJS">{JS}</script>
+	
+	<link href="{CDNURL}/style/slide_r.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<div class="slide_r on">
+		<div id="right_mask" class="mask_acc"></div>
+
+		<div class="box_acc">
+			<div class="box_title_acc">
+				<div id="acc_show_eye" class="btn_eye off"><i class="icon_eye"></i></div>
+				<div class="box_username">
+					<span id="acc_username" class="text_user"></span>
+					<span id="acc_money" class="text_money">
+						<tt id="acc_credit"></tt>
+						<tt id="acc_currency"></tt>
+					</span>
+				</div>
+				<div id="myAcc_close" class="btn_close">
+					<i class="icon_close">
+						<svg><use xlink:href="#icon_close" /></svg>
+					</i>
+				</div>
+			</div>
+
+			<div id="right_box_content" class="box_content">
+				<div id="rightM_history" class="btn_acc_menu">
+					<svg><use xlink:href="#icon_history" /></svg>
+					<span>*ART_acc_history*</span>
+				</div>
+				<div id="right_message" class="btn_acc_menu">
+					<svg><use xlink:href="#icon_message" /></svg>
+					<span>*ART_acc_messages*</span>
+					<tt id="right_mess_new" class="dot_green"></tt>
+				</div>
+				<div id="rightM_result" class="btn_acc_menu btn_acc_result" style="display: none;">
+					<svg><use xlink:href="#icon_result" /></svg>
+					<span>*ART_acc_result*</span>
+				</div>
+				<div id="right_bonus" class="btn_acc_menu show_Bonus" style="display: none;">
+					<svg><use xlink:href="#icon_bonus" /></svg>
+					<span>*ART_acc_bonus*</span>
+				</div>
+
+				<div class="title_sort">*ART_acc_set*</div>
+
+				<div id="chg_language" class="btn_acc_menu">
+					<i id="icon_zh-tw" class="icon_lang icon_tw" style="display:none;"></i>
+					<i id="icon_zh-cn" class="icon_lang icon_cn" style="display:none;"></i>
+					<i id="icon_en-us" class="icon_lang icon_us" style="display:none;"></i>
+					<i id="icon_ja-jp" class="icon_lang icon_jp" style="display:none;"></i>
+					<i id="icon_vi-vn" class="icon_lang icon_vn" style="display:none;"></i>
+					<i id="icon_th-th" class="icon_lang icon_th" style="display:none;"></i>
+					<i id="icon_ko-kr" class="icon_lang icon_kr" style="display:none;"></i>
+					<i id="icon_id-id" class="icon_lang icon_id" style="display:none;"></i>
+					<i id="icon_sa-in" class="icon_lang icon_in" style="display:none;"></i>
+					<i id="icon_km-kh" class="icon_lang icon_kh" style="display:none;"></i>
+					<i id="icon_my-mm" class="icon_lang icon_mm" style="display:none;"></i>
+					<i id="icon_es-es" class="icon_lang icon_es" style="display:none;"></i>
+					<i id="icon_tu-tr" class="icon_lang icon_tr" style="display:none;"></i>
+					<i id="icon_pr-pt" class="icon_lang icon_pt" style="display:none;"></i>
+					<i id="icon_ru-ru" class="icon_lang icon_ru" style="display:none;"></i>
+					<span>
+						<!-- <tt>*ART_acc_language*</tt> -->
+						<tt id="zh-cn" class="btn_acc_sub" style="display:none;">*ART_lan_cn*</tt>
+						<tt id="zh-tw" class="btn_acc_sub" style="display:none;">*ART_lan_tw*</tt>
+						<tt id="en-us" class="btn_acc_sub" style="display:none;">*ART_lan_en*</tt>
+						<tt id="ja-jp" class="btn_acc_sub" style="display:none;">日本語</tt>
+						<tt id="vi-vn" class="btn_acc_sub" style="display:none;">Tiếng việt</tt>
+						<tt id="th-th" class="btn_acc_sub" style="display:none;">ไทย</tt>
+						<tt id="ko-kr" class="btn_acc_sub" style="display:none;">한국어</tt>
+						<tt id="id-id" class="btn_acc_sub" style="display:none;">Orang indonesia</tt>
+						<tt id="sa-in" class="btn_acc_sub" style="display:none;">हिन्दी</tt>
+						<tt id="km-kh" class="btn_acc_sub" style="display:none;">ខ្មែរ</tt>
+						<tt id="my-mm" class="btn_acc_sub" style="display:none;">ဗမာ</tt>
+						<tt id="es-es" class="btn_acc_sub" style="display:none;">Español</tt>
+						<tt id="tu-tr" class="btn_acc_sub" style="display:none;">Türkçe</tt>
+						<tt id="pr-pt" class="btn_acc_sub" style="display:none;">Português</tt>
+						<tt id="ru-ru" class="btn_acc_sub" style="display:none;">Russian</tt>
+					</span>
+					<select id="langx_dropdown" class="" tabindex="-1">
+						<option value="langx_zh-cn">*ART_lan_cn*</option>
+						<option value="langx_zh-tw">*ART_lan_tw*</option>
+						<option value="langx_en-us">*ART_lan_en*</option>
+						<option value="langx_ja-jp">日本語</option>
+						<option value="langx_vi-vn">Tiếng việt</option>
+						<option value="langx_th-th">ไทย</option>
+						<option value="langx_ko-kr">한국어</option>
+						<option value="langx_id-id">Orang indonesia</option>
+						<option value="langx_sa-in">हिन्दी</option>
+						<option value="langx_km-kh">ខ្មែរ</option>
+						<option value="langx_my-mm">ဗမာ</option>
+						<option value="langx_es-es">Español</option>
+						<option value="langx_tu-tr">Türkçe</option>
+						<option value="langx_pr-pt">Português</option>
+						<option value="langx_ru-ru">Russian</option>
+					</select>
+
+					<!-- 語系選擇 -->
+					<div id="selec_language" class="box_popup_selec"><!-- Show add class="on"-->
+						<div id="lang_focus" class="popup_lange">
+							<label id="selec_zh-cn" class="btn_popup_selec">
+								<span class="icon_lang icon_cn"></span>
+								<tt>*ART_lan_cn*</tt>
+								<input id="pc_langx_zh-cn" value="zh-cn" type="radio" name="selec_lang">
+							</label>
+							<label id="selec_zh-tw" class="btn_popup_selec">
+								<span class="icon_lang icon_tw"></span>
+								<tt>*ART_lan_tw*</tt>
+								<input id="pc_langx_zh-tw" value="zh-tw" type="radio" name="selec_lang">
+							</label>
+							<label id="selec_en-us" class="btn_popup_selec">
+								<span class="icon_lang icon_us"></span>
+								<tt>*ART_lan_en*</tt>
+								<input id="pc_langx_en-us" value="en-us" type="radio" name="selec_lang">
+							</label>
+							<label id="selec_ja-jp" class="btn_popup_selec">
+								<span class="icon_lang icon_jp"></span>
+								<tt>日本語</tt>
+								<input id="pc_langx_ja-jp" value="ja-jp" type="radio" name="selec_lang">
+							</label>
+							<label id="selec_vi-vn" class="btn_popup_selec">
+								<span class="icon_lang icon_vn"></span>
+								<tt>Tiếng việt</tt>
+								<input id="pc_langx_vi-vn" value="vi-vn" type="radio" name="selec_lang">
+							</label>
+							<label id="selec_th-th" class="btn_popup_selec">
+								<span class="icon_lang icon_th"></span>
+								<tt>ไทย</tt>
+								<input id="pc_langx_th-th" value="th-th" type="radio" name="selec_lang">
+							</label>
+							<label id="selec_ko-kr" class="btn_popup_selec">
+								<span class="icon_lang icon_kr"></span>
+								<tt>한국어</tt>
+								<input id="pc_langx_ko-kr" value="ko-kr" type="radio" name="selec_lang">
+							</label>
+							<label id="selec_id-id" class="btn_popup_selec">
+								<span class="icon_lang icon_id"></span>
+								<tt>Orang indonesia</tt>
+								<input id="pc_langx_id-id" value="id-id" type="radio" name="selec_lang">
+							</label>
+							<label id="selec_sa-in" class="btn_popup_selec">
+								<span class="icon_lang icon_in"></span>
+								<tt>हिन्दी</tt>
+								<input id="pc_langx_sa-in" value="sa-in" type="radio" name="selec_lang">
+							</label>
+							<label id="selec_km-kh" class="btn_popup_selec">
+								<span class="icon_lang icon_kh"></span>
+								<tt>ខ្មែរ</tt>
+								<input id="pc_langx_km-kh" value="km-kh" type="radio" name="selec_lang">
+							</label>
+							<label id="selec_my-mm" class="btn_popup_selec">
+								<span class="icon_lang icon_mm"></span>
+								<tt>ဗမာ</tt>
+								<input id="pc_langx_my-mm" value="my-mm" type="radio" name="selec_lang">
+							</label>
+							<label id="selec_es-es" class="btn_popup_selec">
+								<span class="icon_lang icon_es"></span>
+								<tt>Español</tt>
+								<input id="pc_langx_es-es" value="es-es" type="radio" name="selec_lang">
+							</label>
+							<label id="selec_tu-tr" class="btn_popup_selec">
+								<span class="icon_lang icon_tr"></span>
+								<tt>Türkçe</tt>
+								<input id="pc_langx_tu-tr" value="tu-tr" type="radio" name="selec_lang">
+							</label>
+							<label id="selec_pr-pt" class="btn_popup_selec">
+								<span class="icon_lang icon_pt"></span>
+								<tt>Português</tt>
+								<input id="pc_langx_pr-pt" value="pr-pt" type="radio" name="selec_lang">
+							</label>
+							<label id="selec_ru-ru" class="btn_popup_selec">
+								<span class="icon_lang icon_ru"></span>
+								<tt>Russian</tt>
+								<input id="pc_langx_ru-ru" value="ru-ru" type="radio" name="selec_lang">
+							</label>
+						</div>
+					</div>
+				</div>
+
+				<div id="odds_type" class="btn_acc_menu">
+					<svg><use xlink:href="#icon_market" /></svg>
+					<span>
+						<!-- <tt>*ART_acc_market*</tt> -->
+						<tt	id="H" class="btn_acc_sub" style="display:none;">*ART_market_hk*</tt>
+						<tt id="M" class="btn_acc_sub" style="display:none;">*ART_market_ml*</tt>
+						<tt id="I" class="btn_acc_sub" style="display:none;">*ART_market_in*</tt>
+						<tt id="E" class="btn_acc_sub" style="display:none;">*ART_market_eu*</tt>
+					</span>
+					<select id="odds_dropdown" class="" tabindex="-1">
+						<!--
+						<option  id="H_ph" value="H_odds" style="display:none;">*ART_market_hk*</option>
+						<option  id="M_ph" value="M_odds" style="display:none;">*ART_market_ml*</option>
+						<option  id="I_ph" value="I_odds" style="display:none;">*ART_market_in*</option>
+						<option  id="E_ph" value="E_odds" style="display:none;">*ART_market_eu*</option>
+						-->
+					</select>
+
+					<!-- 盤口選擇 -->
+					<div id="selec_oddstype" class="box_popup_selec"><!-- Show add class="on"-->
+						<div id="parent_selec_odds" class="popup_oddtype">
+							<label id="selec_H" class="btn_popup_selec" style="display:none;">
+								<tt>*ART_market_hk*</tt>
+								<input id="H_odds" value="HK" type="radio" name="selec_market" >
+								<span class="checkmark"></span>
+							</label>
+
+							<label id="selec_M" class="btn_popup_selec" style="display:none;">
+								<tt>*ART_market_ml*</tt>
+								<input id="M_odds" value="Malay" type="radio" name="selec_market" >
+								<span class="checkmark"></span>
+							</label>
+
+							<label id="selec_I" class="btn_popup_selec" style="display:none;">
+								<tt>*ART_market_in*</tt>
+								<input id="I_odds" value="Indo" type="radio" name="selec_market" >
+								<span class="checkmark"></span>
+							</label>
+
+							<label id="selec_E" class="btn_popup_selec" style="display:none;">
+								<tt>*ART_market_eu*</tt>
+								<input id="E_odds" value="Euro" type="radio" name="selec_market" >
+								<span class="checkmark"></span>
+							</label>
+						</div>
+					</div>
+				</div>
+
+				<div id="iorType_switch" class="btn_acc_menu acc_oddupdate">
+					<!-- <svg><use xlink:href="#icon_oddupdate" /></svg> -->
+					
+					<div class="switch_acc_menu">
+						<input type="checkbox" id="iorType_set">
+						<span>
+							<i class="switch"></i>
+						</span>
+					</div>
+					<label id="" for="iorType_set"></label>
+					<span>
+						<!-- <tt>*ART_acc_oddupdate*</tt> -->
+						<tt class="btn_acc_sub">*ART_oddupdate_note*</tt>
+					</span>
+				</div>
+
+				<div id="chg_timetype" class="btn_acc_menu" style="display: ;">
+					<svg><use xlink:href="#icon_displaytime" /></svg>
+					<span>
+						<tt style="display: none;">*ART_acc_time*</tt>
+						<tt	id="sysTime" class="btn_acc_sub" style="display:none;">*ART_time_sys*</tt>
+						<tt id="devTime" class="btn_acc_sub" style="display:none;">*ART_time_dev*</tt>
+					</span>
+					<select id="timetype_dropdown" class="" tabindex="-1">
+						<option value="time_sysTime">*ART_time_sys*</option>
+						<option value="time_devTime">*ART_time_dev*</option>
+					</select>
+
+					<!-- 時間顯示選擇 -->
+					<div id="selec_timetype" class="box_popup_selec"><!-- Show add class="on"-->
+						<div id="timetype_focus" class="popup_oddtype">
+							<label id="selec_sysTime" class="btn_popup_selec">
+								<input id="pc_sysTime" value="sysTime" type="radio" name="selec_timetype" >
+								<tt>*ART_time_sys*</tt>
+								<span class="checkmark"></span>
+							</label>
+							<label id="selec_devTime" class="btn_popup_selec">
+								<input id="pc_devTime" value="devTime" type="radio" name="selec_timetype" >
+								<tt>*ART_time_dev*</tt>
+								<span class="checkmark"></span>
+							</label>
+						</div>
+					</div>
+				</div>
+
+				<div id="panel_type" class="btn_acc_menu">
+					<i id="light_icon" class="icon_theme icon_light" style="display:none;"><svg><use xlink:href="#icon_light"/></svg></i>
+					<i id="dark_icon" class="icon_theme icon_dark" style="display:none;"><svg><use xlink:href="#icon_dark"/></svg></i>
+					<i id="auto_icon" class="icon_theme icon_auto" style="display:none;"><svg><use xlink:href="#icon_auto"/></svg></i>
+					<span>
+						<tt	id="light" class="btn_acc_sub" style="display:none;">*ART_mode_day*</tt>
+						<tt id="dark" class="btn_acc_sub" style="display:none;">*ART_mode_night*</tt>
+						<tt id="auto" class="btn_acc_sub" style="display:none;">*ART_mode_auto*</tt>
+					</span>
+					<select id="panel_type_dropdown" class="" tabindex="-1">
+						<option value="light">*ART_mode_day*</option>
+						<option value="dark">*ART_mode_night*</option>
+						<option value="auto">*ART_mode_auto*</option>
+					</select>
+
+					<!-- 日夜選擇 -->
+					<div id="selec_paneltype" class="box_popup_selec"><!-- Show add class="on"-->
+						<div id="parent_selec_panel" class="popup_oddtype">
+							<label id="selec_light" class="btn_popup_selec" style="display:;">
+								<span class=""><i><svg><use xlink:href="#icon_light"/></svg></i></span>
+								<tt>*ART_mode_day*</tt>
+							</label>
+
+							<label id="selec_dark" class="btn_popup_selec" style="display:;">
+								<span class=""><i><svg><use xlink:href="#icon_dark"/></svg></i></span>
+								<tt>*ART_mode_night*</tt>
+							</label>
+
+							<label id="selec_auto" class="btn_popup_selec" style="display:;">
+								<span class=""><i><svg><use xlink:href="#icon_auto"/></svg></i></span>
+								<tt>*ART_mode_auto*</tt>
+							</label>
+						</div>
+					</div>
+				</div>
+				<span class="title_sort">*ART_acc_support*</span>
+
+				<div id="right_help_change_pwd" class="btn_acc_menu" style="display: none;">
+					<svg><use xlink:href="#icon_pwdchg" /></svg>
+					<span>*ART_acc_changepwd*</span>
+				</div>
+				<div id="right_help_4pwd_login" class="btn_acc_menu" style="display: none;">
+					<svg><use xlink:href="#icon_pwdquick"></use></svg>
+					<span>
+						<tt>*ART_acc_passcode*</tt>
+						<tt id="4pwd_active" class="btn_acc_sub">*ART_acc_active*</tt>
+					</span>
+				</div>
+				<div id="right_set_mail" class="btn_acc_menu" style="display: none;">
+					<svg><use xlink:href="#icon_pwdre" /></svg>
+					<span>*ART_acc_pwdrecovery*</span>
+				</div>
+				<div id="right_account_set" class="btn_acc_menu" style="display: none;">
+					<svg><use xlink:href="#icon_setting" /></svg>
+					<span>*ART_acc_setting*</span>
+				</div>
+				
+				<div id="right_help_faq" class="btn_acc_menu" style="display: none;">
+					<svg><use xlink:href="#icon_faq" /></svg>
+					<span>*ART_acc_faq*</span>
+				</div>
+				<div id="right_features_new" class="btn_acc_menu">
+					<svg><use xlink:href="#icon_new" /></svg>
+					<span>*ART_acc_feature*</span>
+					<tt class="dot_green"></tt>
+				</div>
+				<div id="right_help_odds" class="btn_acc_menu" style="display: none;">
+					<svg><use xlink:href="#icon_odd" /></svg>
+					<span>*ART_acc_odds*</span>
+				</div>
+				<div id="right_rules_general" class="btn_acc_menu">
+					<svg><use xlink:href="#icon_rule" /></svg>
+					<span>*ART_acc_rule*</span>
+				</div>
+				<div id="right_help_sys" class="btn_acc_menu">
+					<svg><use xlink:href="#icon_system" /></svg>
+					<span>*ART_acc_system*</span>
+				</div>
+				<div id="right_help_term" class="btn_acc_menu">
+					<svg><use xlink:href="#icon_terms" /></svg>
+					<span>*ART_acc_term*</span>
+				</div>
+				<div id="right_cashout" class="btn_acc_menu">
+					<svg><use xlink:href="#icon_cashout" /></svg>
+					<span>*ART_acc_cashout*</span>
+				</div>
+				<div id="right_help_appointment" class="btn_acc_menu _appt">
+					<svg><use xlink:href="#icon_appointment"/></svg>
+					<span>*ART_acc_appointment*</span>
+				</div>
+				<!--
+				<div class="btn_acc_menu" style="display: none;">
+					<svg><use xlink:href="#icon_qa" /></svg>
+					<span>*ART_acc_fix*</span>
+				</div>
+				-->
+				<div id="right_contactus" class="btn_acc_menu" style="display: none;">
+					<svg><use xlink:href="#icon_contact" /></svg>
+					<span>*ART_acc_contact*</span>
+				</div>
+				<div id="rightM_result" class="btn_acc_menu btn_acc_result" style="display: none;">
+					<svg><use xlink:href="#icon_result" /></svg>
+					<span>*ART_acc_result*</span>
+				</div>
+				<div id="right_app" class="btn_acc_menu btn_acc_app" style="display: none;">
+					<svg><use xlink:href="#icon_appdownload" /></svg>
+					<span>*ART_acc_app*</span>
+				</div>
+				<div id="right_logout" class="box_logout" style="display: none;">
+					<div class="btn_logout">*ART_acc_logout*</div>
+				</div>
+			</div>
+
+		</div>
+
+
+
+
+
+
+	</div>
+
+</body>
+
+</html>

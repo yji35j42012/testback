@@ -1,0 +1,25 @@
+var artjson = {
+	"ART_lang": "EN",
+	"ART_game_nodata": "Markets are temporarily unavailable.",
+
+//MT
+	"ART_game_nomtpop": "Hmm…it seems this is empty right now.This could be because this particular content is not available for this event or it will be only available later on.",
+
+//玩法
+	"ART_game_m": "Исход 1X2",
+	"ART_game_r": "Frame Handicap",
+	"ART_game_ou": "Тотал по сетам: Больше / Меньше",
+	"ART_game_eo": "Тотал по сетам: Голы: Чет / Нечет",
+	"ART_game_f": "Исход 1X2",
+
+//odd box
+	"ART_game_over": "Больше",
+	"ART_game_under": "Меньше",
+	"ART_game_odd": "Голы: Чет",
+	"ART_game_even": "Нечет",
+
+//other
+	"ART_title_relate": "Связанная информация",
+	"ART_text_relate_text": "All live content displayed in this panel is for information purposes only and members are advised to only use this as a guide. While we make every effort to ensure the content displayed is correct, our company will assume no liability for incorrect information. For markets that are based on the live score, e.g. In-Play Asian Handicaps, the correct score that the market is based off will be displayed in the Bet Slip at time of bet placement.",
+}
+

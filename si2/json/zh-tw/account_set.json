@@ -1,0 +1,17 @@
+var artjson = {
+	"ART_accset_detailset": "詳細設定",
+	"ART_accset_soccer": "足球",
+	"ART_accset_basketball": "籃球 & 美式足球",
+	"ART_accset_othersports": "其他體育",
+	"ART_accset_outright01": "冠軍",
+	"ART_accset_type": "投注類型",
+	"ART_accset_singlemax": "單場最高",
+	"ART_accset_betmax": "單注最高",
+	"ART_accset_hdouoe": "讓球, 大小, 單雙",
+	"ART_accset_rehdouoe": "滾球讓球, 滾球大小, 滾球單雙",
+	"ART_accset_1x2": "獨贏, 滾球獨贏",
+	"ART_accset_1x2bk": "獨贏, 滾球獨贏",
+	"ART_accset_other": "其他",
+	"ART_accset_reother": "滾球其他",
+	"ART_accset_outright02": "冠軍",
+};

@@ -1,0 +1,13 @@
+var artjson = {
+	"ART_lang": "TW",
+	"ART_leaSet_sort": "排序",
+	"ART_leaSet_sort_c": "聯盟排序",
+	"ART_leaSet_sort_t": "時間排序",
+	"ART_leaSet_filters": "過濾",
+	"ART_leaSet_filters_1": "篩選聯盟",
+	"ART_leaSet_oddsup": "賠率顯示模式",
+	"ART_leaSet_oddsup_1": "啓動賠率更新提醒",
+	"ART_leaSet_enabled": "啟動",
+	"ART_leaSet_disabled": "關閉",
+
+}

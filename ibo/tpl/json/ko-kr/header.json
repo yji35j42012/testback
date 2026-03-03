@@ -1,0 +1,23 @@
+var artjson = {
+	"ART_header_inplay": "인플레이",
+	"ART_header_worldcup": "🏆World Cup",
+	"ART_header_virtual": "VIRTUAL",
+	"ART_header_upcoming": "UPCOMING",
+	"ART_header_soon": "SOON",
+	"ART_header_hot": "HOT",
+	"ART_header_today": "오늘",
+	"ART_header_early": "이른",
+	"ART_header_outrights": "대회",
+	"ART_header_parlay": "조합베팅",
+	"ART_header_sb": "SPECIAL BET",
+	"ART_header_bonus": "ACTIVITIES",
+
+	"ART_bottom_result": "결과",
+	"ART_bottom_schedule": "SCHEDULE",
+	"ART_bottom_openbet": "미정산 베팅",
+	"ART_bottom_mygame": "MY EVENTS",
+	"ART_bottom_mybets": "MY BETS",
+	"ART_bottom_statement": "계정 내역",
+
+	"ART_text_new": "NEW",
+}

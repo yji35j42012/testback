@@ -1,0 +1,23 @@
+var artjson = {
+	"ART_header_inplay": "Oyunda",
+	"ART_header_worldcup": "🏆World Cup",
+	"ART_header_virtual": "SANAL",
+	"ART_header_upcoming": "UPCOMING",
+	"ART_header_soon": "SOON",
+	"ART_header_hot": "HOT",
+	"ART_header_today": "Bugün",
+	"ART_header_early": "Erken",
+	"ART_header_outrights": "Kazananlar",
+	"ART_header_parlay": "Parlay",
+	"ART_header_sb": "Özel Bahis",
+	"ART_header_bonus": "AKTİVİTELER",
+
+	"ART_bottom_result": "Sonuç",
+	"ART_bottom_schedule": "Takvim",
+	"ART_bottom_openbet": "Açık Bahisler",
+	"ART_bottom_mygame": "MY EVENTS",
+	"ART_bottom_mybets": "MY BETS",
+	"ART_bottom_statement": "İfade",
+
+	"ART_text_new": "NEW",
+}

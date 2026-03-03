@@ -1,0 +1,16 @@
+var artjson = {
+	"ART_lang": "EN",
+	"ART_game_nodata": "There are no events available.",
+	"ART_data_nodata": "Markets are temporarily unavailable.",
+	"ART_data_pd_nodata": "Markets are temporarily unavailable.",
+	"ART_game_mygame1": "Selecting the above icon, for any event, will add it to the ",
+	"ART_game_mygame2": "MY EVENTS",
+	"ART_game_mygame3": " section. Here, you can group and easily access all the events you are interested in.",
+	"ART_game_3in1": "in",
+	"ART_sb_spd": " to Win ",
+	"ART_sb_swn": " to Win to Nil",
+	"ART_sb_swm1": " to Win by ",
+	"ART_sb_swm2": " Goals",
+	"ART_game_fulltime": "Tempo total",
+	"ART_game_half1": "1st Half",
+}

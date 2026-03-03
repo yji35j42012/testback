@@ -1,0 +1,10 @@
+var artjson = {
+	"ART_date_alldate": "Todos os <br> esportes",
+	"ART_date_today": "Hoje",
+	"ART_date_future": "Futuro",
+	"ART_game_datenodata": "Não há competições disponíveis para a data selecionada.",
+	"ART_coupon_popular": "Popular",
+	"ART_coupon_AZ": "Competições A - Z",
+	"ART_btn_submit": "Enviar",
+
+}

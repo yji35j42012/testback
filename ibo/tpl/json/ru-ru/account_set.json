@@ -1,0 +1,17 @@
+var artjson = {
+	"ART_accset_detailset": "BET SETTINGS",
+	"ART_accset_soccer": "Футбол",
+	"ART_accset_basketball": "Баскетбол и американский футбол",
+	"ART_accset_othersports": "Другое",
+	"ART_accset_outright01": "Чемпион",
+	"ART_accset_type": "Bet Type",
+	"ART_accset_singlemax": "Single Match",
+	"ART_accset_betmax": "Single Bet",
+	"ART_accset_hdouoe": "Фора по сетам, Больше / Меньше, Голы: Чет / Нечет",
+	"ART_accset_rehdouoe": "R.B. Фора, R.B. Больше / Меньше, R.B. Голы: Чет / Нечет",
+	"ART_accset_1x2": "Исход 1X2, R.B. Исход 1X2",
+	"ART_accset_1x2bk": "Исход 1X2, R.B. Исход 1X2",
+	"ART_accset_other": "Other Bet Types",
+	"ART_accset_reother": "R.B. Other Bet Types",
+	"ART_accset_outright02": "Чемпион",
+};

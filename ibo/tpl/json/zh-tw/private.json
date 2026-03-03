@@ -1,0 +1,4 @@
+var artjson = {
+	"ART_private_title": "您正使用私密瀏覽器",
+	"ART_private_txt": "為了確保您能正常使用網站，請勿使用私密瀏覽器開啟此網站。",
+};

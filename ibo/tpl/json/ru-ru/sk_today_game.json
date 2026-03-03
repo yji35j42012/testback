@@ -1,0 +1,12 @@
+var artjson = {
+	"ART_lang": "EN",
+	"ART_game_nodata": "В настоящее время нет событий.",
+
+	"ART_game_m": "Исход 1X2",
+	"ART_game_r": "Фора",
+	"ART_game_ou": "Больше / Меньше",
+
+	"ART_game_over": "Больше",
+	"ART_game_under": "Меньше",
+
+}

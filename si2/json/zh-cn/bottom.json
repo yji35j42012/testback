@@ -1,0 +1,8 @@
+var artjson = {
+	"ART_bottom_schedule": "电视直播",
+	"ART_bottom_mygame": "我的赛事",
+	"ART_bottom_betslip": "注单",
+	"ART_bottom_mybets": "投注记录",
+
+	"ART_text_new": "新",
+}

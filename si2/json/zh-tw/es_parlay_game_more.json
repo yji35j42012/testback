@@ -1,0 +1,31 @@
+var artjson = {
+	"ART_lang": "TW",
+	"ART_game_nodata": "目前沒有任何賽事。",
+	"ART_game_3in1": "串",
+
+//Score board
+	"ART_win": "勝率 %",
+
+//玩法filters
+	"ART_es_filter_all": "所有盤口",
+	"ART_es_filter_match": "比賽",
+	"ART_es_filter_game1": "第1局",
+	"ART_es_filter_game2": "第2局",
+	"ART_es_filter_game3": "第3局",
+	"ART_es_filter_game4": "第4局",
+	"ART_es_filter_game5": "第5局",
+	"ART_es_filter_game6": "第6局",
+	"ART_es_filter_game7": "第7局",
+
+//玩法
+	"ART_game_rm": "獨贏",
+	"ART_game_re": "讓盤",
+	"ART_game_rou": "大/小",
+	"ART_game_reo": "單/雙",
+
+//odd box
+	"ART_game_over": "大",
+	"ART_game_under": "小",
+	"ART_game_odd": "單",
+	"ART_game_even": "雙",
+}

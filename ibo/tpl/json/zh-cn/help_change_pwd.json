@@ -1,0 +1,16 @@
+var artjson = {
+	"ART_lang": "TW",
+	"ART_hp_chgpwd": "修改密码",
+	"ART_hp_chgpwd_text_1": "为了安全起见，您必须每30天改变一次密码。",
+	"ART_hp_chgpwd_text_2": "您的密码必须根据以下规则:",
+	"ART_hp_chgpwd_text_3": "至少要有两个大或小写英文字母和数字(0-9)组合, 字数最少6至12个。",
+	"ART_hp_chgpwd_text_4": "三个不同的字母数字。",
+	"ART_hp_chgpwd_text_5": "不准许有空格。",
+
+	"ART_hp_inp_nowpwd": "当前密码",
+	"ART_hp_inp_newpwd": "新密码",
+	"ART_hp_inp_repwd": "确认密码",
+
+	"ART_hp_btn_cancel": "取消",
+	"ART_hp_btn_submit": "提交",
+}

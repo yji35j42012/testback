@@ -1,0 +1,39 @@
+var artjson = {
+	"ART_lang": "en",
+	"ART_game_nodata": "Hiçbir etkinlik mevcut değil.",
+	
+	"ART_game_r": "Handikap",
+	"ART_game_ou": "Hedefler O/U",
+	"ART_game_m": "1 X 2",
+	"ART_game_ts": "Her iki takım <br> puanı",
+	"ART_game_eo": "Goller Tek / <br> Çift",
+
+	"ART_obt_r": "Handikap",
+	"ART_obt_ou": "Hedefler O/U",
+	"ART_obt_cn": "Köşeler",
+	"ART_obt_rn": "Rezervasyonlar",
+	"ART_obt_wi": "Kazanan / Hak Kazanan",
+
+	"ART_obt_cn_r": "Köşeler<br>Handikap",
+	"ART_obt_cn_ou":"Köşeler<br>O/U",
+	"ART_obt_cn_m": "Köşeler<br>1 X 2",
+
+	"ART_obt_rn_r": "Rezervasyonlar<br>Handikap",
+	"ART_obt_rn_ou": "Rezervasyonlar<br>O/U",
+	"ART_obt_rn_m": "Rezervasyonlar<br>1 X 2",
+
+	"ART_game_fulltime": "Tam zamanlı",
+	"ART_game_half1": "1. Yarı",
+
+	"ART_game_over": "O",
+	"ART_game_under": "U",
+	"ART_game_odd": "Odd",
+	"ART_game_even": "Even",
+	"ART_game_yes": "Evet",
+	"ART_game_no": "HAYIR",
+	"ART_game_draw": "Draw",
+	"ART_game_otpoint": "Any Other Score",
+
+	"ART_btn_viewless": "Daha Az Görüntüle",
+	"ART_btn_viewmore": "Daha fazla göster",
+}

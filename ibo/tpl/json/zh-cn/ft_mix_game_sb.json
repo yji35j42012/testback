@@ -1,0 +1,17 @@
+var artjson = {
+	"ART_lang": "TW",
+	"ART_game_nodata": "目前没有任何赛事。",
+	"ART_data_nodata": "目前暂时没有任何赌盘",
+	"ART_data_pd_nodata": "目前暂时没有任何盘口",
+	
+	"ART_game_mygame1": "选择上面的图标，会将其添加到",
+	"ART_game_mygame2": "我的赛事",
+	"ART_game_mygame3": "中。您可以对其进行分组并轻松访问您感兴趣的所有赛事。",
+	
+	"ART_game_3in1": "串",
+
+	"ART_sb_spd": "会赢",
+	"ART_sb_swn": "零失球获胜",
+	"ART_sb_swm1": "净胜 ",
+	"ART_sb_swm2": "球",
+}

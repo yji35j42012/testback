@@ -1,0 +1,18 @@
+var artjson = {
+	"ART_ball_all": "ทั้งหมด",
+	"ART_ball_ft": "ฟุตบอล",
+	"ART_ball_vf": "Virtual Events",
+	"ART_ball_bk": "บาสเกตบอล & อเมริกันฟุตบอล",
+	"ART_ball_es": "eSports",
+	"ART_ball_tn": "เทนนิส",
+	"ART_ball_vb": "วอลเลย์บอล",
+	"ART_ball_bm": "แบดมินตัน",
+	"ART_ball_tt": "ปิงปอง",
+	"ART_ball_bs": "กีฬาเบสบอล",
+	"ART_ball_sk": "สนุกเกอร์",
+	"ART_ball_op": "กีฬาอื่น ๆ",
+	"ART_game_sched": "SCHEDULE",
+	"ART_date_alldate": "ALL <br> DATES",
+	"ART_date_future": "FUTURE",
+	"ART_game_datenodata": "There are no events available for <br> your selected date.",
+}

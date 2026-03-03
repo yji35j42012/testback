@@ -1,0 +1,12 @@
+var artjson = {
+	"ART_lang": "EN",
+	"ART_game_nodata": "There are no events available.",
+
+	"ART_game_rm": "Money Line",
+	"ART_game_re": "Handicap",
+	"ART_game_rou": "Over / Under",
+
+	"ART_game_over": "O",
+	"ART_game_under": "U",
+
+}

@@ -1,0 +1,12 @@
+var artjson = {
+	"ART_message_title": "Сообщения",
+	"ART_message_search": "Поиск",
+	"ART_message_cancel": "Отмена",
+	"ART_message_normal": "Общие",
+	"ART_message_important": "Важные",
+	"ART_message_personal": "Личные",
+	"ART_message_all": "Все",
+	"ART_message_today": "Сегодня",
+	"ART_message_yeaterday": "Вчера",
+	"ART_message_nodata": "На данный момент нет сообщений.",
+};

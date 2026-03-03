@@ -1,0 +1,23 @@
+var artjson = {
+	"ART_lang": "TW",
+	"ART_game_nodata": "目前沒有任何賽事。",
+	"ART_data_nodata": "目前暫時沒有任何賭盤",
+	"ART_data_pd_nodata": "目前暫時沒有任何盤口",
+	"ART_game_mygame1": "選擇上面的圖標，會將其添加到",
+	"ART_game_mygame2": "我的賽事",
+	"ART_game_mygame3": "中。您可以對其進行分組並輕鬆訪問您感興趣的所有賽事。",
+	"ART_game_3in1": "串",
+
+	"ART_pdview_list": "全選項",
+	"ART_pdview_score": "自選比分",
+
+	"ART_game_fulltime": "全場",
+	"ART_game_half1": "上半場",
+
+	"ART_game_draw": "和",
+	"ART_game_otpoint": "其它比分",
+	"ART_game_viewall": "顯示所有",
+	"ART_game_viewless": "少量顯示",
+
+	"ART_game_oddprice": "賠率",
+}

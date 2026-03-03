@@ -1,0 +1,45 @@
+var artjson = {
+	"ART_lang": "EN",
+	"ART_game_nodata": "Não há eventos disponíveis.",
+
+	"ART_game_r": "Deficiente",
+	"ART_game_ou": "Metas S/U",
+	"ART_game_m": "1 X 2",
+	"ART_game_ts": "Ambos para <br> marcar",
+	"ART_game_eo": "Gols Ímpar / <br> Par",
+
+	"ART_obt_r": "Deficiente",
+	"ART_obt_ou": "Metas S/U",
+	"ART_obt_cn": "Cantos",
+	"ART_obt_rn": "Reservas",
+	"ART_obt_wi": "Vencedor / Para se qualificar",
+	"ART_obt_sb": "Aposta Especial",
+
+	"ART_obt_cn_r": "Cantos<br>Deficiente",
+	"ART_obt_cn_ou":"Cantos<br>O/U",
+	"ART_obt_cn_m": "Cantos<br>1 X 2",
+
+	"ART_obt_rn_r": "Reservas<br>Deficiente",
+	"ART_obt_rn_ou": "Reservas<br>O/U",
+	"ART_obt_rn_m": "Reservas<br>1 X 2",
+
+	"ART_sb_spd": " to Win ",
+	"ART_sb_swn": " to Win to Nil",
+	"ART_sb_swm1": " to Win by ",
+	"ART_sb_swm2": " Goals",
+
+	"ART_game_fulltime": "Tempo total",
+	"ART_game_half1": "1H",
+
+	"ART_game_over": "O",
+	"ART_game_under": "U",
+	"ART_game_odd": "Odd",
+	"ART_game_even": "Even",
+	"ART_game_yes": "Sim",
+	"ART_game_no": "Não",
+	"ART_game_draw": "Draw",
+	"ART_game_otpoint": "Any Other Score",
+
+	"ART_btn_viewless": "Ver menos",
+	"ART_btn_viewmore": "Veja mais",
+}

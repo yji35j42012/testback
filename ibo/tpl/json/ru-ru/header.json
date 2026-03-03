@@ -1,0 +1,21 @@
+var artjson = {
+	"ART_header_inplay": "Live",
+	"ART_header_soon": "SOON",
+	"ART_header_hot": "HOT",
+	"ART_header_today": "Сегодня",
+	"ART_header_early": "Ранние ставки",
+	"ART_header_outrights": "Чемпион",
+	"ART_header_parlay": "Экспресс",
+	"ART_header_sb": "Повышенные коэффициенты",
+	"ART_header_bonus": "Раздел акций",
+	"ART_header_virtual": "Виртуальные события",
+
+	"ART_bottom_result": "Результаты",
+	"ART_bottom_schedule": "Расписание",
+	"ART_bottom_openbet": "Статус транзакций",
+	"ART_bottom_mygame": "MY EVENTS",
+	"ART_bottom_mybets": "MY BETS",
+	"ART_bottom_statement": "История аккаунта",
+
+	"ART_text_new": "NEW",
+}

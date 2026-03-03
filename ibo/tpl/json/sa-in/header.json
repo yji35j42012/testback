@@ -1,0 +1,23 @@
+var artjson = {
+	"ART_header_inplay": "प्रतियोगिता में",
+	"ART_header_worldcup": "🏆World Cup",
+	"ART_header_virtual": "वर्चुअल स्पोर्ट्स",
+	"ART_header_upcoming": "UPCOMING",
+	"ART_header_soon": "SOON",
+	"ART_header_hot": "HOT",
+	"ART_header_today": "आज",
+	"ART_header_early": "शीघ्र",
+	"ART_header_outrights": "प्रत्यक्ष",
+	"ART_header_parlay": "मल्टीपल बेट्स",
+	"ART_header_sb": "ऑड्स में बेस्ट",
+	"ART_header_bonus": "ACTIVITIES",
+
+	"ART_bottom_result": "परिणाम",
+	"ART_bottom_schedule": "अनुसूची",
+	"ART_bottom_openbet": "बेट्स खोलें",
+	"ART_bottom_mygame": "MY EVENTS",
+	"ART_bottom_mybets": "MY BETS",
+	"ART_bottom_statement": "खाता इतिहास",
+
+	"ART_text_new": "NEW",
+}

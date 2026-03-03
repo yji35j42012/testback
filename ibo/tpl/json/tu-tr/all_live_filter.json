@@ -1,0 +1,9 @@
+var artjson = {
+	"ART_game_nodata": "Hiçbir etkinlik mevcut değil.",
+	"ART_btn_allmatche": "Tüm Maçları Görüntüle",
+	"ART_title_sporttype": "OYUNDA",
+	"ART_coupon_popular": "Popüler",
+	"ART_coupon_AZ": "A'dan Z'ye Yarışmalar",
+	"ART_btn_submit": "Göndermek",
+
+}

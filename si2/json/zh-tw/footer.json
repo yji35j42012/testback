@@ -1,0 +1,32 @@
+var footer_artjson = {
+	"ART_game_gmt4": "今日賽事顯示時區為GMT-4。",
+
+	"ART_footer_inplay": "滾球",
+	"ART_footer_hot": "熱門賽事",
+	"ART_footer_today": "今日",
+	"ART_footer_soon": "即將開賽",
+	"ART_footer_early": "早盤",
+	"ART_footer_outrights": "冠軍",
+	"ART_footer_liveTV": "電視直播",
+	"ART_footer_feature": "新功能",
+	"ART_footer_faq": "常見問題",
+	"ART_footer_system": "系統需求",
+	"ART_footer_term": "規則與條款",
+	"ART_footer_rule": "體育玩法規則",
+
+	"ART_footer_relate": "相關信息",
+	"ART_footer_app": "下載安卓APP",
+
+	"ART_footer_language": "語言",
+	"ART_lan_tw": "繁體",
+	"ART_lan_cn": "简体",
+	"ART_lan_en": "English",
+
+	"ART_footer_time": "開賽時間顯示",
+	"ART_time_sys": "系統時間 (GMT-4)",
+	"ART_time_dev": "當地時間 (設備時間)",
+
+	"ART_footer_phone": "電話號碼",
+	"ART_footer_email": "電子郵件",
+	"ART_footer_copyright": "版權聲明 (C) 2025 版權所有",
+}

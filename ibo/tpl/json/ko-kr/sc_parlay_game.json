@@ -1,0 +1,89 @@
+var artjson = {
+	"ART_lang": "EN",
+	"ART_game_nodata": "There are no events available.",
+	"ART_game_3in1": "in",
+
+//in-play
+	"ART_game_re": "핸디캡",
+	"ART_game_rou": "오버/언더",
+	"ART_game_rm": "1 X 2",
+	"ART_game_rg": "Next Goal",
+	"ART_game_rts": "Both Teams<br>to Score",
+	"ART_game_reo": "홀/짝",
+	"ART_game_rouh": "Team 1 <br> Goals",
+	"ART_game_rouc": "Team 2 <br> Goals",
+	"ART_game_rps": "Next Penalty",
+
+//today early
+	"ART_game_r": "핸디캡",
+	"ART_game_ou": "오버/언더",
+	"ART_game_m": "1 X 2",
+	"ART_game_ts": "Both Teams<br>to Score",
+	"ART_game_eo": "홀/짝",
+
+	"ART_obt_re": "핸디캡",
+	"ART_obt_rou": "오버/언더",
+	"ART_obt_cn": "Corners",
+	"ART_obt_rn": "Bookings",
+	"ART_obt_wi": "Winner / To Qualify",
+	"ART_obt_et": "Extra Time",
+	"ART_obt_pk": "Penalty Shootout",
+
+//in-play
+	"ART_obt_cn_rou": "Corners <br> O/U",
+	"ART_obt_cn_rnc": "Next Corner",
+	"ART_obt_cn_reo": "Corners <br> O/E",
+//today early
+	"ART_obt_cn_r": "Corners<br>Handicap",
+	"ART_obt_cn_ou":"Corners<br>O/U",
+	"ART_obt_cn_m": "Corners<br>1 X 2",
+
+//in-play
+	"ART_obt_rn_rou": "Bookings<br>O/U",
+	"ART_obt_rn_rnb": "Next<br>Booking",
+	"ART_obt_rn_reo": "Bookings<br>O/E",
+	"ART_obt_rn_rm": "Bookings<br>1 X 2",
+	"ART_obt_rn_re": "Bookings<br>Handicap",
+//today early
+	"ART_obt_rn_r": "Bookings<br>Handicap",
+	"ART_obt_rn_ou": "Bookings<br>O/U",
+	"ART_obt_rn_m": "Bookings<br>1 X 2",
+
+//in-play
+	"ART_obt_et_re": "핸디캡",
+	"ART_obt_et_rou": "오버/언더",
+	"ART_obt_et_rm": "1 X 2",
+	"ART_obt_et_rg": "Next Goal",
+	"ART_obt_et_rts": "Both Teams<br>to Score",
+
+//in-play
+	"ART_obt_pk_re": "핸디캡",
+	"ART_obt_pk_rou": "오버/언더",
+	"ART_obt_pk_rm": "1 X 2",
+	"ART_obt_pk_rs": "Next Penalty",
+	"ART_obt_pk_rts": "Both Teams<br>to Score",
+
+	"ART_game_fulltime": "풀타임",
+	"ART_game_half1": "전반전",
+	"ART_game_et": "ET",
+	"ART_game_ethalf1": "ET 1st Half",
+	"ART_game_pk": "Pens",
+
+	"ART_game_over": "O",
+	"ART_game_under": "U",
+	"ART_game_odd": "Odd",
+	"ART_game_even": "Even",
+	"ART_game_yes": "Yes",
+	"ART_game_no": "No",
+	"ART_game_goal": "Goal",
+	"ART_game_nogoal": "No Goal",
+	"ART_game_draw": "Draw",
+	"ART_game_none": "None",
+	"ART_game_otpoint": "Any Other Score",
+
+	"ART_game_rps_goal": "Score",
+	"ART_game_rps_nogoal": "Miss",
+
+	"ART_btn_viewless": "VIEW LESS",
+	"ART_btn_viewmore": "VIEW MORE",
+}

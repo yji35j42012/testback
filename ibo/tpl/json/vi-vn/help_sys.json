@@ -1,0 +1,60 @@
+var artjson = {
+	"ART_lang": "EN",
+
+	"ART_sys_title": "SYSTEM REQUIREMENTS",
+	"ART_sys_text_1": "Full details, relating to the minimum requirements to use this product, are listed below.",
+
+	"ART_sys_subtitle_a": "Mobile Operating System",
+	"ART_sys_tb_a_1_1": "Operating System",
+	"ART_sys_tb_a_1_2": "Requirements",
+	"ART_sys_tb_a_2_1": "Android",
+	"ART_sys_tb_a_2_2": "Android 10 & above",
+	"ART_sys_tb_a_3_1": "iOS",
+	"ART_sys_tb_a_3_2": "iOS 17 & above",
+
+	"ART_sys_subtitle_b": "Mobile Browsers",
+	"ART_sys_tb_b_1_1": "Android Browser",
+	"ART_sys_tb_b_1_2": "Requirements",
+	"ART_sys_tb_b_2_1": "Chrome",
+	"ART_sys_tb_b_2_2": "Version 120 & above",
+	"ART_sys_tb_b_3_1": "QQ Browser",
+	"ART_sys_tb_b_3_2": "Version 13 & above",
+
+	"ART_sys_tb_c_1_1": "iOS Browser",
+	"ART_sys_tb_c_1_2": "Requirements",
+	"ART_sys_tb_c_2_1": "Safari",
+	"ART_sys_tb_c_2_2": "Version 17 & above",
+	"ART_sys_tb_c_3_1": "Chrome",
+	"ART_sys_tb_c_3_2": "Version 120 & above",
+	"ART_sys_tb_c_4_1": "QQ Browser",
+	"ART_sys_tb_c_4_2": "Version 13 & above",
+
+	"ART_sys_subtitle_d": "Desktop Operating System",
+	"ART_sys_tb_d_1_1": "Operating System",
+	"ART_sys_tb_d_1_2": "Requirements",
+	"ART_sys_tb_d_2_1": "Windows",
+	"ART_sys_tb_d_2_2": "Windows 9 & above",
+	"ART_sys_tb_d_3_1": "Mac OS",
+	"ART_sys_tb_d_3_2": "OS X 10.15 & above",
+
+	"ART_sys_subtitle_e": "Desktop Browsers",
+	"ART_sys_tb_e_1_1": "Windows Browser",
+	"ART_sys_tb_e_1_2": "Requirements",
+	"ART_sys_tb_e_2_1": "Chrome",
+	"ART_sys_tb_e_2_2": "Version 120 & above",
+	"ART_sys_tb_e_3_1": "Firefox",
+	"ART_sys_tb_e_3_2": "Version 110 & above",
+
+	"ART_sys_tb_f_1_1": "Mac Browser",
+	"ART_sys_tb_f_1_2": "Requirements",
+	"ART_sys_tb_f_2_1": "Safari",
+	"ART_sys_tb_f_2_2": "Version 14 & above",
+	"ART_sys_tb_f_3_1": "Chrome",
+	"ART_sys_tb_f_3_2": "Version 120 & above",
+	"ART_sys_tb_f_4_1": "Firefox",
+	"ART_sys_tb_f_4_2": "Version 90 & above",
+
+	"ART_sys_subtitle_g": "Unsupported Browsers and Operating Systems ",
+	"ART_sys_text_2": "To deliver the best possible experience, we keep our list of supported browsers and operating systems short. We don’t fix bugs or issues for unsupported browsers and operating systems. This may result in you experiencing some performance or layout issues if you use an unsupported browser or operating system. We recommend that you use one of our supported browsers or operating systems to ensure security, performance, and the best possible experience.",
+
+}

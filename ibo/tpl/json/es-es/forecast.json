@@ -1,0 +1,65 @@
+var artjson = {
+	"ART_lang": "EN",
+
+	"ART_fore_nodata": "The event is no longer available.",
+
+//時節頁籤
+	"ART_fore_fulltime": "tiempo completo",
+	"ART_fore_half1": "medio",
+	"ART_fore_et": "ET",
+	"ART_fore_ethalf1": "Hora del este 1ra mitad",
+
+//輸贏預測表格
+	"ART_fore_teamH": "&nbsp[H]",
+	"ART_fore_teamC": "&nbsp[A]",
+	"ART_fore_title": "Win/Loss Forecast",
+	"ART_fore_note": "Note: The Win/Loss Forecast is only a guide on your total position and not all Bet Types are included in the displayed values. For the actual Win/Loss amount, please check your individual bets. Bets that are rejected or voided bets may only reflect after up to 10 minutes.",
+
+//Score Board
+	"ART_game_et_ft": "Full Time:&nbsp;",
+
+//現有投注
+	"ART_fore_nowbet": "Current bets",
+	"ART_fore_bet": "Stake: ",
+	"ART_fore_towin": "Est. Win: ",
+	"ART_fore_more": "VIEW MORE",
+
+//其他按鈕畫面
+	"ART_fore_allmarket": "All Markets",
+	"ART_fore_mybets": "My Bets",
+	"ART_fore_landscape": "Please rotate your device to view forecast.",
+
+//瞭解更多
+	"ART_fore_learnMore": "LEARN MORE",
+	"ART_fore_learnMore_a": "WHAT IS WIN/LOSS FORECAST?",
+	"ART_fore_learnMore_a_1": "Win/Loss Forecast is a feature enabling you to see your potential or settled Win/Loss values, based on the period scoreline.",
+	"ART_fore_learnMore_b": "BET TYPES",
+	"ART_fore_learnMore_b_1": "Win/Loss Forecast includes the following Bet Types:",
+	"ART_fore_learnMore_b_FT": "tiempo completo",
+	"ART_fore_learnMore_b_FT_1": "Handicap",
+	"ART_fore_learnMore_b_FT_2": "Over / Under",
+	"ART_fore_learnMore_b_FT_3": "1 X 2",
+	"ART_fore_learnMore_b_FT_4": "Correct Score",
+	"ART_fore_learnMore_b_FT_5": "Total Goals",
+	"ART_fore_learnMore_b_FT_6": "Both Teams to Score",
+	"ART_fore_learnMore_b_FT_7": "Team Goals: 'Team 1 Name' - Over / Under",
+	"ART_fore_learnMore_b_FT_8": "Team Goals: 'Team 2 Name' - Over / Under",
+	"ART_fore_learnMore_b_FT_9": "Odd / Even",
+	"ART_fore_learnMore_b_FT_10": "Winning Margin",
+	"ART_fore_learnMore_b_FT_11": "Double Chance",
+	"ART_fore_learnMore_b_FT_12": "Clean Sheet",
+	"ART_fore_learnMore_b_FT_13": "To Win To Nil",
+	"ART_fore_learnMore_b_FT_14": "3-Way Handicap",
+
+	"ART_fore_learnMore_b_1st": "medio",
+	"ART_fore_learnMore_b_1st_1": "Handicap - medio",
+	"ART_fore_learnMore_b_1st_2": "Over / Under - medio",
+	"ART_fore_learnMore_b_1st_3": "1 X 2 - medio",
+	"ART_fore_learnMore_b_1st_4": "Correct Score - medio",
+	"ART_fore_learnMore_b_1st_5": "Total Goals - medio",
+	"ART_fore_learnMore_b_1st_6": "Both Teams to Score - medio",
+	"ART_fore_learnMore_b_1st_7": "Team Goals: 'Team 1 Name' - Over / Under - medio",
+	"ART_fore_learnMore_b_1st_8": "Team Goals: 'Team 2 Name' - Over / Under - medio",
+	"ART_fore_learnMore_b_1st_9": "Odd / Even - medio",
+	"ART_fore_learnMore_b_2": "Bets placed on other Bet Types will not be included in the Win/Loss Forecast. ",
+}

@@ -1,0 +1,63 @@
+var artjson = {
+	"ART_lang": "EN",
+	"ART_game_nodata": "Markets are temporarily unavailable.",
+
+//Score Board
+	"ART_scrbk_q1": "Q1",
+	"ART_scrbk_q2": "Q2",
+	"ART_scrbk_q3": "Q3",
+	"ART_scrbk_q4": "Q4",
+	"ART_scrbk_ot": "OT",
+	"ART_scrbk_h1": "1H",
+	"ART_scrbk_h2": "2H",
+
+	"ART_scrbk_sq1": "Q1",
+	"ART_scrbk_sq2": "Q2",
+	"ART_scrbk_sq3": "Q3",
+	"ART_scrbk_sq4": "Q4",
+	"ART_scrbk_sh1": "1H",
+	"ART_scrbk_sh2": "2H",
+	"ART_scrbk_sot": "OT",
+
+//MT
+	"ART_game_nomtpop": "Hmm…it seems this is empty right now.This could be because this particular content is not available for this event or it will be only available later on.",
+
+//玩法
+	"ART_game_re": "Handicap",
+	"ART_game_rou": "Total Points: Over / Under",
+	"ART_game_rwm": "Winning Margin",
+	"ART_game_rouhc": "Team Points:",
+	"ART_game_rm": "Money Line",
+	"ART_game_reo": "Total Points: Odd / Even",
+
+	"ART_game_o_u": "-  Over / Under",
+	"ART_game_p_d": "- Last Digit",
+
+//odd box
+	"ART_game_over": "Over",
+	"ART_game_under": "Under",
+	"ART_game_odd": "Odd",
+	"ART_game_even": "Even",
+
+	"ART_game_rpd0": "0 or 5",
+	"ART_game_rpd1": "1 or 6",
+	"ART_game_rpd2": "2 or 7",
+	"ART_game_rpd3": "3 or 8",
+	"ART_game_rpd4": "4 or 9",
+
+	"ART_game_rwma1": "Win by 1 - 5 Points",
+	"ART_game_rwma2": "Win by 6 - 10 Points",
+	"ART_game_rwma3": "Win by 11 - 15 Points",
+	"ART_game_rwma4": "Win by 16 - 20 Points",
+	"ART_game_rwma5": "Win by 21 - 25 Points",
+	"ART_game_rwmaov": "Win by 26+ Points",
+
+	"ART_game_rwmb1": "Win by 3 - 7 Points",
+	"ART_game_rwmbov": "Win by 8+ Points",
+	"ART_game_rwmcov": "Win by 3+ Points",
+	"ART_game_rwmot": "Any Other Result",
+
+//other
+	"ART_title_relate": "अधिक जानकारी",
+	"ART_text_relate_text": "All live content displayed in this panel is for information purposes only and members are advised to only use this as a guide. While we make every effort to ensure the content displayed is correct, our company will assume no liability for incorrect information. For markets that are based on the live score, e.g. In-Play Asian Handicaps, the correct score that the market is based off will be displayed in the Bet Slip at time of bet placement.",
+}

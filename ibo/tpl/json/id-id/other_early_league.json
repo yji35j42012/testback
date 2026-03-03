@@ -1,0 +1,8 @@
+var artjson = {
+	"ART_date_alldate": "Semua",
+	"ART_date_future": "FUTURE",
+	"ART_game_datenodata": "THERE ARE NO EVENTS AVAILABLE FOR YOUR SELECTED DATE.",
+	"ART_coupon_popular": "USUAL",
+	"ART_coupon_AZ": "COMPETITIONS A - Z",
+
+}

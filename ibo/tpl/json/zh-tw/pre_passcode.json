@@ -1,0 +1,16 @@
+var artjson = {
+	"ART_prepass_hello": "您好 ",
+	"ART_prepass_enter": "輸入您的四位數碼",
+	"ART_prepass_err": "請確認此簡易密碼是您設置的簡易密碼。",
+	"ART_prepass_login": "普通登入",
+	"ART_prepass_delete": "刪除",
+
+	"ART_lang": "TW",
+	"ART_prepass_brower_title": "我們推薦使用以下瀏覽器以獲得最佳使用體驗:",
+	"ART_prepass_chrome": "Chrome",
+	"ART_prepass_safari": "Safari",
+	"ART_prepass_firefox": "火狐",
+	"ART_prepass_brower_text_1": "如果您在使用本網站遇到任何問題，請查看我們列出的瀏覽器和系統的",
+	"ART_prepass_brower_text_btn": "最低需求",
+	"ART_prepass_brower_text_2": "。",
+};

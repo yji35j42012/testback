@@ -1,0 +1,20 @@
+var artjson = {
+	"ART_lang": "TW",
+	"ART_chgid_title": "创建帐号",
+
+	"ART_chgid_hello": "你好 ",
+	"ART_chgid_text1": "请输入一个容易记住的帐号以便日后登入。",
+	"ART_chgid_text2": "规则：",
+	"ART_chgid_text3": "1. 您的登录帐号必须介于6到12个字母数字字符之间，且至少包含2个大写字母（A-Z）或小写字母（a-z）以及至少1个数字字符（0-9）。",
+	"ART_chgid_text4": "2. 您的登录帐号不得包含任何空格。",
+
+	"ART_chgid_inp_id": "登入帐号",
+	"ART_chgid_btn_check": "检查",
+
+	"ART_chgid_text5": "提示：",
+	"ART_chgid_text6": "成功创建后将无法修改帐号。请在下次登录时使用新创建的帐号。原本的登入帐号仅用于识别目的。",
+
+	"ART_chgid_btn_cancel": "取消",
+	"ART_chgid_btn_submit": "提交",
+
+}

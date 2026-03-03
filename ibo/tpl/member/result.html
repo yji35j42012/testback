@@ -1,0 +1,2348 @@
+<html>
+
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, viewport-fit=cover">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<script>{JS}</script>
+	<link href="../../style/reset.css" rel="stylesheet" type="text/css">
+	<link href="../../style/share_tool.css" rel="stylesheet" type="text/css">
+	<link href="../../style/result.css" rel="stylesheet" type="text/css">
+	<title>賽果-NEW</title>
+</head>
+
+<body class="light">
+	<div class="content_l">
+		<div id="div_content" class="content_result">
+			<div class="title_help">
+				<div id="toback" class="btn_back"><i><svg><use xlink:href="#icon_back"></use></svg></i></div>
+				<span>*ART_result*</span>
+				<div id="btn_reload" class="btn_reload"><i><svg><use xlink:href="#icon_reload"></use></svg></i></div>
+			</div>
+			<div class="box_select">
+				<div class="select_result">
+					<div id="select_date" class="select_date">
+						<i class="icon_arr"><svg><use xlink:href="#icon_toparr"></use></svg></i>
+						<ul>
+							<li id="date_start" class="acc_selectMS_first">{NOW_DATE}</li>
+						</ul>
+					</div>
+
+					<div id="pc_gtype_sel_div" class="tool_select half pc_select">
+						<i class="icon_arr"><svg><use xlink:href="#icon_toparr"></use></svg></i>
+						<span id="gtypeTxt">*ART_ball_ft*</span>
+						<ul id="pc_gtype_sel_ul" class="use_animate">
+							<li id="FT">*ART_ball_ft*</li>
+							<!-- <li id="SC">*ART_ball_ft*</li> -->
+							<li id="BK">*ART_ball_bk*</li>
+							<li id="ES">*ART_ball_es*</li>
+							<li id="TN">*ART_ball_tn*</li>
+							<li id="VB">*ART_ball_vb*</li>
+							<li id="BM">*ART_ball_bm*</li>
+							<li id="TT">*ART_ball_tt*</li>
+							<li id="BS">*ART_ball_bs*</li>
+							<li id="SK">*ART_ball_sk*</li>
+							<li id="OP">*ART_ball_op*</li>
+							<li id="FS" style="display: none;">*ART_ball_fs*</li>
+						</ul>
+					</div>
+
+					<div class="tool_select half ph_select">
+						<i class="icon_arr"><svg><use xlink:href="#icon_toparr"></use></svg></i>
+						<select id="gtype_sel">
+							<option value="FT">*ART_ball_ft*</option>
+							<!-- <option value="SC">*ART_ball_ft*</option> -->
+							<option value="BK">*ART_ball_bk*</option>
+							<option value="ES">*ART_ball_es*</option>
+							<option value="TN">*ART_ball_tn*</option>
+							<option value="VB">*ART_ball_vb*</option>
+							<option value="BM">*ART_ball_bm*</option>
+							<option value="TT">*ART_ball_tt*</option>
+							<option value="BS">*ART_ball_bs*</option>
+							<option value="SK">*ART_ball_sk*</option>
+							<option value="OP">*ART_ball_op*</option>
+							<!-- <option value="FS">*ART_ball_fs*</option> -->
+						</select>
+					</div>
+
+				</div>
+			</div>
+			<div id="FT_tag" class="result_tab">
+				<div id="normal_tag" class="btn_tab on">*ART_result_regular*</div>
+				<div id="virtual_tag" class="btn_tab show_VF">*ART_result_virtual*</div>
+				<div id="fs_tag" class="btn_tab show_FS">*ART_result_outright*</div>
+			</div>
+			<div class="result_btnbox">
+				<div id="pc_page_sel_div" class="select_page tool_select pc_select">
+					<i class="icon_arr"><svg><use xlink:href="#icon_toparr"></use></svg></i>
+					<span id="pageTxt">01</span>
+					<ul id="pc_page_sel_ul" class="use_animate">
+						<li id="0">01</li>
+					</ul>
+				</div>
+				<div class="select_page tool_select ph_select">
+					<i class="icon_arr"><svg><use xlink:href="#icon_toparr"></use></svg></i>
+					<select id="page_sel">
+						<option value="0">01</option>
+					</select>
+				</div>
+
+				<span id="previous_btn" class="btn_result_pre">*ART_result_preday*</span>
+				<span id="next_btn" class="btn_result_next">*ART_result_nextday*</span>
+			</div>
+
+			<div id="result_form" class="result_form"><!-- class="result_[球類代碼] -->
+				<table class="result_table">
+					<!-- FT -->
+					<tr class="result_table_ft">
+						<th class="result_td_time"></th>
+						<th class="result_td_team"></th>
+						<th class="result_td_full">*ART_result_ftTR_ft*</th>
+						<th class="result_td_half">*ART_result_ftTR_1st*</th>
+						<th class="result_td_btn"></th>
+					</tr>
+
+					<!-- SC -->
+					<tr class="result_table_sc">
+						<th class="result_td_time"></th>
+						<th class="result_td_team"></th>
+						<th class="result_td_full">*ART_result_ftTR_ft*</th>
+						<th class="result_td_half">*ART_result_ftTR_1st*</th>
+						<th class="result_td_btn"></th>
+					</tr>
+
+					<!-- BK -->
+					<tr class="result_table_bk">
+						<th class="result_td_time"></th>
+						<th class="result_td_team"></th>
+						<th class="result_td_full">*ART_result_bkTR_ft*</th>
+						<th class="result_td_half">*ART_result_bkTR_ot*</th>
+						<th class="result_td_btn"></th>
+					</tr>
+					
+					<!-- ES -->
+					<tr class="result_table_es">
+						<th class="result_td_time"></th>
+						<th class="result_td_team"></th>
+						<th class="result_td_full">*ART_result_esTR_ft*</th>
+						<th class="result_td_half">*ART_result_esTR_es*</th>
+						<th class="result_td_btn"></th>
+					</tr>					
+
+					<!-- TT -->
+					<tr class="result_table_tt">
+						<th class="result_td_time"></th>
+						<th class="result_td_team"></th>
+						<th class="result_td_full">*ART_result_ttTR_final*</th>
+						<th class="result_td_half">*ART_result_ttTR_r*</th>
+						<th class="result_td_btn"></th>
+					</tr>
+
+					<!-- TN -->
+					<tr class="result_table_tn">
+						<th class="result_td_time"></th>
+						<th class="result_td_team"></th>
+						<th class="result_td_full">*ART_result_tnTR_final*</th>
+						<th class="result_td_half">*ART_result_tnTR_r*</th>
+						<th class="result_td_btn"></th>
+					</tr>
+
+					<!-- VB -->
+					<tr class="result_table_vb">
+						<th class="result_td_time"></th>
+						<th class="result_td_team"></th>
+						<th class="result_td_full">*ART_result_vbTR_final*</th>
+						<th class="result_td_half">*ART_result_vbTR_r*</th>
+						<th class="result_td_btn"></th>
+					</tr>
+
+					<!-- BM -->
+					<tr class="result_table_bm">
+						<th class="result_td_time"></th>
+						<th class="result_td_team"></th>
+						<th class="result_td_full">*ART_result_bmTR_final*</th>
+						<th class="result_td_half">*ART_result_bmTR_r*</th>
+						<th class="result_td_btn"></th>
+					</tr>
+
+					<!-- BS -->
+					<tr class="result_table_bs">
+						<th class="result_td_time"></th>
+						<th class="result_td_team"></th>
+						<th class="result_td_full">*ART_result_bsTR_ft*</th>
+						<th class="result_td_half">*ART_result_bsTR_5in*</th>
+						<th class="result_td_btn"></th>
+					</tr>
+
+					<!-- SK -->
+					<tr class="result_table_sk">
+						<th class="result_td_time"></th>
+						<th class="result_td_team"></th>
+						<th class="result_td_full">*ART_result_skTR_ft*</th>
+						<th class="result_td_half"></th>
+						<th class="result_td_btn"></th>
+					</tr>
+
+					<!-- OP -->
+					<tr class="result_table_op">
+						<th class="result_td_time"></th>
+						<th class="result_td_team"></th>
+						<th class="result_td_full">*ART_result_opTR_ft*</th>
+						<th class="result_td_half">*ART_result_opTR_1st*</th>
+						<th class="result_td_btn"></th>
+					</tr>
+
+					<!-- FS -->
+					<tr class="result_table_fs">
+						<th class="result_td_time"></th>
+						<th class="result_td_team"></th>
+						<th class="result_td_full">*ART_result_fsTR*</th>
+						<th class="result_td_half"></th>
+						<th class="result_td_btn"></th>
+					</tr>
+
+					<tbody id="div_show"><!-- template_model 放這--></tbody>
+
+				</table>
+
+			</div>
+			<!-- loading -->
+			<div id="load" class="ord_loading" style="display:none;">
+				<i class="icon_load"></i>
+			</div>
+			<!-- loading end -->
+			<div id="tool_backtop" class="tool_backtop" style="display: none;">
+				<button id="backtop" type="button" class="btn_goTop">*ART_result_backtop*</button>
+			</div>
+
+			<!-- <div id="div_show" name="div_show" class="result_form"></div> -->
+			<!-- 資料模板 -->
+			<div id="template_result_model" name="template_result_model" style="display:none;" class="result_form">
+				<table class="result_table">
+					<!-- START DYNAMIC BLOCK: row -->
+					<tr class="result_table_league">
+						<td colspan="5" id="LEGGRP_*LID*" style="*SHOW_LNAME*"><span>*LEAGUES_NAME*</span></td>
+					</tr>
+					<tr class="result_tr_top" name="LEG_*LID*">
+						<td rowspan="2" class="result_td_time">*DATE*<br>*TIME*</td>
+						<td class="result_td_team" data-ptype="*PTYPE*">
+							<span>*TNAME_PNAME_H*</span>
+						</td>
+						<td class="result_td_full"><span class="*RESULT_FULLH_COLOR*">*RESULT_H*</span></td>
+						<td class="result_td_half"><span class="*RESULT_HW_COLOR*">*RESULT_HH*</span></td>
+						<td rowspan="2" class="result_td_btn"><span id="more_btn_*GID*" class="btn_result_more" *RESULT_BTN*>*ART_result_all*</span></td>
+					</tr>
+					<tr class="result_tr_last" name="LEG_*LID*">
+						<td class="result_td_team"><span>*TNAME_PNAME_C*</span></td>
+						<td class="result_td_full"><span class="*RESULT_FULLC_COLOR*">*RESULT_C*</span></td>
+						<td class="result_td_half"><span class="*RESULT_CW_COLOR*">*RESULT_HC*</span></td>
+					</tr>
+					<!-- END DYNAMIC BLOCK: row -->
+				</table>
+			</div>
+			<!-- 資料模板 end -->
+
+			<!-- 資料模板 -->
+			<div id="template_FSresult_model" name="template_FSresult_model" style="display:none;" class="result_form">
+				<table class="result_table">
+					<!-- START DYNAMIC BLOCK: row -->
+					<tr class="result_table_league">
+						<td colspan="5" id="LEGGRP_*LID*" style="*SHOW_LNAME*"><span>*LEAGUES_NAME*</span></td>
+					</tr>
+					<tr class="result_tr_fs" name="LEG_*LID*">
+						<td class="result_td_time">*DATE*<br>*TIME*</td>
+						<td class="result_td_team"><span>*ITEM*</span></td>
+						<td colspan="2" class="result_td_team result_td_half">*TEAM_NAME*</td>
+						<td class="result_td_btn"><span id="more_btn_*GID*" class="btn_result_more" *RESULT_BTN*>*ART_result_all*</span></td>
+					</tr>
+					<tr class="result_tr_fs" name="LEG_*LID*">
+
+					</tr>
+					<!-- END DYNAMIC BLOCK: row -->
+				</table>
+			</div>
+			<!-- 資料模板 end -->
+
+			<!-- 無資料 -->
+			<div id="noResultData" class="result_nodata" style="display: none;">*ART_result_nodata*</div>
+			<!-- 無資料 end -->
+		</div>
+
+		<div id="moreResultData" class="result_popup" style="display: none;">
+			<div class="popup_title">
+				<span id="info_title"><li>*ART_result_all*</li></span>
+				<div id="info_close" class="btn_close"><i class="icon_close"><svg><use xlink:href="#icon_close"></use></svg></i></div>
+			</div>
+
+			<div id="data_show" class="result_more_form"><!-- 所有賽果_model 放這--></div>
+		</div>
+		<div id="result_mask" class="result_mask" style="display: none;"></div>
+
+		<!-- FT 所有賽果 模組-->
+		<div id="FT_data_model" class="result_more_form" style="display: none">
+			<table class="acc_select_table_top on">
+				<tr class="acc_select_title on">
+					<td colspan="4">
+						<div class="acc_select_left" id="leagues_name">*LNAME*</div>
+						<div class="acc_select_right"></div>
+					</td>
+				</tr>
+				<tr class="on">
+					<td colspan="4" class="acc_select_text" >
+						<div class="acc_select_team">
+							<span id="tean_name_H">*TNAME_PNAME_H*</span>  v  <span id="tean_name_C">*TNAME_PNAME_C*</span>
+						</div>
+						<span class="acc_select_text_number" id="game_time">*DATE* *TIME*</span>
+					</td>
+				</tr>
+			</table>
+			<table id="tableMinute_*GID*" class="acc_select_table on">
+				<tr class="acc_select_tr" id="tr_Minute_*GID*">
+					<td class="acc_all_titlewFT">*ART_result_ft_goal*</td>
+					<td></td>
+					<td id="tname_H"></td>
+					<td id="tname_C"></td>
+				</tr>
+				<tr id="tr_TARU" class="acc_cont_tr">
+					<td class="acc_cont_name">*ART_result_ft_taru*</td>
+					<td id="result_TARU"></td>
+					<td id="score_h_TARU"></td>
+					<td id="score_c_TARU"></td>
+				</tr>
+				<tr id="tr_TBRU" class="acc_cont_tr">
+					<td class="acc_cont_name">*ART_result_ft_tbru*</td>
+					<td id="result_TBRU"></td>
+					<td id="score_h_TBRU"></td>
+					<td id="score_c_TBRU"></td>
+				</tr>
+				<tr id="tr_TCRU" class="acc_cont_tr">
+					<td class="acc_cont_name">*ART_result_ft_tcru*</td>
+					<td id="result_TCRU"></td>
+					<td id="score_h_TCRU"></td>
+					<td id="score_c_TCRU"></td>
+				</tr>
+				<tr id="tr_AGM" class="acc_cont_tr">
+					<td class="acc_cont_name">*ART_result_ft_agm*</td>
+					<td id="result_AGM"></td>
+					<td id="score_h_AGM"></td>
+					<td id="score_c_AGM"></td>
+				</tr>
+				<tr id="tr_BGM" class="acc_cont_tr">
+					<td class="acc_cont_name">*ART_result_ft_bgm*</td>
+					<td id="result_BGM"></td>
+					<td id="score_h_BGM"></td>
+					<td id="score_c_BGM"></td>
+				</tr>
+				<tr id="tr_CGM" class="acc_cont_tr">
+					<td class="acc_cont_name">*ART_result_ft_cgm*</td>
+					<td id="result_CGM"></td>
+					<td id="score_h_CGM"></td>
+					<td id="score_c_CGM"></td>
+				</tr>
+				<tr id="tr_HGM" class="acc_cont_tr">
+					<td class="acc_cont_name">*ART_result_ft_hgm*</td>
+					<td id="result_HGM"></td>
+					<td id="score_h_HGM"></td>
+					<td id="score_c_HGM"></td>
+				</tr>
+				<tr id="tr_TDRU" class="acc_cont_tr">
+					<td class="acc_cont_name">*ART_result_ft_tdru*</td>
+					<td id="result_TDRU"></td>
+					<td id="score_h_TDRU"></td>
+					<td id="score_c_TDRU"></td>
+				</tr>
+				<tr id="tr_TERU" class="acc_cont_tr">
+					<td class="acc_cont_name">*ART_result_ft_teru*</td>
+					<td id="result_TERU"></td>
+					<td id="score_h_TERU"></td>
+					<td id="score_c_TERU"></td>
+				</tr>
+				<tr id="tr_TFRU" class="acc_cont_tr">
+					<td class="acc_cont_name">*ART_result_ft_tfru*</td>
+					<td id="result_TFRU"></td>
+					<td id="score_h_TFRU"></td>
+					<td id="score_c_TFRU"></td>
+				</tr>
+				<tr id="tr_DGM" class="acc_cont_tr">
+					<td class="acc_cont_name">*ART_result_ft_dgm*</td>
+					<td id="result_DGM"></td>
+					<td id="score_h_DGM"></td>
+					<td id="score_c_DGM"></td>
+				</tr>
+				<tr id="tr_EGM" class="acc_cont_tr">
+					<td class="acc_cont_name">*ART_result_ft_egm*</td>
+					<td id="result_EGM"></td>
+					<td id="score_h_EGM"></td>
+					<td id="score_c_EGM"></td>
+				</tr>
+				<tr id="tr_FGM" class="acc_cont_tr">
+					<td class="acc_cont_name">*ART_result_ft_fgm*</td>
+					<td id="result_FGM"></td>
+					<td id="score_h_FGM"></td>
+					<td id="score_c_FGM"></td>
+				</tr>
+				<tr id="tr_GM" class="acc_cont_tr">
+					<td class="acc_cont_name">*ART_result_ft_gm*</td>
+					<td id="result_GM"></td>
+					<td id="score_h_GM"></td>
+					<td id="score_c_GM"></td>
+				</tr>
+			</table>
+			<table id="tableManual_*GID*" class="acc_select_table">
+				<tr class="acc_select_tr">
+					<td colspan="2" id="tr_Manual_*GID*" class="acc_all_titlew">*ART_result_ft_other*</td>
+				</tr>
+				<tr id="tr_BH" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_bh*</td>
+					<td class="acc_cont_bgw" id="result_typeBH"></td>
+				</tr>
+				<tr id="tr_ARG" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_arg*</td>
+					<td id="result_typeARG" class="acc_cont_bgw"></td>
+				</tr>
+				<tr id="tr_BRG" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_brg*</td>
+					<td id="result_typeBRG" class="acc_cont_bgw"></td>
+				</tr>
+				<tr id="tr_CRG" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_crg*</td>
+					<td id="result_typeCRG" class="acc_cont_bgw"></td>
+				</tr>
+				<tr id="tr_DRG" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_drg*</td>
+					<td id="result_typeDRG" class="acc_cont_bgw"></td>
+				</tr>
+				<tr id="tr_ERG" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_erg*</td>
+					<td id="result_typeERG" class="acc_cont_bgw"></td>
+				</tr>
+				<tr id="tr_FRG" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_frg*</td>
+					<td id="result_typeFRG" class="acc_cont_bgw"></td>
+				</tr>
+				<tr id="tr_GRG" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_grg*</td>
+					<td id="result_typeGRG" class="acc_cont_bgw"></td>
+				</tr>
+				<tr id="tr_HRG" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_hrg*</td>
+					<td id="result_typeHRG" class="acc_cont_bgw"></td>
+				</tr>
+				<tr id="tr_IRG" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_irg*</td>
+					<td id="result_typeIRG" class="acc_cont_bgw"></td>
+				</tr>
+				<tr id="tr_JRG" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_jrg*</td>
+					<td id="result_typeJRG" class="acc_cont_bgw"></td>
+				</tr>
+				<tr id="tr_FG" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_fg*</td>
+					<td id="result_typeFG" class="acc_cont_bgw"></td>
+				</tr>
+				<tr id="tr_F2G" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_f2g*</td>
+					<td id="result_typeF2G" class="acc_cont_bgw"></td>
+				</tr>
+				<tr id="tr_F3G" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_f3g*</td>
+					<td id="result_typeF3G" class="acc_cont_bgw"></td>
+				</tr>
+				<tr id="tr_T1G" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_t1g*</td>
+					<td id="result_typeT1G" class="acc_cont_bgw"></td>
+				</tr>
+				<tr id="tr_T3G" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_t3g*</td>
+					<td id="result_typeT3G" class="acc_cont_bgw"></td>
+				</tr>
+				<tr id="tr_TK" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_tk*</td>
+					<td id="result_typeTK" class="acc_cont_bgw"></td>
+				</tr>
+				<tr id="tr_PA" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_pa*</td>
+					<td id="result_typePA" class="acc_cont_bgw"></td>
+				</tr>
+				<tr id="tr_RCD" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_rcd*</td>
+					<td id="result_typeRCD" class="acc_cont_bgw"></td>
+				</tr>
+				<tr id="tr_MQ" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_mq*</td>
+					<td id="result_typeMQ" class="acc_cont_bgw"></td>
+				</tr>
+				<tr id="tr_MW" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_mw*</td>
+					<td id="result_typeMW" class="acc_cont_bgw"></td>
+				</tr>
+				<tr id="tr_OG" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_og*</td>
+					<td id="result_typeOG" class="acc_cont_bgw"></td>
+				</tr>
+				<tr id="tr_OT" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_ot*</td>
+					<td id="result_typeOT" class="acc_cont_bgw"></td>
+				</tr>
+				<tr class="acc_cont_two_tr" id = "tr_RESULT_F">
+					<td class="acc_cont_namew">*ART_result_ft_f*</td>
+					<td class="acc_cont_bgw" id = "RESULT_F"></td>
+				</tr>
+				<tr class="acc_cont_two_tr" id = "tr_RESULT_L">
+					<td class="acc_cont_namew">*ART_result_ft_l*</td>
+					<td class="acc_cont_bgw" id = "RESULT_L"></td>
+				</tr>
+				<!--Anytime Goalscorer-->
+				<tr class="acc_cont_two_tr" id = "tr_RESULT_A">
+					<td  class="acc_cont_namew">*ART_result_ft_a*</td>
+					<td class="acc_cont_bgw" id = "RESULT_A"></td>
+				</tr>
+				<!--Anytime Goalscorer end-->
+				<tr id="tr_PGF" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_pgf*</td>
+					<td id="result_typePGF" class="acc_cont_bgw"></td>
+				</tr>
+				<tr id="tr_PGL" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_pgl*</td>
+					<td id="result_typePGL" class="acc_cont_bgw"></td>
+				</tr>
+				<tr id="tr_CNF" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_cnf*</td>
+					<td id="result_typeCNF" class="acc_cont_bgw"></td>
+				</tr>
+				<tr id="tr_CNL" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_cnl*</td>
+					<td id="result_typeCNL" class="acc_cont_bgw"></td>
+				</tr>
+				<tr id="tr_CDF" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_cdf*</td>
+					<td id="result_typeCDF" class="acc_cont_bgw"></td>
+				</tr>
+				<tr id="tr_CDL" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_cdl*</td>
+					<td id="result_typeCDL" class="acc_cont_bgw"></td>
+				</tr>
+				<tr id="tr_RCF" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_rcf*</td>
+					<td id="result_typeRCF" class="acc_cont_bgw"></td>
+				</tr>
+				<tr id="tr_RCL" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_rcl*</td>
+					<td id="result_typeRCL" class="acc_cont_bgw"></td>
+				</tr>
+				<tr id="tr_GAF" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_gaf*</td>
+					<td id="result_typeGAF" class="acc_cont_bgw"></td>
+				</tr>
+				<tr id="tr_GAL" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_gal*</td>
+					<td id="result_typeGAL" class="acc_cont_bgw"></td>
+				</tr>
+				<tr id="tr_YCF" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_ycf*</td>
+					<td id="result_typeYCF" class="acc_cont_bgw"></td>
+				</tr>
+				<tr id="tr_YCL" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_ycl*</td>
+					<td id="result_typeYCL" class="acc_cont_bgw"></td>
+				</tr>
+				<tr id="tr_OSF"class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_osf*</td>
+					<td id="result_typeOSF" class="acc_cont_bgw"></td>
+				</tr>
+				<tr id="tr_OSL" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_osl*</td>
+					<td id="result_typeOSL" class="acc_cont_bgw"></td>
+				</tr>
+				<tr id="tr_STF" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_stf*</td>
+					<td id="result_typeSTF" class="acc_cont_bgw"></td>
+				</tr>
+				<tr id="tr_STL" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_stl*</td>
+					<td id="result_typeSTL" class="acc_cont_bgw"></td>
+				</tr>
+				<tr id="tr_RPS" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_rps*</td>
+					<td id="result_typeRPS" class="acc_cont_bgw"></td>
+				</tr>
+			</table>
+			<table id="tableCorner_*GID*" class="acc_select_table">
+				<tr class="acc_select_tr">
+					<td colspan="2" id="tr_Corner_*GID*" class="acc_all_titlew">*ART_result_ft_rnc*</td>
+				</tr>
+				<tr id="tr_RNC1" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_rnc1*</td>
+					<td class="acc_cont_bgw" id="result_typeRNC1"></td>
+				</tr>
+				<tr id="tr_RNC2" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_rnc2*</td>
+					<td class="acc_cont_bgw" id="result_typeRNC2"></td>
+				</tr>
+				<tr id="tr_RNC3" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_rnc3*</td>
+					<td class="acc_cont_bgw" id="result_typeRNC3"></td>
+				</tr>
+				<tr id="tr_RNC4" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_rnc4*</td>
+					<td class="acc_cont_bgw" id="result_typeRNC4"></td>
+				</tr>
+				<tr id="tr_RNC5" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_rnc5*</td>
+					<td class="acc_cont_bgw" id="result_typeRNC5"></td>
+				</tr>
+				<tr id="tr_RNC6" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_rnc6*</td>
+					<td class="acc_cont_bgw" id="result_typeRNC6"></td>
+				</tr>
+				<tr id="tr_RNC7" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_rnc7*</td>
+					<td class="acc_cont_bgw" id="result_typeRNC7"></td>
+				</tr>
+				<tr id="tr_RNC8" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_rnc8*</td>
+					<td class="acc_cont_bgw" id="result_typeRNC8"></td>
+				</tr>
+				<tr id="tr_RNC9" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_rnc9*</td>
+					<td class="acc_cont_bgw" id="result_typeRNC9"></td>
+				</tr>
+				<tr id="tr_RNCA" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_rnca*</td>
+					<td class="acc_cont_bgw" id="result_typeRNCA"></td>
+				</tr>
+				<tr id="tr_RNCB" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_rncb*</td>
+					<td class="acc_cont_bgw" id="result_typeRNCB"></td>
+				</tr>
+				<tr id="tr_RNCC" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_rncc*</td>
+					<td class="acc_cont_bgw" id="result_typeRNCC"></td>
+				</tr>
+				<tr id="tr_RNCD" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_rncd*</td>
+					<td class="acc_cont_bgw" id="result_typeRNCD"></td>
+				</tr>
+				<tr id="tr_RNCE" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_rnce*</td>
+					<td class="acc_cont_bgw" id="result_typeRNCE"></td>
+				</tr>
+				<tr id="tr_RNCF" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_rncf*</td>
+					<td class="acc_cont_bgw" id="result_typeRNCF"></td>
+				</tr>
+				<tr id="tr_RNCG" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_rncg*</td>
+					<td class="acc_cont_bgw" id="result_typeRNCG"></td>
+				</tr>
+				<tr id="tr_RNCH" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_rnch*</td>
+					<td class="acc_cont_bgw" id="result_typeRNCH"></td>
+				</tr>
+				<tr id="tr_RNCI" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_rnci*</td>
+					<td class="acc_cont_bgw" id="result_typeRNCI"></td>
+				</tr>
+				<tr id="tr_RNCJ" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_rncj*</td>
+					<td class="acc_cont_bgw" id="result_typeRNCJ"></td>
+				</tr>
+				<tr id="tr_RNCK" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_rnck*</td>
+					<td class="acc_cont_bgw" id="result_typeRNCK"></td>
+				</tr>
+				<tr id="tr_RNCL" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_rncl*</td>
+					<td class="acc_cont_bgw" id="result_typeRNCL"></td>
+				</tr>
+				<tr id="tr_RNCM" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_rncm*</td>
+					<td class="acc_cont_bgw" id="result_typeRNCM"></td>
+				</tr>
+				<tr id="tr_RNCN" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_rncn*</td>
+					<td class="acc_cont_bgw" id="result_typeRNCN"></td>
+				</tr>
+				<tr id="tr_RNCO" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_rnco*</td>
+					<td class="acc_cont_bgw" id="result_typeRNCO"></td>
+				</tr>
+				<tr id="tr_RNCP" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_rncp*</td>
+					<td class="acc_cont_bgw" id="result_typeRNCP"></td>
+				</tr>
+				<tr id="tr_RNCQ" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_rncq*</td>
+					<td class="acc_cont_bgw" id="result_typeRNCQ"></td>
+				</tr>
+				<tr id="tr_RNCR" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_rncr*</td>
+					<td class="acc_cont_bgw" id="result_typeRNCR"></td>
+				</tr>
+				<tr id="tr_RNCS" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_rncs*</td>
+					<td class="acc_cont_bgw" id="result_typeRNCS"></td>
+				</tr>
+				<tr id="tr_RNCT" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_rnct*</td>
+					<td class="acc_cont_bgw" id="result_typeRNCT"></td>
+				</tr>
+				<tr id="tr_RNCU" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_rncu*</td>
+					<td class="acc_cont_bgw" id="result_typeRNCU"></td>
+				</tr>
+			</table>
+			<table id="tableBooking_*GID*" class="acc_select_table">
+				<tr class="acc_select_tr">
+					<td colspan="2" id="tr_Booking_*GID*" class="acc_all_titlew">*ART_result_ft_rnb*</td>
+				</tr>
+				<tr id="tr_RNBA" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_rnba*</td>
+					<td class="acc_cont_bgw" id="result_typeRNBA"></td>
+				</tr>
+				<tr id="tr_RNBB" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_rnbb*</td>
+					<td class="acc_cont_bgw" id="result_typeRNBB"></td>
+				</tr>
+				<tr id="tr_RNBC" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_rnbc*</td>
+					<td class="acc_cont_bgw" id="result_typeRNBC"></td>
+				</tr>
+				<tr id="tr_RNBD" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_rnbd*</td>
+					<td class="acc_cont_bgw" id="result_typeRNBD"></td>
+				</tr>
+				<tr id="tr_RNBE" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_rnbe*</td>
+					<td class="acc_cont_bgw" id="result_typeRNBE"></td>
+				</tr>
+				<tr id="tr_RNBF" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_rnbf*</td>
+					<td class="acc_cont_bgw" id="result_typeRNBF"></td>
+				</tr>
+				<tr id="tr_RNBG" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_rnbg*</td>
+					<td class="acc_cont_bgw" id="result_typeRNBG"></td>
+				</tr>
+				<tr id="tr_RNBH" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_rnbh*</td>
+					<td class="acc_cont_bgw" id="result_typeRNBH"></td>
+				</tr>
+				<tr id="tr_RNBI" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_rnbi*</td>
+					<td class="acc_cont_bgw" id="result_typeRNBI"></td>
+				</tr>
+				<tr id="tr_RNBJ" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_rnbj*</td>
+					<td class="acc_cont_bgw" id="result_typeRNBJ"></td>
+				</tr>
+				<tr id="tr_RNBK" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_rnbk*</td>
+					<td class="acc_cont_bgw" id="result_typeRNBK"></td>
+				</tr>
+				<tr id="tr_RNBL" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_rnbl*</td>
+					<td class="acc_cont_bgw" id="result_typeRNBL"></td>
+				</tr>
+				<tr id="tr_RNBM" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_rnbm*</td>
+					<td class="acc_cont_bgw" id="result_typeRNBM"></td>
+				</tr>
+				<tr id="tr_RNBN" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_rnbn*</td>
+					<td class="acc_cont_bgw" id="result_typeRNBN"></td>
+				</tr>
+				<tr id="tr_RNBO" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_rnbo*</td>
+					<td class="acc_cont_bgw" id="result_typeRNBO"></td>
+				</tr>
+			</table>
+			<table id="tablePenalty_*GID*" class="acc_select_table">
+				<tr class="acc_select_tr">
+					<td colspan="3"  id="tr_Penalty_*GID*" class="acc_all_titlew">*ART_result_ft_rsh*</td>
+				</tr>
+				<tr id="tr_RSHA" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_rpxa*</td>
+					<td class="acc_cont_bgw acc_cont_bgw2" id="result_typeRSHA"></td>
+					<td class="acc_cont_bgw acc_cont_bgw2" id="result_typeRSCA"></td>
+				</tr>
+				<tr id="tr_RSHB" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_rpxb*</td>
+					<td class="acc_cont_bgw acc_cont_bgw2" id="result_typeRSHB"></td>
+					<td class="acc_cont_bgw acc_cont_bgw2" id="result_typeRSCB"></td>
+				</tr>
+				<tr id="tr_RSHC" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_rpxc*</td>
+					<td class="acc_cont_bgw acc_cont_bgw2" id="result_typeRSHC"></td>
+					<td class="acc_cont_bgw acc_cont_bgw2" id="result_typeRSCC"></td>
+				</tr>
+				<tr id="tr_RSHD" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_rpxd*</td>
+					<td class="acc_cont_bgw acc_cont_bgw2" id="result_typeRSHD"></td>
+					<td class="acc_cont_bgw acc_cont_bgw2" id="result_typeRSCD"></td>
+				</tr>
+				<tr id="tr_RSHE" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_rpxe*</td>
+					<td class="acc_cont_bgw acc_cont_bgw2" id="result_typeRSHE"></td>
+					<td class="acc_cont_bgw acc_cont_bgw2" id="result_typeRSCE"></td>
+				</tr>
+				<tr id="tr_RSHF" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_rpxf*</td>
+					<td class="acc_cont_bgw acc_cont_bgw2" id="result_typeRSHF"></td>
+					<td class="acc_cont_bgw acc_cont_bgw2" id="result_typeRSCF"></td>
+				</tr>
+				<tr id="tr_RSHG" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_rpxg*</td>
+					<td class="acc_cont_bgw acc_cont_bgw2" id="result_typeRSHG"></td>
+					<td class="acc_cont_bgw acc_cont_bgw2" id="result_typeRSCG"></td>
+				</tr>
+				<tr id="tr_RSHH" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_rpxh*</td>
+					<td class="acc_cont_bgw acc_cont_bgw2" id="result_typeRSHH"></td>
+					<td class="acc_cont_bgw acc_cont_bgw2" id="result_typeRSCH"></td>
+				</tr>
+				<tr id="tr_RSHI" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_rpxi*</td>
+					<td class="acc_cont_bgw acc_cont_bgw2" id="result_typeRSHI"></td>
+					<td class="acc_cont_bgw acc_cont_bgw2" id="result_typeRSCI"></td>
+				</tr>
+				<tr id="tr_RSHJ" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_rpxj*</td>
+					<td class="acc_cont_bgw acc_cont_bgw2" id="result_typeRSHJ"></td>
+					<td class="acc_cont_bgw acc_cont_bgw2" id="result_typeRSCJ"></td>
+				</tr>
+				<tr id="tr_RSHK" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_rpxk*</td>
+					<td class="acc_cont_bgw acc_cont_bgw2" id="result_typeRSHK"></td>
+					<td class="acc_cont_bgw acc_cont_bgw2" id="result_typeRSCK"></td>
+				</tr>
+				<tr id="tr_RSHL" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_rpxl*</td>
+					<td class="acc_cont_bgw acc_cont_bgw2" id="result_typeRSHL"></td>
+					<td class="acc_cont_bgw acc_cont_bgw2" id="result_typeRSCL"></td>
+				</tr>
+				<tr id="tr_RSHM" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_rpxm*</td>
+					<td class="acc_cont_bgw acc_cont_bgw2" id="result_typeRSHM"></td>
+					<td class="acc_cont_bgw acc_cont_bgw2" id="result_typeRSCM"></td>
+				</tr>
+				<tr id="tr_RSHN" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_rpxn*</td>
+					<td class="acc_cont_bgw acc_cont_bgw2" id="result_typeRSHN"></td>
+					<td class="acc_cont_bgw acc_cont_bgw2" id="result_typeRSCN"></td>
+				</tr>
+				<tr id="tr_RSHO" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_rpxo*</td>
+					<td class="acc_cont_bgw acc_cont_bgw2" id="result_typeRSHO"></td>
+					<td class="acc_cont_bgw acc_cont_bgw2" id="result_typeRSCO"></td>
+				</tr>
+				<tr id="tr_RPF" class="acc_cont_two_tr">
+					<td class="acc_cont_namew">*ART_result_ft_rpf*</td>
+					<td colspan="2" class="acc_cont_bgw acc_cont_bgw2" id="result_typeRPF"></td>
+				</tr>
+			</table>
+		</div>
+
+		<!-- BK 所有賽果 模組-->
+		<div id="BK_data_model" class="result_more_form" style="display: none">
+			<table class="acc_select_table on">
+				<tr class="acc_select_title on">
+					<td colspan="3">
+						<div class="acc_select_left">*LNAME*</div>
+						<div class="acc_select_right"></div>
+					</td>
+				</tr>
+				<tr class="on">
+					<td colspan="3" class="acc_select_text">
+						<div class="acc_select_team">*TNAME_PNAME_H*  v  *TNAME_PNAME_C*</div>
+						<span class="acc_select_text_number">*DATE* *TIME*</span>
+					</td>
+				</tr>
+				<tr class="acc_select_tr on">
+					<td class="acc_all_titlew"></td>
+					<td class="acc_all_pointw">*TNAME_PNAME_H*</td>
+					<td class="acc_all_pointw">*TNAME_PNAME_C*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_3_STYLE*" id="TR_1_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_bk_q1*</td>
+					<td>*RESULT_H3*</td>
+					<td>*RESULT_C3*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_4_STYLE*" id="TR_2_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_bk_q2*</td>
+					<td>*RESULT_H4*</td>
+					<td>*RESULT_C4*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_5_STYLE*" id="TR_3_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_bk_q3*</td>
+					<td>*RESULT_H5*</td>
+					<td>*RESULT_C5*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_6_STYLE*" id="TR_4_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_bk_q4*</td>
+					<td>*RESULT_H6*</td>
+					<td>*RESULT_C6*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_W_STYLE*" id="TR_5_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_bk_h1*</td>
+					<td>*RESULT_HW*</td>
+					<td>*RESULT_CW*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_S_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_bk_h2*</td>
+					<td>*RESULT_HS*</td>
+					<td>*RESULT_CS*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_O_STYLE*" id="TR_7_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_bk_ot*</td>
+					<td>*RESULT_HO*</td>
+					<td>*RESULT_CO*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_STYLE*" id="TR_8_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_bk_ft*</td>
+					<td class="*RESULT_FULLH_COLOR*">*RESULT_H*</td>
+					<td class="*RESULT_FULLC_COLOR*">*RESULT_C*</td>
+				</tr>
+			</table>
+		</div>
+
+		<!-- ES 所有賽果 模組-->
+		<div id="ES_data_model" class="result_more_form" style="display: none">
+			<table class="acc_select_table_top on">
+				<tr class="acc_select_title on">
+					<td colspan="4">
+						<div class="acc_select_left" id="leagues_name">*LNAME*</div>
+						<div class="acc_select_right"></div>
+					</td>
+				</tr>
+
+				<tr class="on">
+					<td colspan="4" class="acc_select_text" >
+						<div class="acc_select_team">
+							<span id="tean_name_H">*TNAME_PNAME_H*</span>  v  <span id="tean_name_C">*TNAME_PNAME_C*</span>
+						</div>
+						<span class="acc_select_text_number" id="game_time">*DATE* *TIME*</span>
+					</td>
+				</tr>
+			</table>
+
+			<table id="tableMinute" class="acc_select_table on">
+				<tr class="acc_select_tr" id="tr_Minute"><!-- 玩法 -->
+					<td class="acc_all_titlewFT">*ART_result_es_play*</td>
+					<td></td>
+					<td id="tname_H">*TNAME_PNAME_H*</td>
+					<td id="tname_C">*TNAME_PNAME_C*</td>
+				</tr>
+
+				<tr id="tr_TARU" class="acc_cont_tr *DIS_FT*"><!-- 全場 -->
+					<td class="acc_cont_name">*ART_result_es_taru*</td>
+					<td id="result_TARU"></td>
+					<td id="score_h_TARU">*RESULT_FTH*</td>
+					<td id="score_c_TARU">*RESULT_FTC*</td>
+				</tr>
+
+				<tr id="tr_TBRU" class="acc_cont_tr *DIS_DUR*"> <!-- 持續時間 -->
+					<td class="acc_cont_name">*ART_result_es_tbru*</td>
+					<td id="result_TBRU"></td>
+					<td id="score_h_TBRU" colspan="2">*RESULT_DUR*</td>
+				</tr>
+
+				<tr id="tr_TCRU" class="acc_cont_tr *DIS_Kills*"> <!-- 擊殺數 -->
+					<td class="acc_cont_name">*ART_result_es_tcru*</td>
+					<td id="result_TCRU"></td>
+					<td id="score_h_TCRU">*RESULT_KillsH*</td>
+					<td id="score_c_TCRU">*RESULT_KillsC*</td>
+				</tr>
+
+				<tr id="tr_TDRU" class="acc_cont_tr *DIS_HK*"> <!-- 主隊擊殺數 -->
+					<td class="acc_cont_name">*ART_result_es_tdru*</td>
+					<td id="result_TDRU"></td>
+					<td id="score_h_TDRU">*RESULT_HKH*</td>
+					<td id="score_c_TDRU">*RESULT_HKC*</td>
+				</tr>
+
+				<tr id="tr_TERU" class="acc_cont_tr *DIS_AK*"> <!-- 客隊擊殺數 -->
+					<td class="acc_cont_name">*ART_result_es_teru*</td>
+					<td id="result_TERU"></td>
+					<td id="score_h_TERU">*RESULT_AKH*</td>
+					<td id="score_c_TERU">*RESULT_AKC*</td>
+				</tr>
+
+				<tr id="tr_TFRU" class="acc_cont_tr *DIS_Towers*"> <!-- 防禦塔 -->
+					<td class="acc_cont_name">*ART_result_es_tfru*</td>
+					<td id="result_TFRU"></td>
+					<td id="score_h_TFRU">*RESULT_TowersH*</td>
+					<td id="score_c_TFRU">*RESULT_TowersC*</td>
+				</tr>
+
+				<tr id="tr_TGRU" class="acc_cont_tr *DIS_HTT*"> <!-- 主隊防禦塔 -->
+					<td class="acc_cont_name">*ART_result_es_tgru*</td>
+					<td id="result_TGRU"></td>
+					<td id="score_h_TGRU">*RESULT_HTTH*</td>
+					<td id="score_c_TGRU">*RESULT_HTTC*</td>
+				</tr>
+
+				<tr id="tr_THRU" class="acc_cont_tr *DIS_ATT*"> <!-- 客隊防禦塔 -->
+					<td class="acc_cont_name">*ART_result_es_thru*</td>
+					<td id="result_THRU"></td>
+					<td id="score_h_THRU">*RESULT_ATTH*</td>
+					<td id="score_c_THRU">*RESULT_ATTC*</td>
+				</tr>
+
+				<tr id="tr_TIRU" class="acc_cont_tr *DIS_Dragons*"> <!-- 元素巨龍 -->
+					<td class="acc_cont_name">*ART_result_es_tiru*</td>
+					<td id="result_TIRU"></td>
+					<td id="score_h_TIRU">*RESULT_DragonsH*</td>
+					<td id="score_c_TIRU">*RESULT_DragonsC*</td>
+				</tr>
+
+				<tr id="tr_TJRU" class="acc_cont_tr *DIS_Barons*"> <!-- 納什男爵 -->
+					<td class="acc_cont_name">*ART_result_es_tjru*</td>
+					<td id="result_TJRU"></td>
+					<td id="score_h_TJRU">*RESULT_BaronsH*</td>
+					<td id="score_c_TJRU">*RESULT_BaronsC*</td>
+				</tr>
+
+				<tr id="tr_TKRU" class="acc_cont_tr *DIS_Inhibitors*"> <!-- 水晶兵營 -->
+					<td class="acc_cont_name">*ART_result_es_tkru*</td>
+					<td id="result_TKRU"></td>
+					<td id="score_h_TKRU">*RESULT_InhibitorsH*</td>
+					<td id="score_c_TKRU">*RESULT_InhibitorsC*</td>
+				</tr>
+
+				<tr id="tr_TLRU" class="acc_cont_tr *DIS_Roshans*"> <!-- 肉山 -->
+					<td class="acc_cont_name">*ART_result_es_tlru*</td>
+					<td id="result_TLRU"></td>
+					<td id="score_h_TLRU">*RESULT_RoshansH*</td>
+					<td id="score_c_TLRU">*RESULT_RoshansC*</td>
+				</tr>
+
+				<tr id="tr_TMRU" class="acc_cont_tr *DIS_Barracks*"> <!-- 兵營 -->
+					<td class="acc_cont_name">*ART_result_es_tmru*</td>
+					<td id="result_TMRU"></td>
+					<td id="score_h_TMRU">*RESULT_BarracksH*</td>
+					<td id="score_c_TMRU">*RESULT_BarracksC*</td>
+				</tr>
+
+				<tr id="tr_TNRU" class="acc_cont_tr *DIS_HTR*"> <!-- 主場回合 -->
+					<td class="acc_cont_name">*ART_result_es_tnru*</td>
+					<td id="result_TNRU"></td>
+					<td id="score_h_TNRU">*RESULT_HTRH*</td>
+					<td id="score_c_TNRU">*RESULT_HTRC*</td>
+				</tr>
+
+				<tr id="tr_TORU" class="acc_cont_tr *DIS_ATR*"> <!-- 客場回合 -->
+					<td class="acc_cont_name">*ART_result_es_toru*</td>
+					<td id="result_TORU"></td>
+					<td id="score_h_TORU">*RESULT_ATRH*</td>
+					<td id="score_c_TORU">*RESULT_ATRC*</td>
+				</tr>
+			</table>
+		</div>
+
+		<!-- TT 所有賽果 模組-->
+		<div id="TT_data_model" class="result_more_form" style="display: none">
+			<!-- <table class="acc_select_table_top on" >
+				<tr class="acc_select_title on">
+					<td colspan="3">
+						<div class="acc_select_left">*LNAME*</div>
+						<div class="acc_select_right"></div>
+					</td>
+				</tr>
+				<tr class="on">
+					<td colspan="3" class="acc_select_text"><div class="acc_select_team">*TNAME_PNAME_H*  v  *TNAME_PNAME_C*</div><span class="acc_select_text_number">*DATE* *TIME*</span></td>
+				</tr>
+				<tr class="acc_select_tr">
+					<td colspan="3" class="new_mod_btn">
+						<span id="game_main" class="on">*ART_result_tn_main*</span>
+						<span id="game_one">*ART_result_tn_s1*</span>
+						<span id="game_two">*ART_result_tn_s2*</span>
+						<span id="game_three">*ART_result_tn_s3*</span>
+						<span id="game_four">*ART_result_tn_s4*</span>
+						<span id="game_five">*ART_result_tn_s5*</span>
+					</td>
+				</tr>
+			</table> -->
+
+			<!-- 總賽果 -->
+			<table id="TT_mainResult" class="acc_select_table on" >
+				<tr class="acc_select_tr">
+					<td class="acc_all_titlew"></td>
+					<td class="acc_all_pointw">*TNAME_PNAME_H*</td>
+					<td class="acc_all_pointw">*TNAME_PNAME_C*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_1_STYLE*">
+					<td class="acc_cont_name">*ART_result_tt_g1*</td>
+					<td>*RESULT_TTH1*</td>
+					<td>*RESULT_TTC1*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_2_STYLE*">
+					<td class="acc_cont_name">*ART_result_tt_g2*</td>
+					<td>*RESULT_TTH2*</td>
+					<td>*RESULT_TTC2*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_3_STYLE*">
+					<td class="acc_cont_name">*ART_result_tt_g3*</td>
+					<td>*RESULT_TTH3*</td>
+					<td>*RESULT_TTC3*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_4_STYLE*">
+					<td class="acc_cont_name">*ART_result_tt_g4*</td>
+					<td>*RESULT_TTH4*</td>
+					<td>*RESULT_TTC4*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_5_STYLE*">
+					<td class="acc_cont_name">*ART_result_tt_g5*</td>
+					<td>*RESULT_TTH5*</td>
+					<td>*RESULT_TTC5*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_6_STYLE*">
+					<td class="acc_cont_name">*ART_result_tt_g6*</td>
+					<td>*RESULT_TTH6*</td>
+					<td>*RESULT_TTC6*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_7_STYLE*">
+					<td class="acc_cont_name">*ART_result_tt_g7*</td>
+					<td>*RESULT_TTH7*</td>
+					<td>*RESULT_TTC7*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_8_STYLE*">
+					<td class="acc_cont_name">*ART_result_tt_r*</td>
+					<td>*RESULT_TTH8*</td>
+					<td>*RESULT_TTC8*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_9_STYLE*">
+					<td class="acc_cont_name">*ART_result_tt_ou*</td>
+					<td>*RESULT_TTH9*</td>
+					<td>*RESULT_TTC9*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_STYLE*" >
+					<td class="acc_cont_name">*ART_result_tt_finish*</td>
+					<td class="*RESULT_FULLH_COLOR*">*RESULT_H*</td>
+					<td class="*RESULT_FULLC_COLOR*">*RESULT_C*</td>
+				</tr>
+			</table>
+		</div>
+
+		<!-- TN 所有賽果 模組-->
+		<div id="TN_data_model" class="result_more_form" style="display: none">
+			<table class="acc_select_table_top on" >
+				<tr class="acc_select_title on">
+					<td colspan="3">
+						<div class="acc_select_left">*LNAME*</div>
+						<div class="acc_select_right"></div>
+					</td>
+				</tr>
+				<tr class="on">
+					<td colspan="3" class="acc_select_text"><div class="acc_select_team">*TNAME_PNAME_H*  v  *TNAME_PNAME_C*</div><span class="acc_select_text_number">*DATE* *TIME*</span></td>
+				</tr>
+				<tr class="acc_select_tr">
+					<td colspan="3" class="new_mod_btn">
+						<span id="game_main" class="on">*ART_result_tn_main*</span>
+						<span id="game_one">*ART_result_tn_s1*</span>
+						<span id="game_two">*ART_result_tn_s2*</span>
+						<span id="game_three">*ART_result_tn_s3*</span>
+						<span id="game_four">*ART_result_tn_s4*</span>
+						<span id="game_five">*ART_result_tn_s5*</span>
+					</td>
+				</tr>
+			</table>
+
+			<!-- 總賽果 -->
+			<table id="TN_mainResult" class="acc_select_table on" >
+				<tr class="acc_select_tr">
+					<td class="acc_all_titlew"></td>
+					<td class="acc_all_pointw">*TNAME_PNAME_H*</td>
+					<td class="acc_all_pointw">*TNAME_PNAME_C*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_1_STYLE*">
+					<td class="acc_cont_name">*ART_result_tn_s1*</td>
+					<td>*RESULT_TNH1*</td>
+					<td>*RESULT_TNC1*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_2_STYLE*">
+					<td class="acc_cont_name">*ART_result_tn_s2*</td>
+					<td>*RESULT_TNH2*</td>
+					<td>*RESULT_TNC2*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_3_STYLE*">
+					<td class="acc_cont_name">*ART_result_tn_s3*</td>
+					<td>*RESULT_TNH3*</td>
+					<td>*RESULT_TNC3*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_4_STYLE*">
+					<td class="acc_cont_name">*ART_result_tn_s4*</td>
+					<td>*RESULT_TNH4*</td>
+					<td>*RESULT_TNC4*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_5_STYLE*">
+					<td class="acc_cont_name">*ART_result_tn_s5*</td>
+					<td>*RESULT_TNH5*</td>
+					<td>*RESULT_TNC5*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_6_STYLE*">
+					<td class="acc_cont_name">*ART_result_tn_r*</td>
+					<td>*RESULT_TNH6*</td>
+					<td>*RESULT_TNC6*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_9_STYLE*">
+					<td class="acc_cont_name">*ART_result_tn_ou*</td>
+					<td>*RESULT_TNH9*</td>
+					<td>*RESULT_TNC9*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_STYLE*" >
+					<td class="acc_cont_name">*ART_result_tn_finish*</td>
+					<td class="*RESULT_FULLH_COLOR*">*RESULT_H*</td>
+					<td class="*RESULT_FULLC_COLOR*">*RESULT_C*</td>
+				</tr>
+			</table>
+
+			<!-- 第一盤 -->
+			<table id="game1" class="acc_select_table">
+				<tr class="acc_cont_tr *RESULT_RFA01_STYLE*" id="TR_20_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g1*</td>
+					<td class="Word_Paddright40">*RESULT_RFA01*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFA02_STYLE*" id="TR_3_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g2*</td>
+					<td class="Word_Paddright40">*RESULT_RFA02*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFA03_STYLE*" id="TR_4_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g3*</td>
+					<td class="Word_Paddright40">*RESULT_RFA03*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFA04_STYLE*" id="TR_5_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g4*</td>
+					<td class="Word_Paddright40">*RESULT_RFA04*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFA05_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g5*</td>
+					<td class="Word_Paddright40">*RESULT_RFA05*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFA06_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g6*</td>
+					<td class="Word_Paddright40">*RESULT_RFA06*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFA07_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g7*</td>
+					<td class="Word_Paddright40">*RESULT_RFA07*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFA08_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g8*</td>
+					<td class="Word_Paddright40">*RESULT_RFA08*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFA09_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g9*</td>
+					<td class="Word_Paddright40">*RESULT_RFA09*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFA10_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g10*</td>
+					<td class="Word_Paddright40">*RESULT_RFA10*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFA11_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g11*</td>
+					<td class="Word_Paddright40">*RESULT_RFA11*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFA12_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g12*</td>
+					<td class="Word_Paddright40">*RESULT_RFA12*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFA13_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g13*</td>
+					<td class="Word_Paddright40">*RESULT_RFA13*</td>
+				</tr>
+			</table>
+
+			<!-- 第二盤 -->
+			<table id="game2" class="acc_select_table">
+				<tr class="acc_cont_tr *RESULT_RFB01_STYLE*" id="TR_2_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g1*</td>
+					<td class="Word_Paddright40">*RESULT_RFB01*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFB02_STYLE*" id="TR_3_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g2*</td>
+					<td class="Word_Paddright40">*RESULT_RFB02*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFB03_STYLE*" id="TR_4_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g3*</td>
+					<td class="Word_Paddright40">*RESULT_RFB03*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFB04_STYLE*" id="TR_5_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g4*</td>
+					<td class="Word_Paddright40">*RESULT_RFB04*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFB05_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g5*</td>
+					<td class="Word_Paddright40">*RESULT_RFB05*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFB06_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g6*</td>
+					<td class="Word_Paddright40">*RESULT_RFB06*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFB07_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g7*</td>
+					<td class="Word_Paddright40">*RESULT_RFB07*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFB08_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g8*</td>
+					<td class="Word_Paddright40">*RESULT_RFB08*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFB09_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g9*</td>
+					<td class="Word_Paddright40">*RESULT_RFB09*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFB10_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g10*</td>
+					<td class="Word_Paddright40">*RESULT_RFB10*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFB11_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g11*</td>
+					<td class="Word_Paddright40">*RESULT_RFB11*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFB12_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g12*</td>
+					<td class="Word_Paddright40">*RESULT_RFB12*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFB13_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g13*</td>
+					<td class="Word_Paddright40">*RESULT_RFB13*</td>
+				</tr>
+			</table>
+
+			<!-- 第三盤 -->
+			<table id="game3" class="acc_select_table">
+				<tr class="acc_cont_tr *RESULT_RFC01_STYLE*" id="TR_2_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g1*</td>
+					<td class="Word_Paddright40">*RESULT_RFC01*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFC02_STYLE*" id="TR_3_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g2*</td>
+					<td class="Word_Paddright40">*RESULT_RFC02*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFC03_STYLE*" id="TR_4_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g3*</td>
+					<td class="Word_Paddright40">*RESULT_RFC03*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFC04_STYLE*" id="TR_5_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g4*</td>
+					<td class="Word_Paddright40">*RESULT_RFC04*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFC05_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g5*</td>
+					<td class="Word_Paddright40">*RESULT_RFC05*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFC06_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g6*</td>
+					<td class="Word_Paddright40">*RESULT_RFC06*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFC07_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g7*</td>
+					<td class="Word_Paddright40">*RESULT_RFC07*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFC08_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g8*</td>
+					<td class="Word_Paddright40">*RESULT_RFC08*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFC09_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g9*</td>
+					<td class="Word_Paddright40">*RESULT_RFC09*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFC10_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g10*</td>
+					<td class="Word_Paddright40">*RESULT_RFC10*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFC11_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g11*</td>
+					<td class="Word_Paddright40">*RESULT_RFC11*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFC12_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g12*</td>
+					<td class="Word_Paddright40">*RESULT_RFC12*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFC13_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g13*</td>
+					<td class="Word_Paddright40">*RESULT_RFC13*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFC14_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g14*</td>
+					<td class="Word_Paddright40">*RESULT_RFC14*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFC15_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g15*</td>
+					<td class="Word_Paddright40">*RESULT_RFC15*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFC16_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g16*</td>
+					<td class="Word_Paddright40">*RESULT_RFC16*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFC17_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g17*</td>
+					<td class="Word_Paddright40">*RESULT_RFC17*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFC18_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g18*</td>
+					<td class="Word_Paddright40">*RESULT_RFC18*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFC19_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g19*</td>
+					<td class="Word_Paddright40">*RESULT_RFC19*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFC20_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g20*</td>
+					<td class="Word_Paddright40">*RESULT_RFC20*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFC21_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g21*</td>
+					<td class="Word_Paddright40">*RESULT_RFC21*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFC22_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g22*</td>
+					<td class="Word_Paddright40">*RESULT_RFC22*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFC23_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g23*</td>
+					<td class="Word_Paddright40">*RESULT_RFC23*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFC24_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g24*</td>
+					<td class="Word_Paddright40">*RESULT_RFC24*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFC25_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g25*</td>
+					<td class="Word_Paddright40">*RESULT_RFC25*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFC26_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g26*</td>
+					<td class="Word_Paddright40">*RESULT_RFC26*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFC27_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g27*</td>
+					<td class="Word_Paddright40">*RESULT_RFC27*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFC28_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g28*</td>
+					<td class="Word_Paddright40">*RESULT_RFC28*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFC29_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g29*</td>
+					<td class="Word_Paddright40">*RESULT_RFC29*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFC30_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g30*</td>
+					<td class="Word_Paddright40">*RESULT_RFC30*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFC31_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g31*</td>
+					<td class="Word_Paddright40">*RESULT_RFC31*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFC32_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g32*</td>
+					<td class="Word_Paddright40">*RESULT_RFC32*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFC33_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g33*</td>
+					<td class="Word_Paddright40">*RESULT_RFC33*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFC34_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g34*</td>
+					<td class="Word_Paddright40">*RESULT_RFC34*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFC35_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g35*</td>
+					<td class="Word_Paddright40">*RESULT_RFC35*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFC36_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g36*</td>
+					<td class="Word_Paddright40">*RESULT_RFC36*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFC37_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g37*</td>
+					<td class="Word_Paddright40">*RESULT_RFC37*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFC38_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g38*</td>
+					<td class="Word_Paddright40">*RESULT_RFC38*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFC39_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g39*</td>
+					<td class="Word_Paddright40">*RESULT_RFC39*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFC40_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g40*</td>
+					<td class="Word_Paddright40">*RESULT_RFC40*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFC41_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g41*</td>
+					<td class="Word_Paddright40">*RESULT_RFC41*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFC42_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g42*</td>
+					<td class="Word_Paddright40">*RESULT_RFC42*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFC43_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g43*</td>
+					<td class="Word_Paddright40">*RESULT_RFC43*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFC44_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g44*</td>
+					<td class="Word_Paddright40">*RESULT_RFC44*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFC45_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g45*</td>
+					<td class="Word_Paddright40">*RESULT_RFC45*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFC46_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g46*</td>
+					<td class="Word_Paddright40">*RESULT_RFC46*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFC47_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g47*</td>
+					<td class="Word_Paddright40">*RESULT_RFC47*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFC48_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g48*</td>
+					<td class="Word_Paddright40">*RESULT_RFC48*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFC49_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g49*</td>
+					<td class="Word_Paddright40">*RESULT_RFC49*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFC50_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g50*</td>
+					<td class="Word_Paddright40">*RESULT_RFC50*</td>
+				</tr>
+			</table>
+
+			<!-- 第四盤 -->
+			<table id="game4" class="acc_select_table ">
+				<tr class="acc_cont_tr *RESULT_RFD01_STYLE*" id="TR_2_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g1*</td>
+					<td class="Word_Paddright40">*RESULT_RFD01*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFD02_STYLE*" id="TR_3_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g2*</td>
+					<td class="Word_Paddright40">*RESULT_RFD02*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFD03_STYLE*" id="TR_4_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g3*</td>
+					<td class="Word_Paddright40">*RESULT_RFD03*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFD04_STYLE*" id="TR_5_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g4*</td>
+					<td class="Word_Paddright40">*RESULT_RFD04*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFD05_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g5*</td>
+					<td class="Word_Paddright40">*RESULT_RFD05*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFD06_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g6*</td>
+					<td class="Word_Paddright40">*RESULT_RFD06*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFD07_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g7*</td>
+					<td class="Word_Paddright40">*RESULT_RFD07*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFD08_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g8*</td>
+					<td class="Word_Paddright40">*RESULT_RFD08*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFD09_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g9*</td>
+					<td class="Word_Paddright40">*RESULT_RFD09*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFD10_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g10*</td>
+					<td class="Word_Paddright40">*RESULT_RFD10*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFD11_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g11*</td>
+					<td class="Word_Paddright40">*RESULT_RFD11*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFD12_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g12*</td>
+					<td class="Word_Paddright40">*RESULT_RFD12*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFD13_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g13*</td>
+					<td class="Word_Paddright40">*RESULT_RFD13*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFD14_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g14*</td>
+					<td class="Word_Paddright40">*RESULT_RFD14*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFD15_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g15*</td>
+					<td class="Word_Paddright40">*RESULT_RFD15*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFD16_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g16*</td>
+					<td class="Word_Paddright40">*RESULT_RFD16*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFD17_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g17*</td>
+					<td class="Word_Paddright40">*RESULT_RFD17*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFD18_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g18*</td>
+					<td class="Word_Paddright40">*RESULT_RFD18*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFD19_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g19*</td>
+					<td class="Word_Paddright40">*RESULT_RFD19*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFD20_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g20*</td>
+					<td class="Word_Paddright40">*RESULT_RFD20*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFD21_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g21*</td>
+					<td class="Word_Paddright40">*RESULT_RFD21*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFD22_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g22*</td>
+					<td class="Word_Paddright40">*RESULT_RFD22*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFD23_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g23*</td>
+					<td class="Word_Paddright40">*RESULT_RFD23*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFD24_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g24*</td>
+					<td class="Word_Paddright40">*RESULT_RFD24*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFD25_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g25*</td>
+					<td class="Word_Paddright40">*RESULT_RFD25*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFD26_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g26*</td>
+					<td class="Word_Paddright40">*RESULT_RFD26*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFD27_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g27*</td>
+					<td class="Word_Paddright40">*RESULT_RFD27*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFD28_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g28*</td>
+					<td class="Word_Paddright40">*RESULT_RFD28*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFD29_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g29*</td>
+					<td class="Word_Paddright40">*RESULT_RFD29*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFD30_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g30*</td>
+					<td class="Word_Paddright40">*RESULT_RFD30*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFD31_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g31*</td>
+					<td class="Word_Paddright40">*RESULT_RFD31*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFD32_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g32*</td>
+					<td class="Word_Paddright40">*RESULT_RFD32*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFD33_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g33*</td>
+					<td class="Word_Paddright40">*RESULT_RFD33*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFD34_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g34*</td>
+					<td class="Word_Paddright40">*RESULT_RFD34*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFD35_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g35*</td>
+					<td class="Word_Paddright40">*RESULT_RFD35*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFD36_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g36*</td>
+					<td class="Word_Paddright40">*RESULT_RFD36*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFD37_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g37*</td>
+					<td class="Word_Paddright40">*RESULT_RFD37*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFD38_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g38*</td>
+					<td class="Word_Paddright40">*RESULT_RFD38*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFD39_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g39*</td>
+					<td class="Word_Paddright40">*RESULT_RFD39*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFD40_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g40*</td>
+					<td class="Word_Paddright40">*RESULT_RFD40*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFD41_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g41*</td>
+					<td class="Word_Paddright40">*RESULT_RFD41*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFD42_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g42*</td>
+					<td class="Word_Paddright40">*RESULT_RFD42*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFD43_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g43*</td>
+					<td class="Word_Paddright40">*RESULT_RFD43*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFD44_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g44*</td>
+					<td class="Word_Paddright40">*RESULT_RFD44*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFD45_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g45*</td>
+					<td class="Word_Paddright40">*RESULT_RFD45*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFD46_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g46*</td>
+					<td class="Word_Paddright40">*RESULT_RFD46*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFD47_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g47*</td>
+					<td class="Word_Paddright40">*RESULT_RFD47*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFD48_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g48*</td>
+					<td class="Word_Paddright40">*RESULT_RFD48*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFD49_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g49*</td>
+					<td class="Word_Paddright40">*RESULT_RFD49*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFD50_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g50*</td>
+					<td class="Word_Paddright40">*RESULT_RFD50*</td>
+				</tr>
+			</table>
+
+			<!-- 第五盤 -->
+			<table id="game5" class="acc_select_table">
+				<tr class="acc_cont_tr *RESULT_RFE01_STYLE*" id="TR_2_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g1*</td>
+					<td class="Word_Paddright40">*RESULT_RFE01*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFE02_STYLE*" id="TR_3_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g2*</td>
+					<td class="Word_Paddright40">*RESULT_RFE02*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFE03_STYLE*" id="TR_4_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g3*</td>
+					<td class="Word_Paddright40">*RESULT_RFE03*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFE04_STYLE*" id="TR_5_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g4*</td>
+					<td class="Word_Paddright40">*RESULT_RFE04*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFE05_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g5*</td>
+					<td class="Word_Paddright40">*RESULT_RFE05*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFE06_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g6*</td>
+					<td class="Word_Paddright40">*RESULT_RFE06*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFE07_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g7*</td>
+					<td class="Word_Paddright40">*RESULT_RFE07*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFE08_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g8*</td>
+					<td class="Word_Paddright40">*RESULT_RFE08*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFE09_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g9*</td>
+					<td class="Word_Paddright40">*RESULT_RFE09*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFE10_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g10*</td>
+					<td class="Word_Paddright40">*RESULT_RFE10*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFE11_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g11*</td>
+					<td class="Word_Paddright40">*RESULT_RFE11*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFE12_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g12*</td>
+					<td class="Word_Paddright40">*RESULT_RFE12*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFE13_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g13*</td>
+					<td class="Word_Paddright40">*RESULT_RFE13*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFE14_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g14*</td>
+					<td class="Word_Paddright40">*RESULT_RFE14*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFE15_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g15*</td>
+					<td class="Word_Paddright40">*RESULT_RFE15*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFE16_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g16*</td>
+					<td class="Word_Paddright40">*RESULT_RFE16*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFE17_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g17*</td>
+					<td class="Word_Paddright40">*RESULT_RFE17*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFE18_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g18*</td>
+					<td class="Word_Paddright40">*RESULT_RFE18*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFE19_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g19*</td>
+					<td class="Word_Paddright40">*RESULT_RFE19*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFE20_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g20*</td>
+					<td class="Word_Paddright40">*RESULT_RFE20*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFE21_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g21*</td>
+					<td class="Word_Paddright40">*RESULT_RFE21*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFE22_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g22*</td>
+					<td class="Word_Paddright40">*RESULT_RFE22*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFE23_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g23*</td>
+					<td class="Word_Paddright40">*RESULT_RFE23*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFE24_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g24*</td>
+					<td class="Word_Paddright40">*RESULT_RFE24*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFE25_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g25*</td>
+					<td class="Word_Paddright40">*RESULT_RFE25*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFE26_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g26*</td>
+					<td class="Word_Paddright40">*RESULT_RFE26*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFE27_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g27*</td>
+					<td class="Word_Paddright40">*RESULT_RFE27*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFE28_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g28*</td>
+					<td class="Word_Paddright40">*RESULT_RFE28*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFE29_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g29*</td>
+					<td class="Word_Paddright40">*RESULT_RFE29*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFE30_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g30*</td>
+					<td class="Word_Paddright40">*RESULT_RFE30*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFE31_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g31*</td>
+					<td class="Word_Paddright40">*RESULT_RFE31*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFE32_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g32*</td>
+					<td class="Word_Paddright40">*RESULT_RFE32*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFE33_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g33*</td>
+					<td class="Word_Paddright40">*RESULT_RFE33*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFE34_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g34*</td>
+					<td class="Word_Paddright40">*RESULT_RFE34*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFE35_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g35*</td>
+					<td class="Word_Paddright40">*RESULT_RFE35*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFE36_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g36*</td>
+					<td class="Word_Paddright40">*RESULT_RFE36*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFE37_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g37*</td>
+					<td class="Word_Paddright40">*RESULT_RFE37*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFE38_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g38*</td>
+					<td class="Word_Paddright40">*RESULT_RFE38*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFE39_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g39*</td>
+					<td class="Word_Paddright40">*RESULT_RFE39*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFE40_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g40*</td>
+					<td class="Word_Paddright40">*RESULT_RFE40*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFE41_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g41*</td>
+					<td class="Word_Paddright40">*RESULT_RFE41*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFE42_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g42*</td>
+					<td class="Word_Paddright40">*RESULT_RFE42*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFE43_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g43*</td>
+					<td class="Word_Paddright40">*RESULT_RFE43*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFE44_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g44*</td>
+					<td class="Word_Paddright40">*RESULT_RFE44*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFE45_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g45*</td>
+					<td class="Word_Paddright40">*RESULT_RFE45*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFE46_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g46*</td>
+					<td class="Word_Paddright40">*RESULT_RFE46*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFE47_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g47*</td>
+					<td class="Word_Paddright40">*RESULT_RFE47*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFE48_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g48*</td>
+					<td class="Word_Paddright40">*RESULT_RFE48*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFE49_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g49*</td>
+					<td class="Word_Paddright40">*RESULT_RFE49*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_RFE50_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_tn_g50*</td>
+					<td class="Word_Paddright40">*RESULT_RFE50*</td>
+				</tr>
+			</table>
+		</div>
+
+		<!-- VB 所有賽果 模組-->
+		<div id="VB_data_model" class="result_more_form" style="display: none">
+			<table id="VB_mainResult" class="acc_select_table on" >
+				<tr class="acc_select_tr">
+					<td class="acc_all_titlew"></td>
+					<td class="acc_all_pointw">*TNAME_PNAME_H*</td>
+					<td class="acc_all_pointw">*TNAME_PNAME_C*</td>
+				</tr>
+
+				<!-- 第一局 -->
+				<tr class="acc_cont_tr *RESULT_1_STYLE*" id="TR_2_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_vb_s1*</td>
+					<td>*RESULT_VBH1*</td>
+					<td>*RESULT_VBC1*</td>
+				</tr>
+				<!-- 第二局 -->
+				<tr class="acc_cont_tr *RESULT_2_STYLE*" id="TR_3_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_vb_s2*</td>
+					<td>*RESULT_VBH2*</td>
+					<td>*RESULT_VBC2*</td>
+				</tr>
+				<!-- 第三局 -->
+				<tr class="acc_cont_tr *RESULT_3_STYLE*" id="TR_4_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_vb_s3*</td>
+					<td>*RESULT_VBH3*</td>
+					<td>*RESULT_VBC3*</td>
+				</tr>
+				<!-- 第四局 -->
+				<tr class="acc_cont_tr *RESULT_4_STYLE*" id="TR_5_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_vb_s4*</td>
+					<td>*RESULT_VBH4*</td>
+					<td>*RESULT_VBC4*</td>
+				</tr>
+				<!-- 第五局 -->
+				<tr class="acc_cont_tr *RESULT_5_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_vb_s5*</td>
+					<td>*RESULT_VBH5*</td>
+					<td>*RESULT_VBC5*</td>
+				</tr>
+				<!-- 第六局 -->
+				<tr class="acc_cont_tr *RESULT_6_STYLE*" id="TR_7_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_vb_s6*</td>
+					<td>*RESULT_VBH6*</td>
+					<td>*RESULT_VBC6*</td>
+				</tr>
+				<!-- 第七局 -->
+				<tr class="acc_cont_tr *RESULT_7_STYLE*" id="TR_8_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_vb_s7*</td>
+					<td>*RESULT_VBH7*</td>
+					<td>*RESULT_VBC7*</td>
+				</tr>
+				<!-- 讓分 -->
+				<tr class="acc_cont_tr *RESULT_8_STYLE*" id="TR_9_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_vb_r*</td>
+					<td>*RESULT_VBH8*</td>
+					<td>*RESULT_VBC8*</td>
+				</tr>
+				<!-- 球隊得分: 大 / 小 -->
+				<tr class="acc_cont_tr *RESULT_9_STYLE*" *RESULT_VB9_STYLE* id="TR_10_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_vb_ou*</td>
+					<td>*RESULT_VBH9*</td>
+					<td>*RESULT_VBC9*</td>
+				</tr>
+				<!-- 完賽 -->
+				<tr class="acc_cont_tr *RESULT_STYLE*" id="TR_1_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_vb_finish*</td>
+					<td class="*RESULT_FULLH_COLOR*">*RESULT_H*</td>
+					<td class="*RESULT_FULLC_COLOR*">*RESULT_C*</td>
+				</tr>
+			</table>
+		</div>
+
+		<!-- BM 所有賽果 模組-->
+		<div id="BM_data_model" class="result_more_form" style="display: none">
+			<!-- 總賽果 -->
+			<table id="BM_mainResult" class="acc_select_table on" >
+				<tr class="acc_select_tr">
+					<td class="acc_all_titlew"></td>
+					<td class="acc_all_pointw">*BMAME_PNAME_H*</td>
+					<td class="acc_all_pointw">*BMAME_PNAME_C*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_1_STYLE*">
+					<td class="acc_cont_name">*ART_result_bm_s1*</td>
+					<td>*RESULT_BMH1*</td>
+					<td>*RESULT_BMC1*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_2_STYLE*">
+					<td class="acc_cont_name">*ART_result_bm_s2*</td>
+					<td>*RESULT_BMH2*</td>
+					<td>*RESULT_BMC2*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_3_STYLE*">
+					<td class="acc_cont_name">*ART_result_bm_s3*</td>
+					<td>*RESULT_BMH3*</td>
+					<td>*RESULT_BMC3*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_4_STYLE*">
+					<td class="acc_cont_name">*ART_result_bm_s4*</td>
+					<td>*RESULT_BMH4*</td>
+					<td>*RESULT_BMC4*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_5_STYLE*">
+					<td class="acc_cont_name">*ART_result_bm_s5*</td>
+					<td>*RESULT_BMH5*</td>
+					<td>*RESULT_BMC5*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_6_STYLE*">
+					<td class="acc_cont_name">*ART_result_bm_s6*</td>
+					<td>*RESULT_BMH6*</td>
+					<td>*RESULT_BMC6*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_7_STYLE*">
+					<td class="acc_cont_name">*ART_result_bm_s7*</td>
+					<td>*RESULT_BMH7*</td>
+					<td>*RESULT_BMC7*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_8_STYLE*">
+					<td class="acc_cont_name">*ART_result_bm_r*</td>
+					<td>*RESULT_BMH8*</td>
+					<td>*RESULT_BMC8*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_9_STYLE*">
+					<td class="acc_cont_name">*ART_result_bm_ou*</td>
+					<td>*RESULT_BMH9*</td>
+					<td>*RESULT_BMC9*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_STYLE*" >
+					<td class="acc_cont_name">*ART_result_bm_finish*</td>
+					<td class="*RESULT_FULLH_COLOR*">*RESULT_H*</td>
+					<td class="*RESULT_FULLC_COLOR*">*RESULT_C*</td>
+				</tr>
+			</table>
+		</div>
+
+		<!-- BS 所有賽果 模組-->
+		<div id="BS_data_model" class="result_more_form" style="display: none">
+			<table class="acc_select_table bs on">
+				<tr class="acc_select_title on">
+					<td colspan="3">
+						<div class="acc_select_left">*LNAME*</div>
+						<div class="acc_select_right"></div>
+					</td>
+				</tr>
+				<tr class="on">
+					<td colspan="3" class="acc_select_text"><div class="acc_select_team">*TNAME_PNAME_H*  v  *TNAME_PNAME_C*</div><span class="acc_select_text_number">*DATE* *TIME*</span></td>
+				</tr>
+				<tr class="acc_select_tr  on">
+					<td class="acc_all_titlew"></td>
+					<td class="acc_all_pointw">*TNAME_PNAME_H*</td>
+					<td class="acc_all_pointw">*TNAME_PNAME_C*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_W_STYLE*" id="TR_1_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_bsTR_5in*</td>
+					<td>*RESULT_HW*</td>
+					<td>*RESULT_CW*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_STYLE*" id="TR_2_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_bsTR_ft*</td>
+					<td class="*RESULT_FULLH_COLOR*">*RESULT_H*</td>
+					<td class="*RESULT_FULLC_COLOR*">*RESULT_C*</td>
+				</tr>
+				<tr class="acc_select_tr">
+					<td colspan="3" class="acc_all_titlew">*ART_result_ft_other*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_T_STYLE*" id="TR_3_*LEGLID*">
+					<td class="acc_cont_nameLine">*ART_result_ft_ot*</td>
+					<td colspan="2"class="acc_cont_name">*RESULT_OT*</td>
+				</tr>
+			</table>
+		</div>
+
+		<!-- SK 所有賽果 模組-->
+		<div id="SK_data_model" class="result_more_form" style="display: none">
+			<table class="acc_select_table on">
+				<tr class="acc_select_title on">
+					<td colspan="3">
+						<div class="acc_select_left">*LNAME*</div>
+						<div class="acc_select_right"></div>
+					</td>
+				</tr>
+				<tr class="on">
+					<td colspan="3" class="acc_select_text"><div class="acc_select_team">*TNAME_PNAME_H*  v  *TNAME_PNAME_C*</div><span class="acc_select_text_number">*DATE* *TIME*</span></td>
+				</tr>
+				<tr class="acc_select_tr">
+					<td class="acc_all_titlew">*ART_result_sk_period*</td>
+					<td class="acc_all_pointw">*TNAME_PNAME_H*</td>
+					<td class="acc_all_pointw">*TNAME_PNAME_C*</td>
+				</tr>
+
+				<tr class="acc_cont_tr *RESULT_1_STYLE*" id="TR_1_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_sk_fr0105*</td>
+					<td>*RESULT_SKH1*</td>
+					<td>*RESULT_SKC1*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_2_STYLE*" id="TR_2_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_sk_fr0608*</td>
+					<td>*RESULT_SKH2*</td>
+					<td>*RESULT_SKC2*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_3_STYLE*" id="TR_3_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_sk_fr1014*</td>
+					<td>*RESULT_SKH3*</td>
+					<td>*RESULT_SKC3*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_4_STYLE*" id="TR_4_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_sk_fr1517*</td>
+					<td>*RESULT_SKH4*</td>
+					<td>*RESULT_SKC4*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_5_STYLE*" id="TR_5_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_sk_fr1923*</td>
+					<td>*RESULT_SKH5*</td>
+					<td>*RESULT_SKC5*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_6_STYLE*" id="TR_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_sk_fr2426*</td>
+					<td>*RESULT_SKH6*</td>
+					<td>*RESULT_SKC6*</td>
+				</tr>
+				<tr class="acc_cont_tr *RESULT_STYLE*" id="TR_7_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_sk_ft*</td>
+					<td class="">*RESULT_H*</td>
+					<td class="">*RESULT_C*</td>
+				</tr>
+			</table>
+
+			<!-- 其他賽果 -->
+			<table id="" class="acc_select_table *RESULT_F_STYLE*">
+				<tr class="acc_select_tr">
+					<td colspan="2" class="acc_all_titlew">*ART_result_sk_other*</td>
+				</tr>
+				<tr class="acc_cont_two_tr *RESULT_F01_STYLE*" id="TRF_1_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_sk_fr1*</td>
+					<td class="acc_cont_bgw">*RESULT_F01*</td>
+				</tr>
+				<tr class="acc_cont_two_tr *RESULT_F02_STYLE*" id="TRF_2_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_sk_fr2*</td>
+					<td class="acc_cont_bgw">*RESULT_F02*</td>
+				</tr>
+				<tr class="acc_cont_two_tr *RESULT_F03_STYLE*" id="TRF_3_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_sk_fr3*</td>
+					<td class="acc_cont_bgw">*RESULT_F03*</td>
+				</tr>
+				<tr class="acc_cont_two_tr *RESULT_F04_STYLE*" id="TRF_4_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_sk_fr4*</td>
+					<td class="acc_cont_bgw">*RESULT_F04*</td>
+				</tr>
+				<tr class="acc_cont_two_tr *RESULT_F05_STYLE*" id="TRF_5_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_sk_fr5*</td>
+					<td class="acc_cont_bgw">*RESULT_F05*</td>
+				</tr>
+				<tr class="acc_cont_two_tr *RESULT_F06_STYLE*" id="TRF_6_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_sk_fr6*</td>
+					<td class="acc_cont_bgw">*RESULT_F06*</td>
+				</tr>
+				<tr class="acc_cont_two_tr *RESULT_F07_STYLE*" id="TRF_7_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_sk_fr7*</td>
+					<td class="acc_cont_bgw">*RESULT_F07*</td>
+				</tr>
+				<tr class="acc_cont_two_tr *RESULT_F08_STYLE*" id="TRF_8_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_sk_fr8*</td>
+					<td class="acc_cont_bgw">*RESULT_F08*</td>
+				</tr>
+				<tr class="acc_cont_two_tr *RESULT_F09_STYLE*" id="TRF_9_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_sk_fr9*</td>
+					<td class="acc_cont_bgw">*RESULT_F09*</td>
+				</tr>
+				<tr class="acc_cont_two_tr *RESULT_F10_STYLE*" id="TRF_10_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_sk_fr10*</td>
+					<td class="acc_cont_bgw">*RESULT_F10*</td>
+				</tr>
+				<tr class="acc_cont_two_tr *RESULT_F11_STYLE*" id="TRF_11_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_sk_fr11*</td>
+					<td class="acc_cont_bgw">*RESULT_F11*</td>
+				</tr>
+				<tr class="acc_cont_two_tr *RESULT_F12_STYLE*" id="TRF_12_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_sk_fr12*</td>
+					<td class="acc_cont_bgw">*RESULT_F12*</td>
+				</tr>
+				<tr class="acc_cont_two_tr *RESULT_F13_STYLE*" id="TRF_13_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_sk_fr13*</td>
+					<td class="acc_cont_bgw">*RESULT_F13*</td>
+				</tr>
+				<tr class="acc_cont_two_tr *RESULT_F14_STYLE*" id="TRF_14_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_sk_fr14*</td>
+					<td class="acc_cont_bgw">*RESULT_F14*</td>
+				</tr>
+				<tr class="acc_cont_two_tr *RESULT_F15_STYLE*" id="TRF_15_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_sk_fr15*</td>
+					<td class="acc_cont_bgw">*RESULT_F15*</td>
+				</tr>
+				<tr class="acc_cont_two_tr *RESULT_F16_STYLE*" id="TRF_16_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_sk_fr16*</td>
+					<td class="acc_cont_bgw">*RESULT_F16*</td>
+				</tr>
+				<tr class="acc_cont_two_tr *RESULT_F17_STYLE*" id="TRF_17_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_sk_fr17*</td>
+					<td class="acc_cont_bgw">*RESULT_F17*</td>
+				</tr>
+				<tr class="acc_cont_two_tr *RESULT_F18_STYLE*" id="TRF_18_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_sk_fr18*</td>
+					<td class="acc_cont_bgw">*RESULT_F18*</td>
+				</tr>
+				<tr class="acc_cont_two_tr *RESULT_F19_STYLE*" id="TRF_19_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_sk_fr19*</td>
+					<td class="acc_cont_bgw">*RESULT_F19*</td>
+				</tr>
+				<tr class="acc_cont_two_tr *RESULT_F20_STYLE*" id="TRF_20_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_sk_fr20*</td>
+					<td class="acc_cont_bgw">*RESULT_F20*</td>
+				</tr>
+				<tr class="acc_cont_two_tr *RESULT_F21_STYLE*" id="TRF_21_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_sk_fr21*</td>
+					<td class="acc_cont_bgw">*RESULT_F21*</td>
+				</tr>
+				<tr class="acc_cont_two_tr *RESULT_F22_STYLE*" id="TRF_22_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_sk_fr22*</td>
+					<td class="acc_cont_bgw">*RESULT_F22*</td>
+				</tr>
+				<tr class="acc_cont_two_tr *RESULT_F23_STYLE*" id="TRF_23_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_sk_fr23*</td>
+					<td class="acc_cont_bgw">*RESULT_F23*</td>
+				</tr>
+				<tr class="acc_cont_two_tr *RESULT_F24_STYLE*" id="TRF_24_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_sk_fr24*</td>
+					<td class="acc_cont_bgw">*RESULT_F24*</td>
+				</tr>
+				<tr class="acc_cont_two_tr *RESULT_F25_STYLE*" id="TRF_25_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_sk_fr25*</td>
+					<td class="acc_cont_bgw">*RESULT_F25*</td>
+				</tr>
+				<tr class="acc_cont_two_tr *RESULT_F26_STYLE*" id="TRF_26_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_sk_fr26*</td>
+					<td class="acc_cont_bgw">*RESULT_F26*</td>
+				</tr>
+				<tr class="acc_cont_two_tr *RESULT_F27_STYLE*" id="TRF_27_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_sk_fr27*</td>
+					<td class="acc_cont_bgw">*RESULT_F27*</td>
+				</tr>
+				<tr class="acc_cont_two_tr *RESULT_F28_STYLE*" id="TRF_28_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_sk_fr28*</td>
+					<td class="acc_cont_bgw">*RESULT_F28*</td>
+				</tr>
+				<tr class="acc_cont_two_tr *RESULT_F29_STYLE*" id="TRF_29_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_sk_fr29*</td>
+					<td class="acc_cont_bgw">*RESULT_F29*</td>
+				</tr>
+				<tr class="acc_cont_two_tr *RESULT_F30_STYLE*" id="TRF_30_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_sk_fr30*</td>
+					<td class="acc_cont_bgw">*RESULT_F30*</td>
+				</tr>
+				<tr class="acc_cont_two_tr *RESULT_F31_STYLE*" id="TRF_31_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_sk_fr31*</td>
+					<td class="acc_cont_bgw">*RESULT_F31*</td>
+				</tr>
+				<tr class="acc_cont_two_tr *RESULT_F32_STYLE*" id="TRF_32_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_sk_fr32*</td>
+					<td class="acc_cont_bgw">*RESULT_F32*</td>
+				</tr>
+				<tr class="acc_cont_two_tr *RESULT_F33_STYLE*" id="TRF_33_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_sk_fr33*</td>
+					<td class="acc_cont_bgw">*RESULT_F33*</td>
+				</tr>
+				<tr class="acc_cont_two_tr *RESULT_F34_STYLE*" id="TRF_34_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_sk_fr34*</td>
+					<td class="acc_cont_bgw">*RESULT_F34*</td>
+				</tr>
+				<tr class="acc_cont_two_tr *RESULT_F35_STYLE*" id="TRF_35_*LEGLID*">
+					<td class="acc_cont_name">*ART_result_sk_fr35*</td>
+					<td class="acc_cont_bgw">*RESULT_F35*</td>
+				</tr>
+				<tr class="acc_cont_two_tr" id="NONE">
+				</tr>
+			</table>
+		</div>
+
+		<!-- OP 所有賽果 模組-->
+		<div id="OP_data_model" class="result_more_form" style="display: none"></div>
+
+		<!-- FS 所有賽果 模組-->
+		<div id="FS_data_model" class="result_more_form" style="display: none">
+			<table class="acc_select_table_top on">
+				<tr class="acc_select_title on">
+					<td colspan="4">
+						<div class="acc_select_left" id="leagues_name">*LNAME*</div>
+						<div class="acc_select_right"></div>
+					</td>
+				</tr>
+				<tr class="on">
+					<td colspan="4" class="acc_select_text" >
+						<div class="acc_select_team">*ITEM*</div>
+						<span class="acc_select_text_number" id="game_time">*DATE* *TIME*</span>
+					</td>
+				</tr>
+			</table>
+			<table id="tableFS_*GID*" class="acc_select_table on">
+				<tr class="acc_cont_tr fs_tr on">
+					<td id="FS_rtypes_model_*GID*" class="acc_cont_name fs_td">
+						<div class="*WINCLASS*"><!-- class="win" -->
+							*TEAM_NAME*
+							<i class="icon_result_check"></i>
+						</div>
+					</td>
+				</tr>
+			</table>
+		</div>
+
+
+		<div style="display: none!important;">
+			<svg>
+				<symbol viewBox="0 0 16 16" id="icon_toparr" class="icon_toparr"><path id="collapse" class="st0" d="M2.7,11L2.7,11c-0.4-0.4-0.4-1,0-1.4L7.3,5c0.4-0.4,1-0.4,1.4,0l4.6,4.6c0.4,0.4,0.4,1,0,1.4l0,0c-0.4,0.4-1,0.4-1.4,0c0,0,0,0,0,0L8.1,7.2c-0.1-0.1-0.2-0.1-0.3,0c0,0,0,0,0,0L4.1,11C3.7,11.4,3.1,11.4,2.7,11C2.7,11,2.7,11,2.7,11z"/></symbol>
+				<symbol viewBox="0 0 14 14" id="icon_close" class="icon_close"><path d="M7,6.2l6-6c0.2-0.2,0.6-0.2,0.8,0s0.2,0.6,0,0.8l-6,6l6,6c0.2,0.2,0.2,0.6,0,0.8s-0.6,0.2-0.8,0l-6-6l-6,6c-0.2,0.2-0.6,0.2-0.8,0s-0.2-0.6,0-0.8l6-6l-6-6C0,0.8,0,0.4,0.1,0.2s0.6-0.2,0.8,0L7,6.2z"/></symbol>
+			</svg>
+		</div>
+	</div>
+
+
+
+
+
+
+</body>
+
+</html>

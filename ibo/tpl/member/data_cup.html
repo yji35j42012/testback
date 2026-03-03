@@ -1,0 +1,135 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="/style/aspen_stylesheet.css" rel="stylesheet" type="text/css">
+<!--link href="/style/aspen_LMT2.css" rel="stylesheet" type="text/css"-->
+<!-- <link href="/style/mt.css" rel="stylesheet" type="text/css"> -->
+<!-- <link href="/style/aspen_widget.css" rel="stylesheet" type="text/css"> -->
+
+<script>
+function retry(obj){
+	 	var _url = obj.src;
+		var tmp = document.createElement("script");
+		tmp.id = obj.id;
+		tmp.src = _url;
+		tmp.onerror = function(){retry(tmp)};
+		setTimeout(addScript, 1000, tmp);
+}
+
+function addScript(obj){
+		try{
+	  		var rmObj = document.getElementById(obj.id);
+            rmObj.parentNode.removeChild(rmObj);
+		}catch(e){}
+			
+		(document.getElementsByTagName("head")[0] || document.body).appendChild(obj);	
+}	
+</script>
+<script>
+var uid = "<?php echo $uid ?>";
+var langx = "<?php echo $langx ?>";
+var gtype = "<?php echo $gtype ?>";
+var USERNAME = "<?php echo $username ?>";
+
+</script>
+<script id="scriptCUP" src="../../app/member/tv/script_CUP.php?ver=<?php echo $version;?>&langx=<?php echo substr($langx,3,2) ?>" onerror="retry(this)"></script>
+
+<style>
+	html,body{
+		width: 100%;
+		/* height: 100%; */
+		margin: 0;
+		padding: 0;
+	}
+	body{
+		display: flex;
+		width: 100%;
+		flex-direction: column;
+		background: #fff;
+		box-sizing: border-box;
+		overflow: hidden;
+	}
+	body>div:empty{
+		display: none;
+	}
+	.main_info, .main_leader{
+		display: inline-block;
+		width: calc(100% - 32px);
+		height: fit-content;
+		margin: 0 16px;
+		background: transparent;
+		border: 1px solid #E0E0E0;
+		box-sizing: border-box;
+		overflow: hidden;
+	}
+	.main_info{
+		margin: 0 16px 16px 16px;
+		/* max-height: 584px; */
+	}
+	.main_leader{
+		/* max-height: 414px; */
+	}
+	@media screen and (min-width: 640px){
+		body{
+			flex-direction: row;
+			justify-content: space-between;
+		}
+		.main_info, .main_leader{
+			display: inline-block;
+			width: 50%;
+			/* height: fit-content; */
+		}
+		.main_info{
+			margin: 0 16px;
+		}
+		.main_leader{
+			margin: 0 16px 0 0;
+		}
+	}
+	@media screen and (min-width: 1024px){
+		body{
+			width: calc((200% / 3) - 33px);
+			padding: 0;
+		}
+		.main_info{
+			margin: 0 16px 0 0;
+		}
+		.main_leader{
+			margin: 0 0;
+		}
+	}
+	@media (pointer: fine) and (max-resolution: 2dppx) and (min-width: 1024px),
+	screen and (pointer: fine) and (-webkit-max-device-pixel-ratio: 2) and (min-width: 1024px),
+	(-moz-touch-enabled: 0) and (min-width: 1024px),
+	screen and (-ms-high-contrast: active), (-ms-high-contrast: none) and (min-width: 1024px){
+		body{
+			width: calc((200% / 3) - 37px);
+			padding: 0;
+		}
+	}
+
+	.main_preview{
+		/* width: calc(100% - 2px); */
+		/* height: calc(100% - 2px); */
+		overflow-x: hidden;
+		overflow-y: auto;
+		/* border: 1px solid #E0E0E0; */
+		width: 100%;
+		height: fit-content;
+	}
+	.sr-loader__container.srm-expandable .sr-bb .sr-tp-1-standings-livetable__toolbar{
+		flex: none;
+	}
+</style>
+
+</head>
+<body onload="init();" class="">
+	<!-- cup_team_game.html -->
+	<div id="main_info" class="main_info"></div>
+	<div id="main_leader" class="main_leader"></div>
+
+	<!-- cup_highlights_game.html -->
+	<div id="main_preview" class="main_preview"></div>
+</body>
+</html>

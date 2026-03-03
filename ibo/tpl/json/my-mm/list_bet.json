@@ -1,0 +1,13 @@
+var artjson = {
+	"ART_listbet_title": "လောင်းကစားပွဲစလစ်ဖြတ်ပိုင်းပုံစံ",
+	"ART_listbet_bet": "လောင်းကြေး",
+	"ART_listbet_towin": "Est. Win: ",
+	"ART_listbet_parlay": "Parlay",
+	"ART_listbet_inclass": "en",
+	"ART_listbet_in": "in",
+	"ART_listbet_nodata": "THERE ARE NO TRANSACTIONS AVAILABLE.",
+	"ART_listbet_more": "VIEW MORE",
+	"ART_listbet_backtop": "အပေါ်သို့ပြန်သွား",
+	"ART_hisview_bet": "လောင်းကြေး",
+	"ART_hisview_winloss": "ဝင်း / ဆုံးရှုံးမှု",
+};

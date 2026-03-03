@@ -1,0 +1,7 @@
+﻿var artjson = {
+	"ART_prepass_hello": "您好 ",
+	"ART_prepass_enter": "输入您的四位数码",
+	"ART_prepass_err": "请确认此简易密码是您设置的简易密码。",
+	"ART_prepass_login": "普通登入",
+	"ART_prepass_delete": "删除",
+};

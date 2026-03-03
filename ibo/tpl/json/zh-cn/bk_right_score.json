@@ -1,0 +1,18 @@
+var artjson = {
+//Score Board
+	"ART_scrbk_q1": "第一节",
+	"ART_scrbk_q2": "第二节",
+	"ART_scrbk_q3": "第三节",
+	"ART_scrbk_q4": "第四节",
+	"ART_scrbk_ot": "加时",
+	"ART_scrbk_h1": "上半场",
+	"ART_scrbk_h2": "下半场",
+
+	"ART_scrbk_sq1": "1节",
+	"ART_scrbk_sq2": "2节",
+	"ART_scrbk_sq3": "3节",
+	"ART_scrbk_sq4": "4节",
+	"ART_scrbk_sh1": "上半场",
+	"ART_scrbk_sh2": "下半场",
+	"ART_scrbk_sot": "加时",
+}

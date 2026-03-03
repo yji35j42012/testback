@@ -1,0 +1,21 @@
+var artjson = {
+	"ART_lang": "CN",
+	"ART_hp_setmail": "密码恢复",
+
+	"ART_hp_setmail_1_text": "请输入您用于恢复密码的电子信箱地址。",
+	"ART_hp_email": "电子信箱地址",
+	"ART_hp_btn_cancel": "取消",
+	"ART_hp_btn_next": "下一步",
+
+	"ART_hp_setmail_2_text": "请在此输入您的认证码。",
+	"ART_hp_safecode": "认证码",
+	"ART_hp_btn_resent": "重新寄送认证码",
+	"ART_hp_btn_submit": "提交",
+
+	"ART_hp_setmail_notice": "提示：",
+	"ART_hp_setmail_3_text": "当您使用“忘记密码“功能时，我们会将认证码送到此电子信箱地址。",
+
+	"ART_hp_setmail_delemsg": "您已删除恢复用电子信箱。",
+	"ART_hp_btn_addmail": "加入",
+
+}

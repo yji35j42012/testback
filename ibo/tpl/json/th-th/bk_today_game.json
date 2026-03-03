@@ -1,0 +1,15 @@
+var artjson = {
+	"ART_lang": "EN",
+	"ART_game_nodata": "There are no events available.",
+
+	"ART_game_r": "แฮนดิ",
+	"ART_game_ou": "Total Points",
+	"ART_game_ouh": "Team 1<br>Points",
+	"ART_game_ouc": "Team 2<br>Points",
+
+	"ART_game_half1": "ครึ่งแรก",
+
+	"ART_game_over": "O",
+	"ART_game_under": "U",
+
+}

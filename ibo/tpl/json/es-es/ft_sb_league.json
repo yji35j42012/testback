@@ -1,0 +1,10 @@
+var artjson = {
+	"ART_game_datenodata": "THERE ARE NO EVENTS AVAILABLE FOR YOUR SELECTED DATE.",
+	"ART_date_alldate": "TODAS <br> LAS <br> FECHAS",
+	"ART_date_today": "HOY",
+	"ART_date_future": "FUTURA",
+	"ART_coupon_popular": "POPULAR",
+	"ART_coupon_AZ": "COMPETICIONES A - Z",
+	"ART_btn_submit": "ENTREGAR",
+
+}

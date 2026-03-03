@@ -1,0 +1,22 @@
+var artjson = {
+	"ART_lang": "EN",
+	"ART_game_nodata": "В настоящее время нет событий.",
+
+//玩法
+	"ART_game_m": "Исход 1X2",
+	"ART_game_r": "Фора",
+	"ART_game_ou": "Total Sets: Больше / Меньше",
+	"ART_game_ouhc": "Player Games:",
+	"ART_game_eo": "Total Sets: Голы: Чет / Нечет",
+	"ART_game_pd3": "Match Correct Score (3 Sets)",
+	"ART_game_pd5": "Match Correct Score (5 Sets)",
+
+	"ART_game_o_u": "-  Больше / Меньше",
+
+//odd box
+	"ART_game_over": "Больше",
+	"ART_game_under": "Меньше",
+	"ART_game_odd": "Голы: Чет",
+	"ART_game_even": "Нечет",
+
+}

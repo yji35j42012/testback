@@ -1,0 +1,23 @@
+var artjson = {
+	"ART_header_inplay": "En juego ahora",
+	"ART_header_worldcup": "🏆World Cup",
+	"ART_header_virtual": "VIRTUAL",
+	"ART_header_upcoming": "UPCOMING",
+	"ART_header_soon": "SOON",
+	"ART_header_hot": "HOT",
+	"ART_header_today": "HOY",
+	"ART_header_early": "TEMPRANO",
+	"ART_header_outrights": "Competencia",
+	"ART_header_parlay": "Incrementar Dinero En Apuestas",
+	"ART_header_sb": "Apuesta especial",
+	"ART_header_bonus": "ACTIVIDADES",
+
+	"ART_bottom_result": "Resultados",
+	"ART_bottom_schedule": "Cronograma",
+	"ART_bottom_openbet": "Apuestas Abiertas",
+	"ART_bottom_mygame": "MY EVENTS",
+	"ART_bottom_mybets": "MY BETS",
+	"ART_bottom_statement": "Declaración",
+
+	"ART_text_new": "NEW",
+}

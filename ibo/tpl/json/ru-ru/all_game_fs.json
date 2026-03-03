@@ -1,0 +1,5 @@
+var artjson = {
+	"ART_game_nodata": "В настоящее время нет событий.",
+	"ART_btn_viewless": "Показать меньше",
+	"ART_btn_viewmore": "Показать больше",
+}

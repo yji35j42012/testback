@@ -1,0 +1,26 @@
+var artjson = {
+	"ART_lang": "TW",
+	"ART_forgot_title": "密碼恢復",
+
+	"ART_forgot_text1": "提示：",
+	"ART_forgot_text2": "您必須已經綁定您的密碼恢復電子郵件才能使用此功能。如果您還沒綁定電子郵件，請聯絡您的上線重設密碼以啓動此功能。",
+	"ART_forgot_text3": "請提供下列資訊以便我們幫助您重置密碼。",
+	"ART_forgot_inp_id": "登入帳號",
+	"ART_forgot_inp_email": "電子信箱地址",
+	"ART_forgot_btn_cancel": "取消",
+	"ART_forgot_btn_next": "下一步",
+	"ART_forgot_btn_submit": "提交",
+
+	"ART_forgot_text4": "請在此輸入您的認證碼。",
+	"ART_forgot_inp_safecode": "認證碼",
+	"ART_forgot_error": "您輸入的驗證碼不正確，請再嘗試輸入。",
+	"ART_forgot_btn_resent": "重新寄送認證碼",
+
+	"ART_forgot_text5": "請輸入您的新密碼。",
+	"ART_forgot_inp_pwd": "密碼",
+	"ART_forgot_inp_repwd": "重新輸入密碼",
+
+	"ART_forgot_text6": "密碼已改變，請用您的新密碼重新登入。",
+	"ART_forgot_btn_gologin": "去登入",
+
+}

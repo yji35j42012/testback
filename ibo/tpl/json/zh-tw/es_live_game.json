@@ -1,0 +1,21 @@
+var artjson = {
+	"ART_lang": "TW",
+	"ART_game_nodata": "目前沒有任何賽事。",
+
+	"ART_time_live": "滾球",
+
+	"ART_game_rm": "獨贏",
+	"ART_game_re": "讓盤",
+	"ART_game_rou": "大/小",
+
+	"ART_game_over": "大",
+	"ART_game_under": "小",
+	"ART_game_odd": "單",
+	"ART_game_even": "雙",
+	"ART_game_draw": "平手",
+	"ART_game_teamH": "主",
+	"ART_game_teamC": "客",
+	"ART_game_draw_X": "和",
+	"ART_game_none_X": "無",
+
+}

@@ -1,0 +1,6 @@
+var artjson = {
+	"ART_lang": "TW",
+	"ART_hp_download": "下載應用程式",
+	"ART_hp_download_text": "立即下載我們的應用程式",
+	"ART_hp_btn_download": "直接下載",
+}

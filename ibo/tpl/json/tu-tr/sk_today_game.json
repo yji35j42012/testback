@@ -1,0 +1,12 @@
+var artjson = {
+	"ART_lang": "EN",
+	"ART_game_nodata": "Hiçbir etkinlik mevcut değil.",
+
+	"ART_game_m": "Para Hattı",
+	"ART_game_r": "Handikap",
+	"ART_game_ou": "Üzerinde altında",
+
+	"ART_game_over": "O",
+	"ART_game_under": "U",
+
+}

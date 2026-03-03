@@ -1,0 +1,22 @@
+var artjson = {
+	"ART_lang": "TW",
+	"ART_game_nodata": "目前沒有任何賽事。",
+	"ART_game_mygame1": "選擇上面的圖標，會將其添加到",
+	"ART_game_mygame2": "我的賽事",
+	"ART_game_mygame3": "中。您可以對其進行分組並輕鬆訪問您感興趣的所有賽事。",
+	"ART_game_3in1": "串",
+
+	"ART_game_rptw": "得分獲勝方",
+	"ART_game_rwxp": "第X局首先達到Y分",
+	"ART_game_rm": "獨贏",
+	"ART_game_re": "讓局",
+	"ART_game_re_point": "讓分",
+
+	"ART_game_m": "獨贏",
+	"ART_game_r": "讓局",
+	"ART_game_r_point": "讓分",
+	"ART_game_ou": "總分大小",
+
+	"ART_game_over": "大",
+	"ART_game_under": "小",
+}

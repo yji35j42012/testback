@@ -1,0 +1,18 @@
+var artjson = {
+	"ART_browser_explain01": "您正在使用过时的浏览器",
+	"ART_browser_explain02": "您的浏览器不支持访问本网站，请下载最新的浏览器并进行最佳浏览体验。",
+	"ART_browser_explain03": "一旦浏览器不再被支援。保护您的保护您的网路安全模式将不是最新的，这也会增这也会增加您被盗取的可能性。",
+	"ART_browser_explain04": "我们强烈建议您下载以下最新的浏览器以便有更好的体验和保持目前最高的网路安全级别。",	
+	"ART_browser_chrome": "谷歌浏览器",
+	"ART_browser_firefox": "火狐浏览器",
+	"ART_browser_download": "下载",
+	"ART_browser_why": "为什么我需要最新的浏览器？",
+	"ART_browser_txtTtitle01": "安全性",
+	"ART_browser_txt01": "最新的浏览器能更有效的对抗诈骗、病毒、木马、钓鱼等威胁。他们也乐于修复您的浏览器漏洞。",
+	"ART_browser_txtTtitle02": "速度快",
+	"ART_browser_txt02": "最新的浏览器速度一定比较快。",
+	"ART_browser_txtTtitle03": "优化功能",
+	"ART_browser_txt03": "我们的网站可以使用新型浏览器的功能来优化网站效能。",
+	"ART_browser_txtTtitle04": "更好的使用体验",
+	"ART_browser_txt04": "当具备以上更好更新的功能，您将获得更棒更方便的使用体验。",
+};

@@ -1,0 +1,21 @@
+var artjson = {
+	"ART_lang": "EN",
+	"ART_hp_setmail": "PASSWORD RECOVERY",
+
+	"ART_hp_setmail_1_text": "Please enter the email address you want to use for Password Recovery.",
+	"ART_hp_email": "Email Address",
+	"ART_hp_btn_cancel": "CANCEL",
+	"ART_hp_btn_next": "NEXT",
+
+	"ART_hp_setmail_2_text": "Please enter the verification code here.",
+	"ART_hp_safecode": "Verification Code",
+	"ART_hp_btn_resent": "RESEND CODE",
+	"ART_hp_btn_submit": "SUBMIT",
+
+	"ART_hp_setmail_notice": "NOTE:",
+	"ART_hp_setmail_3_text": "Verification code will be sent to this email when you use the ‘Forgot Password’ function.",
+
+	"ART_hp_setmail_delemsg": "You have deleted your Password Recovery Email.",
+	"ART_hp_btn_addmail": "ADD",
+
+}

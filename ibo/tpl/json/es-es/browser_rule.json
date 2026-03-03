@@ -1,0 +1,18 @@
+var artjson = {
+	"ART_browser_explain01": "Outdated Browser",
+	"ART_browser_explain02": "Your browser doesn't support our website. Download a newer web browser to get the best possible experience using our website",
+	"ART_browser_explain03": "Once a browser is no longer supported, the security features that protect you are not up to date and you are more likely to be hacked or have information stolen.",
+	"ART_browser_explain04": "We strongly suggest you download one of the browsers below to enjoy a better experience and to maintain maximum security levels.",
+	"ART_browser_chrome": "Chrome",
+	"ART_browser_firefox": "Firefox",
+	"ART_browser_download": "DOWNLOAD",
+	"ART_browser_why": "Why do I need an up-to-date browser?",
+	"ART_browser_txtTtitle01": "SECURITY",
+	"ART_browser_txt01": "Modern browsers protect you better against scams, viruses, trojans, phishing and other threats. They also fix security holes in your current browser. ",
+	"ART_browser_txtTtitle02": "SPEED",
+	"ART_browser_txt02": "Every new browser generation improves speed. ",
+	"ART_browser_txtTtitle03": "COMPATIBILITY",
+	"ART_browser_txt03": "Websites, using new browser technology, will be optimizedin appearance and performance.",
+	"ART_browser_txtTtitle04": "BETTER EXPERIENCE",
+	"ART_browser_txt04": "With new features and extensions, you will have a more ?rounded and enjoyable web-experience.",
+};

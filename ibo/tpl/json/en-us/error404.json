@@ -1,0 +1,6 @@
+var artjson = {
+	"ART_404_text1": "Oops...it seems the page can't be found.",
+	"ART_404_text2": "Please go back or return ",
+	"ART_404_btn_home": "home",
+	"ART_404_text3": ".",
+}

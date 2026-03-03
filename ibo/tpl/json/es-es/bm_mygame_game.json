@@ -1,0 +1,15 @@
+var artjson = {
+	"ART_lang": "EN",
+	"ART_game_nodata": "No hay eventos disponibles.",
+
+	//滾球
+	"ART_game_rm": "Money Line",
+	"ART_game_re": "Game Handicap",
+	"ART_game_re_point": "Point Handicap",
+
+	//單式
+	"ART_game_m": "Money Line",
+	"ART_game_r": "Game Handicap",
+	"ART_game_r_point": "Point Handicap",
+
+}

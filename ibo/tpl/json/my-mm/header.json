@@ -1,0 +1,23 @@
+var artjson = {
+	"ART_header_inplay": "ယခု - ကစားပါ",
+	"ART_header_worldcup": "🏆World Cup",
+	"ART_header_virtual": "VIRTUAL",
+	"ART_header_upcoming": "UPCOMING",
+	"ART_header_soon": "SOON",
+	"ART_header_hot": "HOT",
+	"ART_header_today": "ဒီနေ့",
+	"ART_header_early": "အနာဂတ်",
+	"ART_header_outrights": "ချန်ပီယံ",
+	"ART_header_parlay": "PARLAY",
+	"ART_header_sb": "SPECIAL BET",
+	"ART_header_bonus": "ACTIVITIES",
+
+	"ART_bottom_result": "ရလဒ်များ",
+	"ART_bottom_schedule": "အချိန်ဇယား",
+	"ART_bottom_openbet": "ကစားနည်းများကိုဖွင့်ပါ",
+	"ART_bottom_mygame": "MY EVENTS",
+	"ART_bottom_mybets": "MY BETS",
+	"ART_bottom_statement": "အကောင့်သမိုင်း",
+
+	"ART_text_new": "NEW",
+}

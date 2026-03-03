@@ -1,0 +1,18 @@
+var artjson = {
+	"ART_ball_all": "All Sports",
+	"ART_ball_ft": "Soccer",
+	"ART_ball_vf": "Virtual",
+	"ART_ball_bk": "Basketball & American Football",
+	"ART_ball_es": "eSports",
+	"ART_ball_tn": "Tennis",
+	"ART_ball_vb": "Volleyball",
+	"ART_ball_bm": "Badminton",
+	"ART_ball_tt": "Table Tennis",
+	"ART_ball_bs": "Baseball",
+	"ART_ball_sk": "Snooker",
+	"ART_ball_op": "Other Sports",
+	"ART_game_sched": "SCHEDULE",
+	"ART_date_alldate": "ALL <br> DATES",
+	"ART_date_future": "FUTURE",
+	"ART_game_datenodata": "There are no events available for <br> your selected date.",
+}

@@ -1,0 +1,7 @@
+var artjson = {
+	"ART_prepass_hello": "您好 ",
+	"ART_prepass_enter": "輸入您的四位數碼",
+	"ART_prepass_err": "請確認此簡易密碼是您設置的簡易密碼。",
+	"ART_prepass_login": "普通登入",
+	"ART_prepass_delete": "刪除",
+};

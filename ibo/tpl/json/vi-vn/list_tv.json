@@ -1,0 +1,20 @@
+var artjson = {
+	"ART_ball_all": "Tất cả các",
+	"ART_ball_ft": "Bóng đá",
+	"ART_ball_vf": "Virtual Events",
+	"ART_ball_bk": "Bóng rổ & bóng đá Mỹ",
+	"ART_ball_es": "eSports",
+	"ART_ball_tn": "Quần vợt",
+	"ART_ball_vb": "Bóng chuyền",
+	"ART_ball_bm": "Cầu lông",
+	"ART_ball_tt": "Bóng bàn",
+	"ART_ball_bs": "Bóng chày",
+	"ART_ball_sk": "Bi-Da",
+	"ART_ball_op": "Thể thao khác",
+
+	"ART_game_sched": "Lịch thi đấu",
+	"ART_date_alldate": "Tất cả các",
+	"ART_date_future": "FUTURE",
+
+	"ART_game_datenodata": "There are no events available for <br> your selected date.",
+}

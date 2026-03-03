@@ -1,0 +1,6 @@
+var artjson = {
+	"ART_lang": "EN",
+	"ART_hp_download": "DOWNLOAD APP",
+	"ART_hp_download_text": "DOWNLOAD OUR APP TODAY",
+	"ART_hp_btn_download": "DIRECT DOWNLOAD",
+}

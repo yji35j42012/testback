@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+	<link rel="stylesheet" href="../../style/reset.css">
+	<link rel="stylesheet" href="../../style/score_board.css">
+</head>
+<body>
+
+	<h3>IN-PLAY</h3>
+	<!-- FT Score board in-play hide in PC size -->
+	<h5>FT - in play </h5>
+	<div id="score_board" class="box_scoboard ft" style="display: ;">
+		<div id="box_scostate" class="box_scostate">
+			<!--tt class="text_time_go"><p>1H</p> 27:51</tt-->
+			<tt id="re_time" class="text_time_go"></tt>
+			<i id="midfield" class="icon_n" style="display:none"></i>
+		</div>
+		<div id="box_sco_l" class="box_sco_l">
+			<div class="box_scoteam team_h">
+				<span id="pk_h" class="icon_serve on"></span><!-- 發球方 Add class="on" -->
+				<span id="redcard_h" class="icon_redcard"></span><!-- show red card Add class="on" -->
+				<span id="score_h" class="text_point">20</span><!-- 最後入球 Add class="last_goal" -->
+				<span id="team_h" class="text_team">Team Name A</span><!-- 強隊 Add class="strong_team" -->
+			</div>
+			<span class="box_sco_center">-</span>
+			<div class="box_scoteam team_c">
+				<span id="pk_c" class="icon_serve"></span>
+				<span id="redcard_c" class="icon_redcard on"></span>
+				<span id="score_c" class="text_point">20</span>
+				<span id="team_c" class="text_team">Team Name B</span>
+			</div>
+		</div>
+
+		<div id="pk_score" class="box_live_rps" style="display: none2;">
+			<i id="sc_1st_H"> <!--rps_goal / rps_nogoal / rps_ing-->
+				<div class="obj_rps_ani"></div>
+				<div class="obj_rps_ani"></div>
+				<div class="obj_rps_ani"></div>
+				<div class="obj_rps_ani"></div>
+			</i>
+			<i id="sc_2nd_H">
+				<div class="obj_rps_ani"></div>
+				<div class="obj_rps_ani"></div>
+				<div class="obj_rps_ani"></div>
+				<div class="obj_rps_ani"></div>
+			</i>
+			<i id="sc_3th_H">
+				<div class="obj_rps_ani"></div>
+				<div class="obj_rps_ani"></div>
+				<div class="obj_rps_ani"></div>
+				<div class="obj_rps_ani"></div>
+			</i>
+			<i id="sc_4th_H">
+				<div class="obj_rps_ani"></div>
+				<div class="obj_rps_ani"></div>
+				<div class="obj_rps_ani"></div>
+				<div class="obj_rps_ani"></div>
+			</i>
+			<i id="sc_5th_H">
+				<div class="obj_rps_ani"></div>
+				<div class="obj_rps_ani"></div>
+				<div class="obj_rps_ani"></div>
+				<div class="obj_rps_ani"></div>
+			</i>
+			<div class="text_round"><span id="now_goal"></span><tt id="PK_Method"></tt></div>
+			<i id="sc_1st_C">
+				<div class="obj_rps_ani"></div>
+				<div class="obj_rps_ani"></div>
+				<div class="obj_rps_ani"></div>
+				<div class="obj_rps_ani"></div>
+			</i>
+			<i id="sc_2nd_C">
+				<div class="obj_rps_ani"></div>
+				<div class="obj_rps_ani"></div>
+				<div class="obj_rps_ani"></div>
+				<div class="obj_rps_ani"></div>
+			</i>
+			<i id="sc_3th_C">
+				<div class="obj_rps_ani"></div>
+				<div class="obj_rps_ani"></div>
+				<div class="obj_rps_ani"></div>
+				<div class="obj_rps_ani"></div>
+			</i>
+			<i id="sc_4th_C">
+				<div class="obj_rps_ani"></div>
+				<div class="obj_rps_ani"></div>
+				<div class="obj_rps_ani"></div>
+				<div class="obj_rps_ani"></div>
+			</i>
+			<i id="sc_5th_C">
+				<div class="obj_rps_ani"></div>
+				<div class="obj_rps_ani"></div>
+				<div class="obj_rps_ani"></div>
+				<div class="obj_rps_ani"></div>
+			</i>
+		</div>
+	</div>
+
+	<!-- BK Score board in-play-->
+	<h5>BK - in play </h5>
+	<div id="div_matches" class="box_scoboard bk" style="display: ;"><!-- 半場樣式 新增class="half"-->
+		<div id="box_scostate" class="box_scostate">
+			<tt id="se_now" class="text_time_go"></tt>
+			<tt id="t_count" class="text_time_go"></tt>
+			<i id="midfield" class="icon_n" style="display: none;"></i>
+		</div>
+		<div id="box_sco_bk" class="box_sco_bk">
+			<span id="sc_Q1" class="sco_bk bk_q">20</span>
+			<span id="sc_Q2" class="sco_bk bk_q">20</span>
+			<span id="sc_Q3" class="sco_bk bk_q">20</span>
+			<span id="sc_Q4" class="sco_bk bk_q">20</span>
+			<span id="sc_OT" class="sco_bk bk_ot">20</span>
+			<span id="sc_H1" class="sco_bk bk_h1">20</span>
+			<span id="sc_H2" class="sco_bk bk_h2">20</span>
+		</div>
+		<div id="box_sco_l" class="box_sco_l">
+			<div class="box_scoteam team_h">
+				<span id="sc_FT_H" class="text_point">100</span>
+				<span id="team_h" class="text_team">Team Name A</span>
+
+				<div class="box_sco_bk">
+					<span id="sc_Q1_H" class="sco_bk bk_q">20</span>
+					<span id="sc_Q2_H" class="sco_bk bk_q">20</span>
+					<span id="sc_Q3_H" class="sco_bk bk_q">20</span>
+					<span id="sc_Q4_H" class="sco_bk bk_q">20</span>
+					<span id="sc_OT_H" class="sco_bk bk_ot">20</span>
+					<span id="sc_H1_H" class="sco_bk bk_h1">20</span>
+					<span id="sc_H2_H" class="sco_bk bk_h2">20</span>
+				</div>
+			</div>
+
+			<div class="box_scoteam team_c">
+				<span id="sc_FT_A" class="text_point">100</span>
+				<span id="team_c" class="text_team">Team Name B</span>
+				<div class="box_sco_bk">
+					<span id="sc_Q1_A" class="sco_bk bk_q">20</span>
+					<span id="sc_Q2_A" class="sco_bk bk_q">20</span>
+					<span id="sc_Q3_A" class="sco_bk bk_q">20</span>
+					<span id="sc_Q4_A" class="sco_bk bk_q">20</span>
+					<span id="sc_OT_A" class="sco_bk bk_ot">20</span>
+					<span id="sc_H1_A" class="sco_bk bk_h1">20</span>
+					<span id="sc_H2_A" class="sco_bk bk_h2">20</span>
+				</div>
+			</div>
+
+		</div>
+		<div id="box_sco_point" class="box_sco_point">
+			<div id="320_sc_Q1" class="point_bk_s bk_q">Q1 <tt id="320_sc_Q1_H">20</tt>-<tt id="320_sc_Q1_A">20</tt></div>
+			<div id="320_sc_Q2" class="point_bk_s bk_q">Q2 <tt id="320_sc_Q2_H">20</tt>-<tt id="320_sc_Q2_A">20</tt></div>
+			<div id="320_sc_Q3" class="point_bk_s bk_q">Q3 <tt id="320_sc_Q3_H">20</tt>-<tt id="320_sc_Q3_A">20</tt></div>
+			<div id="320_sc_Q4" class="point_bk_s bk_q">Q4 <tt id="320_sc_Q4_H">20</tt>-<tt id="320_sc_Q4_A">20</tt></div>
+			<div id="320_sc_H1" class="point_bk_s">H1 <tt id="320_sc_H1_H">20</tt>-<tt id="320_sc_H1_A">20</tt></div>
+			<div id="320_sc_H2" class="point_bk_s">H2 <tt id="320_sc_H2_H">20</tt>-<tt id="320_sc_H2_A">20</tt></div>
+			<div id="320_sc_OT" class="point_bk_s">OT <tt id="320_sc_OT_H">20</tt>-<tt id="320_sc_OT_A">20</tt></div>
+		</div>
+	</div>
+
+	<!-- TN Score board in-play-->
+	<h5>TN - in play </h5>
+	<div id="div_matches" class="box_scoboard tn" style="display: ;">
+		<div id="box_scostate" class="box_scostate">
+			<tt id="set_name" class="text_time_go"><p>1H</p> 27:51</tt>
+			<tt id="w_delay" class="text_stop_red" style="display: none;">*ART_game_stop*</tt>
+			<i id="midfield" class="icon_n" style="display: none;"></i>
+		</div>
+		<div id="box_sco_tn" class="box_sco_tn sco_tn_th">
+			<span id="sc_6th" class="sco_tn sco_tn_point last">L</span><!-- 國王的第６局 -->
+			<span id="sc_1st" class="sco_tn sco_tn_point">1</span>
+			<span id="sc_2nd" class="sco_tn sco_tn_point">2</span>
+			<span id="sc_3th" class="sco_tn sco_tn_point">3</span>
+			<span id="sc_4th" class="sco_tn sco_tn_point">4</span>
+			<span id="sc_5th" class="sco_tn sco_tn_point">5</span>
+			<span id="sc_set" class="sco_tn sco_tn_set">Set</span>
+			<span id="sc_game" class="sco_tn sco_tn_tot">Point</span>
+			<span id="total" class="sco_tn sco_tn_game">Games</span>
+		</div>
+		<div id="box_sco_l" class="box_sco_l">
+			<div class="box_scoteam team_h">
+				<span id="serve_h" class="icon_serve on"></span><!-- 發球方 Add class="on" -->
+				<span id="team_h" class="text_team">Team Name A</span>
+
+				<div class="box_sco_tn">
+					<span id="sc_6th_H" class="sco_tn sco_tn_point last">15</span>
+					<span id="sc_1st_H" class="sco_tn sco_tn_point">15</span>
+					<span id="sc_2nd_H" class="sco_tn sco_tn_point">15</span>
+					<span id="sc_3th_H" class="sco_tn sco_tn_point">15</span>
+					<span id="sc_4th_H" class="sco_tn sco_tn_point">15</span>
+					<span id="sc_5th_H" class="sco_tn sco_tn_point">15</span>
+					<span id="sc_set_H" class="sco_tn sco_tn_set">1</span>
+					<span id="sc_game_H" class="sco_tn sco_tn_tot">40</span>
+					<span id="total_H" class="sco_tn sco_tn_game">14</span>
+				</div>
+			</div>
+
+			<div class="box_scoteam team_c">
+				<span id="serve_c" class="icon_serve"></span><!-- 發球方 Add class="on" -->
+				<span id="team_c" class="text_team">Team Name B</span>
+				<div class="box_sco_tn">
+					<span id="sc_6th_A" class="sco_tn sco_tn_point last">15</span>
+					<span id="sc_1st_A" class="sco_tn sco_tn_point">15</span>
+					<span id="sc_2nd_A" class="sco_tn sco_tn_point">15</span>
+					<span id="sc_3th_A" class="sco_tn sco_tn_point">15</span>
+					<span id="sc_4th_A" class="sco_tn sco_tn_point">15</span>
+					<span id="sc_5th_A" class="sco_tn sco_tn_point">15</span>
+					<span id="sc_set_A" class="sco_tn sco_tn_set">1</span>
+					<span id="sc_game_A" class="sco_tn sco_tn_tot">40</span>
+					<span id="total_A" class="sco_tn sco_tn_game">14</span>
+				</div>
+			</div>
+
+		</div>
+		<div id="box_sco_point" class="box_sco_point">
+			<div id="320_sc_6th" class="point_tn_s last"><tt id="320_sc_6th_H">15</tt>-<tt id="320_sc_6th_A">15</tt></div>
+			<div id="320_sc_1st" class="point_tn_s"><tt id="320_sc_1st_H">15</tt>-<tt id="320_sc_1st_A">15</tt></div>
+			<div id="320_sc_2nd" class="point_tn_s"><tt id="320_sc_2nd_H">15</tt>-<tt id="320_sc_2nd_A">15</tt></div>
+			<div id="320_sc_3th" class="point_tn_s"><tt id="320_sc_3th_H">15</tt>-<tt id="320_sc_3th_A">15</tt></div>
+			<div id="320_sc_4th" class="point_tn_s"><tt id="320_sc_4th_H">15</tt>-<tt id="320_sc_4th_A">15</tt></div>
+			<div id="320_sc_5th" class="point_tn_s"><tt id="320_sc_5th_H">15</tt>-<tt id="320_sc_5th_A">15</tt></div>
+		</div>
+	</div>
+
+	<!-- TT Score board in-play-->
+	<h5>TT - in play </h5>
+	<div id="div_matches" class="box_scoboard tt" style="display: ;">
+		<div id="box_scostate" class="box_scostate">
+			<tt id="set_name" class="text_time_go"><p> 第一盘 </p>  第6局 </tt>
+			<tt id="w_delay" class="text_stop_red" style="display: none;">*ART_game_stop*</tt>
+			<i id="midfield" class="icon_n" style="display: none;"></i>
+		</div>
+		<div id="box_sco_tt" class="box_sco_tt sco_tt_th">
+			<span id="sc_8th" class="sco_tt sco_tt_point last">L</span><!-- 國王的第８局 -->
+			<span id="sc_1st" class="sco_tt sco_tt_point">1</span>
+			<span id="sc_2nd" class="sco_tt sco_tt_point">2</span>
+			<span id="sc_3th" class="sco_tt sco_tt_point">3</span>
+			<span id="sc_4th" class="sco_tt sco_tt_point">4</span>
+			<span id="sc_5th" class="sco_tt sco_tt_point">5</span>
+			<span id="sc_6th" class="sco_tt sco_tt_point">6</span>
+			<span id="sc_7th" class="sco_tt sco_tt_point">7</span>
+			<span id="sc_game" class="sco_tt sco_tt_set">Games</span>
+			<span id="total" class="sco_tt sco_tt_tot">Points</span>
+		</div>
+		<div id="box_sco_l" class="box_sco_l">
+			<div class="box_scoteam team_h">
+				<span id="serve_h" class="icon_serve on"></span><!-- 發球方 Add class="on" -->
+				<span id="team_h" class="text_team">Team Name A</span>
+
+				<div class="box_sco_tt">
+					<span id="sc_8th_H" class="sco_tt sco_tt_point last">15</span>
+					<span id="sc_1st_H" class="sco_tt sco_tt_point">15</span>
+					<span id="sc_2nd_H" class="sco_tt sco_tt_point">15</span>
+					<span id="sc_3th_H" class="sco_tt sco_tt_point">15</span>
+					<span id="sc_4th_H" class="sco_tt sco_tt_point">15</span>
+					<span id="sc_5th_H" class="sco_tt sco_tt_point">15</span>
+					<span id="sc_6th_H" class="sco_tt sco_tt_point">15</span>
+					<span id="sc_7th_H" class="sco_tt sco_tt_point">15</span>
+					<span id="sc_game_H" class="sco_tt sco_tt_set">2</span>
+					<span id="total_H" class="sco_tt sco_tt_tot">40</span>
+				</div>
+			</div>
+
+			<div class="box_scoteam team_c">
+				<span id="serve_c" class="icon_serve"></span><!-- 發球方 Add class="on" -->
+				<span id="team_c" class="text_team">Team Name B</span>
+				<div class="box_sco_tt">
+					<span id="sc_8th_A" class="sco_tt sco_tt_point last">15</span>
+					<span id="sc_1st_A" class="sco_tt sco_tt_point">15</span>
+					<span id="sc_2nd_A" class="sco_tt sco_tt_point">15</span>
+					<span id="sc_3th_A" class="sco_tt sco_tt_point">15</span>
+					<span id="sc_4th_A" class="sco_tt sco_tt_point">15</span>
+					<span id="sc_5th_A" class="sco_tt sco_tt_point">15</span>
+					<span id="sc_6th_A" class="sco_tt sco_tt_point">15</span>
+					<span id="sc_7th_A" class="sco_tt sco_tt_point">15</span>
+					<span id="sc_game_A" class="sco_tt sco_tt_set">2</span>
+					<span id="total_A" class="sco_tt sco_tt_tot">40</span>
+				</div>
+			</div>
+
+		</div>
+		<div id="box_sco_point" class="box_sco_point">
+			<div id="320_sc_8th" class="point_tt_s last"><tt id="320_sc_8th_H">15</tt>-<tt id="320_sc_8th_A">15</tt></div>
+			<div id="320_sc_1st" class="point_tt_s"><tt id="320_sc_1st_H">15</tt>-<tt id="320_sc_1st_A">15</tt></div>
+			<div id="320_sc_2nd" class="point_tt_s"><tt id="320_sc_2nd_H">15</tt>-<tt id="320_sc_2nd_A">15</tt></div>
+			<div id="320_sc_3th" class="point_tt_s"><tt id="320_sc_3th_H">15</tt>-<tt id="320_sc_3th_A">15</tt></div>
+			<div id="320_sc_4th" class="point_tt_s"><tt id="320_sc_4th_H">15</tt>-<tt id="320_sc_4th_A">15</tt></div>
+			<div id="320_sc_5th" class="point_tt_s"><tt id="320_sc_5th_H">15</tt>-<tt id="320_sc_5th_A">15</tt></div>
+			<div id="320_sc_6th" class="point_tt_s"><tt id="320_sc_6th_H">15</tt>-<tt id="320_sc_6th_A">15</tt></div>
+			<div id="320_sc_7th" class="point_tt_s"><tt id="320_sc_7th_H">15</tt>-<tt id="320_sc_7th_A">15</tt></div>
+		</div>
+	</div>
+
+	<!-- VB Score board in-play-->
+	<h5>VB - in play </h5>
+	<div id="div_matches" class="box_scoboard vb" style="display: ;">
+		<div id="box_scostate" class="box_scostate">
+			<tt id="set_name" class="text_time_go"><p>第一盘</p> 第6局</tt>
+			<tt id="w_delay" class="text_stop_red" style="display: none;">*ART_game_stop*</tt>
+			<i id="midfield" class="icon_n" style="display:none"></i>
+		</div>
+		<div id="box_sco_vb" class="box_sco_vb sco_vb_th">
+			<span id="sc_6th" class="sco_vb sco_vb_point last">L</span><!-- 國王的第６局 -->
+			<span id="sc_1st" class="sco_vb sco_vb_point">1</span>
+			<span id="sc_2nd" class="sco_vb sco_vb_point">2</span>
+			<span id="sc_3th" class="sco_vb sco_vb_point">3</span>
+			<span id="sc_4th" class="sco_vb sco_vb_point">4</span>
+			<span id="sc_5th" class="sco_vb sco_vb_point">5</span>
+			<span class="sco_vb sco_vb_set">Set</span>
+			<span class="sco_vb sco_vb_tot">Points</span>
+		</div>
+		<div id="box_sco_l" class="box_sco_l">
+			<div class="box_scoteam team_h">
+				<span id="serve_h" class="icon_serve on"></span><!-- 發球方 Add class="on" -->
+				<span id="team_h" class="text_team">Team Name A</span>
+
+				<div class="box_sco_vb">
+					<span id="sc_6th_H" class="sco_vb sco_vb_point last">15</span>
+					<span id="sc_1st_H" class="sco_vb sco_vb_point">15</span>
+					<span id="sc_2nd_H" class="sco_vb sco_vb_point">15</span>
+					<span id="sc_3th_H" class="sco_vb sco_vb_point">15</span>
+					<span id="sc_4th_H" class="sco_vb sco_vb_point">15</span>
+					<span id="sc_5th_H" class="sco_vb sco_vb_point">15</span>
+					<span id="sc_game_H" class="sco_vb sco_vb_set">1</span>
+					<span id="total_H" class="sco_vb sco_vb_tot">40</span>
+				</div>
+			</div>
+
+			<div class="box_scoteam team_c">
+				<span id="serve_c" class="icon_serve"></span><!-- 發球方 Add class="on" -->
+				<span id="team_c" class="text_team">Team Name B</span>
+				<div class="box_sco_vb">
+					<span id="sc_6th_A" class="sco_vb sco_vb_point last">15</span>
+					<span id="sc_1st_A" class="sco_vb sco_vb_point">15</span>
+					<span id="sc_2nd_A" class="sco_vb sco_vb_point">15</span>
+					<span id="sc_3th_A" class="sco_vb sco_vb_point">15</span>
+					<span id="sc_4th_A" class="sco_vb sco_vb_point">15</span>
+					<span id="sc_5th_A" class="sco_vb sco_vb_point">15</span>
+					<span id="sc_game_A" class="sco_vb sco_vb_set">1</span>
+					<span id="total_A" class="sco_vb sco_vb_tot">40</span>
+				</div>
+			</div>
+
+		</div>
+		<div id="box_sco_point" class="box_sco_point">
+			<div id="320_sc_6th" class="point_vb_s last"><tt id="320_sc_6th_H">15</tt>-<tt id="320_sc_6th_A">15</tt></div>
+			<div id="320_sc_1st" class="point_vb_s"><tt id="320_sc_1st_H">15</tt>-<tt id="320_sc_1st_A">15</tt></div>
+			<div id="320_sc_2nd" class="point_vb_s"><tt id="320_sc_2nd_H">15</tt>-<tt id="320_sc_2nd_A">15</tt></div>
+			<div id="320_sc_3th" class="point_vb_s"><tt id="320_sc_3th_H">15</tt>-<tt id="320_sc_3th_A">15</tt></div>
+			<div id="320_sc_4th" class="point_vb_s"><tt id="320_sc_4th_H">15</tt>-<tt id="320_sc_4th_A">15</tt></div>
+			<div id="320_sc_5th" class="point_vb_s"><tt id="320_sc_5th_H">15</tt>-<tt id="320_sc_5th_A">15</tt></div>
+		</div>
+	</div>
+
+	<!-- BM Score board in-play-->
+	<h5>BM - in play </h5>
+	<div id="div_matches" class="box_scoboard bm" style="display: ;">
+		<div id="box_scostate" class="box_scostate">
+			<tt id="set_name" class="text_time_go"><p>第一盤</p> 第6局</tt>
+			<tt id="w_delay" class="text_stop_red" style="display: none;">*ART_game_stop*</tt>
+			<i id="midfield" class="icon_n" style="display: none;"></i>
+		</div>
+		<div id="box_sco_bm" class="box_sco_bm sco_bm_th">
+			<span id="sc_6th" class="sco_vb sco_vb_point last">L</span><!-- 國王的第６局 -->
+			<span id="sc_1st" class="sco_bm sco_bm_point">1</span>
+			<span id="sc_2nd" class="sco_bm sco_bm_point">2</span>
+			<span id="sc_3th" class="sco_bm sco_bm_point">3</span>
+			<span id="sc_4th" class="sco_bm sco_bm_point">4</span>
+			<span id="sc_5th" class="sco_bm sco_bm_point">5</span>
+			<span class="sco_bm sco_bm_set">Set</span>
+			<span class="sco_bm sco_bm_tot">Points</span>
+		</div>
+		<div id="box_sco_l" class="box_sco_l">
+			<div class="box_scoteam team_h">
+				<span id="serve_h" class="icon_serve on"></span><!-- 發球方 Add class="on" -->
+				<span id="team_h" class="text_team">Team Name A</span>
+
+				<div class="box_sco_bm">
+					<span id="sc_6th_H" class="sco_vb sco_vb_point last">15</span>
+					<span id="sc_1st_H" class="sco_bm sco_bm_point">15</span>
+					<span id="sc_2nd_H" class="sco_bm sco_bm_point">15</span>
+					<span id="sc_3th_H" class="sco_bm sco_bm_point">15</span>
+					<span id="sc_4th_H" class="sco_bm sco_bm_point">15</span>
+					<span id="sc_5th_H" class="sco_bm sco_bm_point">15</span>
+					<span id="sc_game_H" class="sco_bm sco_bm_set">1</span>
+					<span id="total_H" class="sco_bm sco_bm_tot">40</span>
+				</div>
+			</div>
+
+			<div class="box_scoteam team_c">
+				<span id="serve_c" class="icon_serve"></span><!-- 發球方 Add class="on" -->
+				<span id="team_c" class="text_team">Team Name B</span>
+				<div class="box_sco_bm">
+					<span id="sc_6th_A" class="sco_vb sco_vb_point last">15</span>
+					<span id="sc_1st_A" class="sco_bm sco_bm_point">15</span>
+					<span id="sc_2nd_A" class="sco_bm sco_bm_point">15</span>
+					<span id="sc_3th_A" class="sco_bm sco_bm_point">15</span>
+					<span id="sc_4th_A" class="sco_bm sco_bm_point">15</span>
+					<span id="sc_5th_A" class="sco_bm sco_bm_point">15</span>
+					<span id="sc_game_A" class="sco_bm sco_bm_set">1</span>
+					<span id="total_A" class="sco_bm sco_bm_tot">40</span>
+				</div>
+			</div>
+
+		</div>
+		<div id="box_sco_point" class="box_sco_point">
+			<div id="320_sc_6th" class="point_bm_s last"><tt id="320_sc_6th_H">15</tt>-<tt id="320_sc_6th_A">15</tt></div>
+			<div id="320_sc_1st" class="point_bm_s"><tt id="320_sc_1st_H">15</tt>-<tt id="320_sc_1st_A">15</tt></div>
+			<div id="320_sc_2nd" class="point_bm_s"><tt id="320_sc_2nd_H">15</tt>-<tt id="320_sc_2nd_A">15</tt></div>
+			<div id="320_sc_3th" class="point_bm_s"><tt id="320_sc_3th_H">15</tt>-<tt id="320_sc_3th_A">15</tt></div>
+			<div id="320_sc_4th" class="point_bm_s"><tt id="320_sc_4th_H">15</tt>-<tt id="320_sc_4th_A">15</tt></div>
+			<div id="320_sc_5th" class="point_bm_s"><tt id="320_sc_5th_H">15</tt>-<tt id="320_sc_5th_A">15</tt></div>
+		</div>
+	</div>
+
+	<!-- BS Score board in-play-->
+	<h5>BS - in play </h5>
+	<div id="div_matches" class="box_scoboard bs" style="display: ;">
+		<div id="box_scostate" class="box_scostate">
+			<tt class="text_time_go"><p id="game_count">0</p><i id="game_half" class="icon_bs_down"></i></tt>
+			<i id="midfield" class="icon_n" style="display: none;"></i>
+		</div>
+		<div id="box_sco_bs" class="box_sco_bs sco_bs_th">
+			<span class="sco_bs sco_bs_point">1</span>
+			<span class="sco_bs sco_bs_point">2</span>
+			<span class="sco_bs sco_bs_point">3</span>
+			<span class="sco_bs sco_bs_point">4</span>
+			<span class="sco_bs sco_bs_point">5</span>
+			<span class="sco_bs sco_bs_point">6</span>
+			<span class="sco_bs sco_bs_point">7</span>
+			<span class="sco_bs sco_bs_point">8</span>
+			<span class="sco_bs sco_bs_point">9</span>
+			<span class="sco_bs sco_bs_set">OT</span>
+		</div>
+		<div id="box_sco_l" class="box_sco_l">
+			<div class="box_scoteam team_h">
+				<span id="serve_h" class="icon_serve on"></span><!-- 發球方 Add class="on" -->
+				<span id="sc_game_H" class="text_point">9</span>
+				<span id="team_h" class="text_team">Team Name A</span>
+
+				<div class="box_sco_bs">
+					<span id="sc_1st_H" class="sco_bs sco_bs_point">0</span>
+					<span id="sc_2nd_H" class="sco_bs sco_bs_point">0</span>
+					<span id="sc_3th_H" class="sco_bs sco_bs_point">0</span>
+					<span id="sc_4th_H" class="sco_bs sco_bs_point">0</span>
+					<span id="sc_5th_H" class="sco_bs sco_bs_point">0</span>
+					<span id="sc_6th_H" class="sco_bs sco_bs_point">0</span>
+					<span id="sc_7th_H" class="sco_bs sco_bs_point">0</span>
+					<span id="sc_8th_H" class="sco_bs sco_bs_point">0</span>
+					<span id="sc_9th_H" class="sco_bs sco_bs_point">0</span>
+					<span id="sc_ov_H" class="sco_bs sco_bs_set">0</span>
+				</div>
+			</div>
+
+			<div class="box_scoteam team_c">
+				<span id="serve_c" class="icon_serve"></span><!-- 發球方 Add class="on" -->
+				<span id="sc_game_A" class="text_point">2</span>
+				<span id="team_c" class="text_team">Team Name B</span>
+				<div class="box_sco_bs">
+					<span id="sc_1st_A" class="sco_bs sco_bs_point">1</span>
+					<span id="sc_2nd_A" class="sco_bs sco_bs_point">1</span>
+					<span id="sc_3th_A" class="sco_bs sco_bs_point">1</span>
+					<span id="sc_4th_A" class="sco_bs sco_bs_point">1</span>
+					<span id="sc_5th_A" class="sco_bs sco_bs_point">1</span>
+					<span id="sc_6th_A" class="sco_bs sco_bs_point">1</span>
+					<span id="sc_7th_A" class="sco_bs sco_bs_point">1</span>
+					<span id="sc_8th_A" class="sco_bs sco_bs_point">1</span>
+					<span id="sc_9th_A" class="sco_bs sco_bs_point">1</span>
+					<span id="sc_ov_A" class="sco_bs sco_bs_set">0</span>
+				</div>
+			</div>
+
+		</div>
+		<div id="box_sco_point" class="box_sco_point">
+			<div id="base_icon" class="icon_bs_base bs_NNN"></div>
+			<!-- bs_NNN / bs_YNN / bs_NYN / bs_NNY / bs_YYN / bs_YNY / bs_NYY / bs_YYY -->
+			<div class="point_bs_s">Outs:<tt id="out_count">0</tt></div>
+		</div>
+	</div>
+
+	<!-- SK Score board in-play-->
+	<h5>SK - in play </h5>
+	<div id="div_matches" class="box_scoboard sk" style="display: ;">
+		<div id="box_scostate" class="box_scostate">
+			<tt id="set_name" class="text_time_go">18:30:00</tt>
+			<i id="midfield" class="icon_n" style="display: none;"></i>
+		</div>
+		<div id="box_sco_l" class="box_sco_l">
+			<div class="box_scoteam team_h">
+				<span id="team_h" class="text_team">Team Name A</span><!-- 強隊 Add class="strong_team" -->
+				<span id="score_h" class="text_point">50</span><!-- 最後入球 Add class="last_goal" -->
+			</div>
+
+			<div class="box_scoteam team_c">
+				<span id="team_c" class="text_team">Team Name B</span>
+				<span id="score_c" class="text_point">50</span>
+			</div>
+		</div>
+	</div>
+
+	<!-- OP Score board in-play-->
+	<h5>OP - in play </h5>
+	<div id="div_matches" class="box_scoboard op" style="display: ;">
+		<div id="box_scostate" class="box_scostate">
+			<tt class="text_time_go">18:30:00</tt>
+			<i id="midfield" class="icon_n" style="display: none;"></i>
+		</div>
+		<div id="box_sco_l" class="box_sco_l">
+			<div class="box_scoteam team_h">
+				<span id="score_h" class="text_point">10</span><!-- 最後入球 Add class="last_goal" -->
+				<span id="team_h" class="text_team">Team Name A</span><!-- 強隊 Add class="strong_team" -->
+			</div>
+			<span class="box_sco_center">-</span>
+			<div class="box_scoteam team_c">
+				<span id="score_c" class="text_point">10</span>
+				<span id="team_c" class="text_team">Team Name B</span>
+			</div>
+		</div>
+	</div>
+
+
+
+	<h3>TODAY</h3>
+	<!-- FT Score board -->
+	<h5>FT - today</h5>
+	<div id="div_matches" class="box_scoboard_r ft" style="display: ;">
+		<div class="box_scostate">
+			<tt id="game_time" class="text_time">18:30:00</tt>
+			<i id="midfield" class="icon_n" style="display:none"></i>
+		</div>
+		<div class="box_sco_l">
+			<div class="box_scoteam team_h">
+				<span id="team_h" class="text_team">Team Name A</span>
+			</div>
+			<div class="box_sco_vs">V</div>
+			<div class="box_scoteam team_c">
+				<span id="team_c" class="text_team">Team Name B</span>
+			</div>
+		</div>
+	</div>
+
+	<!-- BK Score board -->
+	<h5>BK - today</h5>
+	<div id="div_matches" class="box_scoboard_r bk" style="display: ;">
+		<div class="box_scostate">
+			<tt id="game_time" class="text_time">18:30:00</tt>
+			<i id="midfield" class="icon_n" style="display:none"></i>
+		</div>
+		<div class="box_sco_l">
+			<div class="box_scoteam team_h">
+				<span id="team_h" class="text_team">Team Name A</span>
+			</div>
+			<div class="box_sco_vs">V</div>
+			<div class="box_scoteam team_c">
+				<span id="team_c" class="text_team">Team Name B</span>
+			</div>
+		</div>
+	</div>
+
+	<!-- TN Score board -->
+	<h5>TN - today</h5>
+	<div id="div_matches" class="box_scoboard_r tn" style="display: ;">
+		<div class="box_scostate">
+			<tt id="game_time" class="text_time">18:30:00</tt>
+			<i id="midfield" class="icon_n" style="display: none;"></i>
+		</div>
+		<div class="box_sco_l">
+			<div class="box_scoteam team_h">
+				<span id="team_h" class="text_team">Team Name A</span>
+			</div>
+			<div class="box_sco_vs">V</div>
+			<div class="box_scoteam team_c">
+				<span id="team_c" class="text_team">Team Name B</span>
+			</div>
+		</div>
+	</div>
+
+	<!-- TT Score board -->
+	<h5>TT - today</h5>
+	<div id="div_matches" class="box_scoboard_r tt" style="display: ;">
+		<div class="box_scostate">
+			<tt id="game_time" class="text_time">18:30:00</tt>
+			<i id="midfield" class="icon_n" style="display: none;"></i>
+		</div>
+		<div class="box_sco_l">
+			<div class="box_scoteam team_h">
+				<span id="team_h" class="text_team">Team Name A</span>
+			</div>
+			<div class="box_sco_vs">V</div>
+			<div class="box_scoteam team_c">
+				<span id="team_c" class="text_team">Team Name B</span>
+			</div>
+		</div>
+	</div>
+
+	<!-- VB Score board -->
+	<h5>VB - today</h5>
+	<div id="div_matches" class="box_scoboard_r vb" style="display: ;">
+		<div class="box_scostate">
+			<tt id="game_time" class="text_time">18:30:00</tt>
+			<i id="midfield" class="icon_n" style="display: none;"></i>
+		</div>
+		<div class="box_sco_l">
+			<div class="box_scoteam team_h">
+				<span id="team_h" class="text_team">Team Name A</span>
+			</div>
+			<div class="box_sco_vs">V</div>
+			<div class="box_scoteam team_c">
+				<span id="team_c" class="text_team">Team Name B</span>
+			</div>
+		</div>
+	</div>
+
+	<!-- BM Score board -->
+	<h5>BM - today</h5>
+	<div id="div_matches" class="box_scoboard_r bm" style="display: ;">
+		<div class="box_scostate">
+			<tt id="game_time" class="text_time">18:30:00</tt>
+			<i id="midfield" class="icon_n" style="display: none;"></i>
+		</div>
+		<div class="box_sco_l">
+			<div class="box_scoteam team_h">
+				<span id="team_h" class="text_team">Team Name A</span>
+			</div>
+			<div class="box_sco_vs">V</div>
+			<div class="box_scoteam team_c">
+				<span id="team_c" class="text_team">Team Name B</span>
+			</div>
+		</div>
+	</div>
+
+	<!-- BS Score board -->
+	<h5>BS - today</h5>
+	<div id="div_matches" class="box_scoboard_r bs" style="display: ;">
+		<div class="box_scostate">
+			<tt id="game_time" class="text_time">18:30:00</tt>
+			<i id="midfield" class="icon_n" style="display: none;"></i>
+		</div>
+		<div class="box_sco_l">
+			<div class="box_scoteam team_h">
+				<span id="team_h" class="text_team">Team Name A</span>
+			</div>
+			<div class="box_sco_vs">V</div>
+			<div class="box_scoteam team_c">
+				<span id="team_c" class="text_team">Team Name B</span>
+			</div>
+		</div>
+	</div>
+
+	<!-- SK Score board -->
+	<h5>SK - today</h5>
+	<div id="div_matches" class="box_scoboard_r sk" style="display: ;">
+		<div class="box_scostate">
+			<tt id="game_time" class="text_time">18:30:00</tt>
+			<i id="midfield" class="icon_n" style="display:none"></i>
+		</div>
+		<div class="box_sco_l">
+			<div class="box_scoteam team_h">
+				<span id="team_h" class="text_team">Team Name A</span>
+			</div>
+			<div class="box_sco_vs">V</div>
+			<div class="box_scoteam team_c">
+				<span id="team_c" class="text_team">Team Name B</span>
+			</div>
+		</div>
+		<div class="box_sco_b">
+			<tt id="set_name" class="text_time_go">Best of 35</tt>
+		</div>
+	</div>
+
+	<!-- OP Score board -->
+	<h5>OP - today</h5>
+	<div id="div_matches" class="box_scoboard_r op" style="display: ;">
+		<div class="box_scostate">
+			<tt id="game_time" class="text_time">18:30:00</tt>
+			<i id="midfield" class="icon_n" style="display:none"></i>
+		</div>
+		<div class="box_sco_l">
+			<div class="box_scoteam team_h">
+				<span id="team_h" class="text_team">Team Name A</span>
+			</div>
+			<div class="box_sco_vs">V</div>
+			<div class="box_scoteam team_c">
+				<span id="team_c" class="text_team">Team Name B</span>
+			</div>
+		</div>
+	</div>
+
+
+</body>
+</html>

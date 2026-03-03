@@ -1,0 +1,18 @@
+var artjson = {
+	"ART_lang": "EN",
+	"ART_hp_app": "INSTALLATION GUIDE",
+
+	"ART_hp_app_text_1": "1. Please tap DOWNLOAD APP button to download the APP.",
+	"ART_hp_app_btn_download": "DOWNLOAD APP",
+
+	"ART_hp_app_text_2": "2. After APP downloaded, Open HGA010.apk Download and open HGA010.apk from your phone’s Downloads folder. When “Install Blocked” message appears, tap “Settings”.",
+
+	"ART_hp_app_text_3": "3. Enable “Unknown Sources”",
+
+	"ART_hp_app_text_4": "4. Tap “OK” on this warning. Then go back and open HGA010.apk to install it.",
+
+	"ART_hp_app_text_5": "5. After Installation is done, disable \"Unknown Sources\". Go to Settings > Security and disable Unknown Sources",
+
+	"ART_hp_app_text_6": "Your APP is now set up and ready for use. Thank you",
+
+}

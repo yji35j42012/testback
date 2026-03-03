@@ -1,0 +1,96 @@
+var artjson = {
+	"ART_ru_title": "体育玩法规则",
+	"ART_ru_select": "选择体育项目",
+
+	"ART_ru_general": "一般体育说明",
+	"ART_ru_outright": "冠军",
+	"ART_ru_multiples": "连串过关 / 复式过关",
+	"ART_ru_soccer": "足球",
+	"ART_ru_basketball": "篮球",
+	"ART_ru_tennis": "网球",
+	"ART_ru_volleyball": "排球",
+	"ART_ru_badminton": "羽毛球",
+	"ART_ru_table_tennis": "乒乓球",
+	"ART_ru_baseball": "棒球",
+	"ART_ru_snooker": "斯诺克 / 台球",
+	"ART_ru_usa_football": "美式足球",
+	"ART_ru_archery": "射箭和射击",
+	"ART_ru_athletic": "田径",
+	"ART_ru_aussie": "澳式足球",
+	"ART_ru_beach_soccer": "沙滩足球",
+	"ART_ru_beach_volleyball": "沙滩排球",
+	"ART_ru_boxing": "拳击 / 搏斗",
+	"ART_ru_cricket": "板球",
+	"ART_ru_cycling": "自行车",
+	"ART_ru_darts": "飞镖",
+	"ART_ru_e_sports": "电子竞技",
+	"ART_ru_field_hockey": "曲棍球",
+	"ART_ru_financial_bets": "金融投注",
+	"ART_ru_futsal": "室内足球",
+	"ART_ru_golf": "高尔夫球",
+	"ART_ru_gymnastics": "体操",
+	"ART_ru_handball": "手球",
+	"ART_ru_ice_hockey": "冰球",
+	"ART_ru_judo": "柔道、摔交、跆拳道",
+	"ART_ru_lacrosse": "长曲棍球",
+	"ART_ru_medal_betting": "体育 / 奖章投注",
+	"ART_ru_motor_sports": "赛车",
+	"ART_ru_olympics": "奥林匹克或相关事件投注",
+	"ART_ru_rowing": "赛艇和皮划艇",
+	"ART_ru_rugby_league": "橄榄球联盟",
+	"ART_ru_softball": "垒球",
+	"ART_ru_tamp": "三项全能和现代五项运动",
+	"ART_ru_water_polo": "水球",
+	"ART_ru_weightlifting": "举重",
+	"ART_ru_wintersports": "冬季运动&冬季奥运会 / 比赛",
+
+	"ART_ru_h1_tennis": "网球",
+	"ART_ru_lastdate": "最后更新日期:",
+	"ART_ru_date": "09/06/2023",
+
+	"ART_ru_rule": "一般规则",
+	"ART_ru_tennis_a_1": "除非在个别投注类型规则中另有说明否则当比赛或指定时段未完全进行公司有权作出取消注单的权利。",
+	"ART_ru_tennis_a_2": "如果比赛的计分方式与原先指定不同，所有注单将被视为无效。",
+	"ART_ru_tennis_a_3": "如果在比赛前或比赛中突然更换球场，从室内到室外或反之，或地面，所有注单将被视为有效。",
+	"ART_ru_tennis_a_4": "如果比赛提前开赛，仅有在开赛之前投注的注单将视为有效投注。开赛后投注的注单将被视为无效，滚球玩法除外。",
+	"ART_ru_tennis_a_5": "抢七或抢十决胜局视为一局将计入结算范围。",
+
+	"ART_ru_bettype": "投注类型",
+
+	"ART_ru_tennis_b": "独赢",
+	"ART_ru_tennis_b_1": "预测哪个球员将会赢得比赛。",
+
+	"ART_ru_tennis_c": "让盘",
+	"ART_ru_tennis_c_1": "预测哪一位球员在盘口指定的让盘数赢得比赛。",
+
+	"ART_ru_tennis_d": "让局",
+	"ART_ru_tennis_d_1": "预测哪一位球员在盘口指定的让局数在某个时节（例如:全场比赛/第一盘/第二盘）赢得最多局。",
+
+	"ART_ru_tennis_e": "局获胜者（获胜者 – 盘X 局 X）",
+	"ART_ru_tennis_e_1": "预测指定盘的指定局谁将获胜（例如第一盘第一局）。",
+
+	"ART_ru_tennis_f": "以对手15/30赢局 - 盘X,局Y",
+	"ART_ru_tennis_f_1": "预测在指定盘的指定局任何一个球员将与对手15分或30分赢局。<br><br>例如：",
+	"ART_ru_tennis_f_1_1": "第一盘,第一局:赢局-15或赢局-30。",
+	"ART_ru_tennis_f_1_2": "第一盘,第一局:15-赢局或30-赢局。",
+
+	"ART_ru_tennis_g": "盘X,局Y: 总得分数大/小",
+	"ART_ru_tennis_g_1": "预测在指定盘的指定局的总得分数 (例如:第一盘,第一局) 将大于或小于盘口指定的总得分数线。<br><br>例如：",
+	"ART_ru_tennis_g_1_1": "第一盘,第一局: 4-0(Win-0), 4-1(Win-15), 4-2(Win-30) 或5-3(Win-40)。",
+
+	"ART_ru_tennis_h": "总局数： 大 / 小",
+	"ART_ru_tennis_h_1": "预测比赛中的某个时节（例如:全场比赛/第一盘/第二盘）进行的总局数将大于或小于在盘口指定的大/小盘局数。",
+
+	"ART_ru_tennis_i": "总局数：单 / 双",
+	"ART_ru_tennis_i_1": "预测比赛中的某个时节（例如:全场比赛/第一盘/第二盘）进行的总局数是单数或双数。",
+
+	"ART_ru_tennis_j": "单盘投注",
+	"ART_ru_tennis_j_1": "预测单盘最终结果。",
+
+	"ART_ru_tennis_k": "波胆",
+	"ART_ru_tennis_k_1": "预测比赛的每盘比分。",
+
+	"ART_ru_tennis_l": "球员总场数-大/小",
+	"ART_ru_tennis_l_1": "预测哪一位球员或一对球员在比赛中赢得总场数将大于或小于盘口指定的总场数线。",
+
+}

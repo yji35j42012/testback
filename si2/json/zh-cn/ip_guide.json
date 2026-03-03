@@ -1,0 +1,32 @@
+var artjson = {
+	"ART_lang": "CN",
+	"ART_ipguide_title": "IP访问指南",
+
+	"ART_ipguide_chrome": "CHROME",
+	"ART_ipguide_safari": "SAFARI",
+	"ART_ipguide_firefox": "火狐",
+
+	"ART_ipguide_intro1": "什么是 IP链接？为什么我的浏览器会出现警告讯息？",
+	"ART_ipguide_intro2": "我们提供的 IP 链接是为了访问我们网页的另外一个备用链接。如果平常使用的网络链接出现技术问题，我们会建议会员使用我们提供的IP链接登入。在此情况下，浏览器通常会出现这样的警告讯息。这是为了防止有些有恶意目的网页而做出的警告。然而，如果IP链接是我们提供的话，可放心安全使用。<br><br>您可能会看到以下的场景，但请不要担心，这是正常现象，请按照以下步骤操作：",
+
+	"ART_ipguide_step_1": "第一步：",
+	"ART_ipguide_step_2": "第二步：",
+	"ART_ipguide_step_3": "第三步：",
+
+	"ART_ipguide_android": "安卓版",
+	"ART_ipguide_ios": "ios版",
+
+	"ART_ipguide_chrome_1": "点击 “高級”。",
+	"ART_ipguide_chrome_2": "点击“继续前往IP地址”。",
+
+	"ART_ipguide_safari_1": "点击 “显示详细信息”。",
+	"ART_ipguide_safari_2": "点击 “访问此网站”。",
+	"ART_ipguide_safari_3": "点击 “访问网站”。",
+
+	"ART_ipguide_firefox_1": "点击 “高級。。。”。",
+	"ART_ipguide_firefox_2": "点击 “接受风险并继续”。",
+	"ART_ipguide_firefox_3": "点击 “高級”。",
+	"ART_ipguide_firefox_4": "点击 “继续访问该网站”。",
+
+	"ART_ipguide_vist": "继续访问网站",
+}

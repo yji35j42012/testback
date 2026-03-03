@@ -1,0 +1,13 @@
+var artjson = {
+	"ART_listbet_title": "Hoja De Apuestas",
+	"ART_listbet_bet": "Apostar: ",
+	"ART_listbet_towin": "Est. Ganar: ",
+	"ART_listbet_parlay": "Incrementar dinero en apuestas",
+	"ART_listbet_inclass": "en",
+	"ART_listbet_in": "in",
+	"ART_listbet_nodata": "No hay transacciones disponibles.",
+	"ART_listbet_more": "Ver más",
+	"ART_listbet_backtop": "Volver arriba",
+	"ART_hisview_bet": "apostar: ",
+	"ART_hisview_winloss": "Ganar perder: ",
+};

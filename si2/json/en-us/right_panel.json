@@ -1,0 +1,35 @@
+var artjson = {
+	"ART_lang": "EN",
+	"ART_pic_lang": "en",
+	"ART_title_relate": "View Information Relating to Content",
+
+//WEBP
+	"ART_img_2025cup": "srcset=\"../../images/img_2025cup_en.webp?2025v1\" type=\"image/webp\"",
+	"ART_img_event_5": "srcset=\"../../images/img_sideshow_5_en.webp?2024v0\" type=\"image/webp\"",
+	"ART_img_event_0": "srcset=\"../../images/img_sideshow_0_en.webp?2025v5\" type=\"image/webp\"",
+	"ART_img_esport": "srcset=\"../../images/img_esport_en.webp?2025v0\" type=\"image/webp\"",
+	"ART_img_hotgame": "srcset=\"../../images/img_hotgame_en.webp?2024v0\" type=\"image/webp\"",
+	"ART_img_timeset": "srcset=\"../../images/img_timeset_en.webp?2024v0\" type=\"image/webp\"",
+	"ART_img_newPD": "srcset=\"../../images/img_newPD_en.webp?202406v2\" type=\"image/webp\"",
+	"ART_img_liveTV": "srcset=\"../../images/img_liveTV_en.webp?2024v0\" type=\"image/webp\"",
+	"ART_img_forecast": "srcset=\"../../images/img_forecast_en.webp?2024v0\" type=\"image/webp\"",
+	"ART_img_event_3": "srcset=\"../../images/img_sideshow_3_en.webp?2024v0\" type=\"image/webp\"",
+	"ART_img_mygame": "srcset=\"../../images/img_mygame_en.webp?2024v0\" type=\"image/webp\"",
+
+//JPEG
+	"ART_img_X2025cup": "srcset=\"../../images/img_2025cup_en.jpg?2025v1\" type=\"image/jpeg\"",
+	"ART_img_Xevent_5": "srcset=\"../../images/img_sideshow_5_en.jpg?2024v0\" type=\"image/jpeg\"",
+	"ART_img_Xevent_0": "srcset=\"../../images/img_sideshow_0_en.jpeg?2025v5\" type=\"image/jpeg\"",
+	"ART_img_Xesport": "srcset=\"../../images/img_esport_en.jpg?2025v0\" type=\"image/jpeg\"",
+	"ART_img_Xhotgame": "srcset=\"../../images/img_hotgame_en.jpg?2024v0\" type=\"image/webp\"",
+	"ART_img_Xtimeset": "srcset=\"../../images/img_timeset_en.jpg?2024v0\" type=\"image/jpeg\"",
+	"ART_img_XnewPD": "srcset=\"../../images/img_newPD_en.jpg?202406v2\" type=\"image/jpeg\"",
+	"ART_img_XliveTV": "srcset=\"../../images/img_liveTV_en.jpg?2024v0\" type=\"image/webp\"",
+	"ART_img_Xforecast": "srcset=\"../../images/img_forecast_en.jpg?2024v0\" type=\"image/jpeg\"",
+	"ART_img_Xevent_3": "srcset=\"../../images/img_sideshow_3_en.jpg?2024v0\" type=\"image/jpeg\"",
+	"ART_img_Xmygame": "srcset=\"../../images/img_mygame_en.jpg?2024v0\" type=\"image/jpeg\"",
+
+//MT
+	"ART_game_nomtpop": "Hmm…it seems this is empty right now.This could be because this particular content is not available for this event or it will be only available later on.",
+
+}

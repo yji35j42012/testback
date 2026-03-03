@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name='viewport' content='maximum-scale=1, width=device-width, user-scalable=no, minimum-scale=1.0, viewport-fit=cover'/>
+	<title>nav menu</title>
+	<script id="bottomJS">{JS}</script>
+	<link href="{CDNURL}/style/main.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<div class="nav_menu">
+		<div class="menu_bottom">
+			<div id="menu_sport" class="btn_nav on">
+				<i class="icon_sport"><svg><use xlink:href="#icon_sport"/></svg></i>
+				<span>*ART_bottom_sport*</span>
+			</div>
+			<div id="menu_tv" class="btn_nav">
+				<i class="icon_tv"><svg><use xlink:href="#icon_tv"/></svg></i>
+				<span>*ART_bottom_schedule*</span>
+			</div>
+			<div id="menu_betslip" class="btn_betslip">
+				<i id="bet_select_count" class="bet_amount">0</i>
+				<span id="bet_select_ior">*ART_bottom_betslip*</span>
+			</div>
+
+			<div id="menu_history" class="btn_nav" style="display: none;">
+				<i class="icon_history"><svg><use xlink:href="#icon_history"/></svg></i>
+				<span>*ART_bottom_statement*</span>
+			</div>
+
+			<div id="menu_myGame" class="btn_nav" ><!---->
+				<svg class="ani_mygame circle on_wave"><circle cx="24" cy="24" r="24" fill="#fff" /></svg>
+				<svg class="ani_mygame circle on_wave2"><circle cx="24" cy="24" r="24" fill="#fff" /></svg>
+				<svg class="ani_mygame circle off_wave"><circle cx="24" cy="24" r="24" fill="#fff" /></svg>
+
+				<i class="icon_star"><svg><use xlink:href="#icon_star"/></svg></i>
+				<span>*ART_bottom_mygame*</span>
+				<!-- <tt id="" class="text_new"><p>*ART_text_new*</p></tt> -->
+				<tt id="menu_myGame_dot" class="dot_green"></tt>
+			</div>
+
+			<div id="menu_todaywagers" class="btn_nav">
+				<i class="icon_mybet"><svg><use xlink:href="#icon_check"/></svg></i>
+				<span>*ART_bottom_mybets*</span>
+				<tt id="wager_count" class="num_betslip" style="display: ;"></tt>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

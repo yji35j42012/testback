@@ -1,0 +1,13 @@
+var artjson = {
+	"ART_listbet_title": "Boletim de apostas",
+	"ART_listbet_bet": "Estaca: ",
+	"ART_listbet_towin": "Quantidade para ganhar: ",
+	"ART_listbet_parlay": "Apostar",
+	"ART_listbet_inclass": "en",
+	"ART_listbet_in": "in",
+	"ART_listbet_nodata": "Não há transações disponíveis.",
+	"ART_listbet_more": "Ver más",
+	"ART_listbet_backtop": "De volta ao topo",
+	"ART_hisview_bet": "Estaca: ",
+	"ART_hisview_winloss": "Vitória / Perda: ",
+};

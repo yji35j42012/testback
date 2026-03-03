@@ -1,0 +1,18 @@
+var artjson = {
+	"ART_ball_all": "所有體育",
+	"ART_ball_ft": "足球",
+	"ART_ball_vf": "虛擬賽事",
+	"ART_ball_bk": "籃球 & 美式足球",
+	"ART_ball_es": "電子競技",
+	"ART_ball_tn": "網球",
+	"ART_ball_vb": "排球",
+	"ART_ball_bm": "羽毛球",
+	"ART_ball_tt": "乒乓球",
+	"ART_ball_bs": "棒球",
+	"ART_ball_sk": "斯諾克 / 台球",
+	"ART_ball_op": "其他",
+	"ART_game_sched": "賽程",
+	"ART_date_alldate": "所有日期",
+	"ART_date_future": "未來",
+	"ART_game_datenodata": "您選擇的日期沒有任何賽事。",
+}

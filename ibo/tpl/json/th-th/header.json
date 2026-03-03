@@ -1,0 +1,23 @@
+var artjson = {
+	"ART_header_inplay": "กำลังเล่นอยู่",
+	"ART_header_worldcup": "🏆World Cup",
+	"ART_header_virtual": "VIRTUAL",
+	"ART_header_upcoming": "UPCOMING",
+	"ART_header_soon": "SOON",
+	"ART_header_hot": "HOT",
+	"ART_header_today": "วันนี้",
+	"ART_header_early": "EARLY",
+	"ART_header_outrights": "ตรงไปตรงมา",
+	"ART_header_parlay": "PARLAY",
+	"ART_header_sb": "SPECIAL BET",
+	"ART_header_bonus": "ACTIVITIES",
+
+	"ART_bottom_result": "ผล",
+	"ART_bottom_schedule": "SCHEDULE",
+	"ART_bottom_openbet": "เดิมพันแบบเปิด",
+	"ART_bottom_mygame": "MY EVENTS",
+	"ART_bottom_mybets": "MY BETS",
+	"ART_bottom_statement": "คำให้การ",
+
+	"ART_text_new": "NEW",
+}

@@ -1,0 +1,16 @@
+var artjson = {
+	"ART_lang": "EN",
+	"ART_game_nodata": "No hay eventos disponibles.",
+
+	"ART_game_r": "Handicap",
+	"ART_game_m": "1 X 2",
+	"ART_game_ou": "Over / Under",
+	"ART_game_eo": "Odd / Even",
+
+	"ART_game_over": "O",
+	"ART_game_under": "U",
+	"ART_game_odd": "Odd",
+	"ART_game_even": "Even",
+	"ART_game_draw": "Draw",
+
+}

@@ -1,0 +1,15 @@
+var artjson = {
+	"ART_log_chgpwd": "CHANGE PASSWORD",
+	"ART_log_chgpwd_text_1": "For security reasons, you are required to change password every 30 days.",
+	"ART_log_chgpwd_text_2": "Your Password must:",
+	"ART_log_chgpwd_text_3": "Be between 6 - 12 alphanumeric characters with at least 2 upper (A-Z) or lowercase letters (a-z) and at least 1 numeric characters (0-9).",
+	"ART_log_chgpwd_text_4": "Contain at least 3 different alphanumeric characters.",
+	"ART_log_chgpwd_text_5": "Not contain any spaces.",
+
+	"ART_log_inp_nowpwd": "Current Password",
+	"ART_log_inp_newpwd": "New Password",
+	"ART_log_inp_repwd": "Confirm Password",
+
+	"ART_log_btn_cancel": "Cancelar",
+	"ART_log_btn_submit": "Entregar",
+}

@@ -1,0 +1,21 @@
+var artjson = {
+	"ART_lang": "TW",
+	"ART_msg_btn_no": "否",
+	"ART_msg_btn_yes": "是",
+
+	"ART_msg_noshow": "不要再顯示。",
+
+	"ART_title_kick": "系統訊息",
+
+	"ART_msg_btn_ok": "確認",
+	"ART_toast_btn_ok": "確定",
+	
+	"ART_TITLE_DETAIL": "詳細資料",
+	"ART_MSG_CASHOUT_PART": "部分兌現",
+	"ART_MSG_CASHOUT_AMOUNT": "部分兌現投注額",
+
+	"ART_msgBonus_title": "活動獎金大放送",
+	"ART_msgBonus_subtitle1": "項活動，分別達到條件",
+	"ART_msgBonus_subtitle2": "即可獲得活動獎金!",
+    "ART_msg_btn_detail": "詳細說明",
+}

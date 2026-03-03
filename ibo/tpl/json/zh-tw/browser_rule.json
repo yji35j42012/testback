@@ -1,0 +1,18 @@
+var artjson = {
+	"ART_browser_explain01": "您正在使用過時的瀏覽器",
+	"ART_browser_explain02": "您的瀏覽器不支持訪問本網站，請下載最新的瀏覽器並進行最佳瀏覽體驗。",
+	"ART_browser_explain03": "一旦瀏覽器不再被支援。保護您的保護您的網路安全模式將不是最新的，這也會增這也會增加您被盜取的可能性。",
+	"ART_browser_explain04": "我們強烈建議您下載以下最新的瀏覽器以便有更好的體驗和保持目前最高的網路安全級別。",
+	"ART_browser_chrome": "谷歌瀏覽器",
+	"ART_browser_firefox": "火狐瀏覽器",
+	"ART_browser_download": "下載",
+	"ART_browser_why": "為什麼我需要最新的瀏覽器？",
+	"ART_browser_txtTtitle01": "安全性",
+	"ART_browser_txt01": "最新的瀏覽器能更有效的對抗詐騙、病毒、木馬、釣魚等威脅。他們也樂於修復您的瀏覽器漏洞。",
+	"ART_browser_txtTtitle02": "速度快",
+	"ART_browser_txt02": "最新的瀏覽器速度一定比較快。",
+	"ART_browser_txtTtitle03": "優化功能",
+	"ART_browser_txt03": "我們的網站可以使用新型瀏覽器的功能來優化網站效能。",
+	"ART_browser_txtTtitle04": "更好的使用體驗",
+	"ART_browser_txt04": "當具備以上更好更新的功能，您將獲得更棒更方便的使用體驗。",
+};

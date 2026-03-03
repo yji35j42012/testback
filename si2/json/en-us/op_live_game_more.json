@@ -1,0 +1,29 @@
+var artjson = {
+	"ART_lang": "EN",
+	"ART_game_nodata": "Markets are temporarily unavailable.",
+
+//Score Board
+	"ART_scrop_time": "LIVE",
+
+//MT
+	"ART_game_nomtpop": "Hmm…it seems this is empty right now.This could be because this particular content is not available for this event or it will be only available later on.",
+
+//玩法
+	"ART_game_re": "Handicap",
+	"ART_game_rm": "1 X 2",
+	"ART_game_rou": "Over / Under",
+	"ART_game_reo": "Odd / Even",
+
+	"ART_game_half1": "1st Half",
+
+//odd box
+	"ART_game_over": "Over",
+	"ART_game_under": "Under",
+	"ART_game_odd": "Odd",
+	"ART_game_even": "Even",
+	"ART_game_draw": "Draw",
+
+//other
+	"ART_title_relate": "View Information Relating to Content",
+	"ART_text_relate_text": "All live content displayed in this panel is for information purposes only and members are advised to only use this as a guide. While we make every effort to ensure the content displayed is correct, our company will assume no liability for incorrect information. For markets that are based on the live score, e.g. In-Play Asian Handicaps, the correct score that the market is based off will be displayed in the Bet Slip at time of bet placement.",
+}

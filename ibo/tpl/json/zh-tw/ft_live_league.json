@@ -1,0 +1,8 @@
+var artjson = {
+	"ART_game_nodata": "目前沒有任何賽事",
+	"ART_btn_allmatche": "觀看所有賽事",
+	"ART_coupon_popular": "熱門",
+	"ART_coupon_AZ": "體育 A-Z",
+	"ART_btn_submit": "提交",
+
+}

@@ -1,0 +1,123 @@
+var artjson = {
+	"ART_lang": "TW",
+	"ART_game_nodata": "目前沒有任何賽事。",
+	"ART_data_nodata": "目前暫時沒有任何賭盤",
+	"ART_data_pd_nodata": "目前暫時沒有任何盤口",
+	"ART_game_mygame1": "選擇上面的圖標，會將其添加到",
+	"ART_game_mygame2": "我的賽事",
+	"ART_game_mygame3": "中。您可以對其進行分組並輕鬆訪問您感興趣的所有賽事。",
+	"ART_game_3in1": "串",
+
+//in-play
+	"ART_game_re": "讓球",
+	"ART_game_rou": "得分大小",
+	"ART_game_rm": "獨贏",
+	"ART_game_rg": "下個進球",
+	"ART_game_rts": "雙方球隊進球",
+	"ART_game_reo": "進球:<em>單/雙</em>",
+	"ART_game_rouh": "隊伍1進球",
+	"ART_game_rouc": "隊伍2進球",
+	"ART_game_rsh": "下個點球",
+
+//today early
+	"ART_game_r": "讓球",
+	"ART_game_ou": "得分大小",
+	"ART_game_m": "獨贏",
+	"ART_game_ts": "雙方球隊進球",
+	"ART_game_eo": "進球:<em>單/雙</em>",
+
+//OBT
+	"ART_obt_mix": "讓球&大/小",
+	"ART_obt_re": "讓球",
+	"ART_obt_rou": "得分大小",
+	"ART_obt_r": "讓球",
+	"ART_obt_ou": "得分大小",
+	"ART_obt_cn": "角球",
+	"ART_obt_rn": "罰牌數",
+	"ART_obt_wi": "冠軍/晉級",
+	"ART_obt_et": "加時賽",
+	"ART_obt_pk": "點球",
+	"ART_obt_pd": "波膽",
+	"ART_obt_sfs": "進球球員",
+
+	"ART_obt_more": "所有玩法",
+
+/* OBT - MIX讓球大小*/
+	"ART_obt_mix_re": "讓球",
+	"ART_obt_mix_rou": "進球: 大/小",
+
+/* OBT- CN角球 */
+	//in-play
+	"ART_obt_cn_re": "讓球",
+	"ART_obt_cn_rou": "大/小",
+	"ART_obt_cn_rnc": "下個角球",
+	"ART_obt_cn_reo": "單/雙",
+	//today early
+	"ART_obt_cn_r": "讓球",
+	"ART_obt_cn_ou": "大/小",
+	"ART_obt_cn_m": "獨贏",
+	"ART_obt_cn_eo": "單/雙",
+
+/* OBT- RN罰牌 */
+	"ART_obt_rn_note": "罰牌盤口以分數為結算依據。紅牌等於2分，黃牌等於1分。每個球員最高罰牌分數為3分。",
+	//in-play
+	"ART_obt_rn_rou": "大/小",
+	"ART_obt_rn_rnb": "下張罰牌",
+	"ART_obt_rn_reo": "單/雙",
+	//today early
+	"ART_obt_rn_r": "讓球",
+	"ART_obt_rn_ou": "大/小",
+	"ART_obt_rn_m": "獨贏",
+	"ART_obt_rn_eo": "單/雙",
+
+/* OBT- PD波膽 */
+	"ART_game_draw": "和",
+	"ART_game_otpoint": "其它比分",
+	"ART_game_viewall": "顯示所有",
+	"ART_game_viewless": "少量顯示",
+
+/* OBT- ET加時 */
+	//in-play
+	"ART_obt_et_re": "讓球",
+	"ART_obt_et_rou": "進球: 大/小",
+	"ART_obt_et_rm": "獨贏",
+	"ART_obt_et_reo": "單/雙",
+	"ART_obt_et_note": "加時賽從0 - 0開始。",
+
+/* OBT- PK點球*/
+	//in-play
+	"ART_obt_pk_rou": "進球: 大/小",
+	"ART_obt_pk_note_1": "點球的分數從0  -  0開始。讓分盤包含驟死賽，獨贏與比分大小盤只適用於前10個點球。",
+	"ART_obt_pk_note_2_1": "全場比分是",
+	"ART_obt_pk_note_2_2": "。",
+
+/* OBT- SFS進球球員*/
+	"ART_game_player":"球員",
+	"ART_game_anytime": "任何時間",
+	"ART_game_1st": "最先",
+	"ART_game_last": "最後",
+
+	"ART_game_fulltime": "全場",
+	"ART_game_half1": "上半場",
+	"ART_game_1h": "上半場",
+	"ART_game_et": "加時",
+	"ART_game_ethalf1": "加時上半場",
+	"ART_game_pk": "點球",
+
+	"ART_game_over": "大",
+	"ART_game_under": "小",
+	"ART_game_odd": "單",
+	"ART_game_even": "雙",
+	"ART_game_yes": "是",
+	"ART_game_no": "否",
+	"ART_game_goal": "進球",
+	"ART_game_nogoal": "沒進",
+	"ART_game_draw": "和",
+	"ART_game_teamH": "主",
+	"ART_game_teamC": "客",
+	"ART_game_draw_X": "和",
+	"ART_game_none_X": "無",
+
+	"ART_game_rsh_goal": "進球",
+	"ART_game_rsh_nogoal": "沒進",	
+}

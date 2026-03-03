@@ -1,0 +1,19 @@
+var artjson = {
+	"ART_lang": "EN",
+	"ART_game_nodata": "There are no events available.",
+	"ART_game_3in1": "in",
+
+	"ART_game_re": "Handicap",
+	"ART_game_rou": "Goals O/U",
+
+	"ART_game_pk_re": "Pens HDP",
+	"ART_game_pk_rou": "Pens O/U",
+	"ART_game_pk_rsh": "Next",
+
+	"ART_game_1h": "ครึ่งแรก",
+
+	"ART_game_over": "O",
+	"ART_game_under": "U",
+	"ART_game_rsh_goal": "Score",
+	"ART_game_rsh_nogoal": "Miss",
+}

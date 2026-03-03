@@ -1,0 +1,7 @@
+var artjson = {
+//Score Board
+	"ART_game_stop": "停盘",
+	"ART_scrtn_set": "盘数",
+	"ART_scrtn_tot": "分数",
+	"ART_scrtn_game": "局数",
+}

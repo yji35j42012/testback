@@ -1,0 +1,12 @@
+var artjson = {
+	"ART_bottom_sport": "Sports",
+	"ART_bottom_schedule": "Schedule",
+	"ART_bottom_betslip": "เดิมพันเดิมพัน",
+	"ART_bottom_statement": "คำให้การ",
+	"ART_bottom_openbet": "เดิมพันแบบเปิด",
+
+	"ART_bottom_mygame": "My Events",
+	"ART_bottom_mybets": "My Bets",
+
+	"ART_text_new": "New",
+}

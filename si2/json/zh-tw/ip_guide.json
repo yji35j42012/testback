@@ -1,0 +1,32 @@
+var artjson = {
+	"ART_lang": "TW",
+	"ART_ipguide_title": "IP訪問指南",
+
+	"ART_ipguide_chrome": "CHROME",
+	"ART_ipguide_safari": "SAFARI",
+	"ART_ipguide_firefox": "火狐",
+
+	"ART_ipguide_intro1": "什麼是 IP鏈接？為什麼我的瀏覽器會出現警告訊息？",
+	"ART_ipguide_intro2": "我們提供的 IP 鏈接是為了訪問我們網頁的另外一個備用鏈接。如果平常使用的網絡鏈接出現技術問題，我們會建議會員使用我們提供的IP鏈接登入。在此情況下，瀏覽器通常會出現這樣的警告訊息。這是為了防止有些有惡意目的網頁而做出的警告。然而，如果IP鏈接是我們提供的話，可放心安全使用。<br><br>您可能會看到以下的場景，但請不要擔心，這是正常現象，請按照以下步驟操作：",
+
+	"ART_ipguide_step_1": "第一步：",
+	"ART_ipguide_step_2": "第二步：",
+	"ART_ipguide_step_3": "第三步：",
+
+	"ART_ipguide_android": "安卓版",
+	"ART_ipguide_ios": "ios版",
+
+	"ART_ipguide_chrome_1": "點擊 “進階”。",
+	"ART_ipguide_chrome_2": "點擊“繼續前往IP地址”。",
+
+	"ART_ipguide_safari_1": "點擊 “顯示詳細資訊”。",
+	"ART_ipguide_safari_2": "點擊 “參訪此網站”。",
+	"ART_ipguide_safari_3": "點擊 “參訪網站”。",
+
+	"ART_ipguide_firefox_1": "點擊 “進階。。。”。",
+	"ART_ipguide_firefox_2": "點擊 “接受風險並繼續”。",
+	"ART_ipguide_firefox_3": "點擊 “進階”。",
+	"ART_ipguide_firefox_4": "點擊 “還是要前往此網站”。",
+
+	"ART_ipguide_vist": "繼續訪問網站",
+}

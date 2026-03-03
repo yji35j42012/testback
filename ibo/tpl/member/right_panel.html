@@ -1,0 +1,277 @@
+<html lang="en"><head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="maximum-scale=1, width=device-width, user-scalable=no, minimum-scale=1.0, viewport-fit=cover">
+	<title>右面板</title>
+	<script id="homeJS">{JS}</script>
+	<link href="{CDNURL}/style/score_board.css" rel="stylesheet" type="text/css">
+	<link href="{CDNURL}/style/tvmt.css" rel="stylesheet" type="text/css">
+	<link href="{CDNURL}/style/aspen_LMT2.css" rel="stylesheet" type="text/css">
+	<link href="{CDNURL}/style/aspen_stylesheet.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<div class="content_r">
+		<div id="R_loading" class="right_wrap"><!-- loading 開啟時 class幫加 on_loading-->
+			<div class="loading loading_r">
+				<i class="icon_load"></i>
+			</div>
+
+			<!-- 載入計分板 -->
+			<div id="right_content"></div>
+
+			<!-- TV/MT -->
+			<div id="R_watch_live" class="box_tvmt" style="display: none;">
+				<div id="R_timeline_btn" class="timeline_btn_off" style="display: none;"></div><!--show Change class="timeline_btn_on"-->
+
+				<div id="R_live_div" class="content_live">
+					<!-- TV -->
+					<div id="R_tv_box" class="box_tv_maxwidth">
+						<div class="box_tv">
+							<div id="R_tv_loading" class="loading inn_loading" style="display: none;"><i class="icon_load"></i></div>
+							<div id="R_tv_show" class="show_tv">
+								<div id="R_player">
+									<video id="R_html5_player" width="100%" height="100%" autoplay="" playsinline="" webkit-playsinline="">
+									</video>
+								</div>
+							</div>
+							<div id="R_tv_error" class="error_tv" style="display: none;">
+								<i class="img_tv"></i>
+								<tt id="R_tv_error_msg"></tt>
+								<tt id="R_tv_error_data"></tt>
+							</div>
+							<div id="R_def_pic" class="bg_tv">
+								<div id="R_tv_start" class="btn_tvplay" style="display: none1;"></div>
+							</div>
+						</div>
+					</div>
+
+					<!-- MT -->
+					<div id="R_mt_box" class="box_mt" style="display: none;">
+						<div id="R_mt_loading" class="loading inn_loading" style="display: none;"><i class="icon_load"></i></div>
+						<div id="R_mt_show" class="show_mt"></div>
+						<div id="R_mt_error" class="error_tv" style="display: none;"></div>
+					</div>
+
+					<!-- AT -->
+					<div id="R_at_box" class="box_at" style="display: none;">
+						<div id="R_at_loading" class="loading inn_loading" style="display: none;"><i class="icon_load"></i></div>
+						<div id="R_at_show" class="show_at">
+							<iframe id="R_at_main" class="at_main" scrolling="no"></iframe>
+						</div>
+						<div id="R_at_error" class="error_tv" style="display: none;"></div>
+					</div>
+				</div>
+
+				<div id="R_mt_btn_div" class="menu_mt">
+					<div id="R_div_showtype" class="box_scroll mt_scroll">
+						<div id="R_mt_left" class="btn_go_l"><svg><use xlink:href="#icon_rightarr"></use></svg></div>
+						<div id="R_mt_right" class="btn_go_r"><svg><use xlink:href="#icon_rightarr"></use></svg></div>
+						<div id="R_mt_scroll" class="box_slide">
+							<label id="R_mt_total">
+								<span id="R_tv_btn" class="btn_mt on">
+									<i class="icon_tv"><svg><use xlink:href="#icon_channel"></use></svg></i>
+								</span>
+								<span id="R_at_btn" class="video_btn disabled">
+									<i><svg><use xlink:href="#icon_mic"></use></svg></i>
+								</span>
+								<span id="R_mt_btn" class="btn_mt">
+									<i id="R_mt_icon" class="icon_match_FT"><!-- 依據球類更換代碼 -->
+										<svg class="mt_FT"><use xlink:href="#icon_mt_ft"></use></svg>
+										<svg class="mt_BK"><use xlink:href="#icon_mt_bk"></use></svg>
+										<svg class="mt_TN"><use xlink:href="#icon_mt_tn"></use></svg>
+										<svg class="mt_VB"><use xlink:href="#icon_mt_vb"></use></svg>
+										<svg class="mt_BM"><use xlink:href="#icon_mt_bm"></use></svg>
+										<svg class="mt_TT"><use xlink:href="#icon_mt_tt"></use></svg>
+										<svg class="mt_RL"><use xlink:href="#icon_mt_rl"></use></svg>
+										<svg class="mt_DA"><use xlink:href="#icon_mt_da"></use></svg>
+										<svg class="mt_IH"><use xlink:href="#icon_mt_ih"></use></svg>
+										<svg class="mt_SK"><use xlink:href="#icon_mt_sk"></use></svg>
+										<svg class="mt_BS"><use xlink:href="#icon_mt_none"></use></svg>
+										<svg class="mt_OP"><use xlink:href="#icon_mt_none"></use></svg>
+										<svg class="mt_none"><use xlink:href="#icon_mt_none"></use></svg>
+									</i>
+								</span>
+
+								<span id="R_statistic_btn" class="btn_mt"><i class="icon_statistics"><svg><use xlink:href="#icon_statistics"></use></svg></i></span>
+								<span id="R_comment_btn" class="btn_mt"><i class="icon_commentary"><svg><use xlink:href="#icon_commentary"></use></svg></i></span>
+								<span id="R_team_btn" class="btn_mt"><i class="icon_team"><svg><use xlink:href="#icon_team"></use></svg></i></span>
+								<span id="R_htoh_btn" class="btn_mt"><i class="icon_headhead"><svg><use xlink:href="#icon_headhead"></use></svg></i></span>
+								<span id="R_livetable_btn" class="btn_mt"><i class="icon_league"><svg><use xlink:href="#icon_league"></use></svg></i></span>
+								<span id="R_pointBypoint_btn" class="btn_mt"><i class="icon_pbyp"><svg><use xlink:href="#icon_pbyp"></use></svg></i></span>
+								<span id="R_probabilities_btn" class="btn_mt"><i class="icon_probabilities"><svg><use xlink:href="#icon_probabilities"></use></svg></i></span>
+								<span id="R_boxscore_btn" class="btn_mt"><i class="icon_boxscore"><svg><use xlink:href="#icon_boxscore"></use></svg></i></span>
+							</label>
+							<xmp id="R_li_layer" style="display:none" >
+								<li id="*ID*">*SHOW*</li>
+							</xmp>
+						</div>
+					</div>
+
+					<div id="R_collapse_btn" class="btn_switch on"><!-- tv/mt展開時 Add class="on" -->
+						<i class="icon_toparr"><svg><use xlink:href="#icon_toparr"></use></svg></i>
+					</div>
+
+					<ul id="R_tv_list" class="video_box" style="display: none">
+						<!-- li_layer -->
+					</ul>
+					<ul id="R_at_list" class="video_box" style="display: none">
+						<!-- li_layer -->
+					</ul>
+					<ul id="R_mt_list" class="video_box" style="display: none">
+						<!-- li_layer -->
+					</ul>
+				</div>
+
+				<!-- MT 物件 -->
+				<div id="R_mt_pop" class="box_r_mt"><!-- show Add class="on"-->
+					<div id="R_box_popup" class="">
+						<div id="R_title_popup" class="title_r_mt">
+							<span id="R_mt_pop_title">MT TITLE</span>
+							<div id="R_mt_sub_close" class="btn_close" type="mt_close"><i type="mt_close"><svg type="mt_close"><use type="mt_close" xlink:href="#icon_close"></use></svg></i></div>
+						</div>
+						<div id="R_mt_pop_loading" class="loading inn_loading" style="display: none;">
+							<i class="icon_load"></i>
+						</div>
+						<div id="R_no_pop_data" class="no_mtpop" style="display: none;">
+							<i></i>
+							<span>*ART_game_nomtpop*</span>
+						</div>
+						<div id="R_content_popup" class="R_content_popup">
+							<!--iframe id="R_mt_sub" scrolling="no"></iframe--> <!--BET RADAR-->
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<!-- VF -->
+			<div id="R_virtual_video" class="box_vf" style="display: none">
+				<div class="show_vf">
+					<iframe id="R_vf_frame" src=""></iframe>
+				</div>				
+				<div id="R_vf_loading" class="loading inn_loading" style="display: none;"><i class="icon_load"></i></div>
+				<div id="R_vf_error" class="error_tv" style="display: none;"></div>
+			</div>
+
+			<!-- 聲明連結 -->
+			<div id="R_relating_box" class="box_relating" style="display: none;">
+				<div id="R_relating_title" class="title_relating"><div>*ART_title_relate*</div></div>
+			</div>
+
+		</div>
+		<div id="right_event" class="bg_right_panel">
+			<div class="wrap_event *ART_lang*">				
+				<!-- 電競賽事 -->
+				<!-- <div class="box_event show_WCUP">
+					<div class="img_event">
+						<picture class="">
+							<source id="img_webp" *ART_img_WCUP*>
+							<source id="img_jpg" *ART_img_XWCUP*>
+							<img src="../../images/bg_frame.svg">
+						</picture>
+						<button id="rightP_WCUP" type="button"></button>
+					</div>
+				</div> -->
+
+				<!-- 電競賽事 -->
+				<div class="box_event show_ES">
+					<div class="img_event">
+						<picture class="">
+							<source id="img_webp" *ART_imgB_ES*>
+							<source id="img_jpg" *ART_imgB_XES*>
+							<img src="../../images/bg_frame.svg">
+						</picture>
+						<button id="rightP_ES" type="button"></button>
+					</div>
+				</div>
+
+				<!-- 預約投注 -->
+				<div class="box_event show_Book">
+					<div class="img_event">
+						<picture class="">
+							<source id="img_webp" *ART_img_book*>
+							<source id="img_jpg" *ART_img_Xbook*>
+							<img src="../../images/bg_frame.svg">
+						</picture>
+						<button id="rightP_book" type="button"></button>
+					</div>
+				</div>
+				
+				<!-- 虛擬賽事 -->
+				<div class="box_event show_VF">
+					<div class="img_event">
+						<picture class="">
+							<source id="img_webp" *ART_img_vf*>
+							<source id="img_jpg" *ART_img_Xvf*>
+							<img src="../../images/bg_frame.svg">
+						</picture>
+						<button id="rightP_virtual" type="button"></button>
+					</div>
+				</div>
+
+				<!-- 開賽時間 -->
+				<div class="box_event event_timeset">
+					<div class="img_event">
+						<picture class="">
+							<source id="img_webp" *ART_img_timeset*>
+							<source id="img_jpg" *ART_img_Xtimeset*>
+							<img src="../../images/bg_frame.svg">
+						</picture>
+						<button id="rightP_timeset" type="button"></button>
+					</div>
+				</div>
+
+				<div class="box_event event_timeset">
+					<div class="img_event">
+						<picture class="">
+							<source id="img_webp" *ART_img_newdesign*>
+							<source id="img_jpg" *ART_img_Xnewdesign*>
+							<img src="../../images/bg_frame.svg">
+						</picture>
+						<button id="R_innart01" type="button"></button>
+					</div>
+				</div>
+				
+				<!-- 活動專區 -->
+				<!-- <div class="box_event show_Bonus">
+					<div class="img_event">
+						<picture class="">
+							<source id="img_webp" *ART_img_bonus*>
+							<source id="img_jpg" *ART_img_Xbonus*>
+							<img src="../../images/bg_frame.svg">
+						</picture>
+						<button id="rightP_bonus" type="button"></button>
+					</div>
+				</div> -->
+
+				<!-- 特優賠率 -->
+				<!-- <div class="box_event show_SB">
+					<div class="img_event">
+						<picture class="">
+							<source id="img_webp" *ART_img_sb*>
+							<source id="img_jpg" *ART_img_Xsb*>
+							<img src="../../images/bg_frame.svg">
+						</picture>
+						<button id="rightP_sb_bet" type="button"></button>
+					</div>
+				</div> -->
+
+
+				
+ 				<div id="R_dl_innart" class="box_event event_5" style="display: none;">
+					<div class="img_event">
+						<picture class="">
+							<source id="img_webp" *ART_img_event_5*>
+							<source id="img_jpg" *ART_img_Xevent_5*>
+							<img src="../../images/bg_frame.svg">
+						</picture>
+
+						<button id="R_dl_google" type="button" class="btn_link1"></button>
+						<button id="R_btn_store" type="button" class="btn_link2"></button>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+
+</body></html>

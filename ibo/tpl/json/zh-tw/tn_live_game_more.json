@@ -1,0 +1,41 @@
+var artjson = {
+	"ART_lang": "TW",
+	"ART_game_nodata": "目前沒有任何賽事。",
+
+//Score Board
+	"ART_game_stop": "停盤",
+	"ART_scrtn_set": "盤數",
+	"ART_scrtn_tot": "分數",
+	"ART_scrtn_game": "局數",
+
+//MT
+	"ART_game_nomtpop": "嗯。。。看起來目前是沒有任何資料。<br>這可能是因為目前尚未提供該賽事相關資訊，或許等一下才會更新。",
+
+//玩法
+	"ART_game_rf": "獨贏",
+	"ART_game_rga": "以對手15/30贏局",
+	"ART_game_rgou": "總分: 大/小",
+	"ART_game_rm": "獨贏",
+	"ART_game_re": "讓盤",
+	"ART_game_rou": "總盤數: 大 / 小",
+	"ART_game_rouhc": "球員局數:",
+	"ART_game_reo": "總盤數: 單 / 雙",
+	"ART_game_rpd3": "波膽(3盤)",
+	"ART_game_rpd5": "波膽(5盤)",
+
+	"ART_game_o_u": "- 大 / 小",
+
+//odd box
+	"ART_game_over": "大",
+	"ART_game_under": "小",
+	"ART_game_odd": "單",
+	"ART_game_even": "雙",
+	"ART_game_yes": "是",
+	"ART_game_no": "否",
+	"ART_game_over5.5": "大 5.5",
+	"ART_game_under5.5": "小 5.5",
+
+//other
+	"ART_title_relate": "相關信息",
+	"ART_text_relate_text": "此版面顯示的所有直播內容僅供參考，會員亦可使用此內容作為指南。我們將盡最大的努力確保顯示的內容是正確的，如有錯誤，本公司將不承擔任何責任。對於滾球比分，例如滾球讓球，將以投注時在投注單中顯示的正確比分為準。",
+}

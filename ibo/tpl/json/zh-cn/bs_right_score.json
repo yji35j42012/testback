@@ -1,0 +1,5 @@
+var artjson = {
+//Score Board
+	"ART_scrbs_ot": "加时",
+	"ART_scrbs_out": "出局:",
+}

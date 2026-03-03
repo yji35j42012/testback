@@ -1,0 +1,30 @@
+var artjson = {
+	"ART_lang": "TW",
+	"ART_game_nodata": "目前没有任何赛事。",
+	"ART_game_3in1": "串",
+
+//MT
+	"ART_game_nomtpop": "嗯。。。看起来目前是没有任何资料。<br>这可能是因为目前尚未提供该赛事相关资讯，或许等一下才会更新。",
+
+//玩法
+	"ART_game_m": "独赢",
+	"ART_game_r": "让局",
+	"ART_game_ou": "总局数: 大 / 小",
+	"ART_game_ouhc": "球队得分:",
+	"ART_game_eo": "总局数: 单 / 双",
+	"ART_game_pd3": "波胆(3局)",
+	"ART_game_pd5": "波胆(5局)",
+
+	"ART_game_o_u": "- 大 / 小",
+
+//odd box
+	"ART_game_over": "大",
+	"ART_game_under": "小",
+	"ART_game_odd": "单",
+	"ART_game_even": "双",
+
+//other
+	"ART_title_relate": "相关信息",
+	"ART_text_relate_text": "此版面显示的所有直播内容仅供参考，会员亦可使用此内容作为指南。我们将尽最大的努力确保显示的内容是正确的，如有错误，本公司将不承担任何责任。对于滚球比分，例如滚球让球，将以投注时在投注单中显示的正确比分为准。",
+}
+

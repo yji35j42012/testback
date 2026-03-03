@@ -1,0 +1,12 @@
+var artjson = {
+	"ART_bottom_sport": "Spor Dalları",
+	"ART_bottom_schedule": "Takvim",
+	"ART_bottom_betslip": "Bahis kuponu",
+	"ART_bottom_statement": "İfade",
+	"ART_bottom_openbet": "Açık Bahisler",	
+
+	"ART_bottom_mygame": "My Events",
+	"ART_bottom_mybets": "My Bets",
+
+	"ART_text_new": "New",
+}

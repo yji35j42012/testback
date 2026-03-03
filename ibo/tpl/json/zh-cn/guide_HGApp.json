@@ -1,0 +1,18 @@
+var artjson = {
+	"ART_lang": "CN",
+	"ART_hp_app": "安装教学",
+
+	"ART_hp_app_text_1": "1.请点选下载应用程式按钮开始下载。",
+	"ART_hp_app_btn_download": "下载应用程式",
+
+	"ART_hp_app_text_2": "2.打开HGA010.apk下载后，在您手机的“下载档案”，请打开HGA010.apk. 在“遭封锁信息”，按“设置”。",
+
+	"ART_hp_app_text_3": "3.请启用“未知來源”。",
+
+	"ART_hp_app_text_4": "4.在这个信息按“确定”。再打开HGA010.apk，继续安装。",
+
+	"ART_hp_app_text_5": "5.安装后，将“未知來源”改为“禁用”。去 设定 > 安全性 > 禁用不明来源",
+
+	"ART_hp_app_text_6": "您已完成安装APP，现在已可以使用。谢谢",
+
+}

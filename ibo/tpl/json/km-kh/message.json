@@ -1,0 +1,12 @@
+var artjson = {
+	"ART_message_title": "ការប្រកាស",
+	"ART_message_search": "ស្វែងរក",
+	"ART_message_cancel": "Cancel",
+	"ART_message_normal": "GENERAL",
+	"ART_message_important": "IMPORTANT",
+	"ART_message_personal": "PERSONAL",
+	"ART_message_all": "ទាំងអស់",
+	"ART_message_today": "ថ្ងៃនេះ",
+	"ART_message_yeaterday": "ម្សិលមិញ",
+	"ART_message_nodata": "THERE ARE CURRENTLY NO MESSAGES AVAILABLE.",
+};

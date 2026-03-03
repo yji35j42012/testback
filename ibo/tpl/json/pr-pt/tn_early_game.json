@@ -1,0 +1,13 @@
+var artjson = {
+	"ART_lang": "EN",
+	"ART_game_nodata": "Não há eventos disponíveis.",
+
+	"ART_game_m": "Linha de dinheiro",
+	"ART_game_r": "Definir Handicap",
+	"ART_game_r_game": "Handicap de Jogo",
+	"ART_game_ou": "Total<br>de jogos",
+
+	"ART_game_over": "O",
+	"ART_game_under": "U",
+
+}

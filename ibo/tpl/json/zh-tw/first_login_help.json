@@ -1,0 +1,8 @@
+var artjson = {
+	"ART_chgidhelp_title": "帳號創建說明",
+
+	"ART_chgidhelp_text1": "第一次登入時請使用您的”登入帳號”。",
+	"ART_chgidhelp_text2": "系統將提示您創建新的登入帳號。請在”登入帳號”字段中輸入您想要的登入帳號。我們會告知您此登入帳號可用或不可用。",
+	"ART_chgidhelp_text3": "請使用您新創建的帳號作為下次登入的帳號。",
+
+}

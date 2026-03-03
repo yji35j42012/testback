@@ -1,0 +1,5 @@
+var artjson = {
+	"ART_game_nodata": "В настоящее время нет событий.",
+	"ART_coupon_popular": "Популярное",
+	"ART_coupon_AZ": "Лиги A–Z",
+}

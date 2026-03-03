@@ -1,0 +1,23 @@
+var artjson = {
+	"ART_passcode_title": "PASSCODE LOGIN",
+	"ART_passcode_enter": "Enter Your Passcode",
+	"ART_passcode_check": "Confirm Passcode",
+	"ART_passcode_set": "Set up your Passcode Login for quicker log in.",
+	"ART_passcode_reset": "Reset Passcode",
+	"ART_passcode_err": "Confirm Passcode must be the same with Setup Passcode.",
+	"ART_passcode_close": "Close",
+	"ART_passcode_delete": "Delete",
+	"ART_passcode_success": "Congratulations",
+	"ART_passcode_succtxt": "You have successfully set up your Passcode Login.",
+	"ART_passcode_nextset": "Use this passcode next time you log in.",
+	"ART_passcode_ok": "Готово",
+	"ART_passcode_txt01": "You have already set up your Passcode Login. If you are using a browser, your cookies must be enabled to log in using the passcode.",
+	"ART_passcode_txt02": "What would you like to do now?",
+	"ART_passcode_txt03": "You are using a device / browser that has not been enabled for Passcode Login. Do you want to enable it now?",
+	"ART_passcode_txt04": "Note: Logging in using different accounts will temporary disable your Passcode Login on this device / browser.",
+	"ART_passcode_remove": "REMOVE",
+	"ART_passcode_edit": "CHANGE",
+	"ART_passcode_no": "Нет",
+	"ART_passcode_yes": "Да",
+
+};

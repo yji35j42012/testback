@@ -1,0 +1,6 @@
+var artjson = {
+	"ART_cleardata_title": "網站維護中",
+	"ART_cleardata_text1": "下注頁面正在維護中。預計上線時間為",
+	"ART_cleardata_text2": "您還可繼續瀏覽帳戶歷史與交易狀況。",
+
+}

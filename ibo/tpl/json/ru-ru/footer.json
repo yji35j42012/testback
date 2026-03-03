@@ -1,0 +1,22 @@
+var footer_artjson = {
+	"ART_title_relate": "Связанная информация",
+	"ART_game_gmt4": "Today's events are based on GMT-4.",
+
+	"ART_footer_language": "Язык",
+	"ART_lan_tw": "繁體",
+	"ART_lan_cn": "简体",
+	"ART_lan_en": "English",
+
+	"ART_footer_time": "Event Start Display Time",
+	"ART_time_sys": "System Time (GMT-4)",
+	"ART_time_dev": "Local Time (Device Time)",
+
+	"ART_footer_feature": "Sportsbook Features",
+	"ART_footer_rule": "Правила спортивных игр",
+	"ART_footer_system": "System Requirements",
+	"ART_footer_term": "Terms & Conditions",
+	"ART_footer_app": "Download Android App",
+	"ART_footer_phone": "PHONE",
+	"ART_footer_email": "EMAIL",
+	"ART_footer_copyright": "Copyright © 2024. All rights reserved.",
+}

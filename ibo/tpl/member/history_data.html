@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, viewport-fit=cover">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+		<script>{JS}</script>
+		
+		<link href="{CDNURL}/style/order.css" rel="stylesheet" type="text/css">
+		<link href="{CDNURL}/style/share_tool.css" rel="stylesheet" type="text/css">
+		<title></title>
+	</head>
+	<body>
+		<div>
+			<div class="all_outside">
+			
+				<!-- 選擇按鈕 -->
+				<ul class="tool_category big">
+					<li id="title_todaywagers">*ART_hisdata_titlebtn01*</li>
+					<li id="title_appointment" {SHOW_RESERVE}>*ART_hisdata_titlebtn04*</li>
+					<li class="active">*ART_hisdata_titlebtn02*</li>
+					<!-- <li id="title_creditlogs">*ART_hisdata_titlebtn03*</li> -->
+				</ul>
+				<!-- 選擇按鈕 end -->
+			
+			
+			
+				<!-- title -->
+				<div class="tool_title48">
+					<button id="backpage" class="btn_tool_back minimouse_hover">
+						<i><svg><use xlink:href="#icon_backbtn"/></svg></i>
+					</button>
+					<span class="tool_title_txt">*ART_hisdata_title*</span>
+					<button id="more_date" class="btn_tool_cal minimouse_hover">
+						<i class="show_more"><svg><use xlink:href="#icon_adddate"/></svg></i>
+					</button>
+				</div>
+				<!-- title end -->
+			
+			
+			
+			
+				<!-- 下拉選單 -->
+				<div class="tool_selboxv2 full has_range">
+			
+					<!-- 大螢幕 打開選單在class="tool_select"後加上class .active 球類當前選項加上 .on -->
+					<div id="pc_gtype_sel_div" class="tool_select half pc_select">
+						<i class="icon_arr _history"><svg><use xlink:href="#icon_toparr"></use></svg></i>
+						<span id="gtypeTxt">*ART_hisdata_allsports*</span>
+						<ul id="pc_gtype_sel_ul" class="use_animate">
+							<li id="ALL">*ART_hisdata_allsports*</li>
+							<li id="FT">*ART_hisdata_ft*</li>
+							<li id="BK">*ART_hisdata_bk*</li>
+							<li id="ES">*ART_hisdata_es*</li>
+							<li id="TN">*ART_hisdata_tn*</li>
+							<li id="VB">*ART_hisdata_vb*</li>
+							<li id="BM">*ART_hisdata_bm*</li>
+							<li id="TT">*ART_hisdata_tt*</li>
+							<li id="BS">*ART_hisdata_bs*</li>
+							<li id="SK">*ART_hisdata_sk*</li>
+							<li id="OP">*ART_hisdata_op*</li>
+							<li id="MT" {SHOW_MT}>*ART_hisdata_mt*</li>
+							<li id="FS">*ART_hisdata_fs*</li>
+						</ul>
+					</div>
+					
+					<!-- 小螢幕 -->
+					<div class="tool_select half ph_select">
+						<select id="gtype_sel">
+							<option value="ALL">*ART_hisdata_allsports*</option>
+							<option value="FT">*ART_hisdata_ft*</option>
+							<option value="BK">*ART_hisdata_bk*</option>
+							<option value="ES">*ART_hisdata_es*</option>
+							<option value="TN">*ART_hisdata_tn*</option>
+							<option value="VB">*ART_hisdata_vb*</option>
+							<option value="BM">*ART_hisdata_bm*</option>
+							<option value="TT">*ART_hisdata_tt*</option>
+							<option value="BS">*ART_hisdata_bs*</option>
+							<option value="SK">*ART_hisdata_sk*</option>
+							<option value="OP">*ART_hisdata_op*</option>
+							<option value="MT">*ART_hisdata_mt*</option>
+							<option value="FS">*ART_hisdata_fs*</option>
+						</select>
+					</div>
+
+					<!-- 範圍下拉選單 大螢幕 -->
+					<div id="tool_date_select" class="tool_rangebox half pc_select">
+						<!-- 大螢幕 打開選單在class="tool_selv2"後加上class .on 球類當前選項加上 .on -->
+						
+						<div id="date_rangStart_div" class="tool_selv2 full">
+							<span id="date_rangStart_span" class="tool_selv2_span">
+								<p>*ART_hisdata_from*</p>
+								<p id="dateStart" class="word_bold"></p>
+								<i class="icon_arrdown"><svg><use xlink:href="#icon_arrdown"></use></svg></i>
+							</span>
+							
+							<ul id="date_Start_ul" class="use_animate">
+								<li></li>
+							</ul>
+						</div>
+
+						<div id="date_rangEnd_div" class="tool_selv2 full">
+							<span id="date_rangEnd_span" class="tool_selv2_span">
+								<p>*ART_hisdata_to*</p>
+								<p id="dateEnd" class="word_bold"></p>
+								<i class="icon_arrdown"><svg><use xlink:href="#icon_arrdown"></use></svg></i>
+							</span>
+							<ul id="date_End_ul" class="use_animate">
+								<li></li>
+							</ul>
+						</div>
+						<i id="rangSearch" class="tool_selicon"><svg><use xlink:href="#icon_search"/></svg></i>
+					</div>
+
+					<!-- 範圍下拉選單 小螢幕 -->
+					<div id="ph_tool_date_select" class="tool_rangebox half ph_select">
+						<div class="tool_selv2 full ">
+							<span id="ph_date_rangStart_span" class="tool_selv2_span">
+								<p>*ART_hisdata_from*</p>
+								<select id="range_selStart">
+									<option></option>
+								</select>
+								<i class="icon_arrdown"><svg><use xlink:href="#icon_arrdown"></use></svg></i>
+							</span>
+						</div>
+						<div class="tool_selv2 full">
+							<span id="ph_date_rangEnd_span" class="tool_selv2_span" >
+								<p>*ART_hisdata_to*</p>
+								<select id="range_selEnd">
+									<option></option>
+								</select>
+								<i class="icon_arrdown"><svg><use xlink:href="#icon_arrdown"></use></svg></i>
+							</span>
+						</div>
+						<i id="ph_rangSearch" class="tool_selicon"><svg><use xlink:href="#icon_search"/></svg></i>
+					</div>
+
+				</div>
+				<!-- 下拉選單 end -->
+			
+				
+			
+			
+			
+			
+			
+			
+			
+				<!-- loading -->
+				<div id="load" class="loading" style="display:none;">
+					<i class="icon_load"></i>
+				</div>
+				<!-- loading end -->
+
+
+				
+				<div id="div_show" name="div_show"></div>
+				<!-- 資料 -->
+				<!-- 負數.word_red 正數.word_green 可點擊粗體.word_bold -->
+				<div id="template_model" name="template_model" style="display:none;">
+					<div class="his_info_box">
+						<table cellpadding="0" cellspacing="0" class="his_info_tb">
+							<tr class="dark_head">
+								<th width="34%" class="date">*ART_hisdata_date*</th>
+								<th width="22%">*ART_hisdata_bet*</th>
+								<th width="22%">*ART_hisdata_stake*</th>
+								<th width="22%">*ART_hisdata_winloss*</th>
+							</tr>
+							<!-- START DYNAMIC BLOCK: tr -->
+							<tr id="tr_*DATE*">
+								<td class="date">
+									*DATE_NAME*<br>*WEEK_NAME*
+								</td>
+								<td>
+									<tt>*GOLD*</tt>
+								</td>
+								
+								<td>
+									<tt>*VGOLD*</tt>
+								</td>
+								
+								<td>
+									<tt class="*WINLOSS_CLASS*">*WINLOSS*</tt>
+								</td>
+							</tr>
+							<!-- END DYNAMIC BLOCK: tr -->
+							<!--
+							<tr>
+								<td>
+									07-07<br>星期日
+								</td>
+								<td>
+									<tt>495</tt>
+								</td>
+								
+								<td>
+									<tt>495</tt>
+								</td>
+								
+								<td>
+									<tt class="word_green">1000</tt>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									07-07<br>星期日
+								</td>
+								<td>
+									<tt>495</tt>
+								</td>
+								
+								<td>
+									<tt>495</tt>
+								</td>
+								
+								<td>
+									<tt class="word_lightred">-1000</tt>
+								</td>
+							</tr>
+							-->
+							<!-- 負數.word_lightred 正數.word_lightgreen 可點擊粗體.word_bold 總計白字.word_white -->
+							<tr class="dark_head word_bold">
+								<th class="date">
+									<tt>*ART_hisdata_total*</tt>
+								</th>
+								<th>
+									*TOTAL_GOLD*
+								</th>
+								
+								<th>
+									*TOTAL_VGOLD*
+								</th>
+								
+								<th>
+									<tt class="*TOTAL_WINLOSS_CLASS*">*TOTAL_WINLOSS*</tt>
+								</th>
+							</tr>
+						</table>
+					</div>
+				</div>
+				<!-- 資料 end -->
+			
+			
+			
+				<!-- 無資料 -->
+				<div id="noHistoryData" class="his_noinfo" style="display: none;">*ART_hisdata_nodata*</div>
+				<!-- 無資料 end -->
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+				<!-- 顯示更多 -->
+				<div id="allsports" class="btn_showmore" style="display: none;">
+					*ART_hisdata_more*
+					<i><svg><use xlink:href="#icon_arrdown"/></svg></i>
+				</div>
+				<!-- 顯示更多 end -->
+			
+			
+				<!-- 回到頂部 -->
+				<div id="tool_backtop" class="tool_backtop" style="display:none;">
+					<button id="backtop" type="button" class="btn_goTop">*ART_hisdata_backtop*</button>
+				</div>
+				<!-- 回到頂部 end -->
+				
+				<!-- 單開此頁icon_all不載入時 svg暫時放置處 -->
+				<div style="display: none!important;">
+					<svg>
+						<symbol viewBox="0 0 9 16" id="icon_backbtn" class="icon_backbtn"><path d="M7.50669 15.9999C7.31458 16.0005 7.12476 15.9628 6.95118 15.8897C6.77761 15.8165 6.62469 15.7097 6.50366 15.5771L0.292537 8.72061C0.103398 8.51613 0 8.25965 0 7.99496C0 7.73027 0.103398 7.47379 0.292537 7.26932L6.72227 0.412821C6.94054 0.179452 7.2542 0.0326955 7.59423 0.00483554C7.93427 -0.0230244 8.27284 0.0702947 8.53545 0.264263C8.79806 0.458232 8.96321 0.736962 8.99456 1.03913C9.02591 1.34131 8.9209 1.64217 8.70262 1.87554L2.95444 8.00068L8.50973 14.1258C8.66698 14.2936 8.76687 14.4978 8.79758 14.7144C8.82828 14.931 8.78853 15.1509 8.68301 15.3481C8.57749 15.5452 8.41062 15.7114 8.20216 15.8269C7.99369 15.9424 7.75235 16.0025 7.50669 15.9999Z"/></symbol>
+						<symbol viewBox="0 0 16 16" id="icon_toparr" class="icon_toparr"><path id="collapse" class="st0" d="M2.7,11L2.7,11c-0.4-0.4-0.4-1,0-1.4L7.3,5c0.4-0.4,1-0.4,1.4,0l4.6,4.6c0.4,0.4,0.4,1,0,1.4l0,0c-0.4,0.4-1,0.4-1.4,0c0,0,0,0,0,0L8.1,7.2c-0.1-0.1-0.2-0.1-0.3,0c0,0,0,0,0,0L4.1,11C3.7,11.4,3.1,11.4,2.7,11C2.7,11,2.7,11,2.7,11z"/></symbol>
+						<symbol viewBox="0 0 16 16" id="icon_arrdown" class="icon_arrdown"><path d="M2.708 5l.002-.002A.999.999 0 0 1 4.122 5l3.736 3.756a.2.2 0 0 0 .284 0L11.878 5 11.88 5a.999.999 0 0 1 1.412 0V5a1 1 0 0 1 0 1.414L8.708 11a1 1 0 0 1-1.414 0L2.707 6.414a1 1 0 0 1 0-1.414h.001z"/></symbol>
+						<symbol viewBox="0 0 16 16" id="icon_search" class="icon_search"><path d="M15.6643357,14.2222701 L11.4871795,10.0304431 C12.2331002,8.98248635 12.6806527,7.70994788 12.6806527,6.36257493 C12.6806527,2.84441487 9.84615385,0 6.34034584,0 C2.83453784,0 0,2.84445401 0,6.36257493 C0,9.88069585 2.83449883,12.7251499 6.34030684,12.7251499 C7.68296418,12.7251499 8.95104895,12.2760255 9.995338,11.527485 L14.1724942,15.719312 C14.545435,16.0935627 15.2167832,16.0935627 15.6643357,15.719312 L15.6643357,15.719312 C16.1118881,15.2702268 16.1118881,14.6713552 15.6643357,14.2222701 Z M6.34030684,11.2281079 C3.65499215,11.2281079 1.49184149,9.05732084 1.49184149,6.36261407 C1.49184149,3.66786816 3.65499215,1.4971202 6.34030684,1.4971202 C9.02562152,1.4971202 11.1887722,3.66786816 11.1887722,6.36261407 C11.1887722,9.05732084 9.02562152,11.2281079 6.34030684,11.2281079 Z"/></symbol>
+						<symbol viewBox="0 0 16 16" id="icon_search" class="icon_search"><path d="M15.6643357,14.2222701 L11.4871795,10.0304431 C12.2331002,8.98248635 12.6806527,7.70994788 12.6806527,6.36257493 C12.6806527,2.84441487 9.84615385,0 6.34034584,0 C2.83453784,0 0,2.84445401 0,6.36257493 C0,9.88069585 2.83449883,12.7251499 6.34030684,12.7251499 C7.68296418,12.7251499 8.95104895,12.2760255 9.995338,11.527485 L14.1724942,15.719312 C14.545435,16.0935627 15.2167832,16.0935627 15.6643357,15.719312 L15.6643357,15.719312 C16.1118881,15.2702268 16.1118881,14.6713552 15.6643357,14.2222701 Z M6.34030684,11.2281079 C3.65499215,11.2281079 1.49184149,9.05732084 1.49184149,6.36261407 C1.49184149,3.66786816 3.65499215,1.4971202 6.34030684,1.4971202 C9.02562152,1.4971202 11.1887722,3.66786816 11.1887722,6.36261407 C11.1887722,9.05732084 9.02562152,11.2281079 6.34030684,11.2281079 Z"/></symbol>
+						<symbol viewBox="0 0 16 16" id="icon_adddate" class="icon_adddate"><path d="M13.8,2.9h-2.6v-1c0-0.1-0.1-0.1-0.1-0.1h-0.9c-0.1,0-0.1,0.1-0.1,0.1v1H6v-1c0-0.1-0.1-0.1-0.1-0.1H5c-0.1,0-0.1,0.1-0.1,0.1v1H2.2C2,2.9,1.8,3.1,1.8,3.4v10.4c0,0.3,0.2,0.5,0.5,0.5h11.5c0.3,0,0.5-0.2,0.5-0.5V3.4C14.2,3.1,14,2.9,13.8,2.9z M13.1,13.1H2.9V7.2h10.2V13.1z M13.1,6.1H2.9V4h2v0.8c0,0.1,0.1,0.1,0.1,0.1h0.9C5.9,4.9,6,4.8,6,4.8V4h4v0.8c0,0.1,0.1,0.1,0.1,0.1H11c0.1,0,0.1-0.1,0.1-0.1V4h2V6.1z M6.3,10.7h1.1v1.1c0,0.1,0.1,0.1,0.1,0.1h0.9c0.1,0,0.1-0.1,0.1-0.1v-1.1h1.1c0.1,0,0.1-0.1,0.1-0.1V9.7c0-0.1-0.1-0.1-0.1-0.1H8.6V8.5c0-0.1-0.1-0.1-0.1-0.1H7.6c-0.1,0-0.1,0.1-0.1,0.1v1.1H6.3c-0.1,0-0.1,0.1-0.1,0.1v0.9C6.2,10.7,6.2,10.7,6.3,10.7z"/></symbol>
+						<symbol viewBox="0 0 16 16" id="icon_addminus" class="icon_addminus"><path d="M13.8,2.8h-2.6v-1c0,0-0.1-0.1-0.2-0.1h-0.8C10,1.8,10,1.8,10,1.8v1H6v-1c0,0,0-0.1-0.1-0.1H5L4.8,1.8v1H2.2C2,2.8,1.8,3,1.8,3.3v10.4c0,0.3,0.2,0.5,0.5,0.5h11.5c0.3,0,0.5-0.2,0.5-0.5V3.3C14.2,3,14,2.8,13.8,2.8z M2.8,4h2v0.8C4.8,4.8,5,4.8,5,4.8h0.9C6,4.8,6,4.8,6,4.8V4h4v0.8C10,4.8,10,4.8,10,4.8H11C11,4.8,11,4.8,11,4.8V4h2V6H2.8V4z M2.8,13.2v-6H13v6H2.8z"/><path d="M6.2,9.5c0,0-0.1,0.1-0.1,0.2v0.9l0.1,0.1h3.5l0.1-0.1V9.8c0-0.1-0.1-0.2-0.1-0.2H6.2z"/></symbol>
+						<symbol viewBox="0 0 14 14" id="icon_close"><path d="M7,6.2l6-6c0.2-0.2,0.6-0.2,0.8,0s0.2,0.6,0,0.8l-6,6l6,6c0.2,0.2,0.2,0.6,0,0.8s-0.6,0.2-0.8,0l-6-6l-6,6c-0.2,0.2-0.6,0.2-0.8,0s-0.2-0.6,0-0.8l6-6l-6-6C0,0.8,0,0.4,0.1,0.2s0.6-0.2,0.8,0L7,6.2z"/></symbol>
+					</svg>
+				</div>
+			
+			
+			
+			</div>
+		</div>
+	</body>
+</html>

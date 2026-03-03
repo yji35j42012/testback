@@ -1,0 +1,21 @@
+var artjson = {
+	"ART_lang": "EN",
+	"ART_game_nodata": "No hay eventos disponibles.",
+	"ART_game_mygame1": "Selecting the above icon, for any event, will add it to the ",
+	"ART_game_mygame2": "MY EVENTS",
+	"ART_game_mygame3": " section. Here, you can group and easily access all the events you are interested in.",
+
+	
+	// 單式
+	"ART_game_m": "Money Line",
+	"ART_game_r": "Handicap",
+	"ART_game_ou": "Over / Under",
+	// 滾球
+	"ART_game_rm": "Money Line",
+	"ART_game_re": "Handicap",
+	"ART_game_rou": "Over / Under",
+
+	"ART_game_over": "O",
+	"ART_game_under": "U",
+
+}

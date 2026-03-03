@@ -1,0 +1,22 @@
+var artjson = {
+	"ART_lang": "TW",
+	"ART_msg_btn_no": "否",
+	"ART_msg_btn_yes": "是",
+
+	"ART_msg_noshow": "不要再显示。",
+
+	"ART_title_kick": "系统讯息",
+
+	"ART_msg_btn_ok": "确认",
+	"ART_toast_btn_ok": "确定",
+	
+	"ART_TITLE_DETAIL": "详细资料",
+	"ART_MSG_CASHOUT_PART": "部分兑现",
+	"ART_MSG_CASHOUT_AMOUNT": "部分兑现投注额",
+
+	"ART_msgBonus_title": "活动奖金大放送",
+	"ART_msgBonus_subtitle1": "项活动，分别达到条件",
+	"ART_msgBonus_subtitle2": "即可获得活动奖金!",
+    "ART_msg_btn_detail": "详细说明",
+
+}

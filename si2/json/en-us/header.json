@@ -1,0 +1,17 @@
+var artjson = {
+	"ART_header_inplay": "In-Play",
+	"ART_header_soon": "Soon",
+	"ART_header_hot": "Hot",
+	"ART_header_today": "Today",
+	"ART_header_early": "Early",
+	"ART_header_outrights": "Outrights",
+	"ART_header_parlay": "Parlay",
+
+	"ART_bottom_schedule": "Schedule",
+	"ART_bottom_openbet": "Open Bets",
+	"ART_bottom_mygame": "My Events",
+	"ART_bottom_mybets": "My Bets",
+	"ART_bottom_statement": "Statement",
+
+	"ART_text_new": "NEW",
+}

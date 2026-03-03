@@ -1,0 +1,17 @@
+var artjson = {
+	"ART_lang": "TW",
+
+	"ART_game_nodata": "目前没有任何赛事。",
+	"ART_game_mygame1": "選擇上面的圖標，會將其添加到",
+	"ART_game_mygame2": "我的賽事",
+	"ART_game_mygame3": "中。您可以對其進行分組並輕鬆訪問您感興趣的所有賽事。",
+	"ART_game_3in1": "串",
+
+	"ART_game_player": "球員",
+	"ART_game_anytime": "任何時間",
+	"ART_game_1st": "最先",
+	"ART_game_last": "最後",
+
+	"ART_btn_viewless": "少量顯示",
+	"ART_btn_viewall": "顯示所有",
+}

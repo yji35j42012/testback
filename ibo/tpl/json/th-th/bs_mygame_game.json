@@ -1,0 +1,25 @@
+var artjson = {
+	"ART_lang": "EN",
+	"ART_game_nodata": "There are no events available.",
+	"ART_game_mygame1": "Selecting the above icon, for any event, will add it to the ",
+	"ART_game_mygame2": "MY EVENTS",
+	"ART_game_mygame3": " section. Here, you can group and easily access all the events you are interested in.",
+
+	"ART_game_rm": "Money Line",
+	"ART_game_re": "แฮนดิ",
+	"ART_game_rou": "Total Runs",
+	"ART_game_rouh": "Team 1 Runs",
+	"ART_game_rouc": "Team 2 Runs",
+
+	"ART_game_m": "Money Line",
+	"ART_game_r": "แฮนดิ",
+	"ART_game_ou": "Total Runs",
+	"ART_game_ouh": "Team 1 Runs",
+	"ART_game_ouc": "Team 2 Runs",
+
+	"ART_game_over": "O",
+	"ART_game_under": "U",
+	"ART_game_out": "Out:",
+	"ART_game_draw": "Draw",
+
+}

@@ -1,0 +1,13 @@
+var artjson = {
+	"ART_listbet_title": "Bahis kuponu",
+	"ART_listbet_bet": "Bahis: ",
+	"ART_listbet_towin": "Kazanılacak miktar: ",
+	"ART_listbet_parlay": "Parlay",
+	"ART_listbet_inclass": "en",
+	"ART_listbet_in": "in",
+	"ART_listbet_nodata": "Kullanılabilir işlem yok.",
+	"ART_listbet_more": "Daha fazla göster",
+	"ART_listbet_backtop": "Başa dönüş",
+	"ART_hisview_bet": "Bahis: ",
+	"ART_hisview_winloss": "Kazanma / Kaybetme: ",
+};

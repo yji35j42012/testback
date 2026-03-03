@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name='viewport' content='maximum-scale=1, width=device-width, user-scalable=no, minimum-scale=1.0, viewport-fit=cover'/>
+	<title>右面板</title>
+	<script id="homeJS">{JS}</script>
+	
+	<link href="{CDNURL}/style/score_board.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<div class="content_r">
+
+		<!-- scored borad / today / early / parlay -->
+		<div id="R_div_matches" class="box_scoboard_r {GTYPE}" style="display: none;"><!-- class補上球類對應代碼(小寫) -->
+			<div class="box_scostate">
+				<tt id="R_game_time" class="text_time"></tt>
+				<i id="R_midfield" class="icon_n" style="display:none"></i>
+			</div>
+			<div class="box_sco_l">
+				<div class="box_scoteam team_h">
+					<span id="R_team_h" class="text_team"></span>
+				</div>
+				<div class="box_sco_vs">V</div>
+				<div class="box_scoteam team_c">
+					<span id="R_team_c" class="text_team"></span>
+				</div>
+			</div>
+			<div class="box_sco_b">
+				<tt id="R_set_name" class="text_time_go" style="display: none;"></tt>
+			</div>
+		</div>
+
+	</div>

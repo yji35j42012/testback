@@ -1,0 +1,15 @@
+var artjson = {
+	"ART_lang": "EN",
+	"ART_game_nodata": "Markets are temporarily unavailable.",
+	"ART_data_nodata": "Markets are temporarily unavailable.",
+	"ART_data_pd_nodata": "Markets are temporarily unavailable.",
+	"ART_pdview_list": "List View",
+	"ART_pdview_score": "Score View",
+	"ART_game_fulltime": "Waktu penuh",
+	"ART_game_half1": "1st Half",
+	"ART_game_draw": "Draw",
+	"ART_game_otpoint": "Any Other Score",
+	"ART_game_viewall": "View All",
+	"ART_game_viewless": "View Less",
+	"ART_game_oddprice": "Odds Price",
+}

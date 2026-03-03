@@ -1,0 +1,12 @@
+var artjson = {
+	"ART_bottom_sport": "Sports",
+	"ART_bottom_schedule": "Schedule",
+	"ART_bottom_betslip": "ベットスリップ",
+	"ART_bottom_statement": "ステートメント",
+	"ART_bottom_openbet": "オープンベット",
+
+	"ART_bottom_mygame": "My Events",
+	"ART_bottom_mybets": "My Bets",
+
+	"ART_text_new": "New",
+}

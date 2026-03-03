@@ -1,0 +1,22 @@
+var artjson = {
+	"ART_lang": "CN",
+	"ART_game_nodata": "目前没有任何赛事。",
+	"ART_game_mygame1": "选择上面的图标，会将其添加到",
+	"ART_game_mygame2": "我的赛事",
+	"ART_game_mygame3": "中。您可以对其进行分组并轻松访问您感兴趣的所有赛事。",
+	"ART_game_3in1": "串",
+
+	"ART_game_re": "让球",
+	"ART_game_rou": "得分大小",
+
+	"ART_game_pk_re": "点球 让球",
+	"ART_game_pk_rou": "点球 大小",
+	"ART_game_pk_rsh": "下个",
+
+	"ART_game_1h": "上半场",
+
+	"ART_game_over": "大",
+	"ART_game_under": "小",
+	"ART_game_rsh_goal": "进球",
+	"ART_game_rsh_nogoal": "没进",
+}

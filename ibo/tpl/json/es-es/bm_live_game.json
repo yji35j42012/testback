@@ -1,0 +1,9 @@
+var artjson = {
+	"ART_lang": "EN",
+	"ART_game_nodata": "No hay eventos disponibles.",
+	"ART_game_rptw": "Point Winner ",
+	"ART_game_rwxp": "Game X Race to Y Point",
+	"ART_game_rm": "Money Line",
+	"ART_game_re": "Game HDP",
+	"ART_game_re_point": "Point HDP",
+}

@@ -1,0 +1,15 @@
+var artjson = {
+	"ART_lang": "TW",
+	"ART_login_cn": "简体版",
+	"ART_login_tw": "繁體版",
+	"ART_login_en": "ENGLISH",
+
+	"ART_login_id": "登錄帳號",
+	"ART_login_pwd": "密碼",
+
+	"ART_login_btn_login": "登入",
+	"ART_login_remeber": "記住我的帳號",
+	"ART_login_forgot": "忘記密碼?",
+	"ART_login_btn_passcode": "用簡易密碼登入",
+	"ART_login_btn_oldsite": "切換去舊版",
+}

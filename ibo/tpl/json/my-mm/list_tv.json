@@ -1,0 +1,18 @@
+var artjson = {
+	"ART_ball_all": "အားလုံး",
+	"ART_ball_ft": "ဘောလုံး",
+	"ART_ball_vf": "Virtual Events",
+	"ART_ball_bk": "ဘတ်စကက်ဘောနှင့်အမေရိကန်ဘောလုံးပြိုင်ပွဲ",
+	"ART_ball_es": "eSports",
+	"ART_ball_tn": "တင်းနစ်",
+	"ART_ball_vb": "ဘောလီဘော",
+	"ART_ball_bm": "Badminton",
+	"ART_ball_tt": "စားပွဲတင်တင်းနစ်",
+	"ART_ball_bs": "ဘေ့စ်ဘော",
+	"ART_ball_sk": "Snooker",
+	"ART_ball_op": "အခြားအားကစားများ",
+	"ART_game_sched": "အချိန်ဇယား",
+	"ART_date_alldate": "အားလုံး",
+	"ART_date_future": "FUTURE",
+	"ART_game_datenodata": "There are no events available for <br> your selected date.",
+}

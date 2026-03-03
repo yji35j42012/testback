@@ -1,0 +1,87 @@
+var artjson = {
+	"ART_ru_title": "Peraturan olahraga",
+	"ART_ru_select": "Pilih aturan olahraga",
+
+	"ART_ru_general": "General Sports Rules",
+	"ART_ru_outright": "Juara",
+	"ART_ru_multiples": "Parlays / Multiples",
+	"ART_ru_appointment": "Booked Bet",
+	"ART_ru_soccer": "Sepakbola",
+    "ART_ru_virtual": "Virtual sports betting rules",
+	"ART_ru_basketball": "Bola Basket",
+	"ART_ru_tennis": "Tenis",
+	"ART_ru_volleyball": "Bola voli",
+	"ART_ru_badminton": "Bulu tangkis",
+	"ART_ru_table_tennis": "Ping pong",
+	"ART_ru_baseball": "Baseball",
+	"ART_ru_snooker": "Snooker / Pool",
+	"ART_ru_usa_football": "American Football",
+	"ART_ru_archery": "Archery and Shooting",
+	"ART_ru_athletic": "Athletic",
+	"ART_ru_aussie": "Aussie",
+	"ART_ru_beach_soccer": "Beach Soccer",
+	"ART_ru_beach_volleyball": "Beach Volleyball",
+	"ART_ru_boxing": "Boxing / Fighting",
+	"ART_ru_cricket": "Cricket",
+	"ART_ru_cycling": "Cycling",
+	"ART_ru_darts": "Darts",
+	"ART_ru_e_sports": "E-Sports",
+	"ART_ru_field_hockey": "Field Hockey",
+	"ART_ru_financial_bets": "Financial Bets",
+	"ART_ru_futsal": "Futsal",
+	"ART_ru_golf": "Golf",
+	"ART_ru_gymnastics": "Gymnastics",
+	"ART_ru_handball": "Handball",
+	"ART_ru_ice_hockey": "Ice Hockey",
+	"ART_ru_judo": "Judo",
+	"ART_ru_lacrosse": "Lacrosse",
+	"ART_ru_medal_betting": "Medal Sports / Medal Betting",
+	"ART_ru_motor_sports": "Motor Racing Events",
+	"ART_ru_olympics": "Olympics",
+	"ART_ru_rowing": "Rowing And Canoeing",
+	"ART_ru_rugby_league": "Rugby Union / Rugby League",
+	"ART_ru_softball": "Softball",
+	"ART_ru_tamp": "Triathlon and Modern Pentahlon",
+	"ART_ru_water_polo": "Water Polo",
+	"ART_ru_weightlifting": "Weightlifting",
+	"ART_ru_wintersports": "Winter Sports & Winter Olympics / Games",
+
+	"ART_ru_h1_tabletennis": "Ping pong",
+	"ART_ru_lastdate": "Last Update:",
+	"ART_ru_date": "11/06/2023",
+
+	"ART_ru_rule": "GENERAL RULES",
+	"ART_ru_tabletennis_a_1": "Unless stated otherwise in the individual Bet Type Rules, the company reserves the right to void wagers if a match or a specific period of a match is not played to completion.",
+	"ART_ru_tabletennis_a_2": "If the scoring format of a match differs from what was originally indicated, all bets will be void.",
+	"ART_ru_tabletennis_a_3": "If a match starts before schedule only the transactions before the first point of the match will be considered valid. Transactions after the first point of the match will be considered invalid. (Except in-play bet types).",
+
+	"ART_ru_bettype": "BET TYPES",
+
+	"ART_ru_tabletennis_b": "Money Line / Winner",
+	"ART_ru_tabletennis_b_1": "Predict who will win the match.",
+
+	"ART_ru_tabletennis_c": "Set / Game - Handicap",
+	"ART_ru_tabletennis_c_1": "Predict who will win the match with the indicated set / game handicap applied.",
+
+	"ART_ru_tabletennis_d": "Set / Game - Over / Under",
+	"ART_ru_tabletennis_d_1": "Predict whether the number of sets / games will be over or under the indicated number.",
+
+	"ART_ru_tabletennis_e": "Point Handicap",
+	"ART_ru_tabletennis_e_1": "Predict who will win more points in a specified period after applying the indicated point handicap.",
+
+	"ART_ru_tabletennis_f": "Total Points - Over / Under",
+	"ART_ru_tabletennis_f_1": "Predict whether the total number of points won by a nominated player in a specific period will be over or under the indicated total line.",
+
+	"ART_ru_tabletennis_g": "Player / Team Points - Over / Under",
+	"ART_ru_tabletennis_g_1": "Predict whether the total number of points recorded by the home or away team will be over or under the indicated line.",
+
+	"ART_ru_tabletennis_h": "Match Correct Score",
+	"ART_ru_tabletennis_h_1": "Predict the Correct Score at Full Time of a specified match.",
+
+	"ART_ru_tabletennis_j": "Set / Game Betting",
+	"ART_ru_tabletennis_j_1": "Predict the outcome of the specified set / game.",
+
+	"ART_ru_tabletennis_i": "Odd / Even",
+	"ART_ru_tabletennis_i_1": "Predict whether the total number of games, sets or points played in a specific period will be odd or even.",
+
+}

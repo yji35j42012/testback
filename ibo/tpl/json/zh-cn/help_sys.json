@@ -1,0 +1,60 @@
+var artjson = {
+	"ART_lang": "CN",
+
+	"ART_sys_title": "系统需求",
+	"ART_sys_text_1": "使用本产品的完整最低需求为以下：",
+
+	"ART_sys_subtitle_a": "手机操作系统",
+	"ART_sys_tb_a_1_1": "操作系统",
+	"ART_sys_tb_a_1_2": "需求",
+	"ART_sys_tb_a_2_1": "安卓",
+	"ART_sys_tb_a_2_2": "安卓10或以上",
+	"ART_sys_tb_a_3_1": "iOS",
+	"ART_sys_tb_a_3_2": "iOS17或以上",
+
+	"ART_sys_subtitle_b": "手机浏览器",
+	"ART_sys_tb_b_1_1": "安卓浏览器",
+	"ART_sys_tb_b_1_2": "需求",
+	"ART_sys_tb_b_2_1": "Chrome",
+	"ART_sys_tb_b_2_2": "版本120或以上",
+	"ART_sys_tb_b_3_1": "QQ 浏览器",
+	"ART_sys_tb_b_3_2": "版本13或以上",
+
+	"ART_sys_tb_c_1_1": "iOS 浏览器",
+	"ART_sys_tb_c_1_2": "需求",
+	"ART_sys_tb_c_2_1": "Safari",
+	"ART_sys_tb_c_2_2": "版本17或以上",
+	"ART_sys_tb_c_3_1": "Chrome",
+	"ART_sys_tb_c_3_2": "版本120或以上",
+	"ART_sys_tb_c_4_1": "QQ 浏览器",
+	"ART_sys_tb_c_4_2": "版本13或以上",
+
+	"ART_sys_subtitle_d": "桌面操作系统",
+	"ART_sys_tb_d_1_1": "操作系统",
+	"ART_sys_tb_d_1_2": "需求",
+	"ART_sys_tb_d_2_1": "Windows",
+	"ART_sys_tb_d_2_2": "Windows 9或以上",
+	"ART_sys_tb_d_3_1": "Mac OS",
+	"ART_sys_tb_d_3_2": "OS X10.15或以上",
+
+	"ART_sys_subtitle_e": "桌面浏览器",
+	"ART_sys_tb_e_1_1": "Windows 浏览器",
+	"ART_sys_tb_e_1_2": "需求",
+	"ART_sys_tb_e_2_1": "Chrome",
+	"ART_sys_tb_e_2_2": "版本120或以上",
+	"ART_sys_tb_e_3_1": "火狐",
+	"ART_sys_tb_e_3_2": "版本110或以上",
+
+	"ART_sys_tb_f_1_1": "Mac 浏览器",
+	"ART_sys_tb_f_1_2": "需求",
+	"ART_sys_tb_f_2_1": "Safari",
+	"ART_sys_tb_f_2_2": "版本14或以上",
+	"ART_sys_tb_f_3_1": "Chrome",
+	"ART_sys_tb_f_3_2": "版本120或以上",
+	"ART_sys_tb_f_4_1": "火狐",
+	"ART_sys_tb_f_4_2": "版本90或以上",
+
+	"ART_sys_subtitle_g": "不支援的浏览器和操作系统",
+	"ART_sys_text_2": "&emsp;&emsp;为了提供最佳的用户体验，我们将保持所支援的浏览器或操作系统的清单简短。如果有漏洞或错误出现在那些我们所没有支援的浏览器或操作系统里面，我们保留不给予修正的权利。倘若您还是坚持使用那些不被我们所支援的浏览器或操作系统，您可能会遇到系统的效能问题或关于画面上的问题。<br><br>&emsp;&emsp;因此，我们建议您使用我们所支援的浏览器或操作系统，以确保在安全性、效能和使用体验的最优化。",
+
+}

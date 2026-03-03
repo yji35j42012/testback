@@ -1,0 +1,17 @@
+var artjson = {
+	"ART_accset_detailset": "BET SETTINGS",
+	"ART_accset_soccer": "SOCCER",
+	"ART_accset_basketball": "BASKETBALL & AMERICAN FOOTBALL",
+	"ART_accset_othersports": "OTHER SPORTS",
+	"ART_accset_outright01": "OUTRIGHT",
+	"ART_accset_type": "Bet Type",
+	"ART_accset_singlemax": "Single Match",
+	"ART_accset_betmax": "Single Bet",
+	"ART_accset_hdouoe": "Handicap, Over/ Under, Odd/Even",
+	"ART_accset_rehdouoe": "R.B. Handicap, R.B. Over/Under, R.B. Odd/Even",
+	"ART_accset_1x2": "1 X 2, R.B. 1 X 2",
+	"ART_accset_1x2bk": "Money Line, R.B. Money Line",
+	"ART_accset_other": "Other Bet Types",
+	"ART_accset_reother": "R.B. Other Bet Types",
+	"ART_accset_outright02": "Outright",
+};

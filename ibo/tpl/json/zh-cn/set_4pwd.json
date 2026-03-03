@@ -1,0 +1,23 @@
+﻿var artjson = {
+	"ART_passcode_title": "简易密码登入",
+	"ART_passcode_enter": "输入您的简易密码",
+	"ART_passcode_check": "确认简易密码",
+	"ART_passcode_set": "设定您的简易密码以便快速登入。",
+	"ART_passcode_reset": "重新设定简易密码",
+	"ART_passcode_err": "请确认此简易密码是您设置的简易密码。",
+	"ART_passcode_close": "关闭",
+	"ART_passcode_delete": "删除",
+	"ART_passcode_success": "恭喜",
+	"ART_passcode_succtxt": "你已经成功设置简易密码登入。",
+	"ART_passcode_nextset": "将此简易密码设为你下次登入的密码",
+	"ART_passcode_ok": "确认",
+	"ART_passcode_txt01": "您已经设置了简易登入密码。如果您使用的是浏览器，则必须启用您的cookie才能使用简易密码登录进行登录。",
+	"ART_passcode_txt02": "你现在想做什么？",
+	"ART_passcode_txt03": "您现在的装置 / 浏览器尚未设定简易密码登入，为了让您更快速方便的登入，是否要现在设定呢?",
+	"ART_passcode_txt04": "注意：使用其他帐户登录将暂时禁用此设备/浏览器上的简易密码登入。",
+	"ART_passcode_remove": "移除",
+	"ART_passcode_edit": "更改",
+	"ART_passcode_no": "否",
+	"ART_passcode_yes": "是",
+
+};

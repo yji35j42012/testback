@@ -1,0 +1,26 @@
+var artjson = {
+	"ART_lang": "CN",
+	"ART_forgot_title": "密码恢复",
+
+	"ART_forgot_text1": "提示：",
+	"ART_forgot_text2": "您必须已经绑定您的密码恢复电子邮件才能使用此功能。如果您还没绑定电子邮件，请联络您的上线重设密码以启动此功能。",
+	"ART_forgot_text3": "请提供下列资讯以便我们帮助您重置密码。",
+	"ART_forgot_inp_id": "登入帐号",
+	"ART_forgot_inp_email": "电子信箱地址",
+	"ART_forgot_btn_cancel": "取消",
+	"ART_forgot_btn_next": "下一步",
+	"ART_forgot_btn_submit": "提交",
+
+	"ART_forgot_text4": "请在此输入您的认证码。",
+	"ART_forgot_inp_safecode": "认证码",
+	"ART_forgot_error": "您输入的验证码不正确，请再尝试输入。",
+	"ART_forgot_btn_resent": "重新寄送认证码",
+
+	"ART_forgot_text5": "请输入您的新密码。",
+	"ART_forgot_inp_pwd": "密码",
+	"ART_forgot_inp_repwd": "重新输入密码",
+
+	"ART_forgot_text6": "密码已改变，请用您的新密码重新登入。",
+	"ART_forgot_btn_gologin": "去登入",
+
+}

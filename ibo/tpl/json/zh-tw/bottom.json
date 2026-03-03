@@ -1,0 +1,12 @@
+var artjson = {
+	"ART_bottom_sport": "體育",
+	"ART_bottom_schedule": "賽程",
+	"ART_bottom_betslip": "注單",
+	"ART_bottom_statement": "帳戶歷史",
+	"ART_bottom_openbet": "交易狀況",
+
+	"ART_bottom_mygame": "我的賽事",
+	"ART_bottom_mybets": "投注記錄",
+
+	"ART_text_new": "新",
+}

@@ -1,0 +1,12 @@
+var artjson = {
+	"ART_bottom_sport": "Sports",
+	"ART_bottom_schedule": "Schedule",
+	"ART_bottom_betslip": "शर्त पर्ची",
+	"ART_bottom_statement": "खाता इतिहास",
+	"ART_bottom_openbet": "बेट्स खोलें",
+
+	"ART_bottom_mygame": "My Events",
+	"ART_bottom_mybets": "My Bets",
+
+	"ART_text_new": "New",
+}

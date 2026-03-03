@@ -1,0 +1,27 @@
+var artjson = {
+	"ART_appointment_title": "Booked Bet",
+	"ART_appointment_date": "最後更新日期: 12/11/2020",
+	
+	"ART_appointment_a_title": "General Rules",
+	"ART_appointment_a_1": "Booked bet is a non-RT betting method with conditions to take effect.",
+	"ART_appointment_a_2": "Booked bet needs to follow the system inspection procedures and accord with the general regulations.",
+	"ART_appointment_a_3": "Booked Bet is only applicable to the only handicap currently selected. When the single handicap fully meets the conditions specified by the member, the system will automatically process the bet. If the handicap position changes, the system will not process the bet (because the handicap position has changed and is no longer the handicap currently selected by the member).",
+	"ART_appointment_a_4": "Booked bet can only be made for matches that have not started within three days (including today). If the conditions of the booked bet order are not met when the game starts, the system will automatically cancel it.",
+	"ART_appointment_a_5": "After the booked betslip is established, you need to wait 10 minutes before canceling the booked betslip.",
+	"ART_appointment_a_6": "Booked bet is only applicable to HK ODD/EU ODD",
+	"ART_appointment_a_7": "The payment will be deducted immediately after the booked bet is submitted, the refund will be made immediately after the booking is cancelled or failed.",
+	"ART_appointment_a_8": "The number of booked bets for a single user at the same time is set by the company & may be adjusted at any time.",
+	"ART_appointment_a_9": "If the match is cancelled or postponed, the company reserves the right to cancel the booking unless the market result has been unconditionally defined.",
+	"ART_appointment_a_10": "If the user uses booked betting in abnormal ways, the company has the right to restrict and cancel the relevant user's booked bet right.",
+	"ART_appointment_a_11": "The right to define the booked bet availability belongs to the company, the company may revoke or adjust it at any time.",
+
+	"ART_appointment_b_title":"Booking Rules",
+
+	"ART_appointment_b_1": "If the odds isn't be adjusted at the time of booking, default is the current odds. At this time, the bet is normal bet, not booked bet.",
+	"ART_appointment_b_2_1": "The betslip shows \"booking\" means that the bet has been booked successful but still not valid.",
+	"ART_appointment_b_2_2": "[When the odds of the option reach the booked odds],",
+	"ART_appointment_b_2_3": "the system will automatically process the bet.",
+	"ART_appointment_b_3": "If the option of the booking is settled or cancelled, all bets involved are considered invalid.",
+
+	"ART_appointment_footer":"The company reserves the rights for final decision.",
+}

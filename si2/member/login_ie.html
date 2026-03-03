@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name='viewport' content='maximum-scale=1, width=device-width, user-scalable=no, minimum-scale=1.0, viewport-fit=cover'/>
+	<title>login</title>
+	<script id="loginJS">{JS}</script>
+	<link href="../../style/reset.css" rel="stylesheet" type="text/css" media="screen">
+	<link href="../../style/login_ie.css" rel="stylesheet" type="text/css" media="screen">
+
+</head>
+<body>
+	<div ontouchstart="" class="login">
+		<div class="bg_login">
+			<div class="box_language">
+				<span id="lang_cn" class="btn_language">简体版</span>
+				<span id="lang_tw" class="btn_language on">繁體版</span><!-- 當前語系新增class="on" -->
+				<span id="lang_en" class="btn_language">ENGLISH</span>
+			</div>
+
+			<svg id="icon_login" class="icon_login"><image href='../../images/icon_login.svg' src='../../images/icon_login.png'></image></svg>
+
+			<div class="box_login">
+				<label id="usr_lab" class="lab_input on"><!-- input內有文字時 Add class="on" / 錯誤Add class="error" -->
+					<input id="usr" class="userid" type="text" autocomplete="off" required="required">
+					<span class="text_input"><tt>登入帳號</tt></span>
+					<i id="usr_dele" class="btn_clear" data-system="ios12">
+						<svg>
+							<use xlink:href="#icon_close"></use>
+							<image src='../../images/icon_close_b.png'></image>
+						</svg>
+					</i>
+				</label>
+
+				<label id="pwd_lab" class="lab_input"><!-- input內有文字時 Add class="on" / 錯誤Add class="error" -->
+					<input id="pwd" class="pwd" type="password" autocomplete="off" required="required">
+					<span class="text_input"><tt>密碼</tt></span>
+					<i id="pwd_dele" class="btn_clear" data-system="ios12"><svg><use xlink:href="#icon_close"></use></svg></i>
+				</label>
+
+				<span id="text_error" class="text_error" style="display: none;"><!-- 請輸入您的登入帳號 --></span>
+
+				<input id="btn_login" class="btn_login" type="button" value="登入">
+
+				<div class="box_remember">
+					<label class="check_remember lab_radio">
+						<input id="remember" type="checkbox">
+						<span class="checkmark">
+							<svg><image href='../../images/icon_log_check.svg' src='../../images/icon_log_check.png'></image></svg>
+						</span>
+						<tt>記住我的帳號</tt>
+					</label>
+					<span id="btn_forgot" class="btn_forgot">忘記密碼?</span>
+				</div>
+
+				<input id="btn_pwd4" class="btn_passcode" type="button" value="*ART_login_btn_passcode*" style="display:none;">
+				<input id="btn_site" class="btn_oldsite" type="button" value="切換去舊版">
+
+			</div>
+
+			<div id="div_run" class="box_img *ART_lang*">
+				<div class="img_festival"></div>
+				<a id="ip_run" href="http://125.252.69.39" target="_blank" class="img_ip">
+					<span id="run_ip">66.133.87.217</span>
+				</a>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,18 @@
+var artjson = {
+	"ART_ball_all": "Todos los deportes",
+	"ART_ball_ft": "Fútbol",
+	"ART_ball_vf": "Virtual Events",
+	"ART_ball_bk": "Baloncesto & fútbol americano",
+	"ART_ball_es": "eSports",
+	"ART_ball_tn": "Tenis",
+	"ART_ball_vb": "Vóleibol",
+	"ART_ball_bm": "Bádminton",
+	"ART_ball_tt": "Tenis de mesa",
+	"ART_ball_bs": "Béisbol",
+	"ART_ball_sk": "Snooker",
+	"ART_ball_op": "Otros deportes",
+	"ART_game_sched": "CRONOGRAMA",
+	"ART_date_alldate": "TODAS <br> LAS <br> FECHAS",
+	"ART_date_future": "FUTURA",
+	"ART_game_datenodata": "No hay concursos disponibles para la fecha seleccionada.",
+}

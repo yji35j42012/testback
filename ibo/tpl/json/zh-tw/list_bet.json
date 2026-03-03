@@ -1,0 +1,13 @@
+var artjson = {
+	"ART_listbet_title": "注單",
+	"ART_listbet_bet": "投注金額: ",
+	"ART_listbet_towin": "可贏金額: ",
+	"ART_listbet_parlay": "綜合過關",
+	"ART_listbet_inclass": "",
+	"ART_listbet_in": "串",
+	"ART_listbet_nodata": "目前沒有任何交易單。",
+	"ART_listbet_more": "顯示更多",
+	"ART_listbet_backtop": "回到頂部",
+	"ART_hisview_bet": "投注金額: ",
+	"ART_hisview_winloss": "贏 / 輸: ",
+};

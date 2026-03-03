@@ -1,0 +1,13 @@
+var artjson = {
+	"ART_lang": "CN",
+	"ART_leaSet_sort": "排序",
+	"ART_leaSet_sort_c": "联盟排序",
+	"ART_leaSet_sort_t": "时间排序",
+	"ART_leaSet_filters": "过滤",
+	"ART_leaSet_filters_1": "筛选联盟",
+	"ART_leaSet_oddsup": "赔率显示模式",
+	"ART_leaSet_oddsup_1": "启动赔率更新提醒",
+	"ART_leaSet_enabled": "启动",
+	"ART_leaSet_disabled": "关闭",
+
+}

@@ -1,0 +1,12 @@
+var artjson = {
+	"ART_lang": "TW",
+	"ART_msg_btn_no": "否",
+	"ART_msg_btn_yes": "是",
+
+	"ART_msg_noshow": "不要再显示。",
+
+	"ART_title_kick": "系统讯息",
+
+	"ART_msg_btn_ok": "确认",
+	"ART_toast_btn_ok": "确定",
+}

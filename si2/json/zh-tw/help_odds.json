@@ -1,0 +1,20 @@
+var artjson = {
+	"ART_hp_odds_lang": "TW",
+	"ART_hp_odds": "賠率轉換",
+
+	"ART_hp_odds_type": "盤口類型",
+	"ART_hp_odds_amount": "投注金額",
+	"ART_hp_odds_odds": "賠率",
+	"ART_hp_odds_win": "贏",
+	"ART_hp_odds_lose": "輸",
+
+	"ART_hp_odds_hk": "香港盤",
+	"ART_hp_odds_ml": "馬來盤",
+	"ART_hp_odds_in": "印尼盤",
+	"ART_hp_odds_eu": "歐洲盤",
+
+	"ART_hp_odds_form": "賠率轉換表格",
+	"ART_hp_odds_hk_odds": "香港盤",
+	"ART_hp_odds_ml_odds": "馬來盤",
+	"ART_hp_odds_in_odds": "印尼盤",
+}

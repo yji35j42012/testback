@@ -1,0 +1,68 @@
+var artjson = {
+	"ART_home_lang": "TW",
+	"ART_pic_lang": "tw",
+	"ART_home_inplay": "滾球中賽事",
+	"ART_home_today": "今日賽事",
+	"ART_home_early": "早盤賽事",
+	"ART_home_inplay_n": "滾球",
+	"ART_home_today_n": "今日",
+	"ART_home_early_n": "早盤",
+	"ART_home_sports": "體育",
+	"ART_home_nodata": "目前沒有任何賽事。",
+	"ART_game_new": "新",
+
+	"ART_home_ft": "足球",
+	"ART_home_bk": "籃球 & 美式足球",
+	"ART_home_es": "電子競技",
+	"ART_home_tn": "網球",
+	"ART_home_vb": "排球",
+	"ART_home_bm": "羽毛球",
+	"ART_home_tt": "乒乓球",
+	"ART_home_bs": "棒球",
+	"ART_home_sk": "斯諾克 / 台球",
+	"ART_home_op": "其他",
+
+	"ART_img_ES_text": "歡迎瀏覽我們電競區",
+	"ART_home_es_btn":"電競區",
+
+	"ART_home_view_text1": "由於您的帳戶目前只“",
+	"ART_home_view_text2": "允許瀏覽",
+	"ART_home_view_text3": "“，因此您只能查看",
+	"ART_home_view_text4": "交易狀況",
+	"ART_home_view_text5": "以及",
+	"ART_home_view_text6": "帳戶歷史",
+	"ART_home_view_text7": "。",
+
+//WEBP
+	"ART_img_2025cup": "srcset=\"../../images/img_2025cup_tw.webp?2025v1\" type=\"image/webp\"",
+	"ART_img_event_5": "srcset=\"../../images/img_sideshow_5_tw.webp?2024v0\" type=\"image/webp\"",
+	"ART_img_event_0": "srcset=\"../../images/img_sideshow_0_tw.webp?2025v5\" type=\"image/webp\"",
+	"ART_img_esport": "srcset=\"../../images/img_esport_tw.webp?2025v0\" type=\"image/webp\"",
+	"ART_img_hotgame": "srcset=\"../../images/img_hotgame_tw.webp?2024v0\" type=\"image/webp\"",
+	"ART_img_timeset": "srcset=\"../../images/img_timeset_tw.webp?2024v0\" type=\"image/webp\"",
+	"ART_img_newPD": "srcset=\"../../images/img_newPD_tw.webp?202406v2\" type=\"image/webp\"",
+	"ART_img_liveTV": "srcset=\"../../images/img_liveTV_tw.webp?2024v0\" type=\"image/webp\"",
+	"ART_img_forecast": "srcset=\"../../images/img_forecast_tw.webp?2024v0\" type=\"image/webp\"",
+	"ART_img_event_3": "srcset=\"../../images/img_sideshow_3_tw.webp?2024v0\" type=\"image/webp\"",
+	"ART_img_mygame": "srcset=\"../../images/img_mygame_tw.webp?2024v0\" type=\"image/webp\"",
+
+	"ART_img_ES": "srcset=\"../../images/img_home_ES_tw.webp?2024v1, ../../images/img_home_ES_en2X.webp?2024v1 2x, ../../images/img_home_ES_en3X.webp?2024v1 3x\" type=\"image/webp\"",
+	"ART_img_appdw": "srcset=\"../../images/img_appdw_tw.webp?2024v2\" type=\"image/webp\"",
+
+//JPEG
+	"ART_img_X2025cup": "srcset=\"../../images/img_2025cup_tw.jpg?2025v1\" type=\"image/jpeg\"",
+	"ART_img_Xevent_5": "srcset=\"../../images/img_sideshow_5_tw.jpg?2024v0\" type=\"image/jpeg\"",
+	"ART_img_Xevent_0": "srcset=\"../../images/img_sideshow_0_tw.jpeg?2025v5\" type=\"image/jpeg\"",
+	"ART_img_Xesport": "srcset=\"../../images/img_esport_tw.jpg?2025v0\" type=\"image/jpeg\"",
+	"ART_img_Xhotgame": "srcset=\"../../images/img_hotgame_tw.jpg?2024v0\" type=\"image/jpeg\"",
+	"ART_img_Xtimeset": "srcset=\"../../images/img_timeset_tw.jpg?2024v0\" type=\"image/jpeg\"",
+	"ART_img_XnewPD": "srcset=\"../../images/img_newPD_tw.jpg?202406v2\" type=\"image/jpeg\"",
+	"ART_img_XliveTV": "srcset=\"../../images/img_liveTV_tw.jpg?2024v0\" type=\"image/jpeg\"",
+	"ART_img_Xforecast": "srcset=\"../../images/img_forecast_tw.jpg?2024v0\" type=\"image/jpeg\"",
+	"ART_img_Xevent_3": "srcset=\"../../images/img_sideshow_3_tw.jpg?2024v0\" type=\"image/jpeg\"",
+	"ART_img_Xmygame": "srcset=\"../../images/img_mygame_tw.jpg?2024v0\" type=\"image/jpeg\"",
+
+	"ART_img_XES": "srcset=\"../../images/img_home_ES_tw.jpg?2024v0\" type=\"image/jpeg\"",
+	"ART_img_Xappdw": "srcset=\"../../images/img_appdw_tw.jpg?2024v0\" type=\"image/jpeg\"",
+
+}

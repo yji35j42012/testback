@@ -1,0 +1,32 @@
+var artjson = {
+	"ART_lang": "EN",
+	"ART_ipguide_title": "IP ACCESS GUIDE",
+
+	"ART_ipguide_chrome": "CHROME",
+	"ART_ipguide_safari": "SAFARI",
+	"ART_ipguide_firefox": "FIREFOX",
+
+	"ART_ipguide_intro1": "What are IPs and why is my browser warning me about proceeding? ",
+	"ART_ipguide_intro2": "Our IP links are alternative links to access our product. From time to time, we will recommend members log in using these links if the regular URLs are having technical issues. Browsers, as standard, will warn against temporary links that could be being used for malicious purposes. However, if we share an IP, it will be from the company and will be safe to use.<br><br>You may see the below scenario, but please do not worry as this is normal, and please follow the following steps:",
+
+	"ART_ipguide_step_1": "Step 1:&nbsp;",
+	"ART_ipguide_step_2": "Step 2:&nbsp;",
+	"ART_ipguide_step_3": "Step 3:&nbsp;",
+
+	"ART_ipguide_android": "For Android",
+	"ART_ipguide_ios": "For iOS",
+
+	"ART_ipguide_chrome_1": "Click on “Advanced”.",
+	"ART_ipguide_chrome_2": "Click on “Proceed to IP address”.",
+
+	"ART_ipguide_safari_1": "Click on “Show Details”.",
+	"ART_ipguide_safari_2": "Click on “visit this website”.",
+	"ART_ipguide_safari_3": "Click on “Visit Website”.",
+
+	"ART_ipguide_firefox_1": "Click on “Advanced”.",
+	"ART_ipguide_firefox_2": "Click on “Accept the Risk and Continue”.",
+	"ART_ipguide_firefox_3": "Click on “Advanced…”.",
+	"ART_ipguide_firefox_4": "Click on “Visit site anyway”.",
+
+	"ART_ipguide_vist": "Continue to the Site",
+}

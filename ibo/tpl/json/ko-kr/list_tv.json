@@ -1,0 +1,18 @@
+var artjson = {
+	"ART_ball_all": "모두",
+	"ART_ball_ft": "축구",
+	"ART_ball_vf": "Virtual Events",
+	"ART_ball_bk": "농구 및 미식 축구",
+	"ART_ball_es": "eSports",
+	"ART_ball_tn": "테니스",
+	"ART_ball_vb": "배구",
+	"ART_ball_bm": "배드민턴",
+	"ART_ball_tt": "탁구",
+	"ART_ball_bs": "야구",
+	"ART_ball_sk": "스누커/ 포켓볼",
+	"ART_ball_op": "기타 종목",
+	"ART_game_sched": "SCHEDULE",
+	"ART_date_alldate": "전체",
+	"ART_date_future": "FUTURE",
+	"ART_game_datenodata": "There are no events available for <br> your selected date.",
+}

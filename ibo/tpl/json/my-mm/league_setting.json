@@ -1,0 +1,13 @@
+var artjson = {
+	"ART_lang": "EN",
+	"ART_leaSet_sort": "SORT",
+	"ART_leaSet_sort_c": "Sort by Competition",
+	"ART_leaSet_sort_t": "Sort by Time",
+	"ART_leaSet_filters": "FILTERS",
+	"ART_leaSet_filters_1": "Filter Competitions",
+	"ART_leaSet_oddsup": "ODDS UPDATE ALERT",
+	"ART_leaSet_oddsup_1": "Enable if you want to see the odds update",
+	"ART_leaSet_enabled": "Enabled",
+	"ART_leaSet_disabled": "Disabled",
+
+}

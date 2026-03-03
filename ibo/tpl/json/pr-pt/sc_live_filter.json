@@ -1,0 +1,10 @@
+var artjson = {
+	"ART_game_nodata": "Não há eventos disponíveis.",
+	"ART_btn_allmatche": "Ver todas as partidas",
+	"ART_title_sporttype": "Jogando",
+	"ART_title_sport_ft": "Futebol",
+	"ART_coupon_popular": "Popular",
+	"ART_coupon_AZ": "Competições A - Z",
+	"ART_btn_submit": "Enviar",
+
+}

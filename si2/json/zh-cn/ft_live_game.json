@@ -1,0 +1,89 @@
+var artjson = {
+	"ART_lang": "CN",
+	"ART_game_nodata": "目前没有任何赛事。",
+	"ART_data_nodata": "目前暂时没有任何赌盘",
+	"ART_data_pd_nodata": "目前暂时没有任何盘口",
+
+	"ART_game_re": "让球",
+	"ART_game_rou": "大/小",
+	"ART_game_rm": "独赢",
+	"ART_game_rg": "下个进球",
+	"ART_game_rts": "双方球队进球",
+	"ART_game_reo": "单/双",
+	"ART_game_rouh": "队伍1进球",
+	"ART_game_rouc": "队伍2进球",
+	"ART_game_rsh": "下个点球",
+
+	"ART_obt_mix": "让球&大/小",
+	"ART_obt_re": "让球",
+	"ART_obt_rou": "得分大小",
+	"ART_obt_cn": "角球",
+	"ART_obt_rn": "罚牌数",
+	"ART_obt_wi": "冠军/晋级",
+	"ART_obt_et": "加时赛",
+	"ART_obt_pk": "点球",
+
+	"ART_obt_more": "所有玩法",
+
+	/* OBT - MIX让球大小*/
+	"ART_obt_mix_re": "让球",
+	"ART_obt_mix_rou": "进球: 大/小",
+
+	/* OBT- CN角球 */
+	"ART_obt_cn_re": "让球",
+	"ART_obt_cn_rou": "大/小",
+	"ART_obt_cn_rnc": "下个角球",
+	"ART_obt_cn_reo": "单/双",
+
+	/* OBT- RN罚牌 */
+	"ART_obt_rn_rou": "大/小",
+	"ART_obt_rn_rnb": "下张罚牌",
+	"ART_obt_rn_reo": "单/双",
+	"ART_obt_rn_note": "罚牌盘口以分数为结算依据。红牌等于2分，黄牌等于1分。每个球员最高罚牌分数为3分。",
+
+	/* OBT- PD波胆 */
+	"ART_game_draw": "和",
+	"ART_game_otpoint": "其它比分",
+	"ART_game_viewall": "显示所有",
+	"ART_game_viewless": "少量显示",
+
+	/* OBT- ET加时 */
+	"ART_obt_et_re": "让球",
+	"ART_obt_et_rou": "进球: 大/小",
+	"ART_obt_et_rm": "独赢",
+	"ART_obt_et_reo": "单/双",
+	"ART_obt_et_note": "加时赛从0 - 0开始。",
+
+	/* OBT- PK点球*/
+	"ART_obt_pk_rou": "进球: 大/小",
+	"ART_obt_pk_note_1": "点球的分数从0  -  0开始。让分盘包含骤死赛，独赢与比分大小盘只适用于前10个点球。",
+	"ART_obt_pk_note_2_1": "全场比分是",
+	"ART_obt_pk_note_2_2": "。",
+
+	"ART_game_fulltime": "全场",
+	"ART_game_half1": "上半场",
+	"ART_game_1h": "上半场",
+	"ART_game_et": "加时",
+	"ART_game_ethalf1": "加时上半场",
+	"ART_game_et1h": "加时上半场",
+	"ART_game_pk": "点球",
+
+	"ART_game_over": "大",
+	"ART_game_under": "小",
+	"ART_game_odd": "单",
+	"ART_game_even": "双",
+	"ART_game_yes": "是",
+	"ART_game_no": "否",
+	"ART_game_goal": "进球",
+	"ART_game_nogoal": "没进",
+	"ART_game_draw": "和",
+	"ART_game_teamH": "主",
+	"ART_game_teamC": "客",
+	"ART_game_draw_X": "和",
+	"ART_game_none_X": "无",
+
+	"ART_game_rsh_goal": "进球",
+	"ART_game_rsh_nogoal": "没进",
+
+	"ART_obt_pd": "波胆",
+}

@@ -1,0 +1,25 @@
+var artjson = {
+	"ART_lang": "CN",
+	"ART_login_cn": "简体版",
+	"ART_login_tw": "繁體版",
+	"ART_login_en": "ENGLISH",
+
+	"ART_login_id": "登入帐号",
+	"ART_login_pwd": "密码",
+
+	"ART_login_btn_login": "登入",
+	"ART_login_remeber": "记住我的帐号",
+	"ART_login_forgot": "忘记密码?",
+	"ART_login_btn_passcode": "用简易密码登入",
+	"ART_login_btn_oldsite": "切换去旧版",
+
+	"ART_login_brower_title": "我们推荐使用以下浏览器以获得最佳使用体验:",
+	"ART_login_chrome": "Chrome",
+	"ART_login_safari": "Safari",
+	"ART_login_firefox": "火狐",
+	"ART_login_brower_text_1": "如果您在使用本网站遇到任何问题，请查看我们列出的浏览器和系统的",
+	"ART_login_brower_text_btn": "最低需求",
+	"ART_login_brower_text_2": "。",
+}
+
+

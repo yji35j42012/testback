@@ -1,0 +1,9 @@
+var artjson = {
+	"ART_hisbonus_history": "BonusStatement",
+    "ART_hisbonus_date": "fecha",
+    "ART_hisbonus_vendor_code": "Serial No.",
+    "ART_hisbonus_activity_code": "Activity Code",
+    "ART_hisbonus_activity_name": "Activity Name",
+    "ART_hisbonus_giving_time": "Giving Time",
+    "ART_hisbonus_bonus_amount": "Bonus amount(RMB)",
+};

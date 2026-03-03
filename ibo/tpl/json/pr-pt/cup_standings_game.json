@@ -1,0 +1,21 @@
+var artjson = {
+	"ART_lang": "EN",
+	"ART_game_nodata": "There are no events available.",
+	"ART_obt_nodata": "Markets are temporarily unavailable.",
+	"ART_title_relate": "View Information Relating to Content",
+
+//小组物件
+	"ART_cup_group_team": "TEAM",
+	"ART_cup_group_P": "P",
+	"ART_cup_group_pts": "Pts",
+	"ART_cup_group_GD": "+/-",
+	"ART_cup_group_win": "Win",
+	"ART_cup_group_top2": "Top2",
+	"ART_cup_group_3rd": "3rd",
+	"ART_cup_group_last": "Last",
+	"ART_cup_group_W": "W",
+	"ART_cup_group_L": "L",
+	"ART_cup_group_D": "D",
+	"ART_cup_group_GF": "GF",
+	"ART_cup_group_GA": "GA",
+}

@@ -1,0 +1,17 @@
+﻿var artjson = {
+	"ART_accset_detailset": "详细设定",
+	"ART_accset_soccer": "足球",
+	"ART_accset_basketball": "篮球 & 美式足球",
+	"ART_accset_othersports": "其他体育",
+	"ART_accset_outright01": "冠军",
+	"ART_accset_type": "投注类型",
+	"ART_accset_singlemax": "单场最高",
+	"ART_accset_betmax": "单注最高",
+	"ART_accset_hdouoe": "让球, 大小, 单双",
+	"ART_accset_rehdouoe": "滚球让球, 滚球大小, 滚球单双",
+	"ART_accset_1x2": "独赢, 滚球独赢",
+	"ART_accset_1x2bk": "独赢, 滚球独赢",
+	"ART_accset_other": "其他",
+	"ART_accset_reother": "滚球其他",
+	"ART_accset_outright02": "冠军",
+};

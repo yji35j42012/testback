@@ -1,0 +1,21 @@
+var artjson = {
+	"ART_header_inplay": "IN-PLAY",
+	"ART_header_soon": "SOON",
+	"ART_header_hot": "HOT",
+	"ART_header_today": "TODAY",
+	"ART_header_early": "EARLY",
+	"ART_header_outrights": "OUTRIGHTS",
+	"ART_header_parlay": "PARLAY",
+	"ART_header_sb": "Special Bet",
+	"ART_header_bonus": "Activities",
+	"ART_header_virtual": "VIRTUAL",
+
+	"ART_bottom_result": "RESULT",
+	"ART_bottom_schedule": "SCHEDULE",
+	"ART_bottom_openbet": "OPEN BETS",
+	"ART_bottom_mygame": "MY EVENTS",
+	"ART_bottom_mybets": "MY BETS",
+	"ART_bottom_statement": "STATEMENT",
+
+	"ART_text_new": "NEW",
+}

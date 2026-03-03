@@ -1,0 +1,22 @@
+var artjson = {
+	"ART_lang": "CN",
+	"ART_game_nodata": "目前没有任何赛事。",
+	"ART_data_nodata": "目前暂时没有任何赌盘",
+	"ART_data_pd_nodata": "目前暂时没有任何盘口",
+	"ART_game_mygame1": "选择上面的图标，会将其添加到",
+	"ART_game_mygame2": "我的赛事",
+	"ART_game_mygame3": "中。您可以对其进行分组并轻松访问您感兴趣的所有赛事。",
+
+	"ART_pdview_list": "全选项",
+	"ART_pdview_score": "自选比分",
+
+	"ART_game_fulltime": "全场",
+	"ART_game_half1": "上半场",
+
+	"ART_game_draw": "和",
+	"ART_game_otpoint": "其它比分",
+	"ART_game_viewall": "显示所有",
+	"ART_game_viewless": "少量显示",
+
+	"ART_game_oddprice": "赔率",
+}

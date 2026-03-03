@@ -1,0 +1,25 @@
+var artjson = {
+	"ART_lang": "CN",
+	"ART_pic_lang": "cn",
+	"ART_title_relate": "相关信息",
+	//WEBP
+	"ART_img_WCUP": "srcset=\"../../images/img_wcup_cn.webp?2025v1\" type=\"image/webp\"",
+	"ART_imgB_ES": "srcset=\"../../images/img_es_cn.webp?2024v1\" type=\"image/webp\"",
+	"ART_img_book": "srcset=\"../../images/event_book_cn.webp?2024v1\" type=\"image/webp\"",
+	"ART_img_sb": "srcset=\"../../images/event_sb_cn.webp?2024v1\" type=\"image/webp\"",
+	"ART_img_vf": "srcset=\"../../images/img_virtual_cn.webp?2024v1\" type=\"image/webp\"",
+	"ART_img_newdesign": "srcset=\"../../images/img_timeset_cn.webp?2024v0\" type=\"image/webp\"",
+	"ART_img_bonus": "srcset=\"../../images/img_bonus_cn.webp?2024v0\" type=\"image/webp\"",
+	"ART_img_timeset": "srcset=\"../../images/fea_img12_cn.webp?2024v0\" type=\"image/webp\"",
+	//JPEG
+	"ART_img_XWCUP": "srcset=\"../../images/img_wcup_cn.jpg?2025v1\" type=\"image/jpeg\"",
+	"ART_imgB_XES": "srcset=\"../../images/img_es_cn.jpg?2024v0\" type=\"image/jpeg\"",
+	"ART_img_Xbook": "srcset=\"../../images/event_book_cn.jpeg?2024v1\" type=\"image/jpeg\"",
+	"ART_img_Xsb": "srcset=\"../../images/event_sb_cn.jpeg?2024v1\" type=\"image/jpeg\"",
+	"ART_img_Xvf": "srcset=\"../../images/img_virtual_cn.jpeg?2024v1\" type=\"image/jpeg\"",
+	"ART_img_Xnewdesign": "srcset=\"../../images/img_timeset_cn.jpg?2024v0\" type=\"image/jpeg\"",
+	"ART_img_Xbonus": "srcset=\"../../images/img_bonus_cn.jpg?2024v0\" type=\"image/jpeg\"",
+	"ART_img_Xtimeset": "srcset=\"../../images/fea_img12_cn.jpg?2024v0\" type=\"image/jpeg\"",
+	//MT
+	"ART_game_nomtpop": "嗯。。。看起来目前是没有任何资料。<br>这可能是因为目前尚未提供该赛事相关资讯，或许等一下才会更新。",
+}

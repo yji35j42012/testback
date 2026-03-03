@@ -1,0 +1,93 @@
+var artjson = {
+	"ART_ru_title": "SPORTS RULES",
+	"ART_ru_select": "SELECT SPORTS RULES",
+
+	"ART_ru_general": "General Sports Rules",
+	"ART_ru_outright": "Outright",
+	"ART_ru_multiples": "Parlays / Multiples",
+	"ART_ru_soccer": "Soccer",
+	"ART_ru_basketball": "Basketball",
+	"ART_ru_tennis": "Tennis",
+	"ART_ru_volleyball": "Volleyball",
+	"ART_ru_badminton": "Badminton",
+	"ART_ru_table_tennis": "Table Tennis",
+	"ART_ru_baseball": "Baseball",
+	"ART_ru_snooker": "Snooker / Pool",
+	"ART_ru_usa_football": "American Football",
+	"ART_ru_archery": "Archery and Shooting",
+	"ART_ru_athletic": "Athletic",
+	"ART_ru_aussie": "Aussie",
+	"ART_ru_beach_soccer": "Beach Soccer",
+	"ART_ru_beach_volleyball": "Beach Volleyball",
+	"ART_ru_boxing": "Boxing / Fighting",
+	"ART_ru_cricket": "Cricket",
+	"ART_ru_cycling": "Cycling",
+	"ART_ru_darts": "Darts",
+	"ART_ru_e_sports": "E-Sports",
+	"ART_ru_field_hockey": "Field Hockey",
+	"ART_ru_financial_bets": "Financial Bets",
+	"ART_ru_futsal": "Futsal",
+	"ART_ru_golf": "Golf",
+	"ART_ru_gymnastics": "Gymnastics",
+	"ART_ru_handball": "Handball",
+	"ART_ru_ice_hockey": "Ice Hockey",
+	"ART_ru_judo": "Judo",
+	"ART_ru_lacrosse": "Lacrosse",
+	"ART_ru_medal_betting": "Medal Sports / Medal Betting",
+	"ART_ru_motor_sports": "Motor Racing Events",
+	"ART_ru_olympics": "Olympics",
+	"ART_ru_rowing": "Rowing And Canoeing",
+	"ART_ru_rugby_league": "Rugby Union / Rugby League",
+	"ART_ru_softball": "Softball",
+	"ART_ru_tamp": "Triathlon and Modern Pentahlon",
+	"ART_ru_water_polo": "Water Polo",
+	"ART_ru_weightlifting": "Weightlifting",
+	"ART_ru_wintersports": "Winter Sports & Winter Olympics / Games",
+
+	"ART_ru_h1_tennis": "TENNIS",
+	"ART_ru_lastdate": "Last Update:",
+	"ART_ru_date": "26/06/2023",
+
+	"ART_ru_rule": "GENERAL RULES",
+	"ART_ru_tennis_a_1": "Unless stated otherwise in the individual Bet Type Rules, the company reserves the right to void wagers if a match or a specific period of a match is not played to completion.",
+	"ART_ru_tennis_a_2": "If the scoring format of a match differs from what was originally indicated, all bets will be void.",
+	"ART_ru_tennis_a_3": "If there is a sudden change of venue (e.g., indoor to outdoor or vice versa) or court surface, before or during a match, all bets will be valid.",
+	"ART_ru_tennis_a_4": "If a match starts before schedule only the transactions before the first point of the match will be considered valid. Transactions after the first point of the match will be considered invalid. (Except in-play bet types)",
+	"ART_ru_tennis_a_5": "A ‘Super Tie-Break’ is considered as a game, for settlement purposes.",
+
+	"ART_ru_bettype": "BET TYPES",
+
+	"ART_ru_tennis_b": "Winner",
+	"ART_ru_tennis_b_1": "Predict who will win the match.",
+
+	"ART_ru_tennis_c": "Set Handicap",
+	"ART_ru_tennis_c_1": "Predict who will win the match with the indicated set handicap applied.",
+
+	"ART_ru_tennis_d": "Game Handicap",
+	"ART_ru_tennis_d_1": "Predict who will win more games in a specified period (e.g. Match, 1st Set, 2nd Set) after applying the indicated handicap.",
+
+	"ART_ru_tennis_e": "Game Winner (Winner – Set X Game X)",
+	"ART_ru_tennis_e_1": "Predict who will win a specific game of a specific set (e.g. Set 1 Game 1).",
+
+	"ART_ru_tennis_f": "Game at 15/30 - Set X, Game Y",
+	"ART_ru_tennis_f_1": "Predict whether the specified game (e.g., Set 1, Game 1) will end with either player winning the game, while their opponent scores only 15 or 30. E.g., Win-15, Win-30 or 15-Win, or 30-Win",
+
+	"ART_ru_tennis_g": "Total Points: Over / Under - Set X, Game Y",
+	"ART_ru_tennis_g_1": "Predict whether the total number of points played in a specified game (e.g., Set 1, Game 1) will be over or under the indicated line. E.g., 4-0 (Win-0), 4-1 (Win-15), 4-2 (Win-30).",
+
+	"ART_ru_tennis_h": "Total Games: Over / Under",
+	"ART_ru_tennis_h_1": "Predict whether the total number of games played in a specified period (e.g. Match, 1st Set, 2nd Set) will be over or under the indicated total line.",
+
+	"ART_ru_tennis_i": "Total Games: Odd / Even",
+	"ART_ru_tennis_i_1": "Predict whether the total number of games played in a specified period (e.g. Match, 1st Set, 2nd Set) will be odd or even.",
+
+	"ART_ru_tennis_j": "Set Betting Markets",
+	"ART_ru_tennis_j_1": "Predict the outcome of the specified set.",
+
+	"ART_ru_tennis_k": "Match Correct Score",
+	"ART_ru_tennis_k_1": "Predict the final sets score of the match.",
+
+	"ART_ru_tennis_l": "Total Points - Over / Under",
+	"ART_ru_tennis_l_1": "Predict whether the total number of points won by a player or pair of players in a match will be over or under the indicated total line.",
+
+}

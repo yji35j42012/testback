@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, viewport-fit=cover">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<script>{JS}</script>
+		<script id="ts">{TS}</script>
+		<link href="{CDNURL}/style/order.css" rel="stylesheet" type="text/css">
+		<link href="{CDNURL}/style/share_tool.css" rel="stylesheet" type="text/css">
+		<title></title>
+
+	</head>
+	<body>
+		<div>
+			<div class="all_outside">
+			
+				<!-- 選擇按鈕 -->
+				<ul class="tool_category big">
+					<li class="active">*ART_today_titlebtn01*</li>
+					<li id="title_history">*ART_today_titlebtn02*</li>
+					<li id="title_creditlogs">*ART_today_titlebtn03*</li>
+				</ul>
+				<!-- 選擇按鈕 end -->
+			
+			
+			
+			
+			
+				<!-- title -->
+				<div class="tool_title48">
+					<button id="backpage" class="btn_tool_back minimouse_hover">
+						<i><svg><use xlink:href="#icon_backbtn"/></svg></i>
+					</button>
+					<span class="tool_title_txt">*ART_today_titlebtn01*</span>
+				</div>
+				<!-- title end -->
+			
+			
+			
+			
+			
+				<!-- 下拉選單 -->
+				<div class="tool_selectbox full">
+			
+					<!-- 大螢幕 打開選單在class="tool_select"後加上class .active 球類當前選項加上 .on -->
+					<div id="pc_gtype_sel_div" class="tool_select full pc_select">
+						<span id="gtypeTxt">*ART_today_allsports*</span>
+						<ul id="pc_gtype_sel_ul" class="use_animate">
+							<li id="ALL">*ART_today_allsports*</li>
+							<li id="FT">*ART_today_ft*</li>
+							<li id="BK">*ART_today_bk*</li>
+							<li id="ES">*ART_today_es*</li>
+							<li id="TN">*ART_today_tn*</li>
+							<li id="VB">*ART_today_vb*</li>
+							<li id="BM">*ART_today_bm*</li>
+							<li id="TT">*ART_today_tt*</li>
+							<li id="BS">*ART_today_bs*</li>
+							<li id="SK">*ART_today_sk*</li>
+							<li id="OP">*ART_today_op*</li>
+							<li id="FS">*ART_today_fs*</li>
+						</ul>
+					</div>
+					
+					
+					
+					
+					<!-- 小螢幕 -->
+					<div class="tool_select full ph_select">
+						<select id="gtype_sel">
+							<option value="ALL">*ART_today_allsports*</option>
+							<option value="FT">*ART_today_ft*</option>
+							<option value="BK">*ART_today_bk*</option>
+							<option value="ES">*ART_today_es*</option>
+							<option value="TN">*ART_today_tn*</option>
+							<option value="VB">*ART_today_vb*</option>
+							<option value="BM">*ART_today_bm*</option>
+							<option value="TT">*ART_today_tt*</option>
+							<option value="BS">*ART_today_bs*</option>
+							<option value="SK">*ART_today_sk*</option>
+							<option value="OP">*ART_today_op*</option>
+							<option value="FS">*ART_today_fs*</option>
+						</select>
+					</div>
+				</div>
+				<!-- 下拉選單 end -->
+			
+			
+			
+			
+				
+			
+			
+				<!-- loading -->
+				<div id="load" class="ord_loading" style="display:none;">
+					<span class="load_ring"></span>
+				</div>
+				<!-- loading end -->
+
+
+
+				<div id="div_show" name="div_show" class="ord_outside_box"></div>
+				<!-- 資料 -->
+				<!-- 負數.word_lightred 正數.word_green 可點擊粗體.word_bold 總計白字.word_white -->
+				<div id="info_box" class="ope_info_box">
+					<div id="normal_model" style="display:none;">
+						<xmp>
+						<!-- title -->
+						<div id="title_*TID*" class="ope_info_title">
+							<ul>
+								<li class="word_white">*LEAGUE*</li>
+								<li>*TEAM_H_SHOW*<tt class="word_lightyellow">*TEAM_H_RATIO*</tt><span style="*TEAM_ACT*"><tt>v</tt></span>*TEAM_C_SHOW*<tt class="word_lightyellow">*TEAM_C_RATIO*</tt></li>
+							</ul>
+
+							<button id="btn_forecast_*TID*" class="btn_forecast" style="display:none;">
+								<i><svg><use xlink:href="#icon_forecast" /></svg></i>
+							</button>
+						</div>
+						<!-- title end -->
+			
+			
+			
+			
+			
+						<!-- 單串model -->
+						<div id="div_*TID*" class="ope_info_normal">
+							<ul class="ope_info_txt *ANNOUCEMENT* *DIS_DELAY_REASON*">
+								<!-- 單 -->
+								<li class="ope_txt_team">*GTYPE* *WTYPE* *W_MS* <tt class="word_lightgreen *ANNOUCEMENT*">*ORG_SCORE*</tt> <tt>*SCORE*</tt></li>
+								<li class="ope_txt_odd">*CHOICE_TEAM* <tt class="*CHOICE_CON_CLASS* *ANNOUCEMENT*">*CHOICE_CON*</tt> <code>@</code> <tt class="word_red *ANNOUCEMENT*">*IORATIO*</tt></li>
+								<li class="ope_txt_win">
+									<span>*ART_today_bet*<tt class="word_black *ANNOUCEMENT*">*GOLD*</tt></span>
+									<span>*ART_today_towin*<tt class="word_green *ANNOUCEMENT*">*WIN_GOLD*</tt></span>
+								</li>
+								<li class="ope_txt_time">
+									<span>*W_ID*</span>
+									<span>*ADDTIME* *ODDF_TYPE*</span>
+								</li>
+								<li style="*DG_CANCEL*">
+									<span class="word_green">*DG_STR*</span>
+								</li>
+								<!-- 夢幻賽 -->
+								<li id="div_icon_info_*GIDFL*" class="load_inorder ope_fantasy" style="display: none;">
+									<i id="div_icon_info_i_*GIDFL*" class="ope_reason">
+										<svg><use xlink:href="#icon_i"></use></svg>
+									</i>
+									<span id="" >
+										<span class="load_ring">
+										</span>
+										*ART_today_fantasy*
+									</span>
+								</li>
+								<!-- 夢幻賽end -->
+
+								<!-- 狀態 -->
+								<!-- 已拒絕.word_red 已確認.word_green 確認中.word_yellow -->
+								<li class="load_inorder" style="*BALL_ACT*">
+									<i id="cancel_reason_*TID*" class="ope_reason" style="*DIS_APN*">
+										<svg><use xlink:href="#icon_i"></use></svg>
+									</i>
+									<span id="dg_*TID*" class="*BALL_ACT_CLASS*">
+										<span class="load_ring">
+										</span>
+										*BALL_ACT_RET*
+									</span>
+								</li>
+								<li class="delay_reason">
+									<span class="word_red">*DELAY_REASON*</span>
+								</li>
+								<!-- 狀態 end -->
+							</ul>	
+						</div>
+						<!-- 單串model end -->
+						</xmp>
+					</div>
+			
+			
+					<div id="p_model" style="display:none;">
+						<!-- title -->
+						<div id="p_title_model">
+							<xmp>
+							<div class="ope_info_title">
+								<ul>
+									<li class="word_white">*ART_today_parlay*</li>
+								</ul>
+			
+								<!-- 幾串幾 -->
+								<div class="ord_ins --wagers">
+									*NUM*<tt class="*ART_today_inclass*"> *ART_today_in* </tt>1
+								</div>
+								<!-- 幾串幾 end -->
+							</div>
+							</xmp>
+						</div>
+						<!-- title end -->
+			
+						<!-- 多串model -->
+						<div id="p_details_model">
+							<xmp>
+							<ul class="ope_info_txt *ANNOUCEMENT* *DIS_DELAY_REASON*">
+								<li class="ope_txt_team">*GTYPE* *WTYPE* *W_MS* <tt class = "word_lightgreen *ANNOUCEMENT*">*ORG_SCORE*</tt> <tt>*SCORE*</tt></li>
+								<li class="ope_txt_league">*LEAGUE*</li>
+								<li class="ope_txt_vs">*TEAM_H_SHOW* <tt class="word_red *ANNOUCEMENT*">*TEAM_H_RATIO*</tt> <span style="*TEAM_ACT*"><tt>v</tt></span> *TEAM_C_SHOW* <tt class="word_red *ANNOUCEMENT*">*TEAM_C_RATIO*</tt></li>
+								<li class="ope_txt_odd">*CHOICE_TEAM* <tt class="*CHOICE_CON_CLASS* *ANNOUCEMENT*">*CHOICE_CON*</tt> <code>@</code> <tt class="word_red *ANNOUCEMENT*">*IORATIO*</tt></li>
+								<li class="delay_reason" style="">
+									<span class="word_red">*DELAY_REASON*</span>
+								</li>
+							</ul>
+							</xmp>
+						</div>
+			
+						<div id="p_bottom_model">
+							<xmp>
+							<!-- 結算 -->
+							<ul class="ope_info_txt">
+								<li class="ope_txt_win">
+									<span>*ART_today_bet*<tt class="word_black">*GOLD*</tt></span>
+									<span>*ART_today_towin*<tt class="word_green">*WIN_GOLD*</tt></span>
+								</li>
+								<li class="ope_txt_time">
+									<span>*W_ID*</span>
+									<span>*ADDTIME* *ODDF_TYPE*</span>
+								</li>
+								<li style="*DG_CANCEL*">
+									<span class="word_green">*DG_STR*</span>
+								</li>
+			
+								<!-- 夢幻賽 -->
+								<li id="div_icon_info_*GIDFL*" class="load_inorder ope_fantasy" style="display: none;">
+									<i id="div_icon_info_i_*GIDFL*" class="ope_reason">
+										<svg><use xlink:href="#icon_i"></use></svg>
+									</i>
+									<span id="" >
+										<span class="load_ring">
+										</span>
+										*ART_today_fantasy*
+									</span>
+								</li>
+								<!-- 夢幻賽end -->			
+								
+								<!-- 狀態 -->
+								<!-- 已拒絕.word_red 已確認.word_green 確認中.word_yellow -->
+								<li class="load_inorder" style="*BALL_ACT*">
+									<i id="cancel_reason_*TID*" class="ope_reason" style="*DIS_APN*">
+										<svg><use xlink:href="#icon_i"></use></svg>
+									</i>
+									<span id="dg_*TID*" class="*BALL_ACT_CLASS*">
+										<span class="load_ring">
+										</span>
+										*BALL_ACT_RET*
+									</span>
+								</li>
+								<!-- 狀態 end -->
+							</ul>
+							<!-- 結算 end -->
+							</xmp>
+						</div>
+						<!-- 多串model end -->
+					</div>
+					<div id="p_display" style="display: none">
+						<xmp>
+							<div id="div_*TID*" class="*P_CLASS*">
+								*P_TITLE*
+								*P_CONTENT*
+								*P_BOTTOM*
+							</div>
+						</xmp>
+					</div>
+			
+			
+			
+					<!-- foot -->
+					<div id="total_accounts" class="ope_info_foot" style="display: none">
+						<span>*ART_today_total*</span>
+						<span id="amout_gold" class="word_white">4,200,000</span>
+					</div>
+					<!-- foot end -->
+				</div>
+				<!-- 資料 end -->
+			
+			
+			
+				<!-- 無資料 -->
+				<div id="noTodayWagers" class="his_noinfo" style="display: none;">*ART_today_nodata*</div>
+				<!-- 無資料 end -->
+			
+			
+			
+			
+			
+			
+			
+
+				<!-- 顯示更多 -->
+				<div id="allsports" class="btn_showmore" style="display: none;">
+					*ART_today_more*
+					<i><svg><use xlink:href="#icon_arrdown"/></svg></i>
+				</div>
+				<!-- 顯示更多 end -->
+			
+			
+			
+				<!-- 回到頂部 -->
+				<div id="tool_backtop" class="tool_backtop" style="display: none;">
+					<button id="backtop" type="button" class="btn_gray_full">*ART_today_backtop*</button>
+				</div>
+				<!-- 回到頂部 end -->
+			
+			
+			
+			
+				
+			
+			
+			
+			</div>
+		</div>
+	</body>
+</html>

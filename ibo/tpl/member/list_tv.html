@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name='viewport' content='maximum-scale=1, width=device-width, user-scalable=no, minimum-scale=1.0, viewport-fit=cover'/>
+	<title>TV 時間表</title>
+	<script id="homeJS">{JS}</script>
+	<script id="ts">{TS}</script>
+	<link href="{CDNURL}/style/bet_game.css" rel="stylesheet" type="text/css">
+	<link href="{CDNURL}/style/flag.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<div class="content_l">
+		<div class="box_tvlist">
+			<div id="head_league" class="head_league all"><!--class幫帶入各球類代碼-->
+				<div id="sport_menu" class="box_scroll sport_scroll">
+					<div id="sport_left" class="btn_go_l"><svg><use xlink:href="#icon_rightarr"/></svg></div>
+					<div id="sport_right" class="btn_go_r"><svg><use xlink:href="#icon_rightarr"/></svg></div>
+					<div id="sport_scroll" class="menu_sport dragscroll_gtype">
+						<label id="sport_total">
+							<div id="symbol_ALL" style="display: ;" class="btn_le_sport on"><i><svg><use xlink:href="#icon_allsport"/></svg></i><span id="sportname_ALL">*ART_ball_all*</span></div>
+							<div id="symbol_FT"  style="display: ;" class="btn_le_sport"><i><svg><use xlink:href="#icon_ft"/></svg></i><span id="sportname_FT">*ART_ball_ft*</span></div>
+							<div id="symbol_BK"  style="display: ;" class="btn_le_sport"><i><svg><use xlink:href="#icon_bk"/></svg></i><span id="sportname_BK">*ART_ball_bk*</span></div>
+							<div id="symbol_ES"  style="display: ;" class="btn_le_sport"><i><svg><use xlink:href="#icon_es"/></svg></i><span id="sportname_ES">*ART_ball_es*</span></div>
+							<div id="symbol_TN"  style="display: ;" class="btn_le_sport"><i><svg><use xlink:href="#icon_tn"/></svg></i><span id="sportname_TN">*ART_ball_tn*</span></div>
+							<div id="symbol_VB"  style="display: ;" class="btn_le_sport"><i><svg><use xlink:href="#icon_vb"/></svg></i><span id="sportname_VB">*ART_ball_vb*</span></div>
+							<div id="symbol_BM"  style="display: ;" class="btn_le_sport"><i><svg><use xlink:href="#icon_bm"/></svg></i><span id="sportname_BM">*ART_ball_bm*</span></div>
+							<div id="symbol_TT"  style="display: ;" class="btn_le_sport"><i><svg><use xlink:href="#icon_tt"/></svg></i><span id="sportname_TT">*ART_ball_tt*</span></div>
+							<div id="symbol_BS"  style="display: ;" class="btn_le_sport"><i><svg><use xlink:href="#icon_bs"/></svg></i><span id="sportname_BS">*ART_ball_bs*</span></div>
+							<div id="symbol_SK"  style="display: ;" class="btn_le_sport"><i><svg><use xlink:href="#icon_sk"/></svg></i><span id="sportname_SK">*ART_ball_sk*</span></div>
+							<div id="symbol_OP"  style="display: ;" class="btn_le_sport"><i><svg><use xlink:href="#icon_op"/></svg></i><span id="sportname_OP">*ART_ball_op*</span></div>
+						</label>
+					</div>
+				</div>
+				<div class="title_le">
+					<!-- <div id="back_btn" name="back_btn" class="btn_back"><i class="icon_back"><svg><use xlink:href="#icon_back"/></svg></i></div> -->
+					<div id="total_league_title" class="title_le_sport">
+						<div id="back_btn" class="txt_sport txt_sport_on">
+							<i class="icon_arr"><svg><use xlink:href="#icon_gamearr"/></svg></i>
+							<tt id="showtype_now">*ART_game_sched*</tt>
+						</div>
+						<span id="gtype_now">*ART_ball_all*</span>
+					</div>
+				</div>
+			</div>
+
+			<!-- date -->
+			<div id="div_list" class="box_scroll date_scroll">
+				<div id="list_left" class="btn_go_l"><svg><use xlink:href="#icon_rightarr"/></svg></div>
+				<div id="list_right" class="btn_go_r"><svg><use xlink:href="#icon_rightarr"/></svg></div>
+				<div id="list_scroll" class="menu_date dragscroll_date">
+					<label id="list_total">
+						<div id="btn_date_ALL" class="btn_date on">
+							<tt>*ART_date_alldate*</tt>
+						</div>
+						<div id="btn_date_0" class="btn_date">
+							<tt id="date1_week" class="text_week">星期一</tt>
+							<tt id="date1_date" class="text_date">1</tt>
+							<tt id="date1_month" class="text_month">十月</tt>
+						</div>
+						<div id="btn_date_1" class="btn_date">
+							<tt id="date2_week" class="text_week">星期二</tt>
+							<tt id="date2_date" class="text_date">2</tt>
+							<tt id="date2_month" class="text_month">十月</tt>
+						</div>
+						<div id="btn_date_2" class="btn_date">
+							<tt id="date3_week" class="text_week">星期三</tt>
+							<tt id="date3_date" class="text_date">3</tt>
+							<tt id="date3_month" class="text_month">十月</tt>
+						</div>
+						<div id="btn_date_3" class="btn_date">
+							<tt id="date4_week" class="text_week">星期四</tt>
+							<tt id="date4_date" class="text_date">4</tt>
+							<tt id="date4_month" class="text_month">十月</tt>
+						</div>
+						<div id="btn_date_4" class="btn_date">
+							<tt id="date5_week" class="text_week">星期五</tt>
+							<tt id="date5_date" class="text_date">5</tt>
+							<tt id="date5_month" class="text_month">十月</tt>
+						</div>
+						<div id="btn_date_5" class="btn_date">
+							<tt id="date6_week" class="text_week">星期六</tt>
+							<tt id="date6_date" class="text_date">6</tt>
+							<tt id="date6_month" class="text_month">十月</tt>
+						</div>
+						<div id="btn_date_6" class="btn_date">
+							<tt id="date7_week" class="text_week">星期日</tt>
+							<tt id="date7_date" class="text_date">7</tt>
+							<tt id="date7_month" class="text_month">十月</tt>
+						</div>
+						<!--
+						<div id="btn_date_future" class="btn_date">
+							<tt>*ART_date_future*</tt>
+						</div>
+						-->
+					</label>
+				</div>
+			</div>
+
+
+			<div class="box_sched">
+
+				<!-- loading -->
+				<div id="sched_loading" class="loading" style="display: none;"><i class="icon_load"></i></div>
+
+				<div id="div_nodata" class="no_event" style="display: none;">
+					<i></i>
+					<span id="nodata_text">*ART_game_datenodata*</span>
+				</div>
+
+				<div id="div_show" class="content_sched"></div>
+
+				<div id="chkmodel" style="display:none;">
+					*DATE_CONTENT*
+					<div class="box_le_sched">*GAME_CONTENT*</div>
+				</div>
+
+				<!-- date title -->
+				<div id="date_model" style="display: none;">
+					<div class="date_title">
+						<tt>*DATE*</tt>
+						<tt>*DATE2*</tt>
+					</div>
+				</div>
+
+				<div id="div_model" name="div_model" style="display:none;">
+					<div id="tv_*GID*" name="live_tv" class="btn_sched *RB_STYLE*"><!-- live event class add on-->
+						<tt class="text_time">
+							<p style="display:*DATE_STYLE*">*DAY* / *MONTH*</p>
+							<p>*TIME*</p>
+						</tt>
+						<i class="icon_tv"><svg><use xlink:href="#icon_play"/></svg></i>
+						<i class="icon_ball"><svg><use xlink:href="#icon_*GTYPE*"/></svg></i>
+						<span class="title_event">*TEAM*</span>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,10 @@
+var artjson = {
+	"ART_game_datenodata": "Seçtiğiniz tarih için uygun yarışma bulunmamaktadır.",
+	"ART_date_alldate": "Tüm <br> Tarihler",
+	"ART_date_today": "Bugün",
+	"ART_date_future": "GELECEK",
+	"ART_coupon_popular": "Popüler",
+	"ART_coupon_AZ": "A'dan Z'ye Yarışmalar",
+	"ART_btn_submit": "Göndermek",
+
+}

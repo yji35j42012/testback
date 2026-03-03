@@ -1,0 +1,20 @@
+var artjson = {
+	"ART_ball_all": "Tüm Sporlar",
+	"ART_ball_ft": "Futbol",
+	"ART_ball_vf": "Virtual Events",
+	"ART_ball_bk": "Basketbol ve Amerikan Futbolu",
+	"ART_ball_es": "eSports",
+	"ART_ball_tn": "Tenis",
+	"ART_ball_vb": "Voleybol",
+	"ART_ball_bm": "Badminton",
+	"ART_ball_tt": "Masa Tenisi",
+	"ART_ball_bs": "Beyzbol",
+	"ART_ball_sk": "Bilardo",
+	"ART_ball_op": "Diğer sporlar",
+
+	"ART_game_sched": "TAKVIM",
+	"ART_date_alldate": "Tüm <br> Tarihler",
+	"ART_date_future": "GELECEK",
+
+	"ART_game_datenodata": "Seçtiğiniz tarih için uygun yarışma bulunmamaktadır.",
+}

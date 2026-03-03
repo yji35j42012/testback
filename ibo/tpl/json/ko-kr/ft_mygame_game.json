@@ -1,0 +1,123 @@
+var artjson = {
+	"ART_lang": "EN",
+	"ART_game_nodata": "There are no events available.",
+	"ART_data_nodata": "Markets are temporarily unavailable.",
+	"ART_data_pd_nodata": "Markets are temporarily unavailable.",
+	"ART_game_mygame1": "Selecting the above icon, for any event, will add it to the ",
+	"ART_game_mygame2": "MY EVENTS",
+	"ART_game_mygame3": " section. Here, you can group and easily access all the events you are interested in.",
+	"ART_game_3in1": "in",
+
+//in-play
+	"ART_game_re": "Handicap",
+	"ART_game_rou": "Goals O/U",
+	"ART_game_rm": "1 X 2",
+	"ART_game_rg": "Next Goal",
+	"ART_game_rts": "Both Teams to Score",
+	"ART_game_reo": "Goals <em>O/E</em>",
+	"ART_game_rouh": "Team 1 Goals",
+	"ART_game_rouc": "Team 2 Goals",
+	"ART_game_rsh": "Next Penalty",
+
+//today early
+	"ART_game_r": "Handicap",
+	"ART_game_ou": "Goals O/U",
+	"ART_game_m": "1 X 2",
+	"ART_game_ts": "Both Teams to Score",
+	"ART_game_eo": "Goals <em>O/E</em>",
+
+//OBT
+	"ART_obt_mix": "HDP & O/U",
+	"ART_obt_re": "Handicaps",
+	"ART_obt_rou": "Goals Over / Under",
+	"ART_obt_r": "Handicaps",
+	"ART_obt_ou": "Goals O/U",
+	"ART_obt_cn": "Corners",
+	"ART_obt_rn": "Bookings",
+	"ART_obt_wi": "Winner / To Qualify",
+	"ART_obt_et": "Extra Time",
+	"ART_obt_pk": "Penalty Shootout",
+	"ART_obt_pd": "Correct Score",
+	"ART_obt_sfs": "Goalscorer",
+
+	"ART_obt_more": "View All Markets",
+
+/* OBT - MIX讓球大小*/
+	"ART_obt_mix_re": "Handicap",
+	"ART_obt_mix_rou": "Goals: Over / Under",
+
+/* OBT- CN角球 */
+	//in-play
+	"ART_obt_cn_re": "Handicap",
+	"ART_obt_cn_rou": "O/U",
+	"ART_obt_cn_rnc": "Next Corner",
+	"ART_obt_cn_reo": "O/E",
+	//today early
+	"ART_obt_cn_r": "Handicap",
+	"ART_obt_cn_ou":"O/U",
+	"ART_obt_cn_m": "1 X 2",
+	"ART_obt_cn_eo": "O/E",
+
+/* OBT- RN罰牌 */
+	"ART_obt_rn_note": "Booking markets are settled on a points system. Red Cards equal 2 points, while Yellow Cards equal 1 point. The maximum points any player can accumulate is 3.",
+	//in-play
+	"ART_obt_rn_rou": "O/U",
+	"ART_obt_rn_rnb": "Next Booking",
+	"ART_obt_rn_reo": "O/E",
+	//today early
+	"ART_obt_rn_r": "Handicap",
+	"ART_obt_rn_ou": "O/U",
+	"ART_obt_rn_m": "1 X 2",
+	"ART_obt_rn_eo": "O/E",
+
+/* OBT- PD波膽 */
+	"ART_game_draw": "Draw",
+	"ART_game_otpoint": "Any Other Score",
+	"ART_game_viewall": "View All",
+	"ART_game_viewless": "View Less",
+
+/* OBT- ET加時 */
+	//in-play
+	"ART_obt_et_re": "Handicap",
+	"ART_obt_et_rou": "Goals: Over / Under",
+	"ART_obt_et_rm": "1 X 2",
+	"ART_obt_et_reo": "Odd / Even",
+	"ART_obt_et_note": "Extra Time starts at 0 - 0",
+
+/* OBT- PK點球*/
+	//in-play
+	"ART_obt_pk_rou": "Goals: Over / Under",
+	"ART_obt_pk_note_1": "The score starts at 0 - 0 Penalty Shootouts. The ‘Handicap’ market include sudden death. The ‘1 X 2’ and ‘Goals - Over/Under markets applies to the 1st 10 penalties only.",
+	"ART_obt_pk_note_2_1": "Full Time score is",
+	"ART_obt_pk_note_2_2": ".",
+	
+/* OBT- SFS進球球員*/
+	"ART_game_player": "Player Name",
+	"ART_game_anytime": "Anytime",
+	"ART_game_1st": "1st",
+	"ART_game_last": "Last",
+
+	"ART_game_fulltime": "풀타임",
+	"ART_game_half1": "전반전",
+	"ART_game_1h": "전반전",
+	"ART_game_et": "ET",
+	"ART_game_ethalf1": "ET 전반전",
+	"ART_game_pk": "Pens",
+
+	"ART_game_over": "O",
+	"ART_game_under": "U",
+	"ART_game_odd": "Odd",
+	"ART_game_even": "Even",
+	"ART_game_yes": "Yes",
+	"ART_game_no": "No",
+	"ART_game_goal": "Goal",
+	"ART_game_nogoal": "No Goal",
+	"ART_game_draw": "Draw",
+	"ART_game_teamH": "1",
+	"ART_game_teamC": "2",
+	"ART_game_draw_X": "X",
+	"ART_game_none_X": "X",
+
+	"ART_game_rsh_goal": "Score",
+	"ART_game_rsh_nogoal": "Miss",
+}

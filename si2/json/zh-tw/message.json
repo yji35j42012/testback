@@ -1,0 +1,12 @@
+var artjson = {
+	"ART_message_title": "訊息",
+	"ART_message_search": "搜尋",
+	"ART_message_cancel": "取消",
+	"ART_message_normal": "一般",
+	"ART_message_important": "重要",
+	"ART_message_personal": "個人",
+	"ART_message_all": "全部",
+	"ART_message_today": "今日",
+	"ART_message_yeaterday": "昨日",
+	"ART_message_nodata": "目前沒有任何訊息。",
+};

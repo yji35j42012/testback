@@ -1,0 +1,54 @@
+var artjson = {
+	"ART_lang": "EN",
+	"ART_game_nodata": "Markets are temporarily unavailable.",
+
+//MT
+	"ART_game_nomtpop": "Hmm…it seems this is empty right now.This could be because this particular content is not available for this event or it will be only available later on.",
+
+//玩法filters
+	"ART_bk_filter_main": "Основные рынки",
+	"ART_bk_filter_match": "match markets",
+	"ART_bk_filter_halves": "halves",
+	"ART_bk_filter_quaters": "quarters",
+	"ART_bk_filter_others": "others",
+	"ART_bk_filter_all": "all markets",
+
+//玩法
+	"ART_game_r": "Фора",
+	"ART_game_ou": "Total Points:Больше / Меньше",
+	"ART_game_wm": "Winning Margin",
+	"ART_game_ouhc": "Team Points:",
+	"ART_game_m": "Исход 1X2",
+	"ART_game_eo": "Total Points: Голы: Чет / Нечет",
+
+	"ART_game_o_u": "- Больше / Меньше",
+	"ART_game_p_d": "- Last Digit",
+
+//odd box
+	"ART_game_over": "Больше",
+	"ART_game_under": "Меньше",
+	"ART_game_odd": "Голы: Чет",
+	"ART_game_even": "Нечет",
+
+	"ART_game_pd0": "0 or 5",
+	"ART_game_pd1": "1 or 6",
+	"ART_game_pd2": "2 or 7",
+	"ART_game_pd3": "3 or 8",
+	"ART_game_pd4": "4 or 9",
+
+	"ART_game_wma1": "Win by 1 - 5 Points",
+	"ART_game_wma2": "Win by 6 - 10 Points",
+	"ART_game_wma3": "Win by 11 - 15 Points",
+	"ART_game_wma4": "Win by 16 - 20 Points",
+	"ART_game_wma5": "Win by 21 - 25 Points",
+	"ART_game_wmaov": "Win by 26+ Points",
+
+	"ART_game_wmb1": "Win by 3 - 7 Points",
+	"ART_game_wmbov": "Win by 8+ Points",
+	"ART_game_wmcov": "Win by 3+ Points",
+	"ART_game_wmot": "Any Other Result",
+
+//other
+	"ART_title_relate": "Связанная информация",
+	"ART_text_relate_text": "All live content displayed in this panel is for information purposes only and members are advised to only use this as a guide. While we make every effort to ensure the content displayed is correct, our company will assume no liability for incorrect information. For markets that are based on the live score, e.g. In-Play Asian Handicaps, the correct score that the market is based off will be displayed in the Bet Slip at time of bet placement.",
+}

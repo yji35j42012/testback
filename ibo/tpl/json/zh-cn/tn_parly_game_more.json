@@ -1,0 +1,22 @@
+var artjson = {
+	"ART_lang": "TW",
+	"ART_game_nodata": "目前没有任何赛事",
+
+//玩法
+	"ART_game_m": "独赢",
+	"ART_game_r": "让盘",
+	"ART_game_ou": "总盘数: 大 / 小",
+	"ART_game_ouhc": "球员局数:",
+	"ART_game_eo": "总盘数: 单 / 双",
+	"ART_game_pd3": "波胆(3盘)",
+	"ART_game_pd5": "波胆(5盘)",
+	
+	"ART_game_o_u": "- 大 / 小",
+
+//odd box
+	"ART_game_over": "大",
+	"ART_game_under": "小",
+	"ART_game_odd": "单",
+	"ART_game_even": "双",
+
+}

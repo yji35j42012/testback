@@ -1,0 +1,16 @@
+var artjson = {
+	"ART_prepass_hello": "Hi ",
+	"ART_prepass_enter": "Enter Your Passcode",
+	"ART_prepass_err": "Set up your passcode for quicker log in.",
+	"ART_prepass_login": "Normal Log In",
+	"ART_prepass_delete": "Delete",
+
+	"ART_lang": "EN",
+	"ART_prepass_brower_title": "We recommend one of the following browsers for the best experience:",
+	"ART_prepass_chrome": "Chrome",
+	"ART_prepass_safari": "Safari",
+	"ART_prepass_firefox": "Firefox",
+	"ART_prepass_brower_text_1": "If you experience issues using this website, please read our ",
+	"ART_prepass_brower_text_btn": "Minimum Gereksinimler",
+	"ART_prepass_brower_text_2": " to see if your browser and operating system are supported.",
+};

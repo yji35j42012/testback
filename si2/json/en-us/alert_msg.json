@@ -1,0 +1,12 @@
+var artjson = {
+	"ART_lang": "EN",
+	"ART_msg_btn_no": "NO",
+	"ART_msg_btn_yes": "YES",
+
+	"ART_msg_noshow": "Don’t show me again.",
+
+	"ART_title_kick": "SYSTEM MESSAGE",
+
+	"ART_msg_btn_ok": "OK",
+	"ART_toast_btn_ok": "OK",
+}

@@ -1,0 +1,8 @@
+var artjson = {
+	"ART_game_nodata": "В настоящее время нет событий.",
+	"ART_btn_allmatche": "Показать все события",
+	"ART_coupon_popular": "Популярное",
+	"ART_coupon_AZ": "Лиги A–Z",
+	"ART_btn_submit": "Отправить / Подтвердить",
+
+}

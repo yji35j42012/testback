@@ -1,0 +1,85 @@
+var artjson = {
+	"ART_ru_title": "體育玩法規則",
+	"ART_ru_select": "選擇體育項目",
+
+	"ART_ru_general": "一般體育說明",
+	"ART_ru_outright": "冠軍",
+	"ART_ru_multiples": "連串過關 / 複式過關",
+	"ART_ru_soccer": "足球",
+	"ART_ru_basketball": "籃球",
+	"ART_ru_tennis": "網球",
+	"ART_ru_volleyball": "排球",
+	"ART_ru_badminton": "羽毛球",
+	"ART_ru_table_tennis": "乒乓球",
+	"ART_ru_baseball": "棒球",
+	"ART_ru_snooker": "斯諾克 / 台球",
+	"ART_ru_usa_football": "美式足球",
+	"ART_ru_archery": "射箭和射擊",
+	"ART_ru_athletic": "田徑",
+	"ART_ru_aussie": "澳式足球",
+	"ART_ru_beach_soccer": "沙灘足球",
+	"ART_ru_beach_volleyball": "沙灘排球",
+	"ART_ru_boxing": "拳擊 / 搏鬥",
+	"ART_ru_cricket": "板球",
+	"ART_ru_cycling": "自行車",
+	"ART_ru_darts": "飛鏢",
+	"ART_ru_e_sports": "電子競技",
+	"ART_ru_field_hockey": "曲棍球",
+	"ART_ru_financial_bets": "金融投注",
+	"ART_ru_futsal": "室內足球",
+	"ART_ru_golf": "高爾夫球",
+	"ART_ru_gymnastics": "體操",
+	"ART_ru_handball": "手球",
+	"ART_ru_ice_hockey": "冰球",
+	"ART_ru_judo": "柔道、摔跤、跆拳道",
+	"ART_ru_lacrosse": "長曲棍球",
+	"ART_ru_medal_betting": "體育 / 獎章投注",
+	"ART_ru_motor_sports": "賽車",
+	"ART_ru_olympics": "奧林匹克或相關事件投注",
+	"ART_ru_rowing": "賽艇和皮划艇",
+	"ART_ru_rugby_league": "橄欖球聯盟",
+	"ART_ru_softball": "壘球",
+	"ART_ru_tamp": "三項全能和現代五項運動",
+	"ART_ru_water_polo": "水球",
+	"ART_ru_weightlifting": "舉重",
+	"ART_ru_wintersports": "冬季運動&冬季奧運會 / 比賽",
+
+	"ART_ru_h1_tabletennis": "乒乓球",
+	"ART_ru_lastdate": "最後更新日期:",
+	"ART_ru_date": "09/06/2023",
+
+	"ART_ru_rule": "一般規則",
+	"ART_ru_tabletennis_a_1": "除非在個別投注類型規則中另有說明否則當比賽或指定時段未完全進行公司有權作出取消注單的權利。",
+	"ART_ru_tabletennis_a_2": "如果比賽的計分方式與原先指定不同，所有注單將被視為無效。",
+	"ART_ru_tabletennis_a_3": "如果比賽提前開賽，僅有在開賽之前投注的注單將視為有效投注。開賽後投注的注單將被視為無效，滾球玩法除外。",
+
+	"ART_ru_bettype": "投注類型",
+
+	"ART_ru_tabletennis_b": "獨贏",
+	"ART_ru_tabletennis_b_1": "預測哪個球員將會贏得比賽。",
+
+	"ART_ru_tabletennis_c": "讓盤 / 讓局",
+	"ART_ru_tabletennis_c_1": "預測哪一位球員在盤口指定的讓盤/局數贏得比賽。",
+
+	"ART_ru_tabletennis_d": "總盤/總局數： 大 / 小",
+	"ART_ru_tabletennis_d_1": "預測比賽進行的總盤/局數是大於或小於盤口指定的大小盤局數。",
+
+	"ART_ru_tabletennis_e": "讓分",
+	"ART_ru_tabletennis_e_1": "預測在某個時節 哪一位球員在盤口指定的讓分數贏得比賽。",
+
+	"ART_ru_tabletennis_f": "總分： 大 / 小",
+	"ART_ru_tabletennis_f_1": "預測提名的球員在某一特定的時間段內的個人總得分將大於或小於盤口指定的總分數線。",
+
+	"ART_ru_tabletennis_g": "球員/球隊得分 -大/小",
+	"ART_ru_tabletennis_g_1": "預測主場或客場的總比分是大於還是小於指定盤口。",
+
+	"ART_ru_tabletennis_h": "單盤投注",
+	"ART_ru_tabletennis_h_1": "預測指定單盤的結果。",
+
+	"ART_ru_tabletennis_i": "波膽",
+	"ART_ru_tabletennis_i_1": "預測一個特定賽事全場的正確比分。",
+
+	"ART_ru_tabletennis_j": "單/雙",
+	"ART_ru_tabletennis_j_1": "預測在某一特定的時間段內比賽進行的總局數、盤數或分數是單數還是雙數。",
+
+}

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name='viewport' content='maximum-scale=1, width=device-width, user-scalable=no, minimum-scale=1.0, viewport-fit=cover'/>
+	<title>全球類聯盟</title>
+	<script id="homeJS">{JS}</script>
+	
+	<link href="{CDNURL}/style/bet_game.css" rel="stylesheet" type="text/css">
+	<link href="{CDNURL}/style/flag.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+	<div class="content_l">
+		<!-- date -->
+		<div id="div_date" class="box_scroll date_scroll" style="display: none;">
+			<div id="date_left" class="btn_go_l"><svg><use xlink:href="#icon_rightarr"/></svg></div>
+			<div id="date_right" class="btn_go_r"><svg><use xlink:href="#icon_rightarr"/></svg></div>
+			<div id="date_scroll" class="menu_date dragscroll_date">
+				<label id="date_total">
+					<div id="btn_date_all" class="btn_date on">
+						<tt>*ART_date_alldate*</tt>
+					</div>
+					<div id="btn_date_0" class="btn_date">
+						<tt>*ART_date_today*</tt>
+					</div>
+					<div id="btn_date_1" class="btn_date">
+						<tt id="date1_week" class="text_week">星期一</tt>
+						<tt id="date1_date" class="text_date">1</tt>
+						<tt id="date1_month" class="text_month">十月</tt>
+					</div>
+					<div id="btn_date_2" class="btn_date">
+						<tt id="date2_week" class="text_week">星期二</tt>
+						<tt id="date2_date" class="text_date">2</tt>
+						<tt id="date2_month" class="text_month">十月</tt>
+					</div>
+					<div id="btn_date_3" class="btn_date">
+						<tt id="date3_week" class="text_week">星期三</tt>
+						<tt id="date3_date" class="text_date">3</tt>
+						<tt id="date3_month" class="text_month">十月</tt>
+					</div>
+					<div id="btn_date_4" class="btn_date">
+						<tt id="date4_week" class="text_week">星期四</tt>
+						<tt id="date4_date" class="text_date">4</tt>
+						<tt id="date4_month" class="text_month">十月</tt>
+					</div>
+					<div id="btn_date_5" class="btn_date">
+						<tt id="date5_week" class="text_week">星期五</tt>
+						<tt id="date5_date" class="text_date">5</tt>
+						<tt id="date5_month" class="text_month">十月</tt>
+					</div>
+					<div id="btn_date_6" class="btn_date">
+						<tt id="date6_week" class="text_week">星期六</tt>
+						<tt id="date6_date" class="text_date">6</tt>
+						<tt id="date6_month" class="text_month">十月</tt>
+					</div>
+					<div id="btn_date_7" class="btn_date">
+						<tt id="date7_week" class="text_week">星期日</tt>
+						<tt id="date7_date" class="text_date">7</tt>
+						<tt id="date7_month" class="text_month">十月</tt>
+					</div>
+					<div id="btn_date_future" class="btn_date">
+						<tt>*ART_date_future*</tt>
+					</div>
+				</label>
+			</div>
+		</div>
+
+		
+		<!-- inplay all matches button -->
+		<div id="btn_more_event" class="btn_more_event" style="display: none;">*ART_btn_allmatche*<i class="icon_arrow"><svg><use xlink:href="#icon_morearr"/></svg></i></div>
+
+		<!-- date loading -->
+		<!-- Loading 開啟時請新增class="loading_on" -->
+		<div id="date_loading" class="loading loading_date" style="display: none;"><i class="icon_load"></i></div>
+		<!-- CUPPON -->
+		<div id="div_coupon" class="popular_league" style="display: none;"></div>
+
+		<!-- ES過濾 -->
+		<div id="leg_ES_tab" class="box_scroll es_game_list" style="display: none;">
+			<!-- 拖曳滑動功能：一定要記得加上dragScroll程式才能正常執行滾動 -->
+			<div id="leg_ES_tab_left" class="btn_go_l"><svg><use xlink:href="#icon_rightarr"/></svg></div>
+			<div id="leg_ES_tab_right" class="btn_go_r"><svg><use xlink:href="#icon_rightarr"/></svg></div>
+			<div id="leg_ES_tab_scroll" class="box_slide dragscroll_leg_ES_tab_out">
+				<label id="leg_ES_tab_total">
+					<div id="leg_ES_tab_main"	class="btn_es_filter es_all on"><i></i>*ART_ES_all*</div>
+					<div id="leg_ES_tab_lol"	class="btn_es_filter es_LOL"   ><i></i>*ART_ES_LOL*</div>
+					<div id="leg_ES_tab_dota"	class="btn_es_filter es_DOTA"  ><i></i>*ART_ES_DOTA*</div>
+					<div id="leg_ES_tab_cs"		class="btn_es_filter es_CS"    ><i></i>*ART_ES_CS*</div>
+					<div id="leg_ES_tab_kog"	class="btn_es_filter es_KOG"   ><i></i>*ART_ES_KOG*</div>
+					<div id="leg_ES_tab_val"	class="btn_es_filter es_VAL"   ><i></i>*ART_ES_VAL*</div>
+					<div id="leg_ES_tab_wr"		class="btn_es_filter es_WR"    ><i></i>*ART_ES_WR*</div>
+					<div id="leg_ES_tab_ml"		class="btn_es_filter es_ML"    ><i></i>*ART_ES_ML*</div>
+					<div id="leg_ES_tab_star2"	class="btn_es_filter es_STAR2" ><i></i>*ART_ES_STAR2*</div>
+					<div id="leg_ES_tab_pubg"	class="btn_es_filter es_PUBG"  ><i></i>*ART_ES_PUBG*</div>
+					<div id="leg_ES_tab_aov"	class="btn_es_filter es_AOV"   ><i></i>*ART_ES_AOV*</div>
+					<div id="leg_ES_tab_ove"	class="btn_es_filter es_OVE"   ><i></i>*ART_ES_OVE*</div>
+					<div id="leg_ES_tab_rs"		class="btn_es_filter es_RS"    ><i></i>*ART_ES_RS*</div>
+					<div id="leg_ES_tab_rl"		class="btn_es_filter es_RL"    ><i></i>*ART_ES_RL*</div>
+					<div id="leg_ES_tab_star"	class="btn_es_filter es_STAR"  ><i></i>*ART_ES_STAR*</div>
+					<div id="leg_ES_tab_war"	class="btn_es_filter es_WAR"   ><i></i>*ART_ES_WAR*</div>
+					<div id="leg_ES_tab_cro"	class="btn_es_filter es_CRO"   ><i></i>*ART_ES_CRO*</div>
+					<div id="leg_ES_tab_cod"	class="btn_es_filter es_COD"   ><i></i>*ART_ES_COD*</div>
+					<div id="leg_ES_tab_ff"		class="btn_es_filter es_FF"    ><i></i>*ART_ES_FF*</div>
+					<div id="leg_ES_tab_aoe"	class="btn_es_filter es_AOE"   ><i></i>*ART_ES_AOE*</div>
+					<div id="leg_ES_tab_aoe2"	class="btn_es_filter es_AOE2"  ><i></i>*ART_ES_AOE2*</div>
+					<div id="leg_ES_tab_pu"		class="btn_es_filter es_PU"    ><i></i>*ART_ES_PU*</div>
+					<div id="leg_ES_tab_al"		class="btn_es_filter es_AL"    ><i></i>*ART_ES_AL*</div>
+					<div id="leg_ES_tab_others" class="btn_es_filter es_OTHERS"><i></i>*ART_ES_OTHERS*</div>
+				</label>
+			</div>
+		</div>
+
+		<!-- es filter loading -->
+		<!-- Loading 開啟時請新增class="loading_on" -->
+		<div id="chgTab_loading" class="loading loading_chgTab" style="display: none;"><i class="icon_load"></i></div>
+
+		<div id="league_gtypeBg" class="box_filter parlay_filter"><!-- class="ft" 幫忙帶入對應的球類代碼 -->
+			<div id="div_nodata" class="no_event" style="display: none;"><i></i><span>*ART_game_datenodata*</span></div>
+
+			<div id="div_hasdata" style="display: none;">
+				<!-- inplay all matches button -->
+				<div id="btn_more_event" class="btn_more_event" style="display: none;">*ART_btn_allmatche*<i class="icon_arrow"><svg><use xlink:href="#icon_morearr"/></svg></i></div>
+
+				<div id="div_coupon" class="popular_league" style="display: none;"></div>
+				<div id="div_classifier" class="classic_league" style="display: none;"></div>
+
+				<!----------------------------- model ----------------------------->
+				<div id="model_coupon" style="display: none;">
+					<div id="model_coupon_content" style="display: none;">
+						<div class="box_scroll coupon_scroll">
+							<div id="coupon_left" class="btn_go_l"><svg><use xlink:href="#icon_rightarr"/></svg></div>
+							<div id="coupon_right" class="btn_go_r"><svg><use xlink:href="#icon_rightarr"/></svg></div>
+							<div id="coupon_scroll" class="box_slide dragscroll_coupon">
+								<label id="coupon_total">
+									*COUPON_CONTENT*
+								</label>
+							</div>
+						</div>
+					</div>
+
+					<div id="model_coupon_league" style="display: none;">
+						<div id="btn_*COUPON_ID*" class="btn_pop_event">
+							<span>*COUPON_SHOWTYPE*</span>
+							<p>*COUPON_NAME*</p>
+							<tt>*COUPON_COUNT*</tt>
+						</div>
+					</div>
+				</div>
+
+				<div id="model_classifier" style="display: none;">
+
+					<div id="model_region" style="display: none;">
+						<div class="content_filter">
+							<!-- league name -->
+							<div id="region_head_*REGION_ID*" class="btn_title_le"><tt>*REGION_NAME*</tt><i class="*FLAG_CLASS*"></i></div>
+
+							<div id="region_body_*REGION_ID*" class="box_le_filter" style="display: *DEFAULT_OPEN*;">
+								*LEAGUE_COUNTENT*
+							</div>
+						</div>
+					</div>
+
+					<div id="model_league" style="display: none;">
+						<div id="league_*LEAGUE_ID*" class="btn_event">
+							<label class="check_event">
+								<input id="chkbox_*LEAGUE_ID*" value="" name="chkbox_league" type="checkbox">
+								<span class="checkmark"></span>
+							</label>
+							<div class="bg_event"></div>
+							<span class="title_event">*LEAGUE_NAME*</span>
+						</div>
+					</div>
+
+					<div id="model_az" style="display: none;">
+						<div class="title_filter"><tt>*ART_coupon_AZ*</tt></div>
+					</div>
+				</div>
+				<!----------------------------- model ----------------------------->
+			</div>
+
+		</div>
+	</div>
+</body>
+</html>

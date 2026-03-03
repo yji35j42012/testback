@@ -1,0 +1,23 @@
+var artjson = {
+	"ART_passcode_title": "簡易密碼登入 ",
+	"ART_passcode_enter": "輸入您的簡易密碼",
+	"ART_passcode_check": "確認簡易密碼",
+	"ART_passcode_set": "設定您的簡易密碼以便快速登入。",
+	"ART_passcode_reset": "重新設定簡易密碼",
+	"ART_passcode_err": "請確認此簡易密碼是您設置的簡易密碼。",
+	"ART_passcode_close": "關閉",
+	"ART_passcode_delete": "刪除",
+	"ART_passcode_success": "恭喜",
+	"ART_passcode_succtxt": "你已經成功設置簡易密碼登入。",
+	"ART_passcode_nextset": "將此簡易密碼設為你下次登入的密碼",
+	"ART_passcode_ok": "確認",
+	"ART_passcode_txt01": "您已經設置了簡易登入密碼。如果您使用的是瀏覽器，則必須啟用您的cookie才能使用簡易密碼登錄進行登錄。",
+	"ART_passcode_txt02": "你現在想做什麽？",
+	"ART_passcode_txt03": "您現在的裝置 / 瀏覽器尚未設定簡易密碼登入，為了讓您更快速方便的登入，是否要現在設定呢?",
+	"ART_passcode_txt04": "注意：使用其他帳戶登錄將暫時禁用此設備/瀏覽器上的簡易密碼登入。",
+	"ART_passcode_remove": "移除",
+	"ART_passcode_edit": "更改",
+	"ART_passcode_no": "否",
+	"ART_passcode_yes": "是",
+
+};

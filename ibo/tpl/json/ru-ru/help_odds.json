@@ -1,0 +1,20 @@
+var artjson = {
+	"ART_hp_odds_lang": "EN",
+	"ART_hp_odds": "ODDS CONVERSION",
+
+	"ART_hp_odds_type": "Тип коэффициентов",
+	"ART_hp_odds_amount": "Bet Amount",
+	"ART_hp_odds_odds": "Odds",
+	"ART_hp_odds_win": "Win",
+	"ART_hp_odds_lose": "Lose",
+
+	"ART_hp_odds_hk": "Гонконгские",
+	"ART_hp_odds_ml": "Малазийские",
+	"ART_hp_odds_in": "Индонезийские",
+	"ART_hp_odds_eu": "Европейские",
+
+	"ART_hp_odds_form": "ODDS CONVERSION TABLE",
+	"ART_hp_odds_hk_odds": "Гонконгские коэффициенты",
+	"ART_hp_odds_ml_odds": "Малазийские коэффициенты",
+	"ART_hp_odds_in_odds": "Индонезийские коэффициенты",
+}

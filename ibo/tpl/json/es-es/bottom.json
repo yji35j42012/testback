@@ -1,0 +1,12 @@
+var artjson = {
+	"ART_bottom_sport": "Deportes",
+	"ART_bottom_schedule": "Cronograma",
+	"ART_bottom_betslip": "Hoja De Apuestas",
+	"ART_bottom_statement": "Declaración",
+	"ART_bottom_openbet": "Open Bets",
+
+	"ART_bottom_mygame": "My Events",
+	"ART_bottom_mybets": "My Bets",
+
+	"ART_text_new": "New",
+}

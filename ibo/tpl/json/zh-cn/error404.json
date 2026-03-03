@@ -1,0 +1,6 @@
+var artjson = {
+	"ART_404_text1": "",
+	"ART_404_text2": "啊．．．我们找不到这页，请回上页或是回",
+	"ART_404_btn_home": "首页",
+	"ART_404_text3": "。",
+}

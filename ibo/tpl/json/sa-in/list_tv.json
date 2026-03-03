@@ -1,0 +1,18 @@
+var artjson = {
+	"ART_ball_all": "सब",
+	"ART_ball_ft": "फ़ुटबॉल",
+	"ART_ball_vf": "Virtual Events",
+	"ART_ball_bk": "बास्केटबॉल और अमेरिकी फुटबॉल",
+	"ART_ball_es": "eSports",
+	"ART_ball_tn": "टेनिस",
+	"ART_ball_vb": "वालीबाल",
+	"ART_ball_bm": "बैडमिंटन",
+	"ART_ball_tt": "पिंग पोंग",
+	"ART_ball_bs": "बेसबॉल",
+	"ART_ball_sk": "Snooker",
+	"ART_ball_op": "अन्य खेलों",
+	"ART_game_sched": "अनुसूची",
+	"ART_date_alldate": "सब",
+	"ART_date_future": "FUTURE",
+	"ART_game_datenodata": "There are no events available for <br> your selected date.",
+}

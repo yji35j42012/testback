@@ -1,0 +1,7 @@
+var artjson = {
+	"ART_prepass_hello": "Hi ",
+	"ART_prepass_enter": "Enter Your Passcode",
+	"ART_prepass_err": "Set up your passcode for quicker log in.",
+	"ART_prepass_login": "Normal Log In",
+	"ART_prepass_delete": "Delete",
+};

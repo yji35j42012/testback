@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name='viewport' content='maximum-scale=1, width=device-width, user-scalable=no, minimum-scale=1.0, viewport-fit=cover'/>
+	<title>滾球球類選單</title>
+	<script id="homeJS">{JS}</script>
+	<script id="ts">{TS}</script>
+	<link href="{CDNURL}/style/bet_game.css" rel="stylesheet" type="text/css">
+	<link href="{CDNURL}/style/clusterize.css" rel="stylesheet" type="text/css">
+	<link href="{CDNURL}/style/flag.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<div class="content_l">
+		<!--import sport html-->
+		<div id="sport_content" class="sport_content"></div>
+		
+		<!-- VF -->
+		<div id="virtual_video" class="box_vf" style="display: none">
+			<div class="show_vf">
+				<iframe id="vf_frame" src=""></iframe>
+			</div>	
+			<div id="vf_loading" class="loading inn_loading" style="display: none;"><i class="icon_load"></i></div>
+		</div>
+
+		<!--盤面用loading-->
+		<div id="game_loading" class="loading loading_on" style="display: none;"><i class="icon_load"></i></div>
+
+		<!--盤面-->
+		<div id="main_content" class="content_sport">
+			<!--import 盤面 html-->
+		</div>
+	</div>
+</body>
+</html>

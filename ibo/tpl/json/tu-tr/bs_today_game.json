@@ -1,0 +1,17 @@
+var artjson = {
+	"ART_lang": "en",
+	"ART_game_nodata": "Hiçbir etkinlik mevcut değil.",
+
+	"ART_game_m": "Para Hattı",
+	"ART_game_r": "Handikap",
+	"ART_game_ou": "Toplam Çalıştırma",
+	"ART_game_ouh": "Takım 1 Koşuları",
+	"ART_game_ouc": "Takım 2 Koşuları",
+
+	"ART_game_over": "O",
+	"ART_game_under": "U",
+
+	"ART_game_out": "Dışarı:",
+	"ART_game_draw": "Draw",
+
+}

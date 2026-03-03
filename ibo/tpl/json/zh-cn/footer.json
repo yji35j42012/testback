@@ -1,0 +1,22 @@
+var footer_artjson = {
+	"ART_title_relate": "相关信息",
+	"ART_game_gmt4": "今日赛事显示时区为GMT-4。",
+
+	"ART_footer_language": "语言",
+	"ART_lan_tw": "繁體",
+	"ART_lan_cn": "简体",
+	"ART_lan_en": "English",
+
+	"ART_footer_time": "开赛时间显示",
+	"ART_time_sys": "系统时间 (GMT-4)",
+	"ART_time_dev": "当地时间 (设备时间)",
+
+	"ART_footer_feature": "新功能",
+	"ART_footer_rule": "体育玩法规则",
+	"ART_footer_system": "系统需求",
+	"ART_footer_term": "规则与条款",
+	"ART_footer_app": "下载安卓APP",
+	"ART_footer_phone": "电话号码",
+	"ART_footer_email": "电子邮件",
+	"ART_footer_copyright": "版权声明 (C) 2024 版权所有",
+}

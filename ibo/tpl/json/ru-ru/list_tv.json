@@ -1,0 +1,18 @@
+var artjson = {
+	"ART_ball_all": "Все виды спорта",
+	"ART_ball_ft": "Футбол",
+	"ART_ball_vf": "Виртуальные события",
+	"ART_ball_bk": "Баскетбол и американский футбол",
+	"ART_ball_es": "eSports",
+	"ART_ball_tn": "Теннис",
+	"ART_ball_vb": "Волейбол",
+	"ART_ball_bm": "Бадминтон",
+	"ART_ball_tt": "Настольный теннис",
+	"ART_ball_bs": "Бейсбол",
+	"ART_ball_sk": "Снукер / Бильярд",
+	"ART_ball_op": "Другое",
+	"ART_game_sched": "Расписание",
+	"ART_date_alldate": "Все <br> Дата",
+	"ART_date_future": "Предстоящие",
+	"ART_game_datenodata": "There are no events available for <br> your selected date.",
+}

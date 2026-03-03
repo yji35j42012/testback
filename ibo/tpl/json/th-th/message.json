@@ -1,0 +1,12 @@
+var artjson = {
+	"ART_message_title": "ANNOUNCEMENT",
+	"ART_message_search": "ค้นหา",
+	"ART_message_cancel": "Cancel",
+	"ART_message_normal": "GENERAL",
+	"ART_message_important": "IMPORTANT",
+	"ART_message_personal": "PERSONAL",
+	"ART_message_all": "ทั้งหมด",
+	"ART_message_today": "ในวันนี้",
+	"ART_message_yeaterday": "เมื่อวาน",
+	"ART_message_nodata": "THERE ARE CURRENTLY NO MESSAGES AVAILABLE.",
+};

@@ -1,0 +1,15 @@
+var artjson = {
+	"ART_log_chgpwd": "修改密碼",
+	"ART_log_chgpwd_text_1": "為了安全起見，您必須每30天改變一次密碼。",
+	"ART_log_chgpwd_text_2": "您的密碼必須根據以下規則:",
+	"ART_log_chgpwd_text_3": "至少要有兩個大或小寫英文字母和數字(0-9)組合, 字數最少6至12個。",
+	"ART_log_chgpwd_text_4": "三個不同的字母數字。",
+	"ART_log_chgpwd_text_5": "不准許有空格。",
+
+	"ART_log_inp_nowpwd": "當前密碼",
+	"ART_log_inp_newpwd": "新密碼",
+	"ART_log_inp_repwd": "確認密碼",
+
+	"ART_log_btn_cancel": "取消",
+	"ART_log_btn_submit": "提交",
+}

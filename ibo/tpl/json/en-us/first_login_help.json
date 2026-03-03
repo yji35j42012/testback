@@ -1,0 +1,8 @@
+var artjson = {
+	"ART_chgidhelp_title": "HELP",
+
+	"ART_chgidhelp_text1": "Please use the member user code on your initial log in.",
+	"ART_chgidhelp_text2": "You will be prompted to create a new Login ID. Please enter your preferred Login ID on the ‘Login ID’ field. There will be a message confirming that the Login ID you entered is available or not available.",
+	"ART_chgidhelp_text3": "Please use the newly created Login ID on your next log in.",
+
+}

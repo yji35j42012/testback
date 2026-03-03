@@ -1,0 +1,23 @@
+var artjson = {
+	"ART_lang": "EN",
+	"ART_game_nodata": "There are no events available.",
+	"ART_game_3in1": "in",
+
+	"ART_game_rou": "O/U",
+	"ART_game_rnb": "Next Booking",
+	"ART_game_reo": "O/E",
+	"ART_game_re": "Handicap",
+	"ART_game_rm": "1 X 2",
+
+	"ART_game_half1": "Hiệp 1",
+	"ART_game_et": "ET",
+	"ART_game_ethalf1": "ET Hiệp 1",
+
+	"ART_game_over": "O",
+	"ART_game_under": "U",
+	"ART_game_odd": "Odd",
+	"ART_game_even": "Even",
+	"ART_game_teamH": "1",
+	"ART_game_teamC": "2",
+	"ART_game_draw_X": "X",
+}

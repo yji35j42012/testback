@@ -1,0 +1,25 @@
+var artjson = {
+	"ART_lang": "EN",
+	"ART_pic_lang": "en",
+	"ART_title_relate": "Ver informações relacionadas ao conteúdo",
+	//WEBP
+	"ART_img_WCUP": "srcset=\"../../images/img_wcup_en.webp?2025v0\" type=\"image/webp\"",
+	"ART_imgB_ES": "srcset=\"../../images/img_es_en.webp?2024v2\" type=\"image/webp\"",
+	"ART_img_book": "srcset=\"../../images/event_book_en.webp?2024v1\" type=\"image/webp\"",
+	"ART_img_sb": "srcset=\"../../images/event_sb_en.webp?2024v1\" type=\"image/webp\"",
+	"ART_img_vf": "srcset=\"../../images/img_virtual_en.webp?2024v1\" type=\"image/webp\"",
+	"ART_img_newdesign": "srcset=\"../../images/img_timeset_en.webp?2024v0\" type=\"image/webp\"",
+	"ART_img_bonus": "srcset=\"../../images/img_bonus_en.webp?2024v0\" type=\"image/webp\"",
+	"ART_img_timeset": "srcset=\"../../images/fea_img12_en.webp?2024v0\" type=\"image/webp\"",
+	//JPEG
+	"ART_img_XWCUP": "srcset=\"../../images/img_wcup_en.jpg?2025v0\" type=\"image/jpeg\"",
+	"ART_imgB_XES": "srcset=\"../../images/img_es_en.jpg?2024v2\" type=\"image/jpeg\"",
+	"ART_img_Xbook": "srcset=\"../../images/event_book_en.jpeg?2024v1\" type=\"image/jpeg\"",
+	"ART_img_Xsb": "srcset=\"../../images/event_sb_en.jpeg?2024v1\" type=\"image/jpeg\"",
+	"ART_img_Xvf": "srcset=\"../../images/event_sb_en.jpeg?2024v1\" type=\"image/jpeg\"",
+	"ART_img_Xnewdesign": "srcset=\"../../images/img_timeset_en.jpg?2024v0\" type=\"image/jpeg\"",
+	"ART_img_Xbonus": "srcset=\"../../images/img_bonus_en.jpg?2024v0\" type=\"image/jpeg\"",
+	"ART_img_Xtimeset": "srcset=\"../../images/fea_img12_en.jpg?2024v0\" type=\"image/jpeg\"",
+	//MT
+	"ART_game_nomtpop": "Hmm…it seems this is empty right now.This could be because this particular content is not available for this event or it will be only available later on.",
+}

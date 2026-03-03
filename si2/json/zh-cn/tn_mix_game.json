@@ -1,0 +1,24 @@
+var artjson = {
+	"ART_lang": "CN",
+	"ART_game_nodata": "目前没有任何赛事。",
+	"ART_game_mygame1": "选择上面的图标，会将其添加到",
+	"ART_game_mygame2": "我的赛事",
+	"ART_game_mygame3": "中。您可以对其进行分组并轻松访问您感兴趣的所有赛事。",
+	"ART_game_3in1": "串",
+
+	"ART_game_rm": "独赢",
+	"ART_game_re": "让盘",
+	"ART_game_rou": "总局数",
+	"ART_game_re_game": "让局",
+	"ART_game_rga": "以对手<br>15/30赢局",
+
+	"ART_game_m": "独赢",
+	"ART_game_r": "让盘",
+	"ART_game_r_game": "让局",
+	"ART_game_ou": "总局数",
+
+	"ART_game_over": "大",
+	"ART_game_under": "小",
+	"ART_game_yes": "是",
+	"ART_game_no": "否",
+}

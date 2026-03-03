@@ -1,0 +1,12 @@
+var artjson = {
+	"ART_message_title": "Duyurular",
+	"ART_message_search": "Aramak",
+	"ART_message_cancel": "İptal etmek",
+	"ART_message_normal": "Genel",
+	"ART_message_important": "Önemli",
+	"ART_message_personal": "Kişisel",
+	"ART_message_all": "Tüm",
+	"ART_message_today": "Bugün",
+	"ART_message_yeaterday": "Dün",
+	"ART_message_nodata": "Şu anda mevcut mesaj yok.",
+};

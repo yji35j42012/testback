@@ -1,0 +1,26 @@
+var artjson = {
+	"ART_home_lang": "TW",
+	"ART_pic_lang": "tw",
+	"ART_home_inplay": "滾球",
+	"ART_home_today": "今日",
+	"ART_home_early": "早盤",
+	"ART_home_nodata": "目前沒有任何賽事。",
+
+	"ART_home_ft": "足球",
+	"ART_home_bk": "籃球 & 美式足球",
+	"ART_home_tn": "網球",
+	"ART_home_vb": "排球",
+	"ART_home_bm": "羽毛球",
+	"ART_home_tt": "乒乓球",
+	"ART_home_bs": "棒球",
+	"ART_home_sk": "斯諾克 / 台球",
+	"ART_home_op": "其他",
+
+	"ART_home_view_text1": "由於您的帳戶目前只“",
+	"ART_home_view_text2": "允許瀏覽",
+	"ART_home_view_text3": "“，因此您只能查看",
+	"ART_home_view_text4": "交易狀況",
+	"ART_home_view_text5": "以及",
+	"ART_home_view_text6": "帳戶歷史",
+	"ART_home_view_text7": "。",
+}

@@ -1,0 +1,20 @@
+var artjson = {
+	"ART_lang": "EN",
+	"ART_chgid_title": "CREATE LOGIN ID",
+
+	"ART_chgid_hello": "Hello ",
+	"ART_chgid_text1": "Please create a Login ID that you can easily remember.",
+	"ART_chgid_text2": "Rules:",
+	"ART_chgid_text3": "1. Your Login ID must be between 6 to 12 alphanumeric characters with at least 2 capital (A-Z) or lowercase letters (a-z) and at least 1 numeric character (0-9).",
+	"ART_chgid_text4": "2. Your Login ID must not contain any spaces.",
+
+	"ART_chgid_inp_id": "Login ID",
+	"ART_chgid_btn_check": "CHECK",
+
+	"ART_chgid_text5": "NOTE:",
+	"ART_chgid_text6": "Once succesfully created, the Login ID cannot be modified. Please use the new created Login ID on your next log in. The original member user code will only be used for identification purposes.",
+
+	"ART_chgid_btn_cancel": "Cancelar",
+	"ART_chgid_btn_submit": "Entregar",
+
+}

@@ -1,0 +1,18 @@
+var artjson = {
+	"ART_ball_all": "すべて",
+	"ART_ball_ft": "サッカー",
+	"ART_ball_vf": "Virtual Events",
+	"ART_ball_bk": "バスケットボール＆アメリカンフットボール",
+	"ART_ball_es": "eSports",
+	"ART_ball_tn": "テニス",
+	"ART_ball_vb": "バレーボール",
+	"ART_ball_bm": "バドミントン",
+	"ART_ball_tt": "卓球",
+	"ART_ball_bs": "野球",
+	"ART_ball_sk": "Snooker",
+	"ART_ball_op": "その他のスポーツ",
+	"ART_game_sched": "SCHEDULE",
+	"ART_date_alldate": "すべて",
+	"ART_date_future": "FUTURE",
+	"ART_game_datenodata": "There are no events available for <br> your selected date.",
+}

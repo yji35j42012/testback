@@ -1,0 +1,15 @@
+var artjson = {
+	"ART_lang": "EN",
+	"ART_game_nodata": "Hiçbir etkinlik mevcut değil.",
+
+	"ART_game_re": "Handikap",
+	"ART_game_rou": "Toplam puanlar",
+	"ART_game_rouh": "Takım 1<br>Puanı",
+	"ART_game_rouc": "Takım 2<br>Puanı",
+
+	"ART_game_half1": "1. Yarı",
+
+	"ART_game_over": "O",
+	"ART_game_under": "U",
+
+}

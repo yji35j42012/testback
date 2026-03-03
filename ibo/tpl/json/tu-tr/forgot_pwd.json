@@ -1,0 +1,26 @@
+var artjson = {
+	"ART_lang": "EN",
+	"ART_forgot_title": "PASSWORD RECOVERY",
+
+	"ART_forgot_text1": "NOTE:",
+	"ART_forgot_text2": "You must already register your Password Recovery Email to use this function. Please contact your upline if you have not yet registered a Password Recovery Email.",
+	"ART_forgot_text3": "Please enter the following information and we’ll help you reset your password.",
+	"ART_forgot_inp_id": "User Code or Login ID",
+	"ART_forgot_inp_email": "Email Address",
+	"ART_forgot_btn_cancel": "İptal etmek",
+	"ART_forgot_btn_next": "NEXT",
+	"ART_forgot_btn_submit": "Göndermek",
+
+	"ART_forgot_text4": "Please enter the verification code here.",
+	"ART_forgot_inp_safecode": "Verification Code",
+	"ART_forgot_error": "Verification Code entered is invalid. Please try again.",
+	"ART_forgot_btn_resent": "RESEND CODE",
+
+	"ART_forgot_text5": "Please enter your new password.",
+	"ART_forgot_inp_pwd": "Password",
+	"ART_forgot_inp_repwd": "Re-enter Password",
+
+	"ART_forgot_text6": "Password has been changed. Please log in using your new password.",
+	"ART_forgot_btn_gologin": "GO TO LOG IN",
+
+}

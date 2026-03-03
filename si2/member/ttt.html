@@ -1,0 +1,155 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>
+            Live Match Tracker Demo
+        </title>
+        <style>
+            .widgets-wrap {
+                display: flex;
+                justify-content: center;
+            }
+            .widgets {
+                max-width: 620px;
+                width: 100%;
+            }
+            .sr-widget {
+                border: rgba(0,0,0,0.12) solid 1px;
+                margin-bottom: 24px;
+            }
+            .sr-widget-title {
+                font-weight: bold;
+                padding-bottom: 4px;
+            }
+
+            .content-hidden {
+                visibility: hidden;
+                position: absolute;
+                left: -999999px;
+            }
+            
+            
+        </style>
+    </head>
+    <body>
+        <script>
+            (function(a,b,c,d,e,f,g,h,i){a[e]||(i=a[e]=function(){(a[e].q=a[e].q||[]).push(arguments)},i.l=1*new Date,i.o=f,
+            g=b.createElement(c),h=b.getElementsByTagName(c)[0],g.async=1,g.src=d,g.setAttribute("n",e),h.parentNode.insertBefore(g,h)
+            )})(window,document,"script", "https://ws-cdn001.akamaized.net/2370877a0ce04fbfdc9678dae41d4210/widgetloader", "SIR", {
+                language: "en"
+            });
+            
+            // 等待資料
+            function waitForData(selector, timeout) {
+                return new Promise(function(resolve, reject) {
+                    // Query an element whitin which we want to check for content （取我們要處理的element）
+                    var el = document.querySelector(selector);
+
+                    // If no such element is found, data ain't comming. Maybe throw an error here and handle it outside.
+                    // 如果該element找不到，就表示沒有資料進來。就throw error或做處理error的動作。
+                    if (!el) {
+                        resolve(false);
+                        return;
+                    }
+
+                    // If element already has a content, immediately resolve （如果該element有資料，馬上處理）
+                    if (el.children.length) {
+                        resolve(true);
+                        return;
+                    } else {  // 沒有資料的處理方式
+                        var delayedResolve = function(success) {
+                            // disconnect the observer and clear the timeout
+                            observer.disconnect();
+                            clearTimeout(timeoutRef);
+
+                            resolve(success);
+                        }
+
+                        // Create an observer instance linked to the callback function
+                        var observer = new MutationObserver(function() {
+                            delayedResolve(true);
+                        });
+
+                        var timeoutRef = setTimeout(function() {
+                            delayedResolve(false);
+                        }, timeout);
+
+                        // Start observing the target node for configured mutations
+                        observer.observe(el, { childList: true });
+                    }
+                });
+            }
+
+            // 取widget (statistics, headToHead, standings, timeline, 或 lineups)
+            function getWidgetOnTrackFn(widgetClass) {
+                return function onTrack(type, doc) {
+                    console.log("dame");
+                    if (type !== 'data_change') return;
+                    console.log("dame");
+                    console.log(widgetClass, type, doc);
+                    var el = document.querySelector(widgetClass);
+
+                    // hide the tabs on data change (先把tab給隱藏）
+                    el.classList.toggle('content-hidden', true);
+
+                    // tabDataAvailable 決定這個tab有沒有存在。存在的話就是true。
+                    waitForData(`${widgetClass} .sr-lmt-plus__comp-size`, tabDataWaitMiliseconds).then(function(tabDataAvailable) {
+                        console.log(widgetClass, tabDataAvailable ? "tab AVAILABLE" : "tab not available");
+
+                        el.classList.toggle('content-hidden', !tabDataAvailable); // 這邊決定有沒有tab (就是我們MT的按鈕)
+                    });
+                }
+            }
+
+            // 創建Tab
+            function createWidgetTab(selector, tab, matchId) {
+                SIR("addWidget", selector, "match.lmtPlus", {
+                    layout: "topdown",
+                    scoreboard: "disable",
+                    detailedScoreboard: "disable",
+                    matchId: matchId,
+                    disablePitch: true, // 關掉 MT
+                    tabs: {
+                        3:[tab]
+                    },  // 那個號碼是體育的號碼，也可以從BR的demo網頁上面鏈接的sportid得到。5是网球。
+                    tabsPosition: "disable",
+                    onTrack: getWidgetOnTrackFn(selector)
+                });
+                SIR("changeLanguage", "zh");
+            }
+
+
+            function changeMatch(matchId) {
+                // createWidgetTab(".sr-widget-1", "statistics", matchId);
+                // createWidgetTab(".sr-widget-2", "standings", matchId); //standings-》 羽毛球通常都没有，很少出现。所以是个很好的例子。
+                // createWidgetTab(".sr-widget-3", "timeline", matchId);
+                // createWidgetTab(".sr-widget-4", "headToHead", matchId);
+                createWidgetTab(".sr-widget-5", "boxScore", matchId);
+            
+            };
+
+            const tabDataWaitMiliseconds = 1000;
+
+            changeMatch(32698939);
+
+            
+        </script>
+        <div>
+            <button class="button" onclick="changeMatch(21571593)">無資料 1</button> <!-- 要自己去BR的 Demo 网站找 無資料的 matchID -->
+            <button class="button" onclick="changeMatch(24856608)">無資料 2</button> <!--要自己去BR的 Demo 网站找 無資料的 matchID -->
+            <button class="button" onclick="changeMatch(26576948)">有資料 1</button> <!-- 要自己去BR的 Demo 网站找 有資料的 matchID -->
+            <button class="button" onclick="changeMatch(27311928)">有資料 2</button> <!-- 要自己去BR的 Demo 网站找 有資料的 matchID -->
+        </div>
+        <div class="widgets-wrap">
+            <div class="widgets">
+                <div><div class="sr-widget sr-widget-1"></div></div>
+                <div><div class="sr-widget sr-widget-2"></div></div>
+                <div><div class="sr-widget sr-widget-3"></div></div>
+                <div><div class="sr-widget sr-widget-4"></div></div>
+                <div><div class="sr-widget sr-widget-5"></div></div>
+            </div>
+        </div>
+
+    </body>
+</html>

@@ -1,0 +1,6 @@
+var artjson = {
+	"ART_cleardata_title": "SITE MAINTENANCE",
+	"ART_cleardata_text1": "The betting pages are currently undergoing maintenance. This is due to be completed by ",
+	"ART_cleardata_text2": "You can continue to view the Open Bets and Statement pages. Thank you for your patience.",
+
+}

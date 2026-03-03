@@ -1,0 +1,38 @@
+var artjson = {
+	"ART_lang": "EN",
+	"ART_game_nodata": "Markets are temporarily unavailable.",
+
+//MT
+	"ART_game_nomtpop": "Hmm…it seems this is empty right now.This could be because this particular content is not available for this event or it will be only available later on.",
+
+//玩法
+	"ART_game_m": "Money Line",
+	"ART_game_r": "Handicap",
+	"ART_game_ou": "Total Runs: Over / Under",
+	"ART_game_ouhc": "Team Runs:",
+	"ART_game_eo": "Total Runs: Odd / Even",
+	"ART_game_wm": "Winning Margin",
+	"ART_game_ot": "Overtime",
+	"ART_game_hm": "1 X 2",
+
+	"ART_game_o_u": "-  Over / Under",
+	"ART_game_half1": "1st 5 Innings",
+
+//odd box
+	"ART_game_over": "Over",
+	"ART_game_under": "Under",
+	"ART_game_odd": "Odd",
+	"ART_game_even": "Even",
+	"ART_game_yes": "Yes",
+	"ART_game_no": "No",
+	"ART_game_draw": "Draw",
+
+	"ART_game_rwm1": "Win by 1 Run",
+	"ART_game_rwm2": "Win by 2 Runs",
+	"ART_game_rwm3": "Win by 3 Runs",
+	"ART_game_rwm4up": "Win by 4 or More Runs",
+
+//other
+	"ART_title_relate": "अधिक जानकारी",
+	"ART_text_relate_text": "All live content displayed in this panel is for information purposes only and members are advised to only use this as a guide. While we make every effort to ensure the content displayed is correct, our company will assume no liability for incorrect information. For markets that are based on the live score, e.g. In-Play Asian Handicaps, the correct score that the market is based off will be displayed in the Bet Slip at time of bet placement.",
+}

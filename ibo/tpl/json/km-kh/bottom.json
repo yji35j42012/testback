@@ -1,0 +1,12 @@
+var artjson = {
+	"ART_bottom_sport": "Sports",
+	"ART_bottom_schedule": "កាលវិភាគ",
+	"ART_bottom_betslip": "Bet Slip",
+	"ART_bottom_statement": "ប្រវត្តិគណនី",
+	"ART_bottom_openbet": "បើក ប័ណ្ណភ្នាល់",
+
+	"ART_bottom_mygame": "My Events",
+	"ART_bottom_mybets": "My Bets",
+
+	"ART_text_new": "New",
+}

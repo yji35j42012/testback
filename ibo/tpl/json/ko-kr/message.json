@@ -1,0 +1,12 @@
+var artjson = {
+	"ART_message_title": "발표",
+	"ART_message_search": "Search",
+	"ART_message_cancel": "Cancel",
+	"ART_message_normal": "GENERAL",
+	"ART_message_important": "IMPORTANT",
+	"ART_message_personal": "PERSONAL",
+	"ART_message_all": "전체",
+	"ART_message_today": "금일",
+	"ART_message_yeaterday": "전일",
+	"ART_message_nodata": "THERE ARE CURRENTLY NO MESSAGES AVAILABLE.",
+};

@@ -1,0 +1,31 @@
+var artjson = {
+	"ART_lang": "EN",
+	"ART_game_nodata": "Markets are temporarily unavailable.",
+	"ART_game_3in1": "in",
+
+//Score board
+	"ART_win": "Win %",
+
+//玩法filters
+	"ART_es_filter_all": "ALL MARKETS",
+	"ART_es_filter_match": "MATCH",
+	"ART_es_filter_game1": "GAME 1",
+	"ART_es_filter_game2": "GAME 2",
+	"ART_es_filter_game3": "GAME 3",
+	"ART_es_filter_game4": "GAME 4",
+	"ART_es_filter_game5": "GAME 5",
+	"ART_es_filter_game6": "GAME 6",
+	"ART_es_filter_game7": "GAME 7",
+
+//玩法
+	"ART_game_rm": "Winner",
+	"ART_game_re": "Фора",
+	"ART_game_rou": "Больше / Меньше",
+	"ART_game_reo": "Голы: Чет / Нечет",
+
+//odd box
+	"ART_game_over": "Больше",
+	"ART_game_under": "Меньше",
+	"ART_game_odd": "Голы: Чет",
+	"ART_game_even": "Нечет",
+}

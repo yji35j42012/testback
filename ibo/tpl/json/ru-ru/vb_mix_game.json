@@ -1,0 +1,16 @@
+var artjson = {
+	"ART_lang": "EN",
+	"ART_game_nodata": "В настоящее время нет событий.",
+	"ART_game_mygame1": "Selecting the above icon, for any event, will add it to the ",
+	"ART_game_mygame2": "MY EVENTS",
+	"ART_game_mygame3": " section. Here, you can group and easily access all the events you are interested in.",
+	"ART_game_3in1": "in",
+
+	"ART_game_rm": "Исход 1X2",
+	"ART_game_re": "Фора",
+	"ART_game_re_point": "Фора",
+
+	"ART_game_m": "Исход 1X2",
+	"ART_game_r": "Фора",
+	"ART_game_r_point": "Фора",
+}

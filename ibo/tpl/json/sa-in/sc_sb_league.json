@@ -1,0 +1,10 @@
+var artjson = {
+	"ART_game_datenodata": "THERE ARE NO EVENTS AVAILABLE FOR YOUR SELECTED DATE.",
+	"ART_date_alldate": "सब",
+	"ART_date_today": "आज",
+	"ART_date_future": "FUTURE",
+	"ART_coupon_popular": "USUAL",
+	"ART_coupon_AZ": "COMPETITIONS A - Z",
+	"ART_btn_submit": "प्रस्तुत",
+
+}

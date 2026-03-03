@@ -1,0 +1,8 @@
+var artjson = {
+	"ART_game_nodata": "There are no events available.",
+	"ART_coupon_popular": "USUAL",
+	"ART_coupon_AZ": "COMPETITIONS A - Z",
+	"ART_btn_submit": "提出する",
+	"ART_game_gmt4": "Today's events are based on GMT -4",
+
+}

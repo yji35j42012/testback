@@ -1,0 +1,12 @@
+var artjson = {
+	"ART_bottom_sport": "Sports",
+	"ART_bottom_schedule": "Lịch thi đấu",
+	"ART_bottom_betslip": "Bet Slip",
+	"ART_bottom_statement": "Tuyên bố",
+	"ART_bottom_openbet": "Cược mở",
+
+	"ART_bottom_mygame": "My Events",
+	"ART_bottom_mybets": "My Bets",
+
+	"ART_text_new": "New",
+}

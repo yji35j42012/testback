@@ -1,0 +1,9 @@
+var artjson = {
+	"ART_game_nodata": "目前没有任何赛事。",
+	"ART_btn_allmatche": "观看所有赛事",
+	"ART_title_sporttype": "滚球",
+	"ART_coupon_popular": "热门",
+	"ART_coupon_AZ": "联盟（拼音排序）",
+	"ART_btn_submit": "提交",
+
+}

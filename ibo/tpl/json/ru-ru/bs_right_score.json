@@ -1,0 +1,6 @@
+var artjson = {
+//Score Board
+	"ART_scrbs_ot": "OT",
+	"ART_scrbs_out": "Выбывает:",
+
+}

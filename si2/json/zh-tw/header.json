@@ -1,0 +1,17 @@
+var artjson = {
+	"ART_header_inplay": "滾球",
+	"ART_header_soon": "即將開賽",
+	"ART_header_hot": "熱門",
+	"ART_header_today": "今日",
+	"ART_header_early": "早盤",
+	"ART_header_outrights": "冠軍",
+	"ART_header_parlay": "綜合過關",
+
+	"ART_bottom_schedule": "賽程",
+	"ART_bottom_openbet": "交易狀況",
+	"ART_bottom_mygame": "我的賽事",
+	"ART_bottom_mybets": "投注記錄",
+	"ART_bottom_statement": "帳戶歷史",
+
+	"ART_text_new": "新",
+}

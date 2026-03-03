@@ -1,0 +1,7 @@
+var artjson = {
+//Score Board
+	"ART_game_stop": "Play Suspended",
+	"ART_scrbm_set": "Games",
+	"ART_scrbm_tot": "Points",
+	
+}

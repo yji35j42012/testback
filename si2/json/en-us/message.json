@@ -1,0 +1,12 @@
+var artjson = {
+	"ART_message_title": "MESSAGES",
+	"ART_message_search": "Search",
+	"ART_message_cancel": "Cancel",
+	"ART_message_normal": "GENERAL",
+	"ART_message_important": "IMPORTANT",
+	"ART_message_personal": "PERSONAL",
+	"ART_message_all": "ALL",
+	"ART_message_today": "TODAY",
+	"ART_message_yeaterday": "YESTERDAY",
+	"ART_message_nodata": "THERE ARE CURRENTLY NO MESSAGES AVAILABLE.",
+};

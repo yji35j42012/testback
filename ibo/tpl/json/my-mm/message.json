@@ -1,0 +1,12 @@
+var artjson = {
+	"ART_message_title": "ကြေငြာချက်များ",
+	"ART_message_search": "ရှာပါ",
+	"ART_message_cancel": "Cancel",
+	"ART_message_normal": "GENERAL",
+	"ART_message_important": "IMPORTANT",
+	"ART_message_personal": "PERSONAL",
+	"ART_message_all": "အားလုံး",
+	"ART_message_today": "ဒီနေ့",
+	"ART_message_yeaterday": "မနေ့က",
+	"ART_message_nodata": "THERE ARE CURRENTLY NO MESSAGES AVAILABLE.",
+};

@@ -1,0 +1,22 @@
+var artjson = {
+	"ART_lang": "EN",
+	"ART_game_nodata": "There are no events available.",
+
+//玩法
+	"ART_game_m": "Money Line",
+	"ART_game_r": "Set Handicap",
+	"ART_game_ou": "Total Sets: Over / Under",
+	"ART_game_ouhc": "Player Games:",
+	"ART_game_eo": "Total Sets: Odd / Even",
+	"ART_game_pd3": "Match Correct Score (3 Sets)",
+	"ART_game_pd5": "Match Correct Score (5 Sets)",
+
+	"ART_game_o_u": "-  Over / Under",
+
+//odd box
+	"ART_game_over": "O",
+	"ART_game_under": "U",
+	"ART_game_odd": "Odd",
+	"ART_game_even": "Even",
+
+}

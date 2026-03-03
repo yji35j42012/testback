@@ -1,0 +1,6 @@
+var artjson = {
+	"ART_404_text1": "",
+	"ART_404_text2": "啊．．．我們找不到這頁，請回上頁或是回",
+	"ART_404_btn_home": "首頁",
+	"ART_404_text3": "。",
+}

@@ -1,0 +1,10 @@
+var artjson = {
+	"ART_game_nodata": "There are no events available.",
+	"ART_btn_allmatche": "VIEW ALL MATCHES",
+	"ART_title_sporttype": "인플레이",
+	"ART_title_sport_ft": "축구",
+	"ART_coupon_popular": "USUAL",
+	"ART_coupon_AZ": "COMPETITIONS A - Z",
+	"ART_btn_submit": "제출",
+
+}
