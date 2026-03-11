@@ -1,5 +1,0 @@
-var artjson = {
-	"ART_game_nodata": "Hiçbir etkinlik mevcut değil.",
-	"ART_btn_viewless": "Daha Az Görüntüle",
-	"ART_btn_viewmore": "Daha fazla göster",
-}

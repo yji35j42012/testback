@@ -1,8 +1,0 @@
-var artjson = {
-	"ART_bottom_schedule": "Live TV",
-	"ART_bottom_mygame": "My Events",
-	"ART_bottom_betslip": "Bet Slip",
-	"ART_bottom_mybets": "My Bets",
-
-	"ART_text_new": "New",
-}

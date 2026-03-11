@@ -1,6 +1,0 @@
-var artjson = {
-//Score Board
-	"ART_game_stop": "Play Suspended",
-	"ART_scrtt_tot": "Points",
-	"ART_scrtt_game": "Games",
-}
