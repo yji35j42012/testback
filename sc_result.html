@@ -1,0 +1,76 @@
+<html>
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, viewport-fit=cover">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<script>{JS}</script>
+	<link href="../../style/reset.css" rel="stylesheet" type="text/css">
+	<link href="../../style/result.css" rel="stylesheet" type="text/css">
+	<title>賽果-FT</title>
+
+</head>
+<body class="light">
+	<div class="content_l">
+		<div class="content_result">
+			<div class="title_help">
+				<div id="toback" class="btn_back"><i><svg><use xlink:href="#icon_back"></use></svg></i></div>
+				<span>賽果</span>
+				<div id="" class="btn_reload"><i><svg><use xlink:href="#icon_reload"></use></svg></i></div>
+			</div>
+			<div class="box_select">
+				<div class="select_result">
+					<label class="box_select">
+						<i class="icon_arr"><svg><use xlink:href="#icon_toparr"/></svg></i>
+						<select name="datesdropdown" class="sportsdropdown" id="datedropdown">
+							<option value="">2021-11-09</option>
+						</select>
+						<div id="pc_datesselect" class="dropdown_select">日期</div>
+						<ul id="pc_datesdropdown" name="datesdropdown" class="dropdown_pc" tabindex="-1">
+							<li id="" class="on">2021-11-09</li>
+							<li id="">2021-11-10</li>
+						</ul>
+					</label>
+					<label class="box_select">
+						<i class="icon_arr"><svg><use xlink:href="#icon_toparr"/></svg></i>
+						<select name="sportsdropdown" class="sportsdropdown" id="sportsdropdown">
+							<option value="ft">足球</option>
+							<option value="bk">藍球</option>
+							<option value="tn">網球</option>
+							<option value="bs">棒球</option>
+							<option value="op">其他</option>
+						</select>
+						<div id="pc_sportselect" class="dropdown_select">足球</div>
+						<ul id="pc_sportsdropdown" name="sportsdropdown" class="dropdown_pc" tabindex="-1">
+							<li id="pc_ft" class="on">足球</li>
+							<li id="pc_bk">藍球</li>
+							<li id="pc_tn">網球</li>
+							<li id="pc_bs">棒球</li>
+							<li id="pc_op">其他</li>
+						</ul>
+					</label>
+				</div>
+			</div>
+			<div class="result_tab">
+				<div id="" class="btn_tab on">正規賽事</div>
+				<div id="" class="btn_tab">虛擬賽事</div>
+			</div>
+			<div class="result_form">
+				<table>
+					<tr>
+						<td class="acc_results_timew"></td>
+						<td class="acc_results_teamw"></td>
+						<td class="acc_results_otherw">全場</td>
+						<td class="acc_results_otherw">上半場</td>
+						<td class="acc_results_otherw"></td>
+					</tr>
+					{CONTENT}
+				</table>
+				{NO_RESULT}
+			</div>
+
+		</div>
+
+		<div class="result_popup" style="display: none;"><!-- 載入所有賽果頁 --></div>
+	</div>
+</body>
+</html>

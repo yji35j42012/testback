@@ -255,6 +255,23 @@
 					</div>
 				</div>
 
+				<!-- TK 開球 -->
+				<div class="box_lebet_odd">
+					<div class="head_lebet"><tt></tt><span>*ART_game_tk*</span></div>
+					<div id="bet_*GID*_*ECID*_TKH" class="btn_lebet_odd *CLOSE_TKH*">
+						<span>
+							<tt class="text_ballhead"></tt>
+						</span>
+						<span class="text_odds">*IOR_TKH*</span>
+					</div>
+					<div id="bet_*GID*_*ECID*_TKC" class="btn_lebet_odd *CLOSE_TKC*">
+						<span>
+							<tt class="text_ballhead"></tt>
+						</span>
+						<span class="text_odds">*IOR_TKC*</span>
+					</div>
+				</div>
+
 				<!-- TS 雙方球隊進球 -->
 				<div class="box_lebet_odd">
 					<div class="head_lebet"><tt></tt><span>*ART_game_ts*</span></div>
@@ -269,23 +286,6 @@
 							<tt class="text_ballou">*ART_game_no*</tt>
 						</span>
 						<span class="text_odds">*IOR_TSN*</span>
-					</div>
-				</div>
-
-				<!-- EO 單雙 -->
-				<div class="box_lebet_odd">
-					<div class="head_lebet"><tt></tt><span>*ART_game_eo*</span></div>
-					<div id="bet_*GID*_*ECID*_EOO" class="btn_lebet_odd *CLOSE_EOO*">
-						<span>
-							<tt class="text_ballou">*ART_game_odd*</tt>
-						</span>
-						<span class="text_odds">*IOR_EOO*</span>
-					</div>
-					<div id="bet_*GID*_*ECID*_EOE" class="btn_lebet_odd *CLOSE_EOE*">
-						<span>
-							<tt class="text_ballou">*ART_game_even*</tt>
-						</span>
-						<span class="text_odds">*IOR_EOE*</span>
 					</div>
 				</div>
 			</div>
@@ -3934,35 +3934,7 @@
 				</label>
 			</div>
 
-			<!-- 特優賠率 -->
-			<div id="model_SB"  name="div_model" style="display:none;">
-				<div class="ft_obt_sb">
-					<div class="box_odd_sb" style="*CLOSE_SPD*">
-						<span><tt>*TEAM_SPD*</tt>*ART_sb_spd**SPD_SCORE*</span>
-						<div id="bet_*GID*_*ECID*_*SPD_RTYPE*" class="btn_obt_odd">
-							<span class="text_odds_old">*IOR_PD*</span>
-							<span class="text_odds">*IOR_SPD*</span>
-						</div>
-					</div>
-
-					<div class="box_odd_sb" style="*CLOSE_SWN*">
-						<span><tt>*TEAM_SWN*</tt>*SWN_SCORE**ART_sb_swn*</span>
-						<div id="bet_*GID*_*ECID*_*SWN_RTYPE*" class="btn_obt_odd">
-							<span class="text_odds_old">*IOR_WN*</span>
-							<span class="text_odds">*IOR_SWN*</span>
-						</div>
-					</div>
-
-					<div class="box_odd_sb" style="*CLOSE_SWM*">
-						<span><tt>*TEAM_SWM*</tt>*SWM_SCORE*</span>
-						<div id="bet_*GID*_*ECID*_*SWM_RTYPE*" class="btn_obt_odd">
-							<span class="text_odds_old">*IOR_WM*</span>
-							<span class="text_odds">*IOR_SWM*</span>
-						</div>
-					</div>
-				</div>
-			</div>
-
+			
 			<!-- OBT SFS 進球球員 -->
 			<div id="model_OBT_SFS" style="display:none;">
 				<div class="ft_obt_sfs *SHOW* *ALLZERO*" data-noEventOBT="*ART_data_pd_nodata*">

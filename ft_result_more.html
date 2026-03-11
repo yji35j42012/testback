@@ -1,0 +1,581 @@
+<html>
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, viewport-fit=cover">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<script>{JS}</script>
+	<link href="../../style/reset.css" rel="stylesheet" type="text/css">
+	<link href="../../style/result.css" rel="stylesheet" type="text/css">
+	<title>所有賽果-FT</title>
+</head>
+<body class="light">
+	<div class="result_popup">
+		<div class="content_resultmore">
+			<div class="popup_title">
+				<span id="info_title"><li>所有賽果</li></span>
+				<div id="info_close" class="btn_close"><i class="icon_close"><svg><use xlink:href="#icon_close"></use></svg></i></div>
+			</div>
+
+			<div id="div_result_data" class="result_form" style = "display:none">
+				<table class="acc_select_table_top" cellpadding="0" cellspacing="0" border="0">
+					<tr class="acc_select_title">
+						<td colspan="4">
+							<div class="acc_select_left" id ="leagues_name">聯盟名稱</div>
+							<div class="acc_select_right"></div>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="4" class="acc_select_text" >
+							<div class="acc_select_team"><span id = "tean_name_H">Chelsea</span>  v  <span id = "tean_name_C">Fulham</span></div>
+							<span class="acc_select_text_number" id = "game_time">2015-06-06 14:45</span>
+						</td>
+					</tr>
+					<tr class="acc_select_tr" onClick="showTR('Minute');">
+						<td class="acc_all_titlewFT">進球數</td>
+						<td></td>
+						<td id = "tname_C">Chelsea</td>
+						<td id = "tname_H">Fulham</td>
+					</tr>
+					<tr id="tr_TARU" class="acc_cont_tr">
+						<td class="acc_cont_name">開始 - 04:59 分鐘</td>
+						<td id="result_TARU"></td>
+						<td id="score_h_TARU">0</td>
+						<td id="score_c_TARU">0</td>
+					</tr>
+					<tr id="tr_TBRU" class="acc_cont_tr">
+						<td class="acc_cont_name">05:00 - 09:59 分鐘</td>
+						<td id="result_TBRU"></td>
+						<td id="score_h_TBRU">0</td>
+						<td id="score_c_TBRU">0</td>
+					</tr>
+					<tr id="tr_TCRU" class="acc_cont_tr">
+						<td class="acc_cont_name">10:00 分鐘 - 半場</td>
+						<td id="result_TCRU"></td>
+						<td id="score_h_TCRU">0</td>
+						<td id="score_c_TCRU">0</td>
+					</tr>
+					<tr id="tr_AGM" class="acc_cont_tr">
+						<td class="acc_cont_name">上半場開場 - 14:59 分鐘</td>
+						<td id="result_AGM"></td>
+						<td id="score_h_AGM">0</td>
+						<td id="score_c_AGM">0</td>
+					</tr>
+					<tr id="tr_BGM" class="acc_cont_tr">
+						<td class="acc_cont_name">15:00 – 29:59 分鐘</td>
+						<td id="result_BGM"></td>
+						<td id="score_h_BGM">0</td>
+						<td id="score_c_BGM">0</td>
+					</tr>
+					<tr id="tr_CGM" class="acc_cont_tr">
+						<td class="acc_cont_name">30:00分鐘 - 半場</td>
+						<td id="result_CGM"></td>
+						<td id="score_h_CGM">16</td>
+						<td id="score_c_CGM">24</td>
+					</tr>
+					<tr id="tr_HGM" class="acc_cont_tr">
+						<td class="acc_cont_name">半場</td>
+						<td id="result_HGM"></td>
+						<td id="score_h_HGM">0</td>
+						<td id="score_c_HGM">0</td>
+					</tr>
+					<tr id="tr_TDRU" class="acc_cont_tr">
+						<td class="acc_cont_name">下半場開始 - 19:59分鐘</td>
+						<td id="result_TDRU"></td>
+						<td id="score_h_TDRU">0</td>
+						<td id="score_c_TDRU">0</td>
+					</tr>
+					<tr id="tr_TERU" class="acc_cont_tr">
+						<td class="acc_cont_name">20:00 - 24:59分鐘</td>
+						<td id="result_TERU"></td>
+						<td id="score_h_TERU">0</td>
+						<td id="score_c_TERU">0</td>
+					</tr>
+					<tr id="tr_TFRU" class="acc_cont_tr">
+						<td class="acc_cont_name">25:00分鐘 -全場</td>
+						<td id="result_TFRU"></td>
+						<td id="score_h_TFRU">0</td>
+						<td id="score_c_TFRU">0</td>
+					</tr>
+					<tr id="tr_DGM" class="acc_cont_tr">
+						<td class="acc_cont_name">下半場開場 - 59:59 分鐘</td>
+						<td id="result_DGM"></td>
+						<td id="score_h_DGM">1</td>
+						<td id="score_c_DGM">0</td>
+					</tr>
+					<tr id="tr_EGM" class="acc_cont_tr">
+						<td class="acc_cont_name">60:00 – 74:59 分鐘</td>
+						<td id="result_EGM"></td>
+						<td id="score_h_EGM">0</td>
+						<td id="score_c_EGM">1</td>
+					</tr>
+					<tr id="tr_FGM" class="acc_cont_tr">
+						<td class="acc_cont_name">75:00分鐘 - 全場完場</td>
+						<td id="result_FGM"></td>
+						<td id="score_h_FGM">2</td>
+						<td id="score_c_FGM">0</td>
+					</tr>
+					<tr id="tr_GM" class="acc_cont_tr">
+						<td class="acc_cont_name">全場</td>
+						<td id="result_GM"></td>
+						<td id="score_h_GM">3</td>
+						<td id="score_c_GM">1</td>
+					</tr>
+				</table>
+				<table id="tableManual" class="acc_select_table">
+					<tr class="acc_select_tr" onClick="showTR('Manual');">
+						<td colspan="2" class="acc_all_titlew">其他賽果</td>
+					</tr>
+					<tr id="tr_BH" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">落後反超獲勝</td>
+						<td class="acc_cont_bgw" id="result_typeBH">兩隊都無</td>
+					</tr>
+					<tr id="tr_ARG" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">第一進球</td>
+						<td id="result_typeARG" class="acc_cont_bgw"></td>
+					</tr>
+					<tr id="tr_BRG" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">第二進球</td>
+						<td id="result_typeBRG" class="acc_cont_bgw"></td>
+					</tr>
+					<tr id="tr_CRG" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">第三進球</td>
+						<td id="result_typeCRG" class="acc_cont_bgw"></td>
+					</tr>
+					<tr id="tr_DRG" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">第四進球</td>
+						<td id="result_typeDRG" class="acc_cont_bgw"></td>
+					</tr>
+					<tr id="tr_ERG" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">第五進球</td>
+						<td id="result_typeERG" class="acc_cont_bgw"></td>
+					</tr>
+					<tr id="tr_FRG" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">第六進球</td>
+						<td id="result_typeFRG" class="acc_cont_bgw"></td>
+					</tr>
+					<tr id="tr_GRG" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">第七進球</td>
+						<td id="result_typeGRG" class="acc_cont_bgw"></td>
+					</tr>
+					<tr id="tr_HRG" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">第八進球</td>
+						<td id="result_typeHRG" class="acc_cont_bgw"></td>
+					</tr>
+					<tr id="tr_IRG" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">第九進球</td>
+						<td id="result_typeIRG" class="acc_cont_bgw"></td>
+					</tr>
+					<tr id="tr_JRG" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">第十進球</td>
+						<td id="result_typeJRG" class="acc_cont_bgw"></td>
+					</tr>
+					<tr id="tr_FG" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">首個進球方式</td>
+						<td id="result_typeFG" class="acc_cont_bgw">進球</td>
+					</tr>
+					<tr id="tr_F2G" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">先進2球的一方</td>
+						<td id="result_typeF2G" class="acc_cont_bgw">Chelsea</td>
+					</tr>
+					<tr id="tr_F3G" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">先進3球的一方</td>
+						<td id="result_typeF3G" class="acc_cont_bgw">Chelsea</td>
+					</tr>
+					<tr id="tr_T1G" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">首個進球時間</td>
+						<td id="result_typeT1G" class="acc_cont_bgw"> 下半場開始 - 59:59 分鐘</td>
+					</tr>
+					<tr id="tr_T3G" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">首個進球時間-3項</td>
+						<td id="result_typeT3G" class="acc_cont_bgw">第27分鐘或之後</td>
+					</tr>
+					<tr id="tr_TK" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">先開球球隊</td>
+						<td id="result_typeTK" class="acc_cont_bgw">Fulham</td>
+					</tr>
+					<tr id="tr_PA" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">點球懲罰 (不包括點球賽)</td>
+						<td id="result_typePA" class="acc_cont_bgw">No</td>
+					</tr>
+					<tr id="tr_RCD" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">紅卡 (球員)</td>
+						<td id="result_typeRCD" class="acc_cont_bgw">不是</td>
+					</tr>
+					<tr id="tr_MQ" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">晉級方法</td>
+						<td id="result_typeMQ" class="acc_cont_bgw">沒有晉級</td>
+					</tr>
+					<tr id="tr_MW" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">獲勝方法</td>
+						<td id="result_typeMW" class="acc_cont_bgw">沒有獲勝</td>
+					</tr>
+					<tr id="tr_OG" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">烏龍球</td>
+						<td id="result_typeOG" class="acc_cont_bgw">不是</td>
+					</tr>
+					<tr id="tr_OT" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">加時賽</td>
+						<td id="result_typeOT" class="acc_cont_bgw">不是</td>
+					</tr>
+					<tr class="acc_cont_two_tr" id = "tr_RESULT_F">
+						<td class="acc_cont_namew">最先進球球員</td>
+						<td class="acc_cont_bgw" id = "RESULT_F">Team Name - Player Name Here</td>
+					</tr>
+					<tr class="acc_cont_two_tr" id = "tr_RESULT_L">
+						<td class="acc_cont_namew">最後進球球員</td>
+						<td class="acc_cont_bgw" id = "RESULT_L">Team Name - Player Name Here</td>
+					</tr>
+					<!--Anytime Goalscorer-->
+					<tr class="acc_cont_two_tr" id = "tr_RESULT_A">
+						<td  class="acc_cont_namew">任意進球球員</td>
+						<td class="acc_cont_bgw" id = "RESULT_A">Team Name - Player Name Here</td>
+					</tr>
+					<!--Anytime Goalscorer end-->
+					<tr id="tr_PGF" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">最先進球</td>
+						<td id="result_typePGF" class="acc_cont_bgw">Chelsea</td>
+					</tr>
+					<tr id="tr_PGL" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">最後進球</td>
+						<td id="result_typePGL" class="acc_cont_bgw">Chelsea</td>
+					</tr>
+					<tr id="tr_CNF" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">最先角球</td>
+						<td id="result_typeCNF" class="acc_cont_bgw">Fulham</td>
+					</tr>
+					<tr id="tr_CNL" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">最後角球</td>
+						<td id="result_typeCNL" class="acc_cont_bgw">Fulham</td>
+					</tr>
+					<tr id="tr_CDF" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">第一張罰牌</td>
+						<td id="result_typeCDF" class="acc_cont_bgw">Fulham</td>
+					</tr>
+					<tr id="tr_CDL" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">最後一張罰牌</td>
+						<td id="result_typeCDL" class="acc_cont_bgw">Fulham</td>
+					</tr>
+					<tr id="tr_RCF" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">最先任意球</td>
+						<td id="result_typeRCF" class="acc_cont_bgw"></td>
+					</tr>
+					<tr id="tr_RCL" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">最後任意球</td>
+						<td id="result_typeRCL" class="acc_cont_bgw"></td>
+					</tr>
+					<tr id="tr_GAF" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">最先球門球</td>
+						<td id="result_typeGAF" class="acc_cont_bgw"></td>
+					</tr>
+					<tr id="tr_GAL" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">最後球門球</td>
+						<td id="result_typeGAL" class="acc_cont_bgw"></td>
+					</tr>
+					<tr id="tr_YCF" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">最先界外球</td>
+						<td id="result_typeYCF" class="acc_cont_bgw">Fulham</td>
+					</tr>
+					<tr id="tr_YCL" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">最後界外球</td>
+						<td id="result_typeYCL" class="acc_cont_bgw">Fulham</td>
+					</tr>
+					<tr id="tr_OSF"class="acc_cont_two_tr">
+						<td class="acc_cont_namew">最先越位</td>
+						<td id="result_typeOSF" class="acc_cont_bgw">Fulham</td>
+					</tr>
+					<tr id="tr_OSL" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">最後越位</td>
+						<td id="result_typeOSL" class="acc_cont_bgw">Fulham</td>
+					</tr>
+					<tr id="tr_STF" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">最先替補</td>
+						<td id="result_typeSTF" class="acc_cont_bgw">Fulham</td>
+					</tr>
+					<tr id="tr_STL" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">最後替補</td>
+						<td id="result_typeSTL" class="acc_cont_bgw">Fulham</td>
+					</tr>
+					<tr id="tr_RPS" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">點球大戰</td>
+						<td id="result_typeRPS" class="acc_cont_bgw">Fulham</td>
+					</tr>
+				</table>
+				<table id="tableCorner" class="acc_select_table">
+					<tr class="acc_select_tr" onClick="showTR('Corner');">
+						<td colspan="2" class="acc_all_titlew">下個角球</td>
+					</tr>
+					<tr id="tr_RNC1" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">第一個角球</td>
+						<td class="acc_cont_bgw" id="result_typeRNC1">沒有角球</td>
+					</tr>
+					<tr id="tr_RNC2" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">第二個角球</td>
+						<td class="acc_cont_bgw" id="result_typeRNC2">沒有角球</td>
+					</tr>
+					<tr id="tr_RNC3" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">第三個角球</td>
+						<td class="acc_cont_bgw" id="result_typeRNC3">沒有角球</td>
+					</tr>
+					<tr id="tr_RNC4" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">第四個角球</td>
+						<td class="acc_cont_bgw" id="result_typeRNC4">沒有角球</td>
+					</tr>
+					<tr id="tr_RNC5" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">第五個角球</td>
+						<td class="acc_cont_bgw" id="result_typeRNC5">沒有角球</td>
+					</tr>
+					<tr id="tr_RNC6" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">第六個角球</td>
+						<td class="acc_cont_bgw" id="result_typeRNC6">沒有角球</td>
+					</tr>
+					<tr id="tr_RNC7" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">第七個角球</td>
+						<td class="acc_cont_bgw" id="result_typeRNC7">沒有角球</td>
+					</tr>
+					<tr id="tr_RNC8" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">第八個角球</td>
+						<td class="acc_cont_bgw" id="result_typeRNC8">沒有角球</td>
+					</tr>
+					<tr id="tr_RNC9" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">第九個角球</td>
+						<td class="acc_cont_bgw" id="result_typeRNC9">沒有角球</td>
+					</tr>
+					<tr id="tr_RNCA" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">第十個角球</td>
+						<td class="acc_cont_bgw" id="result_typeRNCA">沒有角球</td>
+					</tr>
+					<tr id="tr_RNCB" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">第十一個角球</td>
+						<td class="acc_cont_bgw" id="result_typeRNCB">沒有角球</td>
+					</tr>
+					<tr id="tr_RNCC" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">第十二個角球</td>
+						<td class="acc_cont_bgw" id="result_typeRNCC">沒有角球</td>
+					</tr>
+					<tr id="tr_RNCD" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">第十三個角球</td>
+						<td class="acc_cont_bgw" id="result_typeRNCD">沒有角球</td>
+					</tr>
+					<tr id="tr_RNCE" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">第十四個角球</td>
+						<td class="acc_cont_bgw" id="result_typeRNCE">沒有角球</td>
+					</tr>
+					<tr id="tr_RNCF" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">第十五個角球</td>
+						<td class="acc_cont_bgw" id="result_typeRNCF">沒有角球</td>
+					</tr>
+					<tr id="tr_RNCG" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">第十六個角球</td>
+						<td class="acc_cont_bgw" id="result_typeRNCG">沒有角球</td>
+					</tr>
+					<tr id="tr_RNCH" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">第十七個角球</td>
+						<td class="acc_cont_bgw" id="result_typeRNCH">沒有角球</td>
+					</tr>
+					<tr id="tr_RNCI" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">第十八個角球</td>
+						<td class="acc_cont_bgw" id="result_typeRNCI">沒有角球</td>
+					</tr>
+					<tr id="tr_RNCJ" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">第十九個角球</td>
+						<td class="acc_cont_bgw" id="result_typeRNCJ">沒有角球</td>
+					</tr>
+					<tr id="tr_RNCK" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">第二十個角球</td>
+						<td class="acc_cont_bgw" id="result_typeRNCK">沒有角球</td>
+					</tr>
+					<tr id="tr_RNCL" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">第二一個角球</td>
+						<td class="acc_cont_bgw" id="result_typeRNCL">沒有角球</td>
+					</tr>
+					<tr id="tr_RNCM" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">第二二個角球</td>
+						<td class="acc_cont_bgw" id="result_typeRNCM">沒有角球</td>
+					</tr>
+					<tr id="tr_RNCN" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">第二三個角球</td>
+						<td class="acc_cont_bgw" id="result_typeRNCN">沒有角球</td>
+					</tr>
+					<tr id="tr_RNCO" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">第二四個角球</td>
+						<td class="acc_cont_bgw" id="result_typeRNCO">沒有角球</td>
+					</tr>
+					<tr id="tr_RNCP" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">第二五個角球</td>
+						<td class="acc_cont_bgw" id="result_typeRNCP">沒有角球</td>
+					</tr>
+					<tr id="tr_RNCQ" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">第二六個角球</td>
+						<td class="acc_cont_bgw" id="result_typeRNCQ">沒有角球</td>
+					</tr>
+					<tr id="tr_RNCR" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">第二七個角球</td>
+						<td class="acc_cont_bgw" id="result_typeRNCR">沒有角球</td>
+					</tr>
+					<tr id="tr_RNCS" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">第二八個角球</td>
+						<td class="acc_cont_bgw" id="result_typeRNCS">沒有角球</td>
+					</tr>
+					<tr id="tr_RNCT" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">第二九個角球</td>
+						<td class="acc_cont_bgw" id="result_typeRNCT">沒有角球</td>
+					</tr>
+					<tr id="tr_RNCU" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">第三十個角球</td>
+						<td class="acc_cont_bgw" id="result_typeRNCU">沒有角球</td>
+					</tr>
+				</table>
+				<table id="tableBooking" class="acc_select_table">
+					<tr class="acc_select_tr" onClick="showTR('Booking');">
+						<td colspan="2" class="acc_all_titlew">下個罰牌</td>
+					</tr>
+					<tr id="tr_RNBA" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">第一個罰牌</td>
+						<td class="acc_cont_bgw" id="result_typeRNBA">沒有罰牌</td>
+					</tr>
+					<tr id="tr_RNBB" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">第二個罰牌</td>
+						<td class="acc_cont_bgw" id="result_typeRNBB">沒有罰牌</td>
+					</tr>
+					<tr id="tr_RNBC" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">第三個罰牌</td>
+						<td class="acc_cont_bgw" id="result_typeRNBC">沒有罰牌</td>
+					</tr>
+					<tr id="tr_RNBD" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">第四個罰牌</td>
+						<td class="acc_cont_bgw" id="result_typeRNBD">沒有罰牌</td>
+					</tr>
+					<tr id="tr_RNBE" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">第五個罰牌</td>
+						<td class="acc_cont_bgw" id="result_typeRNBE">沒有罰牌</td>
+					</tr>
+					<tr id="tr_RNBF" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">第六個罰牌</td>
+						<td class="acc_cont_bgw" id="result_typeRNBF">沒有罰牌</td>
+					</tr>
+					<tr id="tr_RNBG" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">第七個罰牌</td>
+						<td class="acc_cont_bgw" id="result_typeRNBG">沒有罰牌</td>
+					</tr>
+					<tr id="tr_RNBH" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">第八個罰牌</td>
+						<td class="acc_cont_bgw" id="result_typeRNBH">沒有罰牌</td>
+					</tr>
+					<tr id="tr_RNBI" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">第九個罰牌</td>
+						<td class="acc_cont_bgw" id="result_typeRNBI">沒有罰牌</td>
+					</tr>
+					<tr id="tr_RNBJ" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">第十個罰牌</td>
+						<td class="acc_cont_bgw" id="result_typeRNBJ">沒有罰牌</td>
+					</tr>
+					<tr id="tr_RNBK" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">第十一個罰牌</td>
+						<td class="acc_cont_bgw" id="result_typeRNBK">沒有罰牌</td>
+					</tr>
+					<tr id="tr_RNBL" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">第十二個罰牌</td>
+						<td class="acc_cont_bgw" id="result_typeRNBL">沒有罰牌</td>
+					</tr>
+					<tr id="tr_RNBM" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">第十三個罰牌</td>
+						<td class="acc_cont_bgw" id="result_typeRNBM">沒有罰牌</td>
+					</tr>
+					<tr id="tr_RNBN" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">第十四個罰牌</td>
+						<td class="acc_cont_bgw" id="result_typeRNBN">沒有罰牌</td>
+					</tr>
+					<tr id="tr_RNBO" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">第十五個罰牌</td>
+						<td class="acc_cont_bgw" id="result_typeRNBO">沒有罰牌</td>
+					</tr>
+				</table>
+				<table id="tablePenalty" class="acc_select_table">
+					<tr class="acc_select_tr" onClick="showTR('Penalty');">
+						<td colspan="3" class="acc_all_titlew">點球大戰</td>
+					</tr>
+					<tr id="tr_RSHA" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">點球大戰 - 第一回合</td>
+						<td class="acc_cont_bgw acc_cont_bgw2" id="result_typeRSHA">沒有點球</td>
+						<td class="acc_cont_bgw acc_cont_bgw2" id="result_typeRSCA">沒有點球</td>
+					</tr>
+					<tr id="tr_RSHB" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">點球大戰 - 第二回合</td>
+						<td class="acc_cont_bgw acc_cont_bgw2" id="result_typeRSHB">沒有點球</td>
+						<td class="acc_cont_bgw acc_cont_bgw2" id="result_typeRSCB">沒有點球</td>
+					</tr>
+					<tr id="tr_RSHC" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">點球大戰 - 第三回合</td>
+						<td class="acc_cont_bgw acc_cont_bgw2" id="result_typeRSHC">沒有點球</td>
+						<td class="acc_cont_bgw acc_cont_bgw2" id="result_typeRSCC">沒有點球</td>
+					</tr>
+					<tr id="tr_RSHD" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">點球大戰 - 第四回合</td>
+						<td class="acc_cont_bgw acc_cont_bgw2" id="result_typeRSHD">沒有點球</td>
+						<td class="acc_cont_bgw acc_cont_bgw2" id="result_typeRSCD">沒有點球</td>
+					</tr>
+					<tr id="tr_RSHE" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">點球大戰 - 第五回合</td>
+						<td class="acc_cont_bgw acc_cont_bgw2" id="result_typeRSHE">沒有點球</td>
+						<td class="acc_cont_bgw acc_cont_bgw2" id="result_typeRSCE">沒有點球</td>
+					</tr>
+					<tr id="tr_RSHF" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">點球大戰 - 第六回合</td>
+						<td class="acc_cont_bgw acc_cont_bgw2" id="result_typeRSHF">沒有點球</td>
+						<td class="acc_cont_bgw acc_cont_bgw2" id="result_typeRSCF">沒有點球</td>
+					</tr>
+					<tr id="tr_RSHG" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">點球大戰 - 第七回合</td>
+						<td class="acc_cont_bgw acc_cont_bgw2" id="result_typeRSHG">沒有點球</td>
+						<td class="acc_cont_bgw acc_cont_bgw2" id="result_typeRSCG">沒有點球</td>
+					</tr>
+					<tr id="tr_RSHH" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">點球大戰 - 第八回合</td>
+						<td class="acc_cont_bgw acc_cont_bgw2" id="result_typeRSHH">沒有點球</td>
+						<td class="acc_cont_bgw acc_cont_bgw2" id="result_typeRSCH">沒有點球</td>
+					</tr>
+					<tr id="tr_RSHI" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">點球大戰 - 第九回合</td>
+						<td class="acc_cont_bgw acc_cont_bgw2" id="result_typeRSHI">沒有點球</td>
+						<td class="acc_cont_bgw acc_cont_bgw2" id="result_typeRSCI">沒有點球</td>
+					</tr>
+					<tr id="tr_RSHJ" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">點球大戰 - 第十回合</td>
+						<td class="acc_cont_bgw acc_cont_bgw2" id="result_typeRSHJ">沒有點球</td>
+						<td class="acc_cont_bgw acc_cont_bgw2" id="result_typeRSCJ">沒有點球</td>
+					</tr>
+					<tr id="tr_RSHK" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">點球大戰 - 第十一回合</td>
+						<td class="acc_cont_bgw acc_cont_bgw2" id="result_typeRSHK">沒有點球</td>
+						<td class="acc_cont_bgw acc_cont_bgw2" id="result_typeRSCK">沒有點球</td>
+					</tr>
+					<tr id="tr_RSHL" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">點球大戰 - 第十二回合</td>
+						<td class="acc_cont_bgw acc_cont_bgw2" id="result_typeRSHL">沒有點球</td>
+						<td class="acc_cont_bgw acc_cont_bgw2" id="result_typeRSCL">沒有點球</td>
+					</tr>
+					<tr id="tr_RSHM" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">點球大戰 - 第十三回合</td>
+						<td class="acc_cont_bgw acc_cont_bgw2" id="result_typeRSHM">沒有點球</td>
+						<td class="acc_cont_bgw acc_cont_bgw2" id="result_typeRSCM">沒有點球</td>
+					</tr>
+					<tr id="tr_RSHN" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">點球大戰 - 第十四回合</td>
+						<td class="acc_cont_bgw acc_cont_bgw2" id="result_typeRSHN">沒有點球</td>
+						<td class="acc_cont_bgw acc_cont_bgw2" id="result_typeRSCN">沒有點球</td>
+					</tr>
+					<tr id="tr_RSHO" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">點球大戰 - 第十五回合</td>
+						<td class="acc_cont_bgw acc_cont_bgw2" id="result_typeRSHO">沒有點球</td>
+						<td class="acc_cont_bgw acc_cont_bgw2" id="result_typeRSCO">沒有點球</td>
+					</tr>
+					<tr id="tr_RPF" class="acc_cont_two_tr">
+						<td class="acc_cont_namew">最後結束回合</td>
+						<td colspan="2" class="acc_cont_bgw acc_cont_bgw2" id="result_typeRPF">第一輪</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

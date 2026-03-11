@@ -199,7 +199,63 @@
 					</div>
 				</div>
 
-				<!-- HROU 大小上半 -->
+				<!-- RNB 下張罰牌 -->
+				<div class="box_lebet_odd">
+					<div class="head_lebet"><span>*ART_game_rnb*</span></div>
+					<div id="bet_*GID*_*ECID*_RNBH" class="btn_lebet_odd *CLOSE_RNBH*">
+						<span>
+							<tt class="text_ballou">*WTYPE_RNB*</tt>
+						</span>
+						<span class="text_odds">*IOR_RNBH*</span>
+					</div>
+					<div id="bet_*GID*_*ECID*_RNBC" class="btn_lebet_odd *CLOSE_RNBC*">
+						<span>
+							<tt class="text_ballou">*WTYPE_RNB*</tt>
+						</span>
+						<span class="text_odds">*IOR_RNBC*</span>
+					</div>
+				</div>
+
+				<!-- REO 單雙 -->
+				<div class="box_lebet_odd">
+					<div class="head_lebet"><span>*ART_game_reo*</span></div>
+					<div id="bet_*GID*_*ECID*_REOO" class="btn_lebet_odd *CLOSE_REOO*">
+						<span>
+							<tt class="text_ballou">*ART_game_odd*</tt>
+						</span>
+						<span class="text_odds">*IOR_REOO*</span>
+					</div>
+					<div id="bet_*GID*_*ECID*_REOE" class="btn_lebet_odd *CLOSE_REOE*">
+						<span>
+							<tt class="text_ballou">*ART_game_even*</tt>
+						</span>
+						<span class="text_odds">*IOR_REOE*</span>
+					</div>
+				</div>
+			</div>
+
+			<!-- 加時上半 -->
+			<div id="model_ET" name="div_model" style="display:none;">
+				<!-- ROU 大小 -->
+				<div class="box_lebet_odd">
+					<div class="head_lebet"><span>*ART_game_rou*</span></div>
+					<div id="bet_*GID*_*ECID*_ROUC" class="btn_lebet_odd *CLOSE_ROUC*">
+						<span>
+							<tt class="text_ballou">*ART_game_over*</tt>
+							<tt class="text_ballhead">*RATIO_ROUO*</tt>
+						</span>
+						<span class="text_odds">*IOR_ROUC*</span>
+					</div>
+					<div id="bet_*GID*_*ECID*_ROUH" class="btn_lebet_odd *CLOSE_ROUH*">
+						<span>
+							<tt class="text_ballou">*ART_game_under*</tt>
+							<tt class="text_ballhead">*RATIO_ROUU*</tt>
+						</span>
+						<span class="text_odds">*IOR_ROUH*</span>
+					</div>
+				</div>
+
+				<!-- ROU 大小上半 -->
 				<div class="box_lebet_odd box_lebet_half">
 					<div class="head_lebet"><tt>*ART_game_1h*</tt><span>*ART_game_rou*</span></div>
 					<div id="bet_*HGID*_*ECID*_HROUC" class="btn_lebet_odd *CLOSE_HROUC*">
@@ -253,11 +309,11 @@
 				</div>
 			</div>
 
-			<!-- 加時 -->
-			<div id="model_ET" name="div_model" style="display:none;">
+			<!-- 加時下半 -->
+			<div id="model_ETFT" name="div_model" style="display:none;">
 				<!-- ROU 大小 -->
 				<div class="box_lebet_odd">
-					<div class="head_lebet"><tt>*ART_game_et*</tt><span>*ART_game_rou*</span></div>
+					<div class="head_lebet"><span>*ART_game_rou*</span></div>
 					<div id="bet_*GID*_*ECID*_ROUC" class="btn_lebet_odd *CLOSE_ROUC*">
 						<span>
 							<tt class="text_ballou">*ART_game_over*</tt>
@@ -274,28 +330,9 @@
 					</div>
 				</div>
 
-				<!-- ROU 大小上半 -->
-				<div class="box_lebet_odd box_lebet_half">
-					<div class="head_lebet"><tt>*ART_game_et1h*</tt><span>*ART_game_rou*</span></div>
-					<div id="bet_*HGID*_*ECID*_HROUC" class="btn_lebet_odd *CLOSE_HROUC*">
-						<span>
-							<tt class="text_ballou">*ART_game_over*</tt>
-							<tt class="text_ballhead">*RATIO_HROUO*</tt>
-						</span>
-						<span class="text_odds">*IOR_HROUC*</span>
-					</div>
-					<div id="bet_*HGID*_*ECID*_HROUH" class="btn_lebet_odd *CLOSE_HROUH*">
-						<span>
-							<tt class="text_ballou">*ART_game_under*</tt>
-							<tt class="text_ballhead">*RATIO_HROUU*</tt>
-						</span>
-						<span class="text_odds">*IOR_HROUH*</span>
-					</div>
-				</div>
-
 				<!-- RNB 下張罰牌 -->
 				<div class="box_lebet_odd">
-					<div class="head_lebet"><tt>*ART_game_et*</tt><span>*ART_game_rnb*</span></div>
+					<div class="head_lebet"><span>*ART_game_rnb*</span></div>
 					<div id="bet_*GID*_*ECID*_RNBH" class="btn_lebet_odd *CLOSE_RNBH*">
 						<span>
 							<tt class="text_ballou">*WTYPE_RNB*</tt>
@@ -312,7 +349,7 @@
 
 				<!-- REO 單雙 -->
 				<div class="box_lebet_odd">
-					<div class="head_lebet"><tt>*ART_game_et*</tt><span>*ART_game_reo*</span></div>
+					<div class="head_lebet"><span>*ART_game_reo*</span></div>
 					<div id="bet_*GID*_*ECID*_REOO" class="btn_lebet_odd *CLOSE_REOO*">
 						<span>
 							<tt class="text_ballou">*ART_game_odd*</tt>
@@ -327,7 +364,6 @@
 					</div>
 				</div>
 			</div>
-
 		</div>
 	</div>
 </body>
